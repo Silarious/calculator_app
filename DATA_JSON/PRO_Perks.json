@@ -1,0 +1,4579 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PRO_Perks",
+    "Properties": {
+      "RowStruct": null
+    },
+    "Rows": {
+      "Yellow_RegenDelay_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationDelay",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_RegenDelay_AllKits_01"
+      },
+      "Yellow_SpeedWhileTargeting_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnTargeting",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_SpeedWhileTargeting_AllKits_01"
+      },
+      "NimbleHands": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponEquipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponAmmoOnSwitch",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "NimbleHands"
+      },
+      "Jetpack_ChargeDmg": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackChargeSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackChargeWaitTimeAir",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.75,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 1.25
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Jetpack_ChargeDmg"
+      },
+      "Yellow_LessAIDamage_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationDelay",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_LessAIDamage_AllKits_01"
+      },
+      "Blue_SprintSpeed_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSprintSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Blue_SprintSpeed_AllKits_01"
+      },
+      "Blue_LessDamageWhileSprinting_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnSprinting",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSprintSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Blue_LessDamageWhileSprinting_AllKits_01"
+      },
+      "DeadMansHand": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Target",
+        "m_contextType": "EYGameplayContextType::Weapon",
+        "m_attributeModifiers": [],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [
+          {
+            "AssetPathName": "/Game/PerkActions/ExplodeOnDeath01_PA.ExplodeOnDeath01_PA_C",
+            "SubPathString": ""
+          }
+        ],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "DeadMansHand"
+      },
+      "ChaosBeam": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "ChaosBeam"
+      },
+      "Red_FastAndReloadSwap_Ninja_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponUnequipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.3,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponEquipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.3,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponAmmoOnSwitch",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Red_FastAndReloadSwap_Ninja_01"
+      },
+      "16xScope": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
+            "m_modifierType": "EYGPAModifierType::Override",
+            "m_modifierValue": 40.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "16xScope"
+      },
+      "DamageVsPlayers": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingDealtAgainstPlayers",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "DamageVsPlayers"
+      },
+      "DamageVsAI": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingDealtAgainstAI",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "DamageVsAI"
+      },
+      "Damage": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingDealt",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Damage"
+      },
+      "ReloadSpeed": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponReloadTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "ReloadSpeed"
+      },
+      "MovementSpeed": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "MovementSpeed"
+      },
+      "AimSpeed": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "AimSpeed"
+      },
+      "Recoil": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Recoil"
+      },
+      "RoF": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRefireTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "RoF"
+      },
+      "CritDamage": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeakAreaDamageScaling",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "CritDamage"
+      },
+      "UnaimedAccuracy": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadUnaimed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "UnaimedAccuracy"
+      },
+      "Range": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponMaxTraceRange",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Range"
+      },
+      "AerodynamicFrame": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "AerodynamicFrame"
+      },
+      "QuickAim": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "QuickAim"
+      },
+      "Yellow_ExplodeOnDeath_Explosives_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Target",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [
+          {
+            "AssetPathName": "/Game/PerkActions/ExplodeOnDeath02_PA.ExplodeOnDeath02_PA_C",
+            "SubPathString": ""
+          }
+        ],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_ExplodeOnDeath_Explosives_01"
+      },
+      "QuickReload": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponReloadTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "QuickReload"
+      },
+      "32xScope": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
+            "m_modifierType": "EYGPAModifierType::Override",
+            "m_modifierValue": 30.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "32xScope"
+      },
+      "ReflexSight": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadMax",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "ReflexSight"
+      },
+      "PenetratingRounds": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::Piercing",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "PenetratingRounds"
+      },
+      "TutorialDummyImmunity": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "Tutorial",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromPlayers",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.05,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "Tutorial",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [
+            {
+              "DataTable": {
+                "ObjectName": "PRO_Transport:DataTable",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Transport.0"
+              },
+              "RowName": "ChargeMeleeAttack"
+            }
+          ],
+          "m_damageModification": 1.25
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "TutorialDummyImmunity"
+      },
+      "RadioactiveRounds": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnHit",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Target",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthDegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 5.0,
+            "m_duration": 30.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "RadioactiveRounds",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "RadioactiveRounds"
+      },
+      "Red_LessDamageInAir_Jetpack_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnFalling",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadMax",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Red_LessDamageInAir_Jetpack_01"
+      },
+      "Blue_NoFallingDamage_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::FallingDamageReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxHealth",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.95,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Blue_NoFallingDamage_AllKits_01"
+      },
+      "Yellow_MoneyOnKill_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [
+          {
+            "AssetPathName": "/Game/PerkActions/GrantMoney_PA.GrantMoney_PA_C",
+            "SubPathString": ""
+          }
+        ],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_MoneyOnKill_AllKits_01"
+      },
+      "Yellow_NameplateVisibility_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthPlateSightAngle",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.94,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_NameplateVisibility_AllKits_01"
+      },
+      "Red_ChargePunchDamage_Heavy_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::ChargeSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::SuperJumpSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Charge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 1.5
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Red_ChargePunchDamage_Heavy_01"
+      },
+      "Blue_Reload&EquipOnKill_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponEquipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.75,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponUnequipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.75,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponReloadTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.75,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadMax",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponSpreadIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 2.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Blue_Reload&EquipOnKill_AllKits_01"
+      },
+      "Yellow_MaxSpeed_AllKits_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Yellow_MaxSpeed_AllKits_01"
+      },
+      "ReportingBug": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "ReportingBug"
+      },
+      "Perk_MoreDamageInAir_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnFalling",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.0,
+            "m_duration": 5.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_MoreDamageInAir_01"
+      },
+      "Perk_SlowDownOnDamaged_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnBeingHit",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::CurrentHealth",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.75,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_SlowDownOnDamaged_01"
+      },
+      "Perk_HPRegenWhenLow_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnHealthChanged",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::CurrentHealth",
+          "m_bool": "EYPerkBool::LessThan",
+          "m_value": 0.25
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Invalid"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationDelay",
+            "m_modifierType": "EYGPAModifierType::Override",
+            "m_modifierValue": 0.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_HPRegenWhenLow_01"
+      },
+      "Perk_ChargePunchDamage_Heavy_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 50.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Charge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 1.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_ChargePunchDamage_Heavy_01"
+      },
+      "Perk_HealBeamDamage_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnDealingDamageModification",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Invalid"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [
+            {
+              "DataTable": {
+                "ObjectName": "PRO_Weapons:DataTable",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "Healbeam"
+            }
+          ],
+          "m_damageModification": 2.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_HealBeamDamage_01"
+      },
+      "Perk_DMGResistanceWhenHighHP": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnHealthChanged",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::CurrentHealth",
+          "m_bool": "EYPerkBool::GreaterThanOrEqualTo",
+          "m_value": 0.66
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Invalid"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_DMGResistanceWhenHighHP"
+      },
+      "Perk_Kit_HeavyArmor_01_SLOT1_ChargeDmg": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageRadius",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Charge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::ChargeCooldown",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_HeavyArmor_01_SLOT1_ChargeDmg"
+      },
+      "Perk_Kit_HeavyArmor_01_SLOT1_SuperJump": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::SuperJumpCooldown",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::SuperJumpSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_HeavyArmor_01_SLOT1_SuperJump"
+      },
+      "Perk_Kit_HeavyArmor_01_SLOT1_Shield": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxShield",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 200.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSlideSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_HeavyArmor_01_SLOT1_Shield"
+      },
+      "Perk_Kit_HeavyArmor_01_SLOT1_FastPunch": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 1.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::ChargeCooldown",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": -2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Charge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_HeavyArmor_01_SLOT1_FastPunch"
+      },
+      "Perk_Kit_Jetpack_01_SLOT1_DiveAngle": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackChargeAngle",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 10.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackChargeWaitTimeAir",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.3,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::JetpackCharge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackChargeRegenerationCooldown",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_Jetpack_01_SLOT1_DiveAngle"
+      },
+      "Perk_Kit_Jetpack_01_SLOT1_Slow": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackThurstSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.6,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackMaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackEnergyDecreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackEnergyIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_Jetpack_01_SLOT1_Slow"
+      },
+      "Perk_Kit_Jetpack_01_SLOT1_Catapult": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackThurstSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackMaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.4,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackEnergyDecreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 2.5,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackEnergyIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_Jetpack_01_SLOT1_Catapult"
+      },
+      "Perk_Kit_Jetpack_01_SLOT1_AimToHover": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnTargetingAndFalling",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::FallingVelocityReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.01,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackAimToHoverEnabled",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::JetpackEnergyDecreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.15,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_Jetpack_01_SLOT1_AimToHover"
+      },
+      "Perk_Kit_EnhancedReflexes_01_SLOT1_ExtraCharge": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::NinjaResourceMax",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 25.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSlideSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_EnhancedReflexes_01_SLOT1_ExtraCharge"
+      },
+      "Perk_Kit_EnhancedReflexes_01_SLOT1_LongSlide": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSlideSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::NinjaResourceMax",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": -25.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_EnhancedReflexes_01_SLOT1_LongSlide"
+      },
+      "Perk_Kit_EnhancedReflexes_01_SLOT1_HealthCharge": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnBeingHit",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::NinjaResourceCurrent",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": -25.0,
+            "m_duration": -1.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_EnhancedReflexes_01_SLOT1_HealthCharge"
+      },
+      "Perk_Kit_EnhancedReflexes_01_SLOT1_ArmorDodge": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnDodging",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_duration": 1.0,
+            "m_lerpTime": 0.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_EnhancedReflexes_01_SLOT1_ArmorDodge"
+      },
+      "Perk_Kit_All_SLOT2_SprintArmor": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnSprinting",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_SprintArmor"
+      },
+      "Perk_Kit_All_SLOT2_CreditGain": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::XPIncrease",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_CreditGain"
+      },
+      "Perk_Kit_All_SLOT2_MoreShield": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxShield",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 100.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.95,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSlideSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.95,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_MoreShield"
+      },
+      "Perk_Kit_All_SLOT2_Regen": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationDelay",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_Regen"
+      },
+      "Perk_Kit_All_SLOT2_LessInterrupt": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::InteractionInteruptTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.05,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_LessInterrupt"
+      },
+      "Perk_Kit_All_SLOT2_BuffLowHP": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnHealthChanged",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::LessThan",
+          "m_value": 0.25
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponReloadTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponEquipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.75,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.15,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT2_BuffLowHP"
+      },
+      "Perk_Kit_All_SLOT3_ExecutionBuff": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageDirect",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.1,
+            "m_duration": 1000.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.0,
+            "m_duration": 0.1,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": true,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT3_ExecutionBuff"
+      },
+      "Perk_Kit_All_SLOT3_ExpGain": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::XPIncrease",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxHealth",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT3_ExpGain"
+      },
+      "Perk_Kit_All_SLOT3_CreditGain": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::XPIncrease",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.2,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT3_CreditGain"
+      },
+      "Perk_Kit_All_SLOT3_OnKillHealth": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnKill",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CurrentHealth",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 100.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT3_OnKillHealth"
+      },
+      "Perk_Kit_All_SLOT3_InAirArmor": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnFalling",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageDirect",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.85,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT3_InAirArmor"
+      },
+      "Perk_Kit_All_SLOT4_InAirDMG": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnFalling",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceived",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.25,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageDirect",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 1.15,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT4_InAirDMG"
+      },
+      "Perk_Kit_All_SLOT4_PistolDMG": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::OnWeaponSwitch",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponRecoilIncreaseRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponEquipTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponReloadTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::TargetingTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.8,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Starter",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT4_PistolDMG"
+      },
+      "Perk_Kit_All_SLOT4_CooldownBuff": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::AbilityCooldownTime",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.9,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::MaxSpeed",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.95,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_All_SLOT4_CooldownBuff"
+      },
+      "Perk_ChargePunchDamage_Heavy_02": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 25.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Charge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 1.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_ChargePunchDamage_Heavy_02"
+      },
+      "Perk_Kit_Jetpack_ChargeDiveDamage_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::WeaponDamageRadial",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 50.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::JetpackCharge",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 1.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_Jetpack_ChargeDiveDamage_01"
+      },
+      "Perk_Kit_PassiveHPRegen_01": {
+        "m_displayName": {
+          "CultureInvariantString": null
+        },
+        "m_hudIcons": [],
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_instigator": null,
+        "m_target": "EYPerkTarget::Source",
+        "m_contextType": "EYGameplayContextType::All",
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CurrentHealth",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 3.0,
+            "m_duration": 9999.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 1.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::Unknown",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": true,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_perkDuration": 0.0,
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_guid": "00000000-00000000-00000000-00000000",
+        "m_isActive": false,
+        "m_perkActionInstances": [],
+        "m_rowName": "Perk_Kit_PassiveHPRegen_01"
+      }
+    }
+  }
+]

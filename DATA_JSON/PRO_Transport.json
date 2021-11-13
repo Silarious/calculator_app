@@ -1,0 +1,4662 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PRO_Transport",
+    "Properties": {
+      "RowStruct": null
+    },
+    "Rows": {
+      "WP_A_Pistol_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_Pistol_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.3,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 30000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C705FCCA4ACD1194E3E8AEABE0993799",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_Pistol_Bullet_01"
+      },
+      "Turret_CannonExpanding": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Turret_CannonExpanding"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_FxCategory:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_FxCategory.0"
+          },
+          "RowName": "Cannon_HeavyTurret"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "TableId": "ST_DamageRecap",
+          "Key": "Turret_CannonExpanding"
+        },
+        "m_rowName": "Turret_CannonExpanding"
+      },
+      "WP_A_AR_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_AR_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 30000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "71C41C8E44CF0FAC5298F0B87F952DCE",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_AR_Bullet_01"
+      },
+      "AssaultRifle_Beta01_Mod01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "AssaultRifle_Beta01_Mod01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "EE02471F49ED99A5A9547696DA80EE63",
+          "SourceString": "None"
+        },
+        "m_rowName": "AssaultRifle_Beta01_Mod01"
+      },
+      "WP_D_AR_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_AR_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 33000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "AE572C9E419C28BD50ED66AC80CB31FA",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_AR_Bullet_01"
+      },
+      "BattleRifle_Alpha01_Mod01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "BattleRifle_Alpha01_Mod01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 48000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.01,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "6967D39A49244864C24ED48E740E4292",
+          "SourceString": "None"
+        },
+        "m_rowName": "BattleRifle_Alpha01_Mod01"
+      },
+      "WP_D_Sniper_Gauss_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_Sniper_Gauss_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.03,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 43000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.01,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": true,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "7A29F22F452E7E7E982F1FAFC881FC2B",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_Sniper_Gauss_01"
+      },
+      "WP_G_SMG_Needle_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_SMG_Needle_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.2,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 10000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_FxCategory:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_FxCategory.0"
+          },
+          "RowName": "Needles_Default"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "98F4CE7042360B257ABEA2AD2345BBC3",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_SMG_Needle_01"
+      },
+      "WP_D_SGun_Shard_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_SGun_Shard_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 4200.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.2,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 18000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 2.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.25,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "7E3CC572421E01388F2CB5A73BAC1A36",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_SGun_Shard_01"
+      },
+      "WP_A_HVY_Shell_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_HVY_Shell_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.5,
+          "m_bounciniess": 0.5,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.25,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 3600.0,
+          "m_acceleration": 500.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 5000.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "6EAAB5A44FDE83771FD6B59D13B7B6E1",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_HVY_Shell_01"
+      },
+      "Translocator": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Translocator"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 1000.0,
+          "m_traceGroundWhenMaxDistanceHit": true,
+          "m_traceGround": true,
+          "m_traceComplexCollision": false,
+          "m_traceType": "EYTraceShapeType::Capsule",
+          "m_capsuleRadius": 50.0,
+          "m_capsuleHalfHeight": 60.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "BC2145D74B9F4D1F14BE13A8838170BE",
+          "SourceString": "None"
+        },
+        "m_rowName": "Translocator"
+      },
+      "WP_A_Launch_MSL_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_Launch_MSL_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.05,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 9000.0,
+          "m_accelerationApplyDelayTime": 0.5,
+          "m_applyAccelerationAdditionalMaxSpeed": 5000.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 20.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "1F7A76D74F3719C5C5336E88129B322C",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_Launch_MSL_01"
+      },
+      "ChargeMeleeAttack": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "ChargeMeleeAttack"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.5,
+          "m_bounciniess": 0.5,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.25,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 900.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 100.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.4
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Sphere",
+        "m_damageRecapDisplayName": {
+          "TableId": "ST_DamageRecap",
+          "Key": "Player_ChargedMeleeAttack"
+        },
+        "m_rowName": "ChargeMeleeAttack"
+      },
+      "Turret_EnergyBlaster": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Turret_EnergyBlaster"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 4000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "TableId": "ST_DamageRecap",
+          "Key": "Turret_EnergyBlaster"
+        },
+        "m_rowName": "Turret_EnergyBlaster"
+      },
+      "BlinkDaggerTest": {
+        "m_muzzleSocketName": "None",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "BlinkDagger"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "PRO_ProjectileBlinkDagger_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/Abilities/Blink/_shared/PRO_ProjectileBlinkDagger_BP.1"
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "9551747A4744929EAE3889A60827DD34",
+          "SourceString": "None"
+        },
+        "m_rowName": "BlinkDaggerTest"
+      },
+      "WP_G_HVY_Beam_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_HVY_Beam_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "023DF1B545D9C55456371EB1FECCD0DD",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_HVY_Beam_01"
+      },
+      "BeamWeapon_Gamma02_Mod01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "BeamWeapon_Gamma02_Mod01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 1300.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::Capsule",
+          "m_capsuleRadius": 30.0,
+          "m_capsuleHalfHeight": 0.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": true,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "32B9252B41DBB4A7A3124290AD0D4776",
+          "SourceString": "None"
+        },
+        "m_rowName": "BeamWeapon_Gamma02_Mod01"
+      },
+      "WP_D_Pistol_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_Pistol_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 3600.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 16000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 2.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 4.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "3D72FB2E4A77E997626635B3E39DA873",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_Pistol_Bullet_01"
+      },
+      "WP_G_Pistol_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_Pistol_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "7CD7D7EB44070C279F13E89700804944",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_Pistol_Energy_01"
+      },
+      "MeleeAttack": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MeleeAttack"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.5,
+          "m_bounciniess": 0.5,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.25,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 900.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 200.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.4
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Sphere",
+        "m_damageRecapDisplayName": {
+          "TableId": "ST_DamageRecap",
+          "Key": "Player_Default_Melee"
+        },
+        "m_rowName": "MeleeAttack"
+      },
+      "WP_E_Pistol_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_E_Pistol_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.3,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 23000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "65E60F3D4E31109515037CA24E2DD959",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_E_Pistol_Bullet_01"
+      },
+      "BattleRifle_Epsilon01_Mod01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "BattleRifle_Epsilon01_Mod01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 48000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.01,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "51E7707647A6BFF06DF84797E2816BF7",
+          "SourceString": "None"
+        },
+        "m_rowName": "BattleRifle_Epsilon01_Mod01"
+      },
+      "WP_E_SMG_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "SMG_Epsilon_Mod01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.2,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 23000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 2.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "CCF6859549B68DF8D32E05BECCC4FC6B",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_E_SMG_Bullet_01"
+      },
+      "MeleeKnifeThrow": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MeleeKnifeThrow"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "20A8CE19495D43786BE361B9542C9516",
+          "SourceString": "None"
+        },
+        "m_rowName": "MeleeKnifeThrow"
+      },
+      "SocialActorPlacement": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "SocialActorPlacement"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": false,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": false,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "6D20EB8B4D1179AD1BEB66834BA6FD37",
+          "SourceString": "None"
+        },
+        "m_rowName": "SocialActorPlacement"
+      },
+      "KnifeThrow_TEST": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "KnifeThrow_TEST"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.2,
+          "m_bounciniess": 0.5,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.25,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 3000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "AECC439A407C9D82FB3174B8FFA66B0D",
+          "SourceString": "None"
+        },
+        "m_rowName": "KnifeThrow_TEST"
+      },
+      "WP_A_Sniper_Gauss_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_Sniper_Gauss_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.3,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 40000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 3.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": true,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C582C9774B99052675AFCD9802859614",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_Sniper_Gauss_01"
+      },
+      "Exotic_Delta_FanProjectiles01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Exotic_Delta_FanProjectiles01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 1.0,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.0,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 2000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": 6000.0,
+          "m_bounce": true,
+          "m_collisionRadius": 10.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 9.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.001,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.002,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.001,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.002,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.004,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.006,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.004,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.006,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.008,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.01,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.008,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.01,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 5.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "2330804047881C9643F5788752442486",
+          "SourceString": "None"
+        },
+        "m_rowName": "Exotic_Delta_FanProjectiles01"
+      },
+      "WP_D_SMG_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_SMG_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "66B76516409AE347902CF8A2C9372246",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_SMG_Energy_01"
+      },
+      "WP_G_Sniper_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_Sniper_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "953721E84719BEB157BEEF8A5EC6ACEB",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_Sniper_Energy_01"
+      },
+      "WP_D_BR_Shard_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_BR_Shard_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 45000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 2.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "BB151C4946E9EDE5DC724385888C808E",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_BR_Shard_01"
+      },
+      "Pistol_Gamma_Sniper01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Pistol_Gamma_Sniper01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "A41FA2E3422DDD80A68B188260A2D626",
+          "SourceString": "None"
+        },
+        "m_rowName": "Pistol_Gamma_Sniper01"
+      },
+      "WP_E_Launch_Nade_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_E_Launch_Nade_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.25,
+          "m_bounciniess": 0.3,
+          "m_shouldBeArmed": true,
+          "m_armingTime": 1.75,
+          "m_friction": 0.8,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 2500.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": true,
+          "m_collisionRadius": 10.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 1.75,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 0.1
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "2AB030F241AB59F7EBB863BEE9A41680",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_E_Launch_Nade_01"
+      },
+      "WP_G_AR_Beam_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_AR_Beam_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "A24646A04329EEA5C046A588E2ADFA9E",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_AR_Beam_01"
+      },
+      "WP_A_SGun_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_SGun_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 4500.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.07,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "6B1FEA2D40F54C933C674AA23E6424D2",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_SGun_Energy_01"
+      },
+      "WP_D_HVY_Exotic_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_HVY_Exotic_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 18000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 1.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "139E13154CBA052C6CF8AFA976019EDA",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_HVY_Exotic_01"
+      },
+      "WP_G_AR_Needle_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_AR_Needle_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.2,
+          "m_bounciniess": 0.0,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 20.0,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 15000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "00FB52AA473BDE257197039F9A0F3162",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_AR_Needle_01"
+      },
+      "WP_A_SMG_Shard_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_SMG_Shard_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 1.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 25000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 2.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "89499A7E4E9660D35DDBBAA3FC9B23D8",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_SMG_Shard_01"
+      },
+      "WP_A_LMG_Needle_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_LMG_Needle_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.4,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 6750.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 0.015
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_FxCategory:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_FxCategory.0"
+          },
+          "RowName": "Needles_Default"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "D511D6464D955DEF44FDCA8ECCC4CE58",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_LMG_Needle_01"
+      },
+      "WP_D_LMG_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_LMG_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "B24FB70D411772D5A91D30A86F9B0AB6",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_LMG_Energy_01"
+      },
+      "MOD_D_Pistol_Bullet_01__SLOT1_Flare_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MOD_D_Pistol_Bullet_01__SLOT1_Flare_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.8,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C3A936E04CBEE3119552688D5FE41C05",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_Pistol_Bullet_01__SLOT1_Flare_01"
+      },
+      "MOD_D_Pistol_Bullet_01__SLOT1_SingleShot_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MOD_D_Pistol_Bullet_01__SLOT1_SingleShot_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 20000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C705FCCA4ACD1194E3E8AEABE0993799",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_Pistol_Bullet_01__SLOT1_SingleShot_01"
+      },
+      "MOD_D_Pistol_Bullet_01__SLOT1_Scattershot_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MOD_D_Pistol_Bullet_01__SLOT1_Scattershot_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 3600.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.125,
+              "Z": 0.14
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.125,
+              "Z": -0.14
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.125,
+              "Z": 0.14
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.125,
+              "Z": -0.14
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.35,
+              "Z": 0.06
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.35,
+              "Z": -0.06
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.35,
+              "Z": 0.06
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.35,
+              "Z": -0.06
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.6,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.6,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.225,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "3D72FB2E4A77E997626635B3E39DA873",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_Pistol_Bullet_01__SLOT1_Scattershot_01"
+      },
+      "MOD_D_Pistol_Bullet_01__SLOT1_ClusterShot_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_Pistol_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 3600.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.8,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.5,
+              "Y": 0.375,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.5,
+              "Y": -0.375,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.15,
+              "Z": 0.15
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.15,
+              "Z": 0.15
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.15,
+              "Z": -0.15
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.15,
+              "Z": -0.15
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.18,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C3A936E04CBEE3119552688D5FE41C05",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_Pistol_Bullet_01__SLOT1_ClusterShot_01"
+      },
+      "MOD_G_AR_Needle_01__SLOT2_Burst_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_AR_Needle_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.2,
+          "m_bounciniess": 0.0,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 20.0,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 12500.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.1,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "00FB52AA473BDE257197039F9A0F3162",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_G_AR_Needle_01__SLOT2_Burst_01"
+      },
+      "MOD_D_SMG_Energy_01_SLOT1_Splitter_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_SMG_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.15,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.15,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.185,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "3D72FB2E4A77E997626635B3E39DA873",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_SMG_Energy_01_SLOT1_Splitter_01"
+      },
+      "MOD_G_SMG_Needle_01__SLOT2_Burst_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_SMG_Needle_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 0.2,
+          "m_bounciniess": 0.0,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 20.0,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 7500.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 5.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.12,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "00FB52AA473BDE257197039F9A0F3162",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_G_SMG_Needle_01__SLOT2_Burst_01"
+      },
+      "MOD_D_SGun_Shard_01__SLOT1_Splitter_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_SGun_Shard_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 4200.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "7E3CC572421E01388F2CB5A73BAC1A36",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_D_SGun_Shard_01__SLOT1_Splitter_01"
+      },
+      "MOD_G_Sniper_Energy_01_SLOT1_Splitter_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_Sniper_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": 0.02,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 1.0,
+              "Y": -0.02,
+              "Z": 0.0
+            }
+          },
+          {
+            "m_offsetLocaton": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "m_overrideDirectionMovement": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        ],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.185,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "3D72FB2E4A77E997626635B3E39DA873",
+          "SourceString": "None"
+        },
+        "m_rowName": "MOD_G_Sniper_Energy_01_SLOT1_Splitter_01"
+      },
+      "MS_LostProspector_Translocator": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "MS_LostProspector_Translocator"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 1000.0,
+          "m_traceGroundWhenMaxDistanceHit": true,
+          "m_traceGround": false,
+          "m_traceComplexCollision": false,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "BC2145D74B9F4D1F14BE13A8838170BE",
+          "SourceString": "None"
+        },
+        "m_rowName": "MS_LostProspector_Translocator"
+      },
+      "WP_G_HVY_Beam_01_Event_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_G_HVY_Beam_01_Event_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "023DF1B545D9C55456371EB1FECCD0DD",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_G_HVY_Beam_01_Event_01"
+      },
+      "WP_D_Pistol_Bullet_02": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_D_Pistol_Bullet_02"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 17500.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 200000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 1.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_FxCategory:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_FxCategory.0"
+          },
+          "RowName": "Bullet_Default"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "C705FCCA4ACD1194E3E8AEABE0993799",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_D_Pistol_Bullet_02"
+      },
+      "WP_A_HVY_Exotic_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_HVY_Shell_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.0,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.0,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 600.0,
+          "m_acceleration": -5.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": 100.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": true,
+          "m_collisionRadius": 100.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 20.0,
+          "m_particleAdditionalLifetimeOnImpact": 20.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 100.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 100.0,
+          "m_skipTraceToVerifyHit": true,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "139E13154CBA052C6CF8AFA976019EDA",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_HVY_Exotic_01"
+      },
+      "Turret_Orb": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "Turret_Orb"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile:",
+            "ObjectPath": 3
+          },
+          "m_gravityScale": 0.1,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 5000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 1.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_FxCategory:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_FxCategory.0"
+          },
+          "RowName": "Orb_HeavyTurret"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "TableId": "ST_DamageRecap",
+          "Key": "Turret_CannonExpanding"
+        },
+        "m_rowName": "Turret_Orb"
+      },
+      "WP_A_AR_Bullet_02": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_A_AR_Bullet_02"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "71C41C8E44CF0FAC5298F0B87F952DCE",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_A_AR_Bullet_02"
+      },
+      "WP_E_AR_Energy_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_E_AR_Energy_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 150000.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": null,
+          "m_gravityScale": 0.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": false,
+          "m_initialProjectileSpeed": 1000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 5.0,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 15.0,
+          "m_particleAdditionalLifetimeOnImpact": 0.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": -1.0,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": false,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Hitscan",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "AE572C9E419C28BD50ED66AC80CB31FA",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_E_AR_Energy_01"
+      },
+      "WP_E_SGun_Bullet_01": {
+        "m_muzzleSocketName": "MuzzleSocket01",
+        "m_impactDataTableRow": {
+          "DataTable": {
+            "ObjectName": "PRO_Impact:DataTable",
+            "ObjectPath": "Prospect/Content/DataTables/PRO_Impact.0"
+          },
+          "RowName": "WP_E_SGun_Bullet_01"
+        },
+        "m_hitscanData": {
+          "m_maxTraceDistance": 4200.0,
+          "m_traceGroundWhenMaxDistanceHit": false,
+          "m_traceGround": false,
+          "m_traceComplexCollision": true,
+          "m_traceType": "EYTraceShapeType::LineTrace",
+          "m_capsuleRadius": 40.0,
+          "m_capsuleHalfHeight": 100.0
+        },
+        "m_projectileData": {
+          "m_projectileClass": {
+            "ObjectName": "YProjectile_BP_C:BlueprintGeneratedClass",
+            "ObjectPath": "Prospect/Content/VFX/Weapons/_shared/YProjectile_BP.1"
+          },
+          "m_gravityScale": 1.0,
+          "m_bounciniess": 0.6,
+          "m_shouldBeArmed": false,
+          "m_armingTime": 0.0001,
+          "m_friction": 0.2,
+          "m_returnPhysMaterialOnMove": true,
+          "m_initialProjectileSpeed": 16000.0,
+          "m_acceleration": 0.0,
+          "m_accelerationApplyDelayTime": 0.0,
+          "m_applyAccelerationAdditionalMaxSpeed": 0.0,
+          "m_homingAccelerationMagnitude": -1.0,
+          "m_maxSpeed": -1.0,
+          "m_bounce": false,
+          "m_collisionRadius": 0.1,
+          "m_maxAllowedDotProductToTurnWhenHoming": 0.85,
+          "m_projectileLifetime": 3.0,
+          "m_particleAdditionalLifetimeOnImpact": 2.0
+        },
+        "m_pysicActorData": {
+          "m_actorClass": null,
+          "m_initialActorSpeed": 1000.0,
+          "m_initialActorOffset": 300.0
+        },
+        "m_sphereData": {
+          "m_radius": 150.0,
+          "m_skipTraceToVerifyHit": false,
+          "m_minDot2DThreshold": 0.0
+        },
+        "m_startLocationOffset": [],
+        "m_defaultFXCategoryDataTableRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shootingOffsetDefaultDirection": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_scaleOffsetDirection": 0.25,
+        "m_shouldHaveFxCategory": true,
+        "m_useShootingOffsetRandomization": true,
+        "m_shootTroughDynamicObjects": false,
+        "m_produceImpactRegadlessOfHit": false,
+        "m_transportType": "EYWeaponTransportType::Projectile",
+        "m_damageRecapDisplayName": {
+          "Namespace": "",
+          "Key": "7E3CC572421E01388F2CB5A73BAC1A36",
+          "SourceString": "None"
+        },
+        "m_rowName": "WP_E_SGun_Bullet_01"
+      }
+    }
+  }
+]

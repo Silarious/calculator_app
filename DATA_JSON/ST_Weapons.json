@@ -1,0 +1,752 @@
+[
+ {
+   "Key": "Weapons_Item_Tooltip",
+   "SourceString": "Weapon",
+   "Comment": "Weapons tooltip",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategoryAndAmmoType",
+   "SourceString": "{DeviceCategory} | {AmmoType}",
+   "Comment": "Used to display both the device category and ammo type in a single string",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceClassWeapon",
+   "SourceString": "Weapon",
+   "Comment": "Used when displaying the device class for weapons only (no gadgets)",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceClassGadget",
+   "SourceString": "Gadget",
+   "Comment": "Used when displaying the device class for gadgets only (no weapons)",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Killed_By_Entry",
+   "SourceString": "{0} Killed {1}",
+   "Comment": "who/what killed who/what",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_AssaultRifle",
+   "SourceString": "Assault Rifle",
+   "Comment": "Assault Rifle",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_Pistol",
+   "SourceString": "Pistol",
+   "Comment": "Pistol",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_SMG",
+   "SourceString": "SMG",
+   "Comment": "SMG",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_SniperRifle",
+   "SourceString": "Sniper Rifle",
+   "Comment": "Sniper Rifle",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_HeavyWeapon",
+   "SourceString": "Heavy Weapon",
+   "Comment": "Heavy Weapon",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_Shotgun",
+   "SourceString": "Shotgun",
+   "Comment": "Shotgun",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_BurstRifle",
+   "SourceString": "Battle Rifle",
+   "Comment": "Battle Rifles",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_Exotic",
+   "SourceString": "Exotic",
+   "Comment": "Exotic",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_DeviceCategory_MissileLauncher",
+   "SourceString": "Missile Launcher",
+   "Comment": "MissileLauncher",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_AR_Bullet_01_Name",
+   "SourceString": "KOR-47",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_AR_Bullet_01_Description",
+   "SourceString": "Heavy and made to last, the KOR-47 has a lower firing rate than most competing weapons in its class, but its devastating 9.80mm JSP rounds messily make up the difference.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_AR_Bullet_01_Lore",
+   "SourceString": "The KOR Bullpup Automatic Rifle 2247, more commonly known as the KOR-47, is Korolev Heavy Industries' signature weapon and a mainstay of many national and private armed forces.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Pistol_Energy_01_Name",
+   "SourceString": "Scarab",
+   "Comment": "Scarab refers to the weapon's look and the faction's general egyptian fascination",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Pistol_Energy_01_Description",
+   "SourceString": "A dependable weapon, it fires a controlled and powerful three-shot burst.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Pistol_Energy_01_Lore",
+   "SourceString": "The Scarab, an Adaptive Phase Pistol, is one of Osiris' most successful weapons, able to induce a localized rapid matter state change on remote targets at a fraction of the energy cost of more conventional laser-based weaponry. With energy efficiency and safety in mind, the Scarab is a solid choice of sidearm, though its compact form limits the extent of its lethality.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_SMG_Needle_01_Name",
+   "SourceString": "Asp Flechette Gun",
+   "Comment": "Asp as in the viper",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_SMG_Needle_01_Description",
+   "SourceString": "Lightweight and with an excellent firing rate, the Asp Flechette Gun is a formidable automatic weapon for close range encounters.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_SMG_Needle_01_Lore",
+   "SourceString": "Intended for use by law enforcement in pressurized environments, this weapons' flechettes provide lethal stopping power, can easily defeat light armor, and are designed to prevent overpenetration; a risk in any environment, but disastrous on ships and stations.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Sniper_Gauss_01_Name",
+   "SourceString": "Kinetic Arbiter",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Sniper_Gauss_01_Description",
+   "SourceString": "Firing a solid metal rod at immense velocity and great accuracy, this weapon is favored among Prospectors that want to resolve their differences quickly and from a safe distance.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Sniper_Gauss_01_Lore",
+   "SourceString": "One of The ICA's most advanced conventional weapons, the Kinetic Arbiter is little more than a military-grade gauss gun stripped down to its most basic components needed to function, without any of the the fancy fittings or safety mechanisms.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_HVY_Shell_01_Name",
+   "SourceString": "KARLA",
+   "Comment": "acronym - see lore field - if translated please make new acronym",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_HVY_Shell_01_Description",
+   "SourceString": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_HVY_Shell_01_Lore",
+   "SourceString": "The Korolev Anti-material Repeating Light Artillery, or KARLA, was originally intended as a vehicle-mounted weapon, but advanced recoil management allowed Korolev to produce a portable version for use without a warsuit.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SGun_Shard_01_Name",
+   "SourceString": "Shattergun",
+   "Comment": " play on shatter and scattergun (shotgun)",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SGun_Shard_01_Description",
+   "SourceString": "Though unconventional, the crystal fragments fired by this weapon carry enough kinetic and thermal energy to defeat light armor and inflict terrible wounds.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SGun_Shard_01_Lore",
+   "SourceString": "Crafted on Prospect station using salvage and wood from the planet itself, this scattergun demonstrates The ICA's ingenuity and ability to thrive with limited resources. A molded adrentite crystal, byproduct of its refinement for use as rocket fuel, serves as both projectile and propellant; a small electric charge incites a rearrangement in the crystal's lattice, with the sudden energy release fracturing the crystal into thin shards along its length as they're shot through the barrel.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Energy_01_Name",
+   "SourceString": "Phasic Lancer",
+   "Comment": " lancer refers to it being a weapon - translation need not be literal",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Energy_01_Description",
+   "SourceString": "A rifle for the discerning Prospector, the Phasic Lancer features a highly accurate controlled 3-shot burst fire, effective against most threats a Prospector might encounter.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Energy_01_Lore",
+   "SourceString": "After the success of the Adaptive Phase Pistol, Osiris thought to develop a weapon platform of more interest to the military market. While this new powered-up weapon can handle significantly more energy than its smaller cousin, Osiris has yet to solve the problem of overheating in full-auto firing mode, or the high risk of carrier-shield leakage when in charged mode.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Pistol_Bullet_01_Name",
+   "SourceString": "Hammer",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Pistol_Bullet_01_Description",
+   "SourceString": "Like most Korolev weapons, the Hammer inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Pistol_Bullet_01_Lore",
+   "SourceString": "Based on their ubiquitous rivet guns, also known as 'energy hammers', the 'Hammer' was an attempt at developing a low cost personal defense weapon. Popular among those wanting a dependable high-powered pistol, its weight and complex operation make it unattractive to the mass market.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Name",
+   "SourceString": "Bulldog",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Description",
+   "SourceString": "While devastating at close range, in its default configuration it suffers from very limited range.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Lore",
+   "SourceString": "Simple and effective, compact firearms utilizing shotgun shells are popular on stations as close range problem solvers for their high damage as well as for mitigiating the risk of overpenetration that more conventional pistols carry. The Bulldog is the ICA's prefered design, easy to build and maintain, and even easier to operate.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_AR_Bullet_01_Name",
+   "SourceString": "Advocate",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_AR_Bullet_01_Description",
+   "SourceString": "The SAR-62B 'Advocate' is a dependable weapon at close to medium range, offering a good balance between accuracy and rate of fire.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_AR_Bullet_01_Lore",
+   "SourceString": "Based on the SAR-62 carbine used by the Federation itself, the ICA 'Advocate' has only a few deviations from the original design, meant to allow for its manufacture in environments of relative scarcity.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Name",
+   "SourceString": "Zeus Beam",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Description",
+   "SourceString": "Called \"Zeus\" for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Lore",
+   "SourceString": "While beam based weapons have found heavy use on warships for centuries, only in recent years has technology allowed for a portable form factor. These weapons use a linked-light beam to contain and focus a jet of plasma accross great distances, with a fairly predictable effect on whatever it contacts.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Launch_MSL_01_Name",
+   "SourceString": "KOMRAD",
+   "Comment": "acronym - see lore field - if translated please make new acronym",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Launch_MSL_01_Description",
+   "SourceString": "This fearsome weapon platform is capable of firing salvos of fast-moving missiles capable of making short work of any hostile element.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Launch_MSL_01_Lore",
+   "SourceString": "Short for Korolev Ozone-powered Micro Rocket Assault Device, the KOMRAD is one of the most destructive weapon systems developed by the megacorp, and one of its most expensive.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Pistol_Bullet_01_Name",
+   "SourceString": "K-28",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Pistol_Bullet_01_Description",
+   "SourceString": "A standard semi-automatic pistol. Decent accuracy, rate of fire, and damage, it's an effective sidearm for any Prospector. Cannot be modded.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Pistol_Bullet_01_Lore",
+   "SourceString": "With a design that's seen no change in over two centuries, the CoTEC K-28 is one of the most popular weapons throughout known space, as are its many knock offs. Like this one.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_BR_Bullet_01_Name",
+   "SourceString": "C-32 Bolt Action",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_BR_Bullet_01_Lore",
+   "SourceString": "Anachronistic by design, this CoTEC bolt action rifle was meant for civilian use in frontier planets to manage hostile wildlife. Effective in its purpose, the massive increase in wildlife hostility and numbers lead to mass production of lower grade rifles like this one.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_BR_Bullet_01_Description",
+   "SourceString": "Boasting fair range and damage, the C-32 sits between the power of a marksman rifle and the versatility of a battle rifle. Cannot be modded.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_SMG_Bullet_01_Name",
+   "SourceString": "S-576 PDW",
+   "Comment": "Personal Defense Weapon",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_SMG_Bullet_01_Description",
+   "SourceString": "Limited range, low round damage, and a small magazine size drag the S-576 down on paper, but its high rate of fire and mobility make it formidable up close. Cannot be modded.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_SMG_Bullet_01_Lore",
+   "SourceString": "The CoTEC S-576 is one of the standard firearms used aboard Federation ships, stations, and outposts. Lightweight, compact, and produced in mass by various manufacturers, this model is a staple in practically every weapons market. This model doesn't look quite right, but it still gets the job done.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Pistol_Epsilon01_Mod02_Name",
+   "SourceString": "K-28",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Pistol_Epsilon01_Mod02_Description",
+   "SourceString": "A standard semi-automatic pistol. Decent accuracy, rate of fire, and damage, it's an effective sidearm for any Prospector.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Pistol_Epsilon01_Mod02_Lore",
+   "SourceString": "With a design that's seen no change in over two centuries, the CoTEC K-28 is one of the most popular weapons throughout known space, as are its many knock offs.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_BattleRifle_Epsilon02_Name",
+   "SourceString": "C-32 Bolt Action",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_BattleRifle_Epsilon02_Lore",
+   "SourceString": "Anachronistic by design, this CoTEC bolt action rifle was meant for civilian use in frontier planets to manage hostile wildlife. Effective in its purpose, the massive increase in wildlife hostility and numbers lead to mass production of lower grade rifle; original designs like this one are hard to come by.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_BattleRifle_Epsilon02_Description",
+   "SourceString": "Boasting fair range and damage, the C-32 sits between the power of a marksman rifle and the versatility of a battle rifle.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_SMG_Epsilon02_Name",
+   "SourceString": "S-576 PDW",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_SMG_Epsilon02_Description",
+   "SourceString": "Limited range, low round damage, and a small magazine size drag the S-576 down on paper, but its high rate of fire and mobility make it formidable up close.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_SMG_Epsilon02_Lore",
+   "SourceString": "The CoTEC S-576 is one of the standard firearms used aboard Federation ships, stations, and outposts. Lightweight, compact, and produced in mass by various manufacturers, this model is a staple in practically every weapons market.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_BR_Bullet_01_Name",
+   "SourceString": "KBR Longshot",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_BR_Bullet_01_Description",
+   "SourceString": "A battle rifle with good accuracy and power, the Korolev Longshot excels in medium range engagements. While not as powerful as heavier rifles, the higher rate of fire and magazine size make it a more versatile weapon.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_BR_Bullet_01_Lore",
+   "SourceString": "The predecessor to the KOR-47, the Longshot was developed for the Federation to serve as a long range support weapon for ground troops. Designed with a low unit cost in mind, Korolev opted to ensure high accuracy and power over developing a fully automatic weapon.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_BR_Shard_01_Name",
+   "SourceString": "Lacerator",
+   "Comment": "refers to how the weapon fires sharp mineral shards",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_BR_Shard_01_Description",
+   "SourceString": "Though less powerful than other rifles, the Lacerator is still a capable and accurate weapon at most ranges, boasting a decent fire rate, accuracy, and handling.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_BR_Shard_01_Lore",
+   "SourceString": "Building upon the the ICA's own Shattergun, this battle rifle is tuned to discharge the crystaline shards it uses as ammunition in a more controlled and accurate burst.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Sniper_Gauss_01_Name",
+   "SourceString": "KARMA-1",
+   "Comment": "acronym - see lore field - if translated please make new acronym",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Sniper_Gauss_01_Description",
+   "SourceString": "While heavy and requiring a charge-up to fire, a direct hit from the KARMA-1 will cripple if not outright kill any target, and the raw kinetic power will damage anything near the impact area.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_Sniper_Gauss_01_Lore",
+   "SourceString": "The Korolev Advanced Recursive Magnetic Artillery, first prototype, is a miniaturization of the sort of weaponry more commonly found on warships, offered exclusively to the Prospectors for early testing. While no longer powerful enough to take down a spacecraft, it's more than enough to handle the threats of Fortuna III.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SMG_Energy_01_Name",
+   "SourceString": "Voltaic Brute",
+   "Comment": "refers to the weapon packing a punch and using electricity",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SMG_Energy_01_Description",
+   "SourceString": "High damage, high rate of fire, high recoil. It's difficult to control and loses power over range, but few weapons are deadlier at close range.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_SMG_Energy_01_Lore",
+   "SourceString": "Using parts built on Prospect station with material from the surface combined with salvaged components from power tools meant to build starships, the ICA's \"Brute\" more than lives up to its name.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Exotic_Delta_FanProjectiles01_Name",
+   "SourceString": "Guillotine",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Exotic_Delta_FanProjectiles01_Description",
+   "SourceString": "text",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Exotic_Delta_FanProjectiles01_Lore",
+   "SourceString": "text",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Launch_Nade_01_Name",
+   "SourceString": "FF4 Detonator",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Launch_Nade_01_Description",
+   "SourceString": "A standard grenade launcher with a high damage output, it requires skilled use to operate efficiently. Cannot be modded.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_Launch_Nade_01_Lore",
+   "SourceString": "Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets. This one seems to be from even before the colony was founded.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Launcher_Epsilon_Grenade02_Name",
+   "SourceString": "FF4 Detonator",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Launcher_Epsilon_Grenade02_Description",
+   "SourceString": "A standard grenade launcher with a high damage output",
+   "Comment": " it requires skilled use to operate efficiently.\"",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_Launcher_Epsilon_Grenade02_Lore",
+   "SourceString": "Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Beam_01_Name",
+   "SourceString": "Gorgon",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Beam_01_Description",
+   "SourceString": "A powerful beam rifle that requires charging up before firing. Not the easiest to handle, but lethal in proper hands.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Beam_01_Lore",
+   "SourceString": "The Zeus' little sister, the Gorgon may not be as devastating, but its glare can leave any target petrified in place. And crispy.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SGun_Energy_01_Name",
+   "SourceString": "PKR Maelstrom",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SGun_Energy_01_Description",
+   "SourceString": "A semi-automatic shotgun, it's heavy and a poor choice at range, but utterly devastating up close.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SGun_Energy_01_Lore",
+   "SourceString": "Korolev's first attempt at a building a phase weapon, the Phase-Kinetic Reactive \"Maelstrom's\" ammo pack carries more than enough energy to fulminate whatever gets in its way in a matter of seconds, provided it's close enough.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Sniper_Energy_01_Name",
+   "SourceString": "Basilisk",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Sniper_Energy_01_Description",
+   "SourceString": "A phase tech marksman rifle; impacts aren't powerful as other weapons in its class, but boasts a high rate of fire.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_Sniper_Energy_01_Lore",
+   "SourceString": "The result of an offshoot project during early development of the Phasic Lancer, the Basilisk trades higher ammo count for a much stronger energy discharge. While still in the prototyping, Osiris is happy to offer this rifle to Prospectors of a high enough standing.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_HVY_Exotic_01_Name",
+   "SourceString": "HAZE",
+   "Comment": "acronym - see lore field - if translated please make new acronym",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_HVY_Exotic_01_Description",
+   "SourceString": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_HVY_Exotic_01_Lore",
+   "SourceString": "Discovered while developing an a veltecite-powered plasma cannon, High Amplitude Zender Emmissions were found to have an effect remarkably similar to the effect of the energy field known as \"The Cycle\", though the decaying plasma core fueling it is much shorter lived than the anomaly surrounding Fortuna III.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Needle_01_Name",
+   "SourceString": "Manticore",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Needle_01_Description",
+   "SourceString": "A flechette assault rifle, it's heavy hitting and effective at close to medium range, but loses against other rifles in power and accuracy further out.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_AR_Needle_01_Lore",
+   "SourceString": "Intended for use in pressurised environments, the Manticore was designed for more militaristic use than the compact ASP. Lightweight, accurate, and lethal, it's seen use by marines both performing as and defending against boarding parties.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SMG_Shard_01_Name",
+   "SourceString": "KM-9 'Scrapper'",
+   "Comment": "scrapper refers both to it being 'scrappy' as in a fighter and to it being a bit shoddy",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SMG_Shard_01_Description",
+   "SourceString": "A rapid-firing shard SMG, the KM-9 is a good choice for taking out targets at close range, though of little use in long range engagements.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_SMG_Shard_01_Lore",
+   "SourceString": "Faced with an ever-increasing surplus of adrentite sludge, an inventive Korolev waste management engineer brought forth a novel way of handling the hazardous byproduct: shoot it. The 'Scrapper' was the first viable weapon produced by Korolev Munitions, one of the megacorp's many competing arms manufacturing branches, and the first known to use adrentite crystals as ammunition.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_AR_Energy_01_Name",
+   "SourceString": "AR-55 Phase Autorifle",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_AR_Energy_01_Description",
+   "SourceString": "A decent fully automatic rifle, the AR-55 doesn't excel in any one department, but comfortably versatile and lethally effective.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_E_AR_Energy_01_Lore",
+   "SourceString": "The AR-55 was commissioned by the IFA in an attempt to improve standard Authority armament without further increasing their reliance on Korolev Heavy Industries. While the IFA would eventually settle with the SAR-62, CoTEC's AR-55 remains a popular weapon in private armies and corporate security forces, and has succeeded at being an effective market counter to the popular KOR-47.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "WP_E_SGun_Bullet_01_Name",
+   "SourceString": "B9 Trenchgun",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "WP_E_SGun_Bullet_01_Description",
+   "SourceString": "Single barrel, pump-action, lead pellets, high-spread, short range. Yep, it's a shotgun, all right.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "WP_E_SGun_Bullet_01_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_LMG_Needle_01_Name",
+   "SourceString": "KOR LMG",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_LMG_Needle_01_Description",
+   "SourceString": "EMPTY",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_A_LMG_Needle_01_Lore",
+   "SourceString": "EMPTY",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_LMG_Energy_01_Name",
+   "SourceString": "ICA Guarantee",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_LMG_Energy_01_Description",
+   "SourceString": "A fast firing Phase LMG; high recoil requires the user to aim in and steady themselves to be effective, unless they just intend to call attention to themselves.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_LMG_Energy_01_Lore",
+   "SourceString": "This Fortuna III custom isn't known for its finesse, but it'll chew through any target if the user manages keep it under control. With the amount of ammo expended, you're Guaranteed to hit something!",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Event_01_Name",
+   "SourceString": "Holiday Zeus Beam",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Event_01_Description",
+   "SourceString": "A less powerful version of the Zeus, mass produced just in time for the holidays.\n\nCalled \"Zeus\" for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your jolly ire.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_G_HVY_Beam_01_Event_01_Lore",
+   "SourceString": "NOTE: This item will only be available during the holidays!",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Event_01_Name",
+   "SourceString": "Holiday Bulldog",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Event_01_Description",
+   "SourceString": "Not quite a snowball launcher, unless you ever played with Kevin and his iceballs.\n\nWhile very very mean at close range, in its default configuration it suffers from very limited range.",
+   "Comment": "",
+   "FIELD4": ""
+ },
+ {
+   "Key": "Weapons_WP_D_Pistol_Bullet_01_Event_01_Lore",
+   "SourceString": "NOTE: This item will only be available during the holidays!",
+   "Comment": "",
+   "FIELD4": ""
+ }
+]
