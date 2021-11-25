@@ -1,3 +1,42 @@
-body {
+* {
+    color:var(--text-color);
+}
+body, #weaponSelection {
     background-color: var(--bg-color);
+}
+/* Hub Box */
+.hubBox {
+    display:flex;
+}
+/* Selection */
+.selection {
+    display:flex;
+    flex-direction: column;
+    width: max-content;
+}
+.selection p {
+    margin:5px;
+    text-align: center;
+}
+#weaponSelection {
+    padding:5px;
+    overflow-y: auto;
+    scrollbar-width: none; /*For Firefox*/;
+    -ms-overflow-style: none;  /*For Internet Explorer 10+*/;
+}
+#weaponSelection option {
+    padding:2px;
+}
+/* Table */
+td, th, tr, table {
+    border-collapse: collapse;
+    border: 1px solid var(--border-color);
+    padding: 0 7px;
+    min-width: 75px;
+}
+td {
+    text-align: right;
+}
+th {
+    font-weight:normal;
 }
