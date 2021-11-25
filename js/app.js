@@ -95,6 +95,7 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
     weaponSelection.add(option);
 }
 
+
 //Sort selection alphabetically
  function sortSelection(ID){
   let sel = document.getElementById(ID);
@@ -114,7 +115,6 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 };
 sortSelection('weaponSelection');
 
-
 function clearWeaponStats(){
     document.getElementById("wpName").innerHTML = "&nbsp";
     for (let i = 0; i < document.querySelectorAll("#weaponStats td").length; i++) {
@@ -123,13 +123,6 @@ function clearWeaponStats(){
 }
 
 // Listen and execute function when new weapon is selected.
-weaponSelection.addEventListener('change', updateWeaponSelection);
-
-function updateWeaponSelection () {
-    clearWeaponStats();
-    populateWeaponStats ()
-}
-
 function populateWeaponStats () {
     let obj = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
     document.getElementById("wpName").innerHTML = obj.m_vanityName;
@@ -150,5 +143,16 @@ function populateWeaponStats () {
     document.querySelector(`#m_initialProjectileSpeed .default`).innerHTML = obj.m_initialProjectileSpeed;
 }
 
+//Populates data associated with first option when the selection box has loaded.
+function initLoad () {
+    document.getElementById('weaponSelection').selectedIndex = "0";
+    populateWeaponStats ()
+}
+weaponSelection.addEventListener("load", initLoad());
 
-console.log(Tuning.WP_G_AR_Energy_01);
+//Listen for new options selection, clear data from table and repopulate.
+weaponSelection.addEventListener('change', updateWeaponSelection);
+function updateWeaponSelection () {
+    clearWeaponStats();
+    populateWeaponStats ();
+}
