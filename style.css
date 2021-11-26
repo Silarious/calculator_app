@@ -6,7 +6,13 @@ body, #weaponSelection {
 }
 /* Hub Box */
 .hubBox {
-    display:flex;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.hubBoxInputs {
+    display: flex;
+    flex-direction: column;
 }
 /* Selection */
 .selection {
@@ -27,6 +33,19 @@ body, #weaponSelection {
 #weaponSelection option {
     padding:2px;
 }
+/* Input */
+.inputContainer {
+	margin: 0px 0px 15px 0;
+}
+.inputText {
+    margin:0;
+}
+.weaponStatInput[type=number] {
+    width: 5em;
+    color:#000;
+    float:right;
+}
+
 /* Table */
 td, th, tr, table {
     border-collapse: collapse;

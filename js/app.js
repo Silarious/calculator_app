@@ -115,15 +115,8 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 };
 sortSelection('weaponSelection');
 
-function clearWeaponStats(){
-    document.getElementById("wpName").innerHTML = "&nbsp";
-    for (let i = 0; i < document.querySelectorAll("#weaponStats td").length; i++) {
-        document.querySelectorAll("#weaponStats td")[i].innerHTML = null;
-    } 
-}
-
 // Listen and execute function when new weapon is selected.
-function populateWeaponStats () {
+function updateWeaponSelection () {
     let obj = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
     document.getElementById("wpName").innerHTML = obj.m_vanityName;
     document.querySelector("#m_directDamage .default").innerHTML = obj.m_directDamage;
@@ -143,16 +136,59 @@ function populateWeaponStats () {
     document.querySelector(`#m_initialProjectileSpeed .default`).innerHTML = obj.m_initialProjectileSpeed;
 }
 
+ function recalculateWeaponStats(){
+    let obj = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
+
+    let accuracy = parseFloat(document.getElementById('accuracySlider').value/100);
+    let headshotAccuracy = parseFloat(document.getElementById('headshotAccuracySlider').value/100);
+    let headshotaccuracy2 = accuracy * headshotAccuracy;
+    let accuracy2 = accuracy - headshotaccuracy2;
+
+    let health = parseInt(document.getElementById('healthSlider').value);
+
+    let singleShotDamage = obj.m_directDamage * obj.m_amountOfImmediateFires;
+    let singleShotDamageCrit = ((obj.m_directDamage * obj.m_weakAreaDamageMultiplier) * obj.m_amountOfImmediateFires)
+    if (Number(obj.m_burstAmount) > Number(0)) {
+        var DPS = ((1 / (obj.m_refireTime + (obj.m_burstInterval * (obj.m_burstAmount + 1))) * accuracy) * (singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2) * (obj.m_burstAmount + 1);
+    } else {
+        var DPS = ((1 / obj.m_refireTime) * accuracy) * ((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2);
+    }
+    let numberOfTotalShots = Math.ceil(health / ((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2));
+
+    if (Number(obj.m_burstAmount) > Number(0)) {
+        var shootingTime = ((Math.ceil(numberOfTotalShots / (obj.m_burstAmount + 1)) * obj.m_refireTime) + (Math.ceil(numberOfTotalShots / (obj.m_burstAmount + 1)) * (obj.m_burstAmount + 1)) * burstInterval);
+    } else {
+        var shootingTime = Math.abs(numberOfTotalShots * obj.m_refireTime);
+    }
+    let numOfReload = Math.floor(numberOfTotalShots / (obj.m_ammoInClip + 1));
+    let reloadTime = Math.abs(numOfReload * obj.m_reloadTime);
+    let spinupTime = Math.abs((numOfReload + 1) * obj.m_spinupTime);
+    let TTK = (shootingTime + reloadTime + spinupTime);
+    let damagePerMag = ((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2) * obj.m_ammoInClip;
+
+    document.querySelector(`#damagePerSecond .default`).innerHTML = DPS.toFixed(2);
+    document.querySelector(`#roundsPerMinute .default`).innerHTML = ((60/obj.m_refireTime)*accuracy).toFixed(0);
+    document.querySelector(`#dmgPerMag .default`).innerHTML = damagePerMag.toFixed(0);
+    document.querySelector(`#shotsToKill .default`).innerHTML = numberOfTotalShots.toFixed(0);
+    document.querySelector(`#timeToKill .default`).innerHTML = TTK.toFixed(3);
+} 
 //Populates data associated with first option when the selection box has loaded.
-function initLoad () {
+function initLoad() {
     document.getElementById('weaponSelection').selectedIndex = "0";
-    populateWeaponStats ()
+    updateWeaponSelection ();
+    recalculateWeaponStats ();
+}
+function populateWeaponStats() {
+    updateWeaponSelection ();
+    recalculateWeaponStats ();
 }
 weaponSelection.addEventListener("load", initLoad());
 
 //Listen for new options selection, clear data from table and repopulate.
-weaponSelection.addEventListener('change', updateWeaponSelection);
-function updateWeaponSelection () {
-    clearWeaponStats();
-    populateWeaponStats ();
-}
+weaponSelection.addEventListener('change', populateWeaponStats);
+
+document.querySelectorAll('.weaponStatInput').forEach(item => {
+    item.addEventListener('input', event => {
+        recalculateWeaponStats()
+    })
+})
