@@ -17,7 +17,33 @@
             <div class="selection">
                 <select id="weaponSelection"></select>
             </div>
-            <div class="hubBoxInputs">
+            <div class="hubBoxInputs" id="modSelection">
+                <div class="selection">
+                    <p>Magazine</p>
+                    <select id="SLOT1" size="5" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection">
+                    <p>Body</p>
+                    <select id="SLOT2" size="5" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection">
+                    <p>Rail/Scope</p>
+                    <select id="SLOT3" size="5" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection">
+                    <p>Stock/Handle</p>
+                    <select id="SLOT4" size="5" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+            </div>
+            <div class="hubBoxInputs" id="inputSliders">
                 <div class="inputContainer">
                     <p class="inputText">Accuracy %:<input id="accuracyBox" class="weaponStatInput accuracy" type="number" name="accuracy" value="100" min="1" max="100" oninput="syncInput(this.value,'accuracySlider')"></p>
                     <input id="accuracySlider" class="weaponStatInput accuracy" type="range" min="1" max="100" value="100" step="1" oninput="syncInput(this.value,'accuracyBox')">
@@ -29,6 +55,15 @@
                 <div class="inputContainer">
                     <p class="inputText">Health:<input id="healthBox" class="weaponStatInput health" type="number" name="health" value="1000" min="100" max="20000" step="50" oninput="syncInput(this.value,'healthSlider')"></p>
                     <input id="healthSlider" class="weaponStatInput health" type="range" min="100" max="20000" value="1000" step="50" oninput="syncInput(this.value,'healthBox')">
+                </div>
+                <div class="inputContainer">
+                    <p class="inputText">Target Type:
+                        <select id="target_selection" class="weaponStatInput targetType" name="targets">
+                            <option id="Player" value="0">Player</option>
+                            <option id="Monster" value="1">Creature</option>
+                            <option id="Other" value="2">Other</option>
+                        </select>
+                    </p>
                 </div>
                 
             </div>
@@ -90,7 +125,7 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="m_movementSpeedMultiplier">
+                <tr id="m_movementSpeed">
                     <th>Movement Speed m/s</th>
                     <td class="default"></td>
                     <td class="mod"></td>
@@ -132,19 +167,19 @@
                 </tr>
                 <tr id="Detailed Stats Spacer">
                     <th colspan="4" style="text-align:center;">Detailed Stats</th></tr>
-                <tr id="damagePerSecond">
+                <tr id="DPS">
                     <th>Damage Per Second</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="roundsPerMinute">
+                <tr id="RPM">
                     <th>Rounds Per Minute</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="dmgPerMag">
+                <tr id="damagePerMag">
                     <th>Damage Per Mag</th>
                     <td class="default"></td>
                     <td class="mod"></td>
@@ -156,20 +191,8 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="timeToKill">
+                <tr id="TTK">
                     <th>Time To Kill (s)</th>
-                    <td class="default"></td>
-                    <td class="mod"></td>
-                    <td class="diff"></td>
-                </tr>
-                <tr id="kryptoCost">
-                    <th>Krypto Cost</th>
-                    <td class="default"></td>
-                    <td class="mod"></td>
-                    <td class="diff"></td>
-                </tr>
-                <tr id="creditCost">
-                    <th>Credit Cost</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>

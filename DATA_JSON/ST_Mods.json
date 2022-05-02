@@ -1,0 +1,6757 @@
+[
+ {
+   "Key": "Mod_Item_Tooltip",
+   "SourceString": "Mod",
+   "Comment": "Mod Tooltip",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Generic_UnusedSlot",
+   "SourceString": "Empty",
+   "Comment": "Unused mod slot",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Generic_ModTypeWithArgument",
+   "SourceString": "{ModType} Mod",
+   "Comment": "Used to display mod types in mod tooltips",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Tooltip_ModCategoryAndSlotTypeWithArgument",
+   "SourceString": "{ModCategory} Mod | {SlotType}",
+   "Comment": "Used to display a mod category and slot type of mods in tooltips",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Tooltip_IncompatibleMod",
+   "SourceString": "INCOMPATIBLE MOD",
+   "Comment": "Used to show that a mod is not compatible with the current selected item",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoRedMod",
+   "SourceString": "NoRedMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoYellowMod",
+   "SourceString": "NoYellowMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoBlueMod",
+   "SourceString": "NoBlueModSight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoGreyMod",
+   "SourceString": "NoGreyMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoRedMod_Name",
+   "SourceString": "NoRedMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoRedMod_Description",
+   "SourceString": "NoRedMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoRedMod_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoYellowMod_Name",
+   "SourceString": "NoYellowMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoYellowMod_Description",
+   "SourceString": "NoYellowMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoYellowMod_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoBlueMod_Name",
+   "SourceString": "NoBlueModSight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoBlueMod_Description",
+   "SourceString": "NoBlueModSight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoBlueMod_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoGreyMod_Name",
+   "SourceString": "NoGreyMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoGreyMod_Description",
+   "SourceString": "NoGreyMod",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_NoGreyMod_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AoEonKill_01_Name",
+   "SourceString": "Hallowed Rods",
+   "Comment": "Not specifically relgious - refers to an explosive AOE damage on death",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AoEonKill_01_Description",
+   "SourceString": "Targets killed will damage others around them.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AoEonKill_01_Lore",
+   "SourceString": "Rods carrying an activated veltecite core; initially trialed just to see what would happen, the kinetic compression of the veltecite against expiring organic matter triggers an energy release damaging nearby still-living organisms.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Reload_01_Name",
+   "SourceString": "Light Alloy Container",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Reload_01_Description",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Reload_01_Lore",
+   "SourceString": "An ammo container made with non-standard materials, makes for an easier weapon reload.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Ammo_01_Name",
+   "SourceString": "Expanded Container",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Ammo_01_Lore",
+   "SourceString": "A container with improved internals, allows for an increased rod count. Of course, it also increases the container's weight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Piercing_01_Name",
+   "SourceString": "Penetrating Rods",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Piercing_01_Description",
+   "SourceString": "Shots travel through targets",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_Piercing_01_Lore",
+   "SourceString": "Shaped rods with hardened tips. They'll fly through most creatures without them even realizing they were hit.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Rods",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rods modified to carry a mix toxic to most of the fauna of Fortuna III. The added complexity to the rod reduces damage to other targets, though it's unlikely they'll be celebrating that when hit.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_RoF_01_Name",
+   "SourceString": "Spring Assisted Bolt",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_RoF_01_Lore",
+   "SourceString": "Moving some springs from the stabilizer to the chambering mechanism makes for a more comfortable bolting, provided you have a strong shoulder.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_ProjectileSpeed_01_Name",
+   "SourceString": "Low Caliber Mag Rail",
+   "Comment": "magnetic",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_ProjectileSpeed_01_Lore",
+   "SourceString": "Smaller rods go faster, obviously.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_DMG_01_Name",
+   "SourceString": "High Caliber Mag Rail",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_DMG_01_Lore",
+   "SourceString": "More bullet, more damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_MoveSpeed_01_Name",
+   "SourceString": "Hollow Frame",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_MoveSpeed_01_Lore",
+   "SourceString": "Don't worry, nothing too important is missing.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_Spread_01_Name",
+   "SourceString": "Gyroscopic Stabilizers",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT2_Spread_01_Lore",
+   "SourceString": "A really fast spinny thing that helps keep your rifle centered.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_AimSpeed_01_Name",
+   "SourceString": "Aerodynamic Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_AimSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_AimSpeed_01_Lore",
+   "SourceString": "Adds a 4x scope, but increases ADS slightly. ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_01_Lore",
+   "SourceString": "Quicker ADS at the cost of a smaller scope. ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_02_Name",
+   "SourceString": "8x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a longer range scope to an already long range gun, cheeky! ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_03_Name",
+   "SourceString": "16x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_03_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT3_Scope_03_Lore",
+   "SourceString": "The magnification levels on this new scope is getting out of hand...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_EquipSpeed_01_Name",
+   "SourceString": "Ergonomic Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_EquipSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_EquipSpeed_01_Lore",
+   "SourceString": "Your joints will thank you when you're older.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_MoveSpeed_01_Name",
+   "SourceString": "Lightweight Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_MoveSpeed_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_Recoil_01_Name",
+   "SourceString": "Balanced Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Sniper_Gauss_01_SLOT4_Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Piercing_01_Name",
+   "SourceString": "Piercing Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Piercing_01_Description",
+   "SourceString": "Rounds pass through hostiles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Piercing_01_Lore",
+   "SourceString": "Sometimes things line up just right...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Explosive_01_Name",
+   "SourceString": "Explosive Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Explosive_01_Description",
+   "SourceString": "Impacts cause additional AoE damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Explosive_01_Lore",
+   "SourceString": "For when you're really not trying to be subtle.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxin Coated Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III. Doesn't do much to humans, but a bullet's still a bullet.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Sometimes you really need an extra handful of rounds.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_CritDMG_01_Name",
+   "SourceString": "Shredder Rounds",
+   "Comment": "refers to something that cuts a lot and messily",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_CritDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT1_CritDMG_01_Lore",
+   "SourceString": "Just imagine the kind of person that puts barbs on a bullet.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Cycler",
+   "Comment": "refers to cycling new rounds",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Spray 'n Pray!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Long Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "You're always so distant.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Equip&Aim_01_Name",
+   "SourceString": "Short Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT2_Equip&Aim_01_Lore",
+   "SourceString": "What's important is how you use it.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a 1.5x scope to really help connect those shots. ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "See further at the cost of slower ADS. ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_AR_Bullet_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "Zap!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Anti-xeno Calibration",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Tweaking the frequency just a little makes those critters sizzle a lot faster.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Reload_01_Name",
+   "SourceString": "Lightweight Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Reload_01_Lore",
+   "SourceString": "I hope you're recycling these.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "High-Efficiency Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "WARNING: DO NOT PUNCTURE",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_SingleShot_01_Name",
+   "SourceString": "Phasic Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_SingleShot_01_Description",
+   "SourceString": "Single shot firing mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_SingleShot_01_Lore",
+   "SourceString": "Don't miss.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_FullAuto_01_Name",
+   "SourceString": "Phase Repeater",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_FullAuto_01_Description",
+   "SourceString": "Fully automatic firing mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_FullAuto_01_Lore",
+   "SourceString": "Sometimes you've just gotta let loose.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "Coolant Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Work that trigger finger.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_Unaimed_01_Name",
+   "SourceString": "Focal Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_Unaimed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Pistol_Energy_01__SLOT2_Unaimed_01_Lore",
+   "SourceString": "Hipshot!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_DMG_01_Name",
+   "SourceString": "Hollow-point Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_DMG_01_Lore",
+   "SourceString": "The bane of ballistic gel everywhere.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxin-coated Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III. Doesn't do much to humans, but a bullet's still a bullet.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Every bullet counts.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Reload_01_Name",
+   "SourceString": "Quickswap Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Don't forget to yell \"Reloading!\" every time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_DMG_01_Name",
+   "SourceString": "High Caliber Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_DMG_01_Lore",
+   "SourceString": "More bullet for your buck.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_FullAuto_01_Name",
+   "SourceString": "Full Auto",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_FullAuto_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_FullAuto_01_Lore",
+   "SourceString": "Bringing back Turbo Mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Extended Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "Extended Personal Space.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Recoil_01_Name",
+   "SourceString": "High-Grade Spring",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Pistol_Bullet_01__SLOT2_Recoil_01_Lore",
+   "SourceString": "This thing WILL violently launch itself away to never be seen again the instant you start to clean your pistol.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Explosive_01_Name",
+   "SourceString": "Explosive Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Explosive_01_Description",
+   "SourceString": "Impacts cause additional AoE damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Explosive_01_Lore",
+   "SourceString": "Explosives on both ends of the cartridge... that's safe, right?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_DMG_01_Name",
+   "SourceString": "Hollow-point Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_DMG_01_Lore",
+   "SourceString": "The bane of ballistic gel everywhere.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Lower Caliber Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Just shove some more rounds in there, it's fine.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Reload_01_Name",
+   "SourceString": "Quick-load Cylinders",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT1_Reload_01_Lore",
+   "SourceString": "All your friends are shooting and you're STILL reloading? Wow.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_02_Name",
+   "SourceString": "Power Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_02_Lore",
+   "SourceString": "Pro: Keeps people at bay\nCon: They can't see your sweet gun",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Ionized Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "It's pretty cool, but the bullet will just never stop until it hits something and that can be a pretty big problem. For someone else, but still, a problem.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Aim_01_Name",
+   "SourceString": "Internal Damper",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Aim_01_Lore",
+   "SourceString": "They call me \"Gunslinger\" behind my back. At least I tell myself that.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Burst_01_Name",
+   "SourceString": "Double Action",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Burst_01_Description",
+   "SourceString": "Two-shot burst mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT2_Burst_01_Lore",
+   "SourceString": "Are there chiropractors for wrists?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_01_Name",
+   "SourceString": "Improved Holo-dot",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_01_Lore",
+   "SourceString": "The stock holo-dot had too much air resistance, you see.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "2x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Pistol_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a short range scope. No more squinting!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Flare_01_Name",
+   "SourceString": "Flare Gun",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Flare_01_Description",
+   "SourceString": "Fires explosive projectiles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Flare_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_SingleShot_01_Name",
+   "SourceString": "Slug Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_SingleShot_01_Description",
+   "SourceString": "Fires slug rounds that can penetrate targets.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_SingleShot_01_Lore",
+   "SourceString": "People on the receiving end of these have filed complaints...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Scattershot_01_Name",
+   "SourceString": "Scattershot",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Scattershot_01_Description",
+   "SourceString": "Widens the Bulldog's spread pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_Scattershot_01_Lore",
+   "SourceString": "Sometimes you just really don't feel like aiming.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_ClusterShot_01_Name",
+   "SourceString": "Cluster Shells",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_ClusterShot_01_Description",
+   "SourceString": "Tightens the Bulldog's spread pattern, at the cost of lower overall damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_ClusterShot_01_Lore",
+   "SourceString": "Keep it together.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_CritDMG_01_Name",
+   "SourceString": "Shredder Pellets",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_CritDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT1_CritDMG_01_Lore",
+   "SourceString": "Someone put tiny caltrops inside a shotgun and thought that was OK.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Burst_01_Name",
+   "SourceString": "Double-Tap Trigger",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Burst_01_Description",
+   "SourceString": "Quick two-shot burst.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Burst_01_Lore",
+   "SourceString": "We're pretty sure this is just a factory defect they're charging extra for.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Long Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "The Bulldog XL, available now.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Ammo_01_Name",
+   "SourceString": "Shell Divider",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_Ammo_01_Lore",
+   "SourceString": "Split right down the middle.\n\nTrust me, it works.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_RoF_01_Name",
+   "SourceString": "Hardkick Hammers",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_Pistol_Bullet_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Your trigger finger's gonna ache thanks to this.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "\"Osiris, Connecting Prospectors\"",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "High-Efficiency Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "By \"efficient\", we mean we removed the fuses to put more battery in there.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Reload_01_Name",
+   "SourceString": "Lightweight Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Third party battery, your rifle complains about it on every reload.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Splitter_01_Name",
+   "SourceString": "Internal Catalyst",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Splitter_01_Description",
+   "SourceString": "Fires the burst at once in a spread pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Splitter_01_Lore",
+   "SourceString": "For the Prospector that can't decide between a rifle or a shotgun.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_SingleShot_01_Name",
+   "SourceString": "Single Shot Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_SingleShot_01_Description",
+   "SourceString": "Fires single high damage shots.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_SingleShot_01_Lore",
+   "SourceString": "Drevin Kade first commissioned this mod just to brag about his hit ratio.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Burst_01_Name",
+   "SourceString": "Burst Increase",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Burst_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_Burst_01_Lore",
+   "SourceString": "Really just a few more heatsinks and a firmware update.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "Energy Cycler",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": "This'll downgrade the energy efficiency rating.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_02_Name",
+   "SourceString": "High Frequency Emitter",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT2_RoF_02_Lore",
+   "SourceString": "The setting is called \"Battery Drain\" internally.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a scope at the cost of slower ADS.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_02_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Energy_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a scope that enables your feeble eyes to see further than before.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Piercing_01_Name",
+   "SourceString": "Piercing Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Piercing_01_Description",
+   "SourceString": "Rounds pass through hostiles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Piercing_01_Lore",
+   "SourceString": "True ammo efficiency.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Explosive_01_Name",
+   "SourceString": "Explosive Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Explosive_01_Description",
+   "SourceString": "Impacts cause additional AoE damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Explosive_01_Lore",
+   "SourceString": "These were default on the KOR-47 prototypes until Korolev got tired of all the workplace accident reports.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "EM Charged Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Rounds tipped with a tiny stun prod to mess with powered kits and regenerative nanites.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Sometimes you really need an extra handful of rounds.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_CritDMG_01_Name",
+   "SourceString": "Shredder Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_CritDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT1_CritDMG_01_Lore",
+   "SourceString": "Someone looked at art of a bullet wrapped in barbwire and said \"I want that\".",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_BurstFire_01_Name",
+   "SourceString": "Burst Fire",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_BurstFire_01_Description",
+   "SourceString": "Quick 3-shot burst mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_BurstFire_01_Lore",
+   "SourceString": "The eternal classic.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_DMG_01_Name",
+   "SourceString": "Expanded Caliber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_DMG_01_Lore",
+   "SourceString": "More bullet for your buck.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Long Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "Size matters.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Cycler",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Never gonna stop, Yeah!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a scope at the cost of slower ADS.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a sweet holo sight and only slightly increases ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Hollow Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "Replaces the default \"lump of metal\" stock with a hollow frame filled with foam.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_AR_Bullet_01__Recoil_01_Lore",
+   "SourceString": "Also an alternative for weightlifting.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_Gyrojet_01_Name",
+   "SourceString": "Missile Flechettes",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_Gyrojet_01_Description",
+   "SourceString": "Fires exploding missiles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_Gyrojet_01_Lore",
+   "SourceString": "Fires. Exploding. MISSILES.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_DMG_01_Name",
+   "SourceString": "Heavy Flechettes",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_DMG_01_Lore",
+   "SourceString": "More damaging than the standard flechettes, they also fall much faster.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Needles",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Mercury Infused Needles",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Mercury poisoning, legitimately terrifying.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Burst_01_Name",
+   "SourceString": "Bundle Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Burst_01_Description",
+   "SourceString": "Fires multiple flechettes in a fan pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Burst_01_Lore",
+   "SourceString": "\"Flechette Hell\" doesn't have the same ring to it, but you get the idea.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Range_01_Name",
+   "SourceString": "Power Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_Range_01_Lore",
+   "SourceString": "For a conistent punch at any range.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Turn your foes into pincushions.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a scope that helps you find new friends.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a holo sight and a bit to the ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT4_MoveSpeed_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT4_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT4_MoveSpeed_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_SpreadRecoil_01_Name",
+   "SourceString": "Spring Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_SpreadRecoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Needle_01__SLOT2_SpreadRecoil_01_Lore",
+   "SourceString": "Flechette weapons may not have as much kick as their peers, but your shoulder will still appreciate this.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Range_01_Name",
+   "SourceString": "Flash Modulator",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Range_01_Lore",
+   "SourceString": "A more concentrated beam to achieve a long range.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Heavy Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "A bit more power to keep the lightshow going.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_AI&CritDMG_01_Name",
+   "SourceString": "Burn Modulator",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_AI&CritDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT1_AI&CritDMG_01_Lore",
+   "SourceString": "Good news, the wildlife here really don't like fire.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_DMG_01_Name",
+   "SourceString": "Heavy Inductor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_DMG_01_Lore",
+   "SourceString": "Charge up that laser.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_02_Name",
+   "SourceString": "Crossed Resistor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_02_Lore",
+   "SourceString": "The optimal choice for those that can stay on target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_01_Name",
+   "SourceString": "Charged Capacitor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT2_Spinup_01_Lore",
+   "SourceString": "For faster results.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_02_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Some call it a scope, some call it a glorified laser pointer.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Short-range scope.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Ergonomic Grip",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll forget you're holding a laser rifle.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_MoveSpeed_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_MoveSpeed_01_Description",
+   "SourceString": "Increases movement speed, at the cost of higher recoil and spread.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_AR_Beam_01__SLOT4_MoveSpeed_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "Warning: Live Current",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Splitter_01_Name",
+   "SourceString": "Fractal Batteries",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Splitter_01_Description",
+   "SourceString": "Fires multiple shots at once in a spread pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Splitter_01_Lore",
+   "SourceString": "The more effective aim-assist.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Heavy Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Enough to power a Really Good Time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_02_Name",
+   "SourceString": "Lightweight Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_02_Lore",
+   "SourceString": "The compulisive reloader's choice.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_01_Name",
+   "SourceString": "Magnetized Batteries",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Keeps the party going!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "Energy Cycler",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": "It's a good thing this tech is powered by renewable energy!\n\n\n(it's not)",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Range_01_Name",
+   "SourceString": "Barrel Coils",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Range_01_Lore",
+   "SourceString": "The range boost is worth a little extra weight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Spread_01_Name",
+   "SourceString": "Internal Stabilizer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Keep it steady...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a scope at the cost of slower ADS.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT3_Scope_01_Lore",
+   "SourceString": "See a bit further on your brute with a sweet holo sight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Sleek Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "No more catching on your fancy outfit.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Recoil_01_Description",
+   "SourceString": "Reduces recoil, but slows down equip and aim-in times.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SMG_Energy_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_DMG_01_Name",
+   "SourceString": "Hollow-Point Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_DMG_01_Lore",
+   "SourceString": "Delivering expansive experiences.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxin Coated Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III. Doesn't do much to humans, but a bullet's still a bullet.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Sometimes you really need an extra handful of rounds.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Reload_01_Name",
+   "SourceString": "Quickswap Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT1_Reload_01_Lore",
+   "SourceString": ",",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_DMG_01_Name",
+   "SourceString": "High Caliber Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_DMG_01_Lore",
+   "SourceString": "More bullet for your buck.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Burst_01_Name",
+   "SourceString": "Burst Mode",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Burst_01_Description",
+   "SourceString": "3-shot burst fire mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Burst_01_Lore",
+   "SourceString": "Set the rhythm.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Range_01_Name",
+   "SourceString": "Extended Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Range_01_Lore",
+   "SourceString": "Extended Personal Space.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Recoil_01_Name",
+   "SourceString": "Control Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT2_Recoil_01_Lore",
+   "SourceString": "Self-control can be difficult, let us help.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a scope and slightly raises ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT3_Scope_01_Lore",
+   "SourceString": "If you like then put a holo sight on it.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "Even lighter!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Recoil_01_Description",
+   "SourceString": "Reduces recoil, but increases aim-in time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_SMG_Bullet_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Hipfiring never felt better.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Shards",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "These pretty Fortuna III rocks used to be sold in Fortuna III tourist shops; turns out they're poisonous to the locals...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Quicksilver Coating",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Porous enough for a bit of mercury to seep in... and then seep out.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Heavy-Duty Container",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Just don't drop it.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Reload_01_Name",
+   "SourceString": "Lightweight Container",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Snaps right in.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Range_01_Name",
+   "SourceString": "Heavy Slicer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Range_01_Lore",
+   "SourceString": "Now you, too, can be a gemcutter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Burst_01_Name",
+   "SourceString": "Burst Mode",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Burst_01_Description",
+   "SourceString": "4-shot burst fire mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Burst_01_Lore",
+   "SourceString": "Set the rhythm.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Recoil_01_Name",
+   "SourceString": "Control Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT2_Recoil_01_Lore",
+   "SourceString": "Self-control can be difficult, let us help.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a scope that let's you stay on top of your fellow prospectors.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Handle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SMG_Shard_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Nice and sturdy.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_ProjectileSpeed_01_Name",
+   "SourceString": "Propellant Flechettes",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_ProjectileSpeed_01_Lore",
+   "SourceString": "Tiny rockets for everyone!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_Piercing_01_Name",
+   "SourceString": "Piercing Needles",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_Piercing_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_Piercing_01_Lore",
+   "SourceString": "These little guys have the \"can do\" attitude to power through opposition.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Needles",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_AIDMG_01_Description",
+   "SourceString": "Increases damage to Fortuna III creatures, but reduces damage to rival prospectors.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III. Smells like vanilla...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Mercury-Infused Needles",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Mercury poisoning, legitimately terrifying.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Burst_01_Name",
+   "SourceString": "Bundle Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Burst_01_Description",
+   "SourceString": "Fires multiple flechettes in a fan pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Burst_01_Lore",
+   "SourceString": "\"Flechette Hell\" doesn't have the same ring to it, but you get the idea.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Range_01_Name",
+   "SourceString": "Power Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_Range_01_Lore",
+   "SourceString": "For a conistent punch at any range.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Ejector",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Turn your foes into pincushions.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a holo sight, so you can see further.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT4_Aim_01_Name",
+   "SourceString": "Ergonomic Grip",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT4_Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT4_Aim_01_Lore",
+   "SourceString": "Fits just right.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_SpreadRecoil_01_Name",
+   "SourceString": "Heavy Handle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_SpreadRecoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_SMG_Needle_01__SLOT2_SpreadRecoil_01_Lore",
+   "SourceString": "Nice and sturdy.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "\"Osiris, Connecting Prospectors\"",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Splitter_01_Name",
+   "SourceString": "Fractal Batteries",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Splitter_01_Description",
+   "SourceString": "Fires multiple shots at once in a spread pattern.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Splitter_01_Lore",
+   "SourceString": "The more effective aim-assist.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Shock_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Shock_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Shock_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Heavy Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Increase your rifle's battery life with this simple mod!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Reload_02_Name",
+   "SourceString": "Lightweight Batteries",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Reload_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT1_Reload_02_Lore",
+   "SourceString": "The compulisive reloader's choice.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_DMG_01_Name",
+   "SourceString": "The Capacitor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_DMG_01_Lore",
+   "SourceString": "Takes a bit longer to recharge, but delivers a good shock.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_01_Name",
+   "SourceString": "Heavy Frame",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_01_Lore",
+   "SourceString": "Denser, heavier, more stable.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_02_Name",
+   "SourceString": "Shock Absorber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT2_Recoil_02_Lore",
+   "SourceString": "Diverts a bit of power to keeping the rifle stable after every shot.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_02_Name",
+   "SourceString": "8x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Increases the magnification level while aiming down sights.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT3_Scope_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Equip_01_Name",
+   "SourceString": "Ergonomic Grip",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Equip_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Equip_01_Lore",
+   "SourceString": "Fits just right.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Move_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Move_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Move_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Recoil_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_Sniper_Energy_01__SLOT4_Recoil_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Piercing_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Piercing_01_Description",
+   "SourceString": "Shots travel through targets",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Piercing_01_Lore",
+   "SourceString": "Shaped slabs with hardened tips. They'll fly through most creatures without them even realizing they were hit.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Slabs",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Slabs modified to carry a mix toxic to most of the fauna of Fortuna III. The added complexity to the slab reduces damage to other targets, though it's unlikely they'll be celebrating that when hit.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Reload_01_Name",
+   "SourceString": "Magnetic Slabs",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Magnets make everything better.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_DMG_01_Name",
+   "SourceString": "\"The Splinter\"",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_DMG_01_Lore",
+   "SourceString": "Slabs splinter on impact. You can picture what happens to the target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_ProjectileSpeed_01_Name",
+   "SourceString": "Low Caliber Slabs",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT1_ProjectileSpeed_01_Lore",
+   "SourceString": "Smaller slabs go faster, obviously.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT2_MoveSpeed_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT2_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT2_MoveSpeed_01_Lore",
+   "SourceString": "Not a heavy metal fan?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_03_Name",
+   "SourceString": "8x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_03_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_03_Lore",
+   "SourceString": "Adds a long range scope. That zoom level though...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_02_Name",
+   "SourceString": "Improved 4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a more aerodynamic scope for a faster ADS.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_MoveSpeed_01_Name",
+   "SourceString": "Lightweight Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_MoveSpeed_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_EquipSpeed_01_Name",
+   "SourceString": "Ergonomic Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_EquipSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Sniper_Gauss_01__SLOT4_EquipSpeed_01_Lore",
+   "SourceString": "For relative values of \"ergonomic\"; this is still Korolev, after all.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "Makes every encounter positively electric.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Splitter_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Splitter_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Splitter_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Reload_01_Name",
+   "SourceString": "Lightweight battery belt",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Reload_01_Lore",
+   "SourceString": "By which we mean the belt is shorter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Light Container",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Snaps right in.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "Overclocked Core",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Charge up and release hell.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Spread_01_Name",
+   "SourceString": "Conversion Chamber Stabilizer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Keeps things steady for you.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Range_01_Name",
+   "SourceString": "Long Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT2_Range_01_Lore",
+   "SourceString": "Reaching? Me?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_03_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_03_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_03_Lore",
+   "SourceString": "Adds a scope with a slower ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_02_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_02_Lore",
+   "SourceString": "See much further at the cost of slow ADS.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a holo sight. So you can see further and look cool doing it.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_LMG_Energy_01__Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_EnergyChain_01_Name",
+   "SourceString": "Chain Reaction",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_EnergyChain_01_Description",
+   "SourceString": "Shots carry on to hit enemies near target.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_EnergyChain_01_Lore",
+   "SourceString": "How the Maelstrom was meant to be used.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Splitter_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Splitter_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Splitter_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Heavy Battery Drum",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Denser material, more power.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Anti-Personnel Wavelengths",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "The perfect wavelength for cooking hum-\n\nYou know, some things are best left unsaid...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Reload_01_Name",
+   "SourceString": "Light Alloy Drum Battery",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Snaps right in.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Splitter_01_Name",
+   "SourceString": "Fractal Crystal",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Splitter_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Splitter_01_Lore",
+   "SourceString": "Peak energy saturation.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Range_01_Name",
+   "SourceString": "Focus Crystals",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_Range_01_Lore",
+   "SourceString": "Some pricier, and heavier, focusser crystals for improved range.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_RoF_01_Name",
+   "SourceString": "High Frequency Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Tweak the amplitude and frequency for mode shots.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a scope which slows ADS time slightly.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__SLOT3_Scope_01_Lore",
+   "SourceString": "See a bit further by adding a better sight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__Recoil_01_Name",
+   "SourceString": "Extended Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__Recoil_01_Lore",
+   "SourceString": "Keeps the kick under control.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__MoveSpeed_01_Name",
+   "SourceString": "Lightweight Handle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_SGun_Energy_01__MoveSpeed_01_Lore",
+   "SourceString": "Easier on the wrists.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_SingleShot_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_SingleShot_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_SingleShot_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Shards",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "These pretty Fortuna III rocks used to be sold in Fortuna III tourist shops; turns out they're poisonous to the locals...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_Splitter_01_Name",
+   "SourceString": "Unstable Material",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_Splitter_01_Description",
+   "SourceString": "Unpredictable spread.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_Splitter_01_Lore",
+   "SourceString": "Still more stable than most Prospectors.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Quicksilver Coating",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Porous enough for a bit of mercury to seep in... and then seep out.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Spread_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Spread_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_02_Name",
+   "SourceString": "Automatic Repeater",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_02_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Range_01_Name",
+   "SourceString": "Long Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Range_01_Lore",
+   "SourceString": "For that sweet long-range shotgun action.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Equip&Aim_01_Name",
+   "SourceString": "Short Barrel",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_Equip&Aim_01_Lore",
+   "SourceString": "The brawler's choice.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_01_Name",
+   "SourceString": "Reactive Lever",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT2_RoF_01_Lore",
+   "SourceString": "A more complex loading mechanism; just make sure you're a good shot.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Scopes. For when you need a closer look.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT3_Scope_01_Lore",
+   "SourceString": "See a bit further by adding a holo sight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Handle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Handle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_SGun_Shard_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Keeps the kick under control.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Piercing_01_Name",
+   "SourceString": "Piercing Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Piercing_01_Description",
+   "SourceString": "Rounds pass through hostiles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Piercing_01_Lore",
+   "SourceString": "For that perfect shot.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_DMG_01_Name",
+   "SourceString": "Hollow-Point Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_DMG_01_Lore",
+   "SourceString": "The bane of ballistic gel everywhere.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxin-coated Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "Rounds carrying toxins particularly harmful to the creatures of Fortuna III. Doesn't do much to humans, but a bullet's still a bullet.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Every bullet counts.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Reload_01_Name",
+   "SourceString": "Quickswap Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Don't forget to yell \"Reloading!\" every time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_DMG_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_DMG_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Cartridge Feeder",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_RoF_01_Lore",
+   "SourceString": "The less time not shooting, the better.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_Spread_01_Name",
+   "SourceString": "Shock Absorber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Better compensation when hipfiring, for whenever you're forced to.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_04_Name",
+   "SourceString": "8x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_04_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_04_Lore",
+   "SourceString": "Mightey large scope you got there, partner.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_03_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_03_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_03_Lore",
+   "SourceString": "The mid-range scope that'll help you see what's good.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a small scope, with a slightly increased ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_01_Name",
+   "SourceString": "Holographic Sight",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT3_Scope_01_Lore",
+   "SourceString": "See a bit further by adding a holo sight.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Recoil_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_BR_Bullet_01__SLOT4_Recoil_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Explosive_01_Name",
+   "SourceString": "Explosive Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Explosive_01_Description",
+   "SourceString": "Impacts cause additional AoE damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Explosive_01_Lore",
+   "SourceString": "First impression matter, go in with a bang.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_DMG_01_Name",
+   "SourceString": "Hollow-Point Rounds",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_DMG_01_Lore",
+   "SourceString": "Like a succesful startup, start small and go big fast.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Extended Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Sometimes you really need an extra handful of rounds.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Reload_01_Name",
+   "SourceString": "Quickswap Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Don't forget to yell \"Reloading!\" every time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_DMG_01_Name",
+   "SourceString": "High Caliber Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_DMG_01_Lore",
+   "SourceString": "More bullet for your buck.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Burst_02_Name",
+   "SourceString": "Burst Mode",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Burst_02_Description",
+   "SourceString": "Quick 3-shot burst mode.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Burst_02_Lore",
+   "SourceString": "The eternal classic.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Cartridge Feeder",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_RoF_01_Lore",
+   "SourceString": "The lead must flow.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Spread_01_Name",
+   "SourceString": "Stabilizer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Better compensation when hipfiring, for wheneve you're force to.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_04_Name",
+   "SourceString": "8x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_04_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_04_Lore",
+   "SourceString": "For every gun, a scope. To see the finer details.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_03_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_03_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_03_Lore",
+   "SourceString": "This mid-range scope is perfect for scouting.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_02_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Adds a small scope, with a slightly increased ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_BR_Bullet_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_AIDMG_01_Name",
+   "SourceString": "Xenotoxic Shards",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_AIDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_AIDMG_01_Lore",
+   "SourceString": "These pretty Fortuna III rocks used to be sold in Fortuna III tourist shops; turns out they're poisonous to the locals...",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_PlayerDMG_01_Name",
+   "SourceString": "Quicksilver Coating",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_PlayerDMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_PlayerDMG_01_Lore",
+   "SourceString": "Porous enough for a bit of mercury to seep in... and then seep out.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Ammo_01_Name",
+   "SourceString": "Enriched Material",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Ammo_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Ammo_01_Lore",
+   "SourceString": "Use a denser crystal for a few more shots.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Reload_01_Name",
+   "SourceString": "Porous Material",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT1_Reload_01_Lore",
+   "SourceString": "Lower grade, but easier to reload.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_DMG_01_Name",
+   "SourceString": "Heavy Slicer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_DMG_01_Lore",
+   "SourceString": "Now you, too, can be a gemcutter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_Auto_01_Name",
+   "SourceString": "Automatic Slicer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_Auto_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_Auto_01_Lore",
+   "SourceString": "Your trigger finger needs a vacation, don't you think?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Slicer",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Lives up to the \"Lacerator\" name.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_02_Name",
+   "SourceString": "4x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_02_Lore",
+   "SourceString": "Switch up your Lacerator game by adding a mid-range scope. The increased ADS is worth it.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_01_Name",
+   "SourceString": "1.5x Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Adds a small scope, with a slight increase to ADS time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Equip&Aim_01_Name",
+   "SourceString": "Light Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Equip&Aim_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Equip&Aim_01_Lore",
+   "SourceString": "You'll appreciate it after carrying this thing for a few miles.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_BR_Shard_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Improves stability just enough to matter.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_DMG_01_Name",
+   "SourceString": "Long Fuse Grenades",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_DMG_01_Lore",
+   "SourceString": "Grenades take some extra time to explode. The extra damage makes it all worth the wait.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_Reload_01_Name",
+   "SourceString": "Magnetic Magazine",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT1_Reload_01_Lore",
+   "SourceString": "It practically reloads itself. Thanks, science!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_02_Name",
+   "SourceString": "NOT IMPLEMENTED",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_02_Lore",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_Range_01_Name",
+   "SourceString": "Mortar Launcher",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_Range_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_Range_01_Lore",
+   "SourceString": "When you need express delivery.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_01_Name",
+   "SourceString": "Rapid Launcher",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_E_Launch_Nade_01__SLOT2_RoF_01_Lore",
+   "SourceString": "Great for an itchy trigger finger.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_ProjectileSpeed_01_Name",
+   "SourceString": "Rapid Rockets",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_ProjectileSpeed_01_Lore",
+   "SourceString": "Connect with prospectors in your area! Fast! Guaranteed!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_BlastRadius_01_Name",
+   "SourceString": "T.N.T Rockets",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_BlastRadius_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT1_BlastRadius_01_Lore",
+   "SourceString": "Bigger blast, less waste. So efficient!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_DMG_01_Name",
+   "SourceString": "Big Bertha",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_DMG_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_DMG_01_Lore",
+   "SourceString": "It's a big ole' missle!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_ProjectileSpeed_02_Name",
+   "SourceString": "Booster Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_ProjectileSpeed_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_ProjectileSpeed_02_Lore",
+   "SourceString": "Spread out, my pretties!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_Spread_01_Name",
+   "SourceString": "Streamlined Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Tighter grouping for when you really need it!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT3_Scope_01_Name",
+   "SourceString": "2X Scope",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT3_Scope_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT3_Scope_01_Lore",
+   "SourceString": "Increases the magnification level while aiming down sights.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Movespeed_01_Name",
+   "SourceString": "Light Weight Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Movespeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Movespeed_01_Lore",
+   "SourceString": "Freedom of movement is key.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Recoil_01_Name",
+   "SourceString": "Heavy Weight Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Recoil_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_Launch_MSL_01__SLOT4_Recoil_01_Lore",
+   "SourceString": "Gives it a nice, sturdy feel.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_AoE_01_Name",
+   "SourceString": "T.N.T Payload",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_AoE_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_AoE_01_Lore",
+   "SourceString": "Gives you a much more explosive personality.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_ProjectileSpeed_01_Name",
+   "SourceString": "Aerodynamic Shells",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_ProjectileSpeed_01_Description",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT1_ProjectileSpeed_01_Lore",
+   "SourceString": "Pow! Right in the kisser!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_MoveSpeed_01_Name",
+   "SourceString": "Light Alloy Body",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_MoveSpeed_01_Lore",
+   "SourceString": "A lighter frame that enables faster movement with the cannon. You'll barely notice it's there.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_Spread_01_Name",
+   "SourceString": "Precision Chamber",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_Spread_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_Spread_01_Lore",
+   "SourceString": "Focus!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_ProjectileSpeed_01_Name",
+   "SourceString": "T.N.T Propellant",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_A_HVY_Shell_01__SLOT2_ProjectileSpeed_01_Lore",
+   "SourceString": "This thing launches projectiles so fast, they injure the operator! Ship it!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_SpinUp_01_Name",
+   "SourceString": "Focus Core",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_SpinUp_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_SpinUp_01_Lore",
+   "SourceString": "Remember using a magnifying glass with the sun to burn ants? Same concept.\n\nWait, what do you mean \"normal kids don't do that\"?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_RoF_01_Name",
+   "SourceString": "Hyper Core",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT1_RoF_01_Lore",
+   "SourceString": "Focus is overrated.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_MoveSpeed_01_Name",
+   "SourceString": "Light Alloy Body",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_MoveSpeed_01_Lore",
+   "SourceString": "A lighter frame that will make you able to run as fast as Hermes with this one!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_Reload_01_Name",
+   "SourceString": "Streamlined Core Port",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_Reload_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_Reload_01_Lore",
+   "SourceString": "Mags just slide right in.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_SpinUp_02_Name",
+   "SourceString": "Express Charger",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_SpinUp_02_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_G_HVY_Beam_01__SLOT2_SpinUp_02_Lore",
+   "SourceString": "Turns out you can overclock this think by moving a jumper pin, this is just the heatsink.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_RoF_01_Name",
+   "SourceString": "Direct Haze Injectors",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_RoF_01_Lore",
+   "SourceString": "AKA The Bubble Blaster!",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_ProjectileSpeed_01_Name",
+   "SourceString": "Solid Matter Reactor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_ProjectileSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT2_ProjectileSpeed_01_Lore",
+   "SourceString": "Sometimes you need to prioritize damage over ammo.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_MoveSpeed_01_Name",
+   "SourceString": "Light Weight Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_MoveSpeed_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_MoveSpeed_01_Lore",
+   "SourceString": "Not quite fun size.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_RoF_01_Name",
+   "SourceString": "Heavy Stock",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_RoF_01_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_D_HVY_Exotic_01__SLOT4_RoF_01_Lore",
+   "SourceString": "You've been hitting the gym, right?",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Weapon_Unavailable_Name",
+   "SourceString": "WIP",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ExtraCharge_Name",
+   "SourceString": "Extra Charges",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ExtraCharge_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ExtraCharge_Lore",
+   "SourceString": "Gain one additional charge of suit energy. Also reduces slide speed.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ArmorDodge_Name",
+   "SourceString": "Armor Dodge",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ArmorDodge_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_ArmorDodge_Lore",
+   "SourceString": "Reduced damage taken while dodging.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_LongSlide_Name",
+   "SourceString": "Longslide",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_LongSlide_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_LongSlide_Lore",
+   "SourceString": "Longer slide, one less charge of suit energy.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_HealthCharge_Name",
+   "SourceString": "Super Fragile Charges",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_HealthCharge_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_G_EnhancedReflexes_01__SLOT1_HealthCharge_Lore",
+   "SourceString": "Increased amount of suit energy charges, but each time you take damage one is temporarily lost",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_DiveAngle_Name",
+   "SourceString": "Dive Angle",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_DiveAngle_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_DiveAngle_Lore",
+   "SourceString": "Enables you to trigger the Jetpack Slam attack at a steeper angle.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Slow_Name",
+   "SourceString": "Slow and Steady",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Slow_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Slow_Lore",
+   "SourceString": "Weaker jetpack thrusters, however you can stay in the air for longer due to reduced fuel consumption.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Catapult_Name",
+   "SourceString": "Catapult",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Catapult_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_Catapult_Lore",
+   "SourceString": "Extremely strong jetpack thrusters, but thirsty like a whale for jetfuel.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_AimToHover_Name",
+   "SourceString": "Aim To Hover",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_AimToHover_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_D_Jetpack_01__SLOT1_AimToHover_Lore",
+   "SourceString": "While aiming in the air you descend very slowly.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_ChargeDMG_Name",
+   "SourceString": "Charge Damage",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_ChargeDMG_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_ChargeDMG_Lore",
+   "SourceString": "Wider and stronger charge punch damage, weaker super-jump.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_SuperJump_Name",
+   "SourceString": "Super Duper Jump",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_SuperJump_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_SuperJump_Lore",
+   "SourceString": "Stronger super-jump, decreased charge punch damage.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_Shield_Name",
+   "SourceString": "Shield",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_Shield_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_Shield_Lore",
+   "SourceString": "Additional shields, slower movement speed.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_FastPunch_Name",
+   "SourceString": "Fast Punch",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_FastPunch_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_A_HeavyArmor_01__SLOT1_FastPunch_Lore",
+   "SourceString": "Faster charge punch, only deals damage on direct hits, slightly faster movement speed and weaker jump.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__*_____________________________________________*",
+   "SourceString": "",
+   "Comment": "****************************************************************",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_LessInterrupt_Name",
+   "SourceString": "Less Interruptions",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_LessInterrupt_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_LessInterrupt_Lore",
+   "SourceString": "Less effected by damage interruption when interacting, slower ability cooldowns.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_Regen_Name",
+   "SourceString": "Improved Regen",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_Regen_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_Regen_Lore",
+   "SourceString": "Shorter HP regen delay, increased HP regen speed, slower ability cooldowns.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_BuffLowHP_Name",
+   "SourceString": "Low HP Defense",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_BuffLowHP_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_BuffLowHP_Lore",
+   "SourceString": "When on Low HP you become faster, stronger and better at reloading. Also ability cooldowns are slower... Not super catchy, but it's true.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_SprintArmor_Name",
+   "SourceString": "Reduced Damage While Sprinting",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_SprintArmor_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_SprintArmor_Lore",
+   "SourceString": "Does what it says on the label.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_MoreShield_Name",
+   "SourceString": "Stronger Shields",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_MoreShield_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_MoreShield_Lore",
+   "SourceString": "Shields increased by 100, maximum movement speed is lowered.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_CreditGain_Name",
+   "SourceString": "Credit Gain Slot 2",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_CreditGain_Description",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT2_CreditGain_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionBuff_Name",
+   "SourceString": "Damage Increase on Kills",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionBuff_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionBuff_Lore",
+   "SourceString": "Damage increase and cooldown reduction when performing kills.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionHeal_Name",
+   "SourceString": "Heal on Kills",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionHeal_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExecutionHeal_Lore",
+   "SourceString": "Gain HP when performing kills. Health regeneration cooldown is increased.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExpGain_Name",
+   "SourceString": "XP Gain",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExpGain_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_ExpGain_Lore",
+   "SourceString": "Gain more XP, but have reduced health.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_CreditGain_Name",
+   "SourceString": "Credit Gain Slot 3",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_CreditGain_Description",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_CreditGain_Lore",
+   "SourceString": "",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_InAirArmor_Name",
+   "SourceString": "In Air Armor",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_InAirArmor_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT3_InAirArmor_Lore",
+   "SourceString": "Increased defense while in the air, also deal less damage at the same time.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_PistolDMG_Name",
+   "SourceString": "Pistol Master",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_PistolDMG_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_PistolDMG_Lore",
+   "SourceString": "More effective handling of pistols.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_CooldownBuff_Name",
+   "SourceString": "Faster Ability Cooldowns",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_CooldownBuff_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_CooldownBuff_Lore",
+   "SourceString": "Ability cooldowns are slightly faster, maximum movement speed is slightly reduced.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_InAirDMG_Name",
+   "SourceString": "In Air Damage",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_InAirDMG_Description",
+   "SourceString": " ",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "Key": "Mods_Kit_All__SLOT4_InAirDMG_Lore",
+   "SourceString": "Deal more and receive more damage while in the air.",
+   "Comment": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ }
+]
