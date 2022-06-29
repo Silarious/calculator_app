@@ -2,6 +2,10 @@
 //* Import JS Files
 import { load_JSON } from "./loadData.js";
 
+//*Global Variables
+var date = new Date();
+var slots = ["SLOT1","SLOT2","SLOT3","SLOT4"];
+
 //* Filter Real Weapons
 //Not all objects in PRO_Tuning are usable/real weapons, filtering and creating variables for real weapons is done here.
 const weaponCodeNameList = [];
@@ -50,7 +54,6 @@ for (let y = 0; y < weaponVanityName.length; y++) {
     }
 }
 
-
 //* Weapons Protectile Import
 //Appending useful information from PRO_Transport to weapon variables.
 const transport = PRO_Transport[0].Rows //transport is used in all evals below, do not delete cause its "Unused"
@@ -75,37 +78,33 @@ for (let key in mods) { // Only show objects that pass the filter for the weapon
         mods[key].weaponName = key.replace('MOD',"WP").split('__')[0];
         mods[key].slot = key.split('__')[1].split('_')[0];
         let perkRowHandle = mods[key].m_perkRowHandle.DataTable;
-         if (perkRowHandle !== null && perkRowHandle.ObjectPath === "Prospect/Content/DataTables/PRO_ModPerks.0"){
+        if (perkRowHandle !== null && perkRowHandle.ObjectPath === "Prospect/Content/DataTables/PRO_ModPerks.0"){
             let modName = mods[key].m_perkRowHandle.RowName;
-            mods[key].m_attributeMods = eval("modPerks."+modName+".m_attributeModifiers")
+            mods[key].m_attributeMods = eval("modPerks."+modName+".m_attributeModifiers");
         }
         mods[key].vanityName = ST_Mods.filter(function(weapon) {
-            return weapon.Key.includes(mods[key].m_modName.Key) && !weapon.SourceString.includes('NOT IMPLEMENTED')
+            return weapon.Key.includes(mods[key].m_modName.Key) && !weapon.SourceString.includes('NOT IMPLEMENTED');
         });
-        
-
         modCodeNameList.push(mods[key].m_rowName); 
     }
+    //Mods with Ampersand broke strings into 2 parts, this loop creates a new key without & and deletes old key.
+    if (String(key).includes("&")) {
+        let oldKey = key;
+        let newKey = key.replace("&","");
+        mods[newKey] = mods[oldKey];
+        delete mods[oldKey];
+    }
 }
-console.log(mods);
-console.log(WP_A_AR_Bullet_01);
-
 
 //* Complex Weapon Stats
 // Calculating and appending stats that require equation using other stats from the weapons variables.
 // Total Damage Calculation, Weakspot/Headshot Calculation, Movement Speed Calculation
 
 for (let i = 0; i < weaponCodeNameList.length; i++) {
-    eval(weaponCodeNameList[i]+'.m_totalDamage' + '=('
-     + weaponCodeNameList[i]+'.m_directDamage ' + '+'
-     + weaponCodeNameList[i]+'.m_radialDamage) ' + '*'
-     + weaponCodeNameList[i]+'.m_amountOfImmediateFires;');
-    eval(weaponCodeNameList[i]+'.m_headshotDamage' + '=((('
-     + weaponCodeNameList[i]+'.m_directDamage ' + '+'
-     + weaponCodeNameList[i]+'.m_radialDamage) ' + '*'
-     + weaponCodeNameList[i]+'.m_weakAreaDamageMultiplier)'+ '*'
-     + weaponCodeNameList[i]+'.m_amountOfImmediateFires).toFixed(0)');
-    eval(weaponCodeNameList[i]+'.m_movementSpeed =' + weaponCodeNameList[i]+'.m_movementSpeedMultiplier * 3.91')
+    eval(weaponCodeNameList[i]+'.m_movementSpeed = (' + weaponCodeNameList[i]+'.m_movementSpeedMultiplier * 3.91).toFixed(2)');
+    eval(weaponCodeNameList[i]+'.m_rangeMultiplier = 1');
+    eval(weaponCodeNameList[i]+'.m_piercing = 0');
+    eval(weaponCodeNameList[i]+'.m_weaponTargetingFOV = null');
 }
 
 //* Create Selection Boxes
@@ -140,7 +139,6 @@ sortSelection('weaponSelection');
 
 // Listen and execute function when new weapon is selected.
 function updateWeaponSelection () {
-    let slots = ["SLOT1","SLOT2","SLOT3","SLOT4"];
     for (let i = 0; i < slots.length; i++) {
         let modSlot = document.getElementById(slots[i]);
 
@@ -152,10 +150,14 @@ function updateWeaponSelection () {
         option.setAttribute("value",0);
         option.setAttribute("m_krypto",0);
         modSlot.add(option);
-        document.getElementById(slots[i]).selectedIndex = "0";
+        document.getElementById(slots[i]).selectedIndex = '0';
+/*         document.getElementById('SLOT1').selectedIndex = getCookie('SLOT1');
+        document.getElementById('SLOT2').selectedIndex = getCookie('SLOT2');
+        document.getElementById('SLOT3').selectedIndex = getCookie('SLOT3');
+        document.getElementById('SLOT4').selectedIndex = getCookie('SLOT4'); */
 
         for (let key in mods) {
-            if (mods[key].slot === slots[i] && mods[key].weaponName === weaponSelection.options[weaponSelection.selectedIndex].id){
+            if (mods[key].slot === slots[i] && mods[key].weaponName === weaponSelection.options[weaponSelection.selectedIndex].id && mods[key].m_attributeMods.length > 0){
                 let option = document.createElement("option");
                 //option.text = mods[key].vanityName[0].SourceString;
                 option.text = key;
@@ -170,140 +172,264 @@ function parameterAdjustment(w_parameterValue, w_modifierType, w_modifierValue){
     var result;
     switch (w_modifierType) {
       case 'Additive':
-        result = w_parameterValue + w_modifierValue;
+        result = Number(w_parameterValue + w_modifierValue);
         break;
       case 'Multiplicitive_PreAdd':
-        result = w_parameterValue * w_modifierValue;
+        result = Number(w_parameterValue * w_modifierValue);
         break;
       case 'Multiplicitive_PostAdd':
-        result = w_parameterValue * w_modifierValue;
+        result = Number(w_parameterValue * w_modifierValue);
         break;
       case 'Override':
-        result = w_modifierValue;
+        result = Number(w_modifierValue);
     }
     return result;
   }
 
-//TODO: Move these arrays to global object at beginning of app.js
-var visibleAttributes = ["m_directDamage","m_radialDamage","m_totalDamage","m_headshotDamage","m_directDamageFalloffMultiplier",
+
+//Add each weapon attribute to array, this array is used for dyanamic varible declaration
+var attributes = [];
+for (let key in WP_A_AR_Bullet_01){
+    attributes.push(key);
+};
+
+//Array of attributes that there is a table cell for in index.html
+var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier",
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
 "m_reloadTime","m_targetingTime","m_initialProjectileSpeed"];
+//Same as visAttributes but for "Detailed Stats" section
+var calcAttributes = ["totalDamage","headshotDamage","DPS","RPM","damagePerMag","shotsToKill","TTK"];
 
-var detailedAttributes = ["DPS","RPM","damagePerMag","shotsToKill","TTK"]
+function calculateWeaponStats(Modded,Init){
+    let wep = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
 
-function recalculateWeaponStats(){
-    let obj = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
-
+    //Query user input and declare them.
     let accuracy = parseFloat(document.getElementById('accuracySlider').value/100);
     let headshotAccuracy = parseFloat(document.getElementById('headshotAccuracySlider').value/100);
     let headshotaccuracy2 = accuracy * headshotAccuracy;
     let accuracy2 = accuracy - headshotaccuracy2;
-
     let health = parseInt(document.getElementById('healthSlider').value);
-
     let tt = document.getElementById("target_selection");
-    let targetType = tt.options[tt.selectedIndex].getAttribute('id') ;
-    let directDamage;
+    let targetType = tt.options[tt.selectedIndex].getAttribute('id');
+
+    //let 
+    let m_chainReactionRadius = 0.0;
+    let m_chainReactionDamageReduction = 1.0;
+    let m_applyChainReaction = 0;
+
+
+    for (let i = 0; i < attributes.length; i++) {
+        window[attributes[i]] = eval("wep." + attributes[i]);
+    };
+    if (Modded === true) {
+        for (let i = 0; i < slots.length; i++) {
+            let mod = eval("document.querySelector('#"+slots[i]+"').selectedOptions[0].id");
+
+            if (mod === "Default"){}else{
+            let modAttributes = eval("mods."+ mod + ".m_attributeMods");
+            modAttributes.forEach(function(mod) {
+                let attribute = mod.m_attribute.split(":")[2];
+                let type = mod.m_modifierType.split(":")[2];
+                let value = mod.m_modifierValue;
+
+                if(attribute === "None"){}else{
+                switch(attribute){
+                    // Damage Variables
+                    case "DamageScalingDealtAgainstPlayers": attribute = "m_directDamagePlayerMultiplier" ; break;
+                    case "DamageScalingDealtAgainstAI": attribute = "m_directDamageEnemyMultiplier" ; break;                
+                    case "WeaponDamageDirect": attribute = "m_directDamage" ; break;
+                    case "WeaponDamage": attribute = "m_directDamage" ; break;
+                    case "WeaponDamageRadial": attribute = "m_radialDamage" ; break;
+                    case "RadialStartFalloffRange": attribute = "m_radialDamageFalloffStartRange" ; break;
+                    case "RadialFalloffMultiplier": attribute = "m_radialDamageFalloffMultiplier" ; break;
+                    case "WeaponRadialDamageImpulse": attribute = "m_radialDamageImpulse" ; break;
+                    case "WeaponRadialDamageSelfImpulseMultiplier": attribute = "m_damageSelfMultiplier"; break;
+                    case "WeaponAmountOfShots": attribute = "m_amountOfImmediateFires" ; break;
+                    case "WeakAreaDamageScaling": attribute = "m_weakAreaDamageMultiplier" ; break;
+                    case "WeaponClipSize": attribute = "m_ammoInClip"; break;
+                    // Speed Variables
+                    case "WeaponBurstInterval": attribute = "m_burstInterval"; break;
+                    case "WeaponBurstCount": attribute = "m_amountOfBurst"; break;
+                    case "WeaponRefireTime": attribute = "m_refireTime"; break;
+                    case "TargetingTime": attribute = "m_targetingTime"; break;
+                    case "WeaponEquipTime": attribute = "m_equipTime"; break;
+                    case "WeaponReloadTime": attribute = "m_reloadTime"; break;
+                    case "SpinupDuration": attribute = "m_spinupTime"; break;
+                    case "OverallMovementSpeed": attribute = "m_movementSpeed"; break;
+                    case "MaxSpeed": attribute = "m_movementSpeed"; break;
+                    case "WeaponIsLooping": attribute = "m_isLooping"; break;
+                    // Projectile Variables
+                    case "ProjectileMaxSpeed": attribute = "null"; break;
+                    case "ProjectileInitialSpeed": attribute = "m_initialProjectileSpeed"; break;
+                    // Range Variables
+                    case "WeaponDamageFalloffMultiplier": attribute = "m_directDamageFalloffMultiplier"; break;
+                    case "WeaponDamageRange": attribute = "m_rangeMultiplier"; break;
+                    case "DamageRadius": attribute = "m_radialDamageRadius"; break;
+                    // Accuracy Variables
+                    case "WeaponSpreadUnaimed": attribute = "m_defaultWeaponSpread"; break;
+                    case "WeaponSpreadMax" : attribute = "m_weaponSpreadMax"; break;
+                    case "WeaponSpreadIncreaseRate" : attribute = "m_weaponSpreadIncreaseSpeed"; break;
+                    case "WeaponTargetingSpreadMultiplier": attribute = "m_targetingSpreadDefaultMultiplier"; break;
+                    case "WeaponTargetingRecoil": attribute = "m_targetingRecoil"; break;
+                    case "WeaponRecoilIncreaseRate": attribute = "m_weaponSpreadIncreaseSpeed"; break;
+                    case "WeaponTargetingFOV": attribute = "m_weaponTargetingFOV"; break;
+                    //Piercing
+                    case "Piercing": attribute = "m_piercing"; break;
+                    //Chain Reaction
+                    case "ChainReactionActive": attribute = "m_applyChainReaction"; break;
+                    case "ChainReactionRadius": attribute = "m_chainReactionRadius"; break;
+                    case "ChainReactionDamagePercentReduction": attribute = "m_chainReactionDamageReduction"; break;
+                    //Ignored Variables
+                    case "WeaponRefireAnimationRateScaleMultiplier": attribute = "null"; break;
+                    case "ProjectileLifeSpan": attribute = "null"; break;
+                    case "ProjectileArmingTime": attribute = "null"; break;
+                    case "WeaponScaleOffset": attribute = "null"; break;
+                    case "WeaponMaxTraceRange": attribute = "null"; break;
+                    case "WeaponSpreadDecreaseRate": attribute = "null"; break;
+                    case "WeaponRecoilCompenstationSpeedY": attribute = "null"; break;
+                    //TODO Add these projectile stats to calculator
+                    case "ProjectileAccelerationMovementSpeed": attribute = "null"; break;
+                    case "ProjectileAccelerationDelay": attribute = "null"; break;
+                    case "ProjectileAcceleration": attribute = "null"; break;
+                    case "ProjectileGravityScale": attribute = "null"; break;
+                }
+                if(attribute === "null"){}else{eval(attribute + " = Number(parameterAdjustment(eval(attribute),type,value).toFixed(3))");}
+                };
+            });
+            };
+        };
+    };
     switch(targetType) {
-        case Monster: directDamage = obj.m_directDamage * m_directDamageEnemyMultiplier; break;
-        case Other: directDamage = obj.m_directDamage; break;
-        default: directDamage = obj.m_directDamage * obj.m_directDamagePlayerMultiplier; break;
+        case "Monster": m_directDamage = (m_directDamage * m_directDamageEnemyMultiplier).toFixed(3); break;
+        case "Other": m_directDamage = m_directDamage; break;
+        default: m_directDamage = (m_directDamage * m_directDamagePlayerMultiplier).toFixed(3); break;
     }
 
-    let singleShotDamage = directDamage * obj.m_amountOfImmediateFires;
-    let singleShotDamageCrit = ((directDamage * obj.m_weakAreaDamageMultiplier) * obj.m_amountOfImmediateFires)
-    if (Number(obj.m_burstAmount) > Number(0)) {
-        var DPS = (((1 / (obj.m_refireTime + (obj.m_burstInterval * (obj.m_burstAmount + 1))) * accuracy) * (singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2) * (obj.m_burstAmount + 1)).toFixed(2);
-    } else {
-        var DPS = (((1 / obj.m_refireTime) * accuracy) * ((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2)).toFixed(2);
-    }
-    let RPM = ((60/obj.m_refireTime)*accuracy).toFixed(0);
-    let shotsToKill = (Math.ceil(health / ((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2))).toFixed(0);
+    let totalDamage = ((m_directDamage + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
+    let headshotDamage = (((m_directDamage + m_radialDamage) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier).toFixed(1);
 
-    if (Number(obj.m_burstAmount) > Number(0)) {
-        var shootingTime = ((Math.ceil(shotsToKill / (obj.m_burstAmount + 1)) * obj.m_refireTime) + (Math.ceil(numberOfTotalShots / (obj.m_burstAmount + 1)) * (obj.m_burstAmount + 1)) * burstInterval);
+    let singleShotDamage = m_directDamage * m_amountOfImmediateFires;
+    let singleShotDamageCrit = ((m_directDamage * m_weakAreaDamageMultiplier) * m_amountOfImmediateFires)
+    if (Number(m_amountOfBurst) > Number(0)) {
+        var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * (singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
     } else {
-        var shootingTime = Math.abs(shotsToKill * obj.m_refireTime);
+        var DPS = (((1 / m_refireTime) * accuracy) * ((singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2)).toFixed(2);
     }
-    let numOfReload = Math.floor(shotsToKill / (obj.m_ammoInClip + 1));
-    let reloadTime = Math.abs(numOfReload * obj.m_reloadTime);
-    let spinupTime = Math.abs((numOfReload + 1) * obj.m_spinupTime);
+    let RPM = ((60/m_refireTime)*accuracy).toFixed(0);
+    let shotsToKill = (Math.ceil(health / ((singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2))).toFixed(0);
+
+    if (Number(m_amountOfBurst) > Number(0)) {
+        var shootingTime = ((Math.ceil(shotsToKill / (m_amountOfBurst + 1)) * m_refireTime) + (Math.ceil(shotsToKill / (m_amountOfBurst + 1)) * (m_amountOfBurst + 1)) * m_burstInterval);
+    } else {
+        var shootingTime = Math.abs(shotsToKill * m_refireTime);
+    }
+    m_directDamageFalloffStartRange = Number(m_directDamageFalloffStartRange * m_rangeMultiplier).toFixed(0);
+    m_directDamageFalloffEndRange = Number(m_directDamageFalloffEndRange * m_rangeMultiplier).toFixed(0);
+
+    let numOfReload = Math.floor(shotsToKill / (m_ammoInClip + 1));
+    let reloadTime = Math.abs(numOfReload * m_reloadTime);
+    let spinupTime = Math.abs((numOfReload + 1) * m_spinupTime);
     let TTK = (shootingTime + reloadTime + spinupTime).toFixed(3);
-    let damagePerMag = (((singleShotDamage + obj.m_radialDamage) * accuracy2 + (singleShotDamageCrit + obj.m_radialDamage) * headshotaccuracy2) * obj.m_ammoInClip).toFixed(0);
+    let damagePerMag = (((singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2) * m_ammoInClip).toFixed(0);
 
-    document.getElementById("wpName").innerHTML = obj.m_vanityName;
+    document.getElementById("wpName").innerHTML = wep.m_vanityName;
 
-    /* 
-    let slots = ["SLOT1","SLOT2","SLOT3","SLOT4"];
-    for (let i = 0; i < slots.length; i++) {
-        let obj = eval(slots[i] + ".options[" + slots[i] + ".selectedIndex].id");
-        let attribute = eval("mods."+ obj + ".m_attributeMods[0].m_attribute").split(":")[2];
-        let type = eval("mods."+ obj + ".m_attributeMods[0].m_modifierType").split(":")[2];
-        let value = eval("mods."+ obj + ".m_attributeMods[0].m_modifierValue");
+   
+    //*Populate Table with unmodded stats
+    for (let i = 0; i < visAttributes.length; i++) {
+        if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = wep." + visAttributes[i] + ";");};
+        eval("document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML = " + visAttributes[i] + ";");
+        eval("document.querySelector('#t-" + visAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML).toFixed(3);");
+    };
+    for (let i = 0; i < calcAttributes.length; i++) {
+        if (Modded === true) {}else{eval("document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML =" + calcAttributes[i] + ";");};
+        eval("document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML =" + calcAttributes[i] + ";");
+        eval("document.querySelector('#t-" + calcAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML).toFixed(3);");
+    };
 
-        switch(attribute){
-            // Damage Variables
-            case "DamageScalingDealtAgainstPlayers": playerMulti ; break;
-            case "DamageScalingDealtAgainstAI": monsterMulti ; break;                
-            case "WeaponDamageDirect": m_directDamage ; break;
-            case "WeaponDamage": m_directDamage ; break;
-            case "WeaponDamageRadial": m_radialDamage ; break;
-            case "WeaponAmountOfShots": m_amountOfImmediateFires ; break;
-            case "WeakAreaDamageScaling": m_weakAreaDamageMultiplier ; break;
-            case "WeaponClipSize": 
-            attribute = m_ammoInClip; 
-            break;
+    var highAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier",
+    "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
+    "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage"];
+    var lowAttributes = ["m_spinupTime","m_refireTime","m_reloadTime","m_targetingTime","shotsToKill","TTK"];
 
-            // Speed Variables
-            case "WeaponBurstInterval": m_burstInterval; break;
-            case "WeaponBurstCount": m_burstAmount; break;
-            case "WeaponRefireTime": m_refireTime; break;
-            case "TargetingTime": m_adsTime; break;
-            case "WeaponEquipTime": m_equipTime; break;
-            case "WeaponReloadTime": m_reloadSpeed; break;
-            case "SpinupDuration": m_spinupSpeed; break;
-            case "OverallMovementSpeed": m_movementSpeed; break;
-            case "MaxSpeed": m_movementSpeed; break;
-            // Projectile Variables
-            case "ProjectileMaxSpeed": m_initialProjectileSpeed; break;
-            // Range Variables
-            case "WeaponDamageFalloffMultiplier": m_directDamageFalloffMultiplier; break;
-            case "WeaponDamageRange":
-            m_directDamageFalloffStartRange;
-            m_directDamageFalloffEndRange;
-            break;
-        }
-    } */
-
-    //*Populate Table with unmodded and modded stats
-    for (let i = 0; i < visibleAttributes.length; i++) {
-        eval("document.querySelector('#" + visibleAttributes[i] + " .default').innerHTML = obj." + visibleAttributes[i] + ";")
-    }
-    for (let i = 0; i < detailedAttributes.length; i++) {
-        eval("document.querySelector('#" + detailedAttributes[i] + " .default').innerHTML =" + detailedAttributes[i] + ";")
-    }
-
+    for (let i = 0; i < highAttributes.length; i++) {
+        markTopValues(highAttributes[i],true);
+    };
+    for (let i = 0; i < lowAttributes.length; i++) {
+        markTopValues(lowAttributes[i],false);
+    };
+    //rememberSelection(true)
 } 
+
+function markTopValues(attr,highBest){
+    let def = document.querySelector(`#t-${attr} .default`);
+    let mod = document.querySelector(`#t-${attr} .mod`);
+    let diff = def.innerHTML - mod.innerHTML;
+    let higher;
+    let lower;
+
+    switch (highBest) {
+        case true : 
+        higher = "rgb(92, 232, 92)"
+        lower = "rgba(255, 80, 80, 0.96)"; break;
+        case false : 
+        higher = "rgba(255, 80, 80, 0.96)"
+        lower = "rgb(92, 232, 92)"; break;
+    }
+    if (diff > 0) {
+        mod.style.color = higher;
+        def.style.color = lower;
+    } else if (diff < 0) {
+        mod.style.color = lower;
+        def.style.color = higher;
+    } else {
+        mod.style.color = null;
+        def.style.color = null;
+    }
+
+};
+
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
 //Populates the table with data from first option when the selection box has loaded.
 function initLoad() {
     document.getElementById('weaponSelection').selectedIndex = "0"; //TODO: Change this to cached version of selection, ex. upon refresh selection stays the same.
     updateWeaponSelection ();
-    recalculateWeaponStats ();
+    calculateWeaponStats ();
 }
 weaponSelection.addEventListener("load", initLoad());
 
 //Used to populate table with data every time selection changes.
 function populateWeaponStats() {
+    //rememberSelection ();
     updateWeaponSelection ();
-    recalculateWeaponStats ()
+    calculateWeaponStats ();
 }
 weaponSelection.addEventListener('change', populateWeaponStats);
 
-modSelection.addEventListener("change", recalculateWeaponStats);
+modSelection.addEventListener("change", calculateWeaponStats(true));
 
 //Listens for any input change and only recalculates detailed stats
 document.querySelectorAll('.weaponStatInput').forEach(item => {
-    item.addEventListener('input', event => {
-        recalculateWeaponStats ()
+    item.addEventListener('change', event => {
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
     })
-})
+});
+
+/* function rememberSelection(mods){
+    document.cookie = 'weaponSelection=' + document.getElementById('weaponSelection').selectedIndex + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';
+
+    for (let i = 0; i < slots.length; i++) { 
+        document.cookie = slots[i] + "=" + (mods ? document.getElementById(slots[i]).selectedIndex : '0'); + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';
+        console.log(getCookie(slots[i]));
+    }
+}; */
+
+//Debugging
+console.log(mods);
+console.log(WP_A_AR_Bullet_01);
