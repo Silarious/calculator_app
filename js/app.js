@@ -18,6 +18,7 @@ for (let key in weapons) { // Only show objects that pass the filter for the wea
     && !key.includes('Exotic') 
     && !key.includes('LMG_Needle') 
     && !key.includes('Leaf') 
+    && !key.includes('scrappy') 
     ? weaponCodeNameList.push(key)
     : null);
 
@@ -26,8 +27,13 @@ for (let key in weapons) { // Only show objects that pass the filter for the wea
 //! MUST FIND DYNAMIC WAY TO EXECUTE THE FOLLOWING
 // Object Deconstructing all the correct weapon entries from PRO_Tuning and storing in variable of the same weapon name.
 const Tuning = PRO_Tuning[0].Rows;
-const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_HVY_Shell_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_E_Launch_Nade_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01} = Tuning
+const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_HVY_Shell_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_E_Launch_Nade_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01, WP_E_Sniper_Bullet_01} = Tuning
 //TODO: The above is a static way and will be obsolete to changes in the data.
+
+//*Weapon Tags Import
+for (let i = 0; i < weaponCodeNameList.length; i++) {
+    eval(weaponCodeNameList[i]+".m_weaponTags" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_weaponTags;");
+}
 
 //* Weapon Vanity Names Import
 //Appending vanity/human friendly names to the weapon variables.
@@ -73,14 +79,14 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 const mods = PRO_Mods[0].Rows;
 const modPerks = PRO_ModPerks[0].Rows;
 const modCodeNameList = [];
-for (let key in mods) { // Only show objects that pass the filter for the weapon name.
+/* for (let key in mods) { // Only show objects that pass the filter for the weapon name.
     if (key.startsWith('MOD')  === true && !key.includes('Kit')){
         mods[key].weaponName = key.replace('MOD',"WP").split('__')[0];
         mods[key].slot = key.split('__')[1].split('_')[0];
         let perkRowHandle = mods[key].m_perkRowHandle.DataTable;
         if (perkRowHandle !== null && perkRowHandle.ObjectPath === "Prospect/Content/DataTables/PRO_ModPerks.0"){
             let modName = mods[key].m_perkRowHandle.RowName;
-            mods[key].m_attributeMods = eval("modPerks."+modName+".m_attributeModifiers");
+            mods[key].m_defaultModInstanceData.m_attributeMods = eval("modPerks."+modName+".m_attributeModifiers");
         }
         mods[key].vanityName = ST_Mods.filter(function(weapon) {
             return weapon.Key.includes(mods[key].m_modName.Key) && !weapon.SourceString.includes('NOT IMPLEMENTED');
@@ -94,8 +100,18 @@ for (let key in mods) { // Only show objects that pass the filter for the weapon
         mods[newKey] = mods[oldKey];
         delete mods[oldKey];
     }
+} */
+for (let key in mods) {
+    if (key.startsWith('Mod')  === true){
+        mods[key].attributeMods = mods[key].m_defaultModInstanceData.m_attributeMods;
+        if (mods[key].m_perHandlePropertyDefinition != []) {
+            for (let i = 0; i < mods[key].m_perHandlePropertyDefinition.length; i++) {
+                mods[key].attributeMods.push(mods[key].m_perHandlePropertyDefinition[i].m_attributeMods[0])
+            }
+        }
+        
+    }
 }
-
 //* Complex Weapon Stats
 // Calculating and appending stats that require equation using other stats from the weapons variables.
 // Total Damage Calculation, Weakspot/Headshot Calculation, Movement Speed Calculation
@@ -157,7 +173,7 @@ function updateWeaponSelection () {
         document.getElementById('SLOT4').selectedIndex = getCookie('SLOT4'); */
 
         for (let key in mods) {
-            if (mods[key].slot === slots[i] && mods[key].weaponName === weaponSelection.options[weaponSelection.selectedIndex].id && mods[key].m_attributeMods.length > 0){
+            if (mods[key].slot === slots[i] && mods[key].weaponName === weaponSelection.options[weaponSelection.selectedIndex].id && mods[key].m_defaultModInstanceData.m_attributeMods.length > 0){
                 let option = document.createElement("option");
                 //option.text = mods[key].vanityName[0].SourceString;
                 option.text = key;
@@ -194,7 +210,7 @@ for (let key in WP_A_AR_Bullet_01){
 };
 
 //Array of attributes that there is a table cell for in index.html
-var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier",
+var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier", "m_penetration",
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
 "m_reloadTime","m_targetingTime","m_initialProjectileSpeed"];
 //Same as visAttributes but for "Detailed Stats" section
@@ -227,7 +243,7 @@ function calculateWeaponStats(Modded,Init){
             let mod = eval("document.querySelector('#"+slots[i]+"').selectedOptions[0].id");
 
             if (mod === "Default"){}else{
-            let modAttributes = eval("mods."+ mod + ".m_attributeMods");
+            let modAttributes = eval("mods."+ mod + ".m_defaultModInstanceData.m_attributeMods");
             modAttributes.forEach(function(mod) {
                 let attribute = mod.m_attribute.split(":")[2];
                 let type = mod.m_modifierType.split(":")[2];
@@ -350,7 +366,7 @@ function calculateWeaponStats(Modded,Init){
 
     document.getElementById("wpName").innerHTML = wep.m_vanityName;
 
-   
+    document.getElementById("t-m_transportType").innerHTML = m_transportType;
     //*Populate Table with unmodded stats
     for (let i = 0; i < visAttributes.length; i++) {
         if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = " + visAttributes[i] + ";");};
@@ -452,4 +468,5 @@ document.querySelectorAll('.weaponStatInput').forEach(item => {
 
 //Debugging
 console.log(mods);
+console.log(mods.Mod_Optic_2x_01);
 console.log(WP_A_AR_Bullet_01);
