@@ -53,6 +53,10 @@
                     <input id="headshotAccuracySlider" class="weaponStatInput headshotAccuracy" type="range" min="0" max="100" value="100" step="1" oninput="syncInput(this.value,'headshotAccuracyBox')">
                 </div>
                 <div class="inputContainer">
+                    <p class="inputText">Distance:<input id="distanceBox" class="weaponStatInput distance" type="number" name="accuracy" value="1000" min="0" max="10000" step="100" oninput="syncInput(this.value,'distanceSlider')"></p>
+                    <input id="distanceSlider" class="weaponStatInput distance" type="range" min="0" max="10000" value="1000" step="100" oninput="syncInput(this.value,'distanceBox')">
+                </div>
+                <div class="inputContainer">
                     <p class="inputText">Health:<input id="healthBox" class="weaponStatInput health" type="number" name="health" value="1000" min="100" max="20000" step="50" oninput="syncInput(this.value,'healthSlider')"></p>
                     <input id="healthSlider" class="weaponStatInput health" type="range" min="100" max="20000" value="1000" step="50" oninput="syncInput(this.value,'healthBox')">
                 </div>

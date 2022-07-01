@@ -18,7 +18,7 @@ body, select {
 .selection {
     display:flex;
     flex-direction: column;
-    width: max-content;
+    /*width: 220px;*/
 }
 .selection p {
     margin:5px;

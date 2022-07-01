@@ -208,11 +208,12 @@ function calculateWeaponStats(Modded,Init){
     let headshotAccuracy = parseFloat(document.getElementById('headshotAccuracySlider').value/100);
     let headshotaccuracy2 = accuracy * headshotAccuracy;
     let accuracy2 = accuracy - headshotaccuracy2;
+    let targetRange = parseFloat(document.getElementById('distanceSlider').value);
     let health = parseInt(document.getElementById('healthSlider').value);
     let tt = document.getElementById("target_selection");
     let targetType = tt.options[tt.selectedIndex].getAttribute('id');
 
-    //let 
+    //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
     let m_chainReactionDamageReduction = 1.0;
     let m_applyChainReaction = 0;
@@ -299,17 +300,34 @@ function calculateWeaponStats(Modded,Init){
             };
         };
     };
+    if (m_rangeMultiplier < 10){
+    m_directDamageFalloffStartRange = m_directDamageFalloffStartRange * m_rangeMultiplier;
+    m_directDamageFalloffEndRange = m_directDamageFalloffEndRange * m_rangeMultiplier;
+    } else {
+        m_directDamageFalloffStartRange = m_directDamageFalloffStartRange + m_rangeMultiplier;
+        m_directDamageFalloffEndRange = m_directDamageFalloffEndRange + m_rangeMultiplier;
+    }
+    let targetMulti = 1 - (1 - m_directDamageFalloffMultiplier) * ((targetRange - m_directDamageFalloffStartRange) / (m_directDamageFalloffEndRange - m_directDamageFalloffStartRange));
+
+    let rangeMulti;
+    if (targetRange > m_directDamageFalloffEndRange) {
+        rangeMulti = m_directDamageFalloffMultiplier;
+    } else if (targetRange < m_directDamageFalloffStartRange) {
+        rangeMulti = 1;
+    } else {
+        rangeMulti = targetMulti;
+    } 
     switch(targetType) {
-        case "Monster": m_directDamage = (m_directDamage * m_directDamageEnemyMultiplier).toFixed(3); break;
-        case "Other": m_directDamage = m_directDamage; break;
-        default: m_directDamage = (m_directDamage * m_directDamagePlayerMultiplier).toFixed(3); break;
+        case "Monster": m_directDamage = ((m_directDamage * rangeMulti) * m_directDamageEnemyMultiplier).toFixed(3); break;
+        case "Other": m_directDamage = (m_directDamage * rangeMulti); break;
+        default: m_directDamage = ((m_directDamage * rangeMulti) * m_directDamagePlayerMultiplier).toFixed(3); break;
     }
 
-    let totalDamage = ((m_directDamage + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
-    let headshotDamage = (((m_directDamage + m_radialDamage) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier).toFixed(1);
+    let totalDamage = (((m_directDamage * rangeMulti) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
+    let headshotDamage = ((((m_directDamage * rangeMulti) + m_radialDamage) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier).toFixed(1);
 
-    let singleShotDamage = m_directDamage * m_amountOfImmediateFires;
-    let singleShotDamageCrit = ((m_directDamage * m_weakAreaDamageMultiplier) * m_amountOfImmediateFires)
+    let singleShotDamage = (m_directDamage * rangeMulti) * m_amountOfImmediateFires;
+    let singleShotDamageCrit = (((m_directDamage * rangeMulti) * m_weakAreaDamageMultiplier) * m_amountOfImmediateFires)
     if (Number(m_amountOfBurst) > Number(0)) {
         var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * (singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
     } else {
@@ -323,8 +341,6 @@ function calculateWeaponStats(Modded,Init){
     } else {
         var shootingTime = Math.abs(shotsToKill * m_refireTime);
     }
-    m_directDamageFalloffStartRange = Number(m_directDamageFalloffStartRange * m_rangeMultiplier).toFixed(0);
-    m_directDamageFalloffEndRange = Number(m_directDamageFalloffEndRange * m_rangeMultiplier).toFixed(0);
 
     let numOfReload = Math.floor(shotsToKill / (m_ammoInClip + 1));
     let reloadTime = Math.abs(numOfReload * m_reloadTime);
@@ -337,7 +353,7 @@ function calculateWeaponStats(Modded,Init){
    
     //*Populate Table with unmodded stats
     for (let i = 0; i < visAttributes.length; i++) {
-        if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = wep." + visAttributes[i] + ";");};
+        if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = " + visAttributes[i] + ";");};
         eval("document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML = " + visAttributes[i] + ";");
         eval("document.querySelector('#t-" + visAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML).toFixed(3);");
     };
@@ -377,11 +393,11 @@ function markTopValues(attr,highBest){
         lower = "rgb(92, 232, 92)"; break;
     }
     if (diff > 0) {
-        mod.style.color = higher;
-        def.style.color = lower;
-    } else if (diff < 0) {
         mod.style.color = lower;
         def.style.color = higher;
+    } else if (diff < 0) {
+        mod.style.color = higher;
+        def.style.color = lower;
     } else {
         mod.style.color = null;
         def.style.color = null;
@@ -413,11 +429,15 @@ weaponSelection.addEventListener('change', populateWeaponStats);
 
 modSelection.addEventListener("change", calculateWeaponStats(true));
 
-//Listens for any input change and only recalculates detailed stats
+//Listens for any input change and recalculates stats
+let lastMove = 0;
 document.querySelectorAll('.weaponStatInput').forEach(item => {
-    item.addEventListener('change', event => {
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
+    item.addEventListener('input', event => {
+        if(Date.now() - lastMove > 40) {
+            calculateWeaponStats ();
+            calculateWeaponStats(true);
+            lastMove = Date.now();
+        } 
     })
 });
 
