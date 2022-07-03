@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemsRarities_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YItemRarityDataTableRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "m_visualizationData": {
+          "EYItemRarityType::Common": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 0.806952,
+                "G": 0.806952,
+                "B": 0.806952,
+                "A": 1.0,
+                "Hex": "FFE8E8E8"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          "EYItemRarityType::Uncommon": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 0.251906,
+                "G": 0.933333,
+                "B": 0.10011,
+                "A": 1.0,
+                "Hex": "FF89F859"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          "EYItemRarityType::Rare": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.564712,
+                "B": 0.930111,
+                "A": 1.0,
+                "Hex": "FF00C6F7"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          "EYItemRarityType::Epic": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 0.246201,
+                "G": 0.051269,
+                "B": 0.467784,
+                "A": 1.0,
+                "Hex": "FF8840B6"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          "EYItemRarityType::Exotic": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 0.854993,
+                "G": 0.033105,
+                "B": 0.090841,
+                "A": 1.0,
+                "Hex": "FFEE3355"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          },
+          "EYItemRarityType::Legendary": {
+            "m_texture": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_color": {
+              "SpecifiedColor": {
+                "R": 1.0,
+                "G": 0.348223,
+                "B": 0.054605,
+                "A": 1.0,
+                "Hex": "FFFF9F42"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            }
+          }
+        },
+        "m_rowName": "Default"
+      },
+      "WP_A_Pistol_Bullet_01": {
+        "m_visualizationData": {},
+        "m_rowName": "WP_A_Pistol_Bullet_01"
+      }
+    }
+  }
+]

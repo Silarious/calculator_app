@@ -1,0 +1,4026 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PRO_PlayerShield",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YShieldDataTableRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "PlayerDefault": {
+        "m_armorAmount": 0,
+        "m_armoredHitZones": [],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {},
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "CultureInvariantString": null
+        },
+        "m_maxAmountPerStack": 0,
+        "m_startAmount": -1,
+        "m_durabilityMax": -1,
+        "m_durabilityBrokenPriceModifier": 1.0,
+        "m_repairCostMaxDurability": 100,
+        "m_repairCostBase": 100,
+        "m_repairCostModifierBroken": 100,
+        "m_metaUIItem": {
+          "display_name": {
+            "CultureInvariantString": null
+          },
+          "description": {
+            "CultureInvariantString": null
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 0.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Unassigned",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 0,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "PlayerDefault"
+      },
+      "Shield_01": {
+        "m_armorAmount": 10,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Common": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 150
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Common01/Pickup_Armor_Chest_Common01.Pickup_Armor_Chest_Common01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_01_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 600,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 225,
+        "m_repairCostBase": 45,
+        "m_repairCostModifierBroken": 113,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_01_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "Korolev"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "Osiris"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "ICA"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "QuickShop"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 100,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_01"
+      },
+      "Shield_02": {
+        "m_armorAmount": 17,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Uncommon": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 300
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Uncommon",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Uncommon01/Pickup_Armor_Chest_Uncommon01.Pickup_Armor_Chest_Uncommon01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_02_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 700,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 1000,
+        "m_repairCostBase": 200,
+        "m_repairCostModifierBroken": 496,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_02_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_02_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Uncommon": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 2000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "PolymetallicPrefabricate"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "GenericCreatureDrop"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 15,
+                "m_upgradeTimeSeconds": 900,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 4
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 3000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 6,
+        "m_scrappingReturnDefault": 1500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Uncommon": 608
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Uncommon": 6
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_02"
+      },
+      "Shield_03": {
+        "m_armorAmount": 23,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Rare": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 500
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Rare",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Rare01/Pickup_Armor_Chest_Rare01.Pickup_Armor_Chest_Rare01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_03_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 800,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 7500,
+        "m_repairCostBase": 1500,
+        "m_repairCostModifierBroken": 3722,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_03_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_04_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Rare": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 15000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "CombatCPU_Blue"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "UncommonVelticite"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "AI_RattlerSkin"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 45,
+                "m_upgradeTimeSeconds": 2700,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 12
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 9000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 46,
+        "m_scrappingReturnDefault": 2500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Rare": 4556
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Rare": 46
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_03"
+      },
+      "Shield_04": {
+        "m_armorAmount": 26,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Epic": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 1500
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Epic",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Epic01/Pickup_Armor_Chest_Epic01.Pickup_Armor_Chest_Epic01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_04_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 900,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 23000,
+        "m_repairCostBase": 4600,
+        "m_repairCostModifierBroken": 11566,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_04_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_04_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Epic": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 46000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "SmartMesh"
+                    },
+                    "m_costAmount": 3
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "TitanOre"
+                    },
+                    "m_costAmount": 1
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "HardenedBoneAlloy"
+                    },
+                    "m_costAmount": 3
+                  }
+                ],
+                "m_upgradeTimeMinutes": 75,
+                "m_upgradeTimeSeconds": 4500,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 19
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 15000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 137,
+        "m_scrappingReturnDefault": 7500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Epic": 13669
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Epic": 137
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_04"
+      },
+      "Shield_05": {
+        "m_armorAmount": 28,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Epic": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 1500
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Exotic",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Epic01/Pickup_Armor_Chest_Epic01.Pickup_Armor_Chest_Epic01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_05_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 1000,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 51500,
+        "m_repairCostBase": 10300,
+        "m_repairCostModifierBroken": 25823,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_05_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_05_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Epic.UI_Items_Shield_Epic",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Exotic": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 103000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "PrintResin"
+                    },
+                    "m_costAmount": 6
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "PureFocusCrystal"
+                    },
+                    "m_costAmount": 1
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "AI_CrusherSkin"
+                    },
+                    "m_costAmount": 2
+                  }
+                ],
+                "m_upgradeTimeMinutes": 150,
+                "m_upgradeTimeSeconds": 9000,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 38
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 30000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 308,
+        "m_scrappingReturnDefault": 7500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Exotic": 30755
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Exotic": 308
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_05"
+      },
+      "Shield_Tactical_01": {
+        "m_armorAmount": 7,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxStamina",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 20.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Common": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 150
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Common01/Pickup_Armor_Chest_Common01.Pickup_Armor_Chest_Common01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_Tactical_01_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 500,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 225,
+        "m_repairCostBase": 45,
+        "m_repairCostModifierBroken": 113,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_01_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Art/Helper/T_UI_FPO_Helper.T_UI_FPO_Helper",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "Korolev"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "Osiris"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "ICA"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          },
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "QuickShop"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Common": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 450
+                  }
+                ],
+                "m_upgradeTimeMinutes": 1,
+                "m_upgradeTimeSeconds": 1,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": null,
+                    "RowName": "None"
+                  },
+                  "m_costAmount": -1
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 100,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_Tactical_01"
+      },
+      "Shield_Tactical_02": {
+        "m_armorAmount": 14,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxStamina",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 25.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Uncommon": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 300
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Uncommon",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Uncommon01/Pickup_Armor_Chest_Uncommon01.Pickup_Armor_Chest_Uncommon01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_Tactical_02_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 600,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 1000,
+        "m_repairCostBase": 200,
+        "m_repairCostModifierBroken": 496,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_02_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_02_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Art/Helper/T_UI_FPO_Helper.T_UI_FPO_Helper",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Uncommon": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 2000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "PolymetallicPrefabricate"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "WaterPlant"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "GenericCreatureDrop"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 15,
+                "m_upgradeTimeSeconds": 900,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 4
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 3000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 6,
+        "m_scrappingReturnDefault": 1500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Uncommon": 608
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Uncommon": 6
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_Tactical_02"
+      },
+      "Shield_Tactical_03": {
+        "m_armorAmount": 19,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxStamina",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 35.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Rare": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 500
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Rare",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Rare01/Pickup_Armor_Chest_Rare01.Pickup_Armor_Chest_Rare01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_Tactical_03_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 700,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 7500,
+        "m_repairCostBase": 1500,
+        "m_repairCostModifierBroken": 3722,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_03_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Tactical_03_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Art/Helper/T_UI_FPO_Helper.T_UI_FPO_Helper",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Rare": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 15000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "CombatCPU_Blue"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "IvyPlant"
+                    },
+                    "m_costAmount": 1
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "AI_RattlerSkin"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 45,
+                "m_upgradeTimeSeconds": 2700,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 12
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 9000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 46,
+        "m_scrappingReturnDefault": 2500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Rare": 4556
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Rare": 46
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_Tactical_03"
+      },
+      "Shield_Restoration_01": {
+        "m_armorAmount": 14,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.2,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Uncommon": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 300
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Uncommon",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Uncommon01/Pickup_Armor_Chest_Uncommon01.Pickup_Armor_Chest_Uncommon01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Uncommon.UI_Items_Shield_Uncommon",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_Restoration_01_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 600,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 1000,
+        "m_repairCostBase": 200,
+        "m_repairCostModifierBroken": 496,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Restoration_01_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Restoration_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Art/Helper/T_UI_FPO_Helper.T_UI_FPO_Helper",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Uncommon": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 2000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "PolymetallicPrefabricate"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "BrightcapMushroom"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "GenericCreatureDrop"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 15,
+                "m_upgradeTimeSeconds": 900,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 4
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 3000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 6,
+        "m_scrappingReturnDefault": 1500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Uncommon": 608
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Uncommon": 6
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_Restoration_01"
+      },
+      "Shield_Restoration_02": {
+        "m_armorAmount": 19,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.2,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Rare": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 500
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Rare",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Rare01/Pickup_Armor_Chest_Rare01.Pickup_Armor_Chest_Rare01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Rare.UI_Items_Shield_Rare",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "TableId": "ST_Equipment",
+          "Key": "Shield_Restoration_02_Name"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 700,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 7500,
+        "m_repairCostBase": 1500,
+        "m_repairCostModifierBroken": 3722,
+        "m_metaUIItem": {
+          "display_name": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Restoration_02_Name"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_Restoration_02_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Art/Helper/T_UI_FPO_Helper.T_UI_FPO_Helper",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [
+          {
+            "m_shop": {
+              "DataTable": {
+                "ObjectName": "DataTable Factions_DT",
+                "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+              },
+              "RowName": "CraftingStation"
+            },
+            "m_craftingPricesPerRarity": {
+              "EYItemRarityType::Rare": {
+                "m_itemRecipeIngredients": [
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Currencies_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                      },
+                      "RowName": "SoftCurrency"
+                    },
+                    "m_costAmount": 15000
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "CombatCPU_Blue"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "RadioactiveBrightcapMushroom"
+                    },
+                    "m_costAmount": 2
+                  },
+                  {
+                    "m_costType": {
+                      "DataTable": {
+                        "ObjectName": "DataTable Materials_DT",
+                        "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                      },
+                      "RowName": "AI_RattlerSkin"
+                    },
+                    "m_costAmount": 5
+                  }
+                ],
+                "m_upgradeTimeMinutes": 45,
+                "m_upgradeTimeSeconds": 2700,
+                "m_skipCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "Aurum"
+                  },
+                  "m_costAmount": 12
+                },
+                "m_skipOptionalCraftingMaxCost": {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 9000
+                }
+              }
+            }
+          }
+        ],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 46,
+        "m_scrappingReturnDefault": 2500,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Rare": 4556
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Rare": 46
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Shield_Restoration_02"
+      },
+      "Test_Shield_FallDamage_01": {
+        "m_armorAmount": 7,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::FallingDamageReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Common": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 150
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Common01/Pickup_Armor_Chest_Common01.Pickup_Armor_Chest_Common01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "Namespace": "",
+          "Key": "DAF6B0384872F4B65F4F66857DE71CF4",
+          "SourceString": "Test Fall Damage Reduction"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 150,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 60,
+        "m_repairCostBase": 20,
+        "m_repairCostModifierBroken": 40,
+        "m_metaUIItem": {
+          "display_name": {
+            "Namespace": "",
+            "Key": "800803AA495DA019F635B195AE200B32",
+            "SourceString": "Test Fall Damage Reduction"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 100,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Test_Shield_FallDamage_01"
+      },
+      "Test_Shield_Spinup_01": {
+        "m_armorAmount": 7,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::SpinupDuration",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.5,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Common": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 150
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Common01/Pickup_Armor_Chest_Common01.Pickup_Armor_Chest_Common01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "Namespace": "",
+          "Key": "E447B42D4BD9E9A5EE3D6388F6B8D508",
+          "SourceString": "Test Spinup Reduction"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 150,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 60,
+        "m_repairCostBase": 20,
+        "m_repairCostModifierBroken": 40,
+        "m_metaUIItem": {
+          "display_name": {
+            "Namespace": "",
+            "Key": "B0277EC144647E61E77466A56E7C3383",
+            "SourceString": "Test Spinup Reduction"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 100,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Test_Shield_Spinup_01"
+      },
+      "Test_Shield_AIDefense_01": {
+        "m_armorAmount": 7,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Body"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Default"
+          }
+        ],
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.25,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_perks": [],
+        "m_rarityTypes": {
+          "EYItemRarityType::Common": {
+            "m_modSlotsUnlocked": 0,
+            "m_recipeToUpgradeItemToThisRarity": {
+              "m_itemRecipeIngredients": [
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Currencies_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Currencies_DT.0"
+                    },
+                    "RowName": "SoftCurrency"
+                  },
+                  "m_costAmount": 150
+                },
+                {
+                  "m_costType": {
+                    "DataTable": {
+                      "ObjectName": "DataTable Materials_DT",
+                      "ObjectPath": "Prospect/Content/DataTables/Materials_DT.0"
+                    },
+                    "RowName": "SpareCasing"
+                  },
+                  "m_costAmount": 1
+                }
+              ],
+              "m_upgradeTimeMinutes": 1,
+              "m_upgradeTimeSeconds": 1,
+              "m_skipCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": 0
+              },
+              "m_skipOptionalCraftingMaxCost": {
+                "m_costType": {
+                  "DataTable": null,
+                  "RowName": "None"
+                },
+                "m_costAmount": -1
+              }
+            }
+          }
+        },
+        "m_rarity": "EYItemRarityType::Common",
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_itemMeshes": [
+          {
+            "m_mesh": {
+              "AssetPathName": "/Game/Core/Loot/Armor/Chest/Common01/Pickup_Armor_Chest_Common01.Pickup_Armor_Chest_Common01",
+              "SubPathString": ""
+            },
+            "m_materialOverride": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 225.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "Namespace": "",
+          "Key": "64BF931E4F949BE8DDF9D28D29A5971C",
+          "SourceString": "Test AI Defense"
+        },
+        "m_maxAmountPerStack": 1,
+        "m_startAmount": 1,
+        "m_durabilityMax": 150,
+        "m_durabilityBrokenPriceModifier": 0.5,
+        "m_repairCostMaxDurability": 60,
+        "m_repairCostBase": 20,
+        "m_repairCostModifierBroken": 40,
+        "m_metaUIItem": {
+          "display_name": {
+            "Namespace": "",
+            "Key": "8D7FEBAB4A75AAD2DBBE8C94F383435E",
+            "SourceString": "Test AI Defense"
+          },
+          "description": {
+            "TableId": "ST_Equipment",
+            "Key": "Shield_01_Description"
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::Bullet",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 40.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Shield",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": true,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "/Game/UI/Textures/Items/Armor/UI_Items_Shield_Common.UI_Items_Shield_Common",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 1,
+        "m_scrappingReturnDefault": 100,
+        "m_isBlueprint": true,
+        "m_overrideScrappingReturnsPerRarity": {
+          "EYItemRarityType::Common": 135
+        },
+        "m_overrideScrappingReputationPerRarity": {
+          "EYItemRarityType::Common": 1
+        },
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Test_Shield_AIDefense_01"
+      }
+    }
+  }
+]

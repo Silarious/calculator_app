@@ -1,0 +1,536 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PRO_Health",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YHealthDataTableRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "PlayerDefault": {
+        "m_maxHealth": 100.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "PlayerDefault"
+      },
+      "PlayerTutorial": {
+        "m_maxHealth": 2000.0,
+        "m_regenerationRate": 500.0,
+        "m_regenerationDelay": 0.5,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "PlayerTutorial"
+      },
+      "AIDefault": {
+        "m_maxHealth": 1000.0,
+        "m_regenerationRate": 10.0,
+        "m_regenerationDelay": 20.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AIDefault"
+      },
+      "AB_SnareMine_01": {
+        "m_maxHealth": 100.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AB_SnareMine_01"
+      },
+      "AB_Turret_01": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AB_Turret_01"
+      },
+      "AB_OutpostModule_Door": {
+        "m_maxHealth": 250.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AB_OutpostModule_Door"
+      },
+      "AI_DirtBeast_Melee": {
+        "m_maxHealth": 75.0,
+        "m_regenerationRate": 8.0,
+        "m_regenerationDelay": 3.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_Melee"
+      },
+      "AI_DirtBeast_RangedShort": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 20.0,
+        "m_regenerationDelay": 3.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_RangedShort"
+      },
+      "AI_DirtBeast_RangedMedium": {
+        "m_maxHealth": 175.0,
+        "m_regenerationRate": 5.0,
+        "m_regenerationDelay": 8.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_RangedMedium"
+      },
+      "AI_DirtBeast_RangedLong": {
+        "m_maxHealth": 175.0,
+        "m_regenerationRate": 5.0,
+        "m_regenerationDelay": 10.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_RangedLong"
+      },
+      "AI_DirtBeast_MeleeHeavy": {
+        "m_maxHealth": 337.5,
+        "m_regenerationRate": 20.0,
+        "m_regenerationDelay": 5.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_MeleeHeavy"
+      },
+      "AI_DirtBeast_RangedHeavy": {
+        "m_maxHealth": 275.0,
+        "m_regenerationRate": 20.0,
+        "m_regenerationDelay": 5.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_RangedHeavy"
+      },
+      "AI_DirtBeast_FlyingHeavy": {
+        "m_maxHealth": 225.0,
+        "m_regenerationRate": 15.0,
+        "m_regenerationDelay": 8.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_FlyingHeavy"
+      },
+      "AI_DirtBeast_Boss": {
+        "m_maxHealth": 2500.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_DirtBeast_Boss"
+      },
+      "AI_Plunderbot_RangedShort": {
+        "m_maxHealth": 50.0,
+        "m_regenerationRate": 2.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Plunderbot_RangedShort"
+      },
+      "AI_Plunderbot_RangedMedium": {
+        "m_maxHealth": 112.5,
+        "m_regenerationRate": 2.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Plunderbot_RangedMedium"
+      },
+      "AI_Plunderbot_RangedLong": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 2.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Plunderbot_RangedLong"
+      },
+      "AI_GlowBeetle": {
+        "m_maxHealth": 70.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_GlowBeetle"
+      },
+      "AI_TestPoisonPlant": {
+        "m_maxHealth": 25.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_TestPoisonPlant"
+      },
+      "AC_OBJ_Gas_Actor": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_Gas_Actor"
+      },
+      "AC_OBJ_PowerUp_Terminal": {
+        "m_maxHealth": 600.0,
+        "m_regenerationRate": 10.0,
+        "m_regenerationDelay": 10.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_PowerUp_Terminal"
+      },
+      "AC_OBJ_PowerUp_Terminal_TutW": {
+        "m_maxHealth": 250.0,
+        "m_regenerationRate": 10.0,
+        "m_regenerationDelay": 10.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_PowerUp_Terminal_TutW"
+      },
+      "AB_SurveillanceWard": {
+        "m_maxHealth": 300.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AB_SurveillanceWard"
+      },
+      "AC_OBJ_Salvage_SubActor": {
+        "m_maxHealth": 2200.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_Salvage_SubActor"
+      },
+      "AC_OBJ_Sabotage_SubActor": {
+        "m_maxHealth": 4000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_Sabotage_SubActor"
+      },
+      "AC_OBJ_MineralActor_Easy": {
+        "m_maxHealth": 1000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_MineralActor_Easy"
+      },
+      "AC_OBJ_MineralActor_Medium": {
+        "m_maxHealth": 1750.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_MineralActor_Medium"
+      },
+      "AC_OBJ_MineralActor_Hard": {
+        "m_maxHealth": 3000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_MineralActor_Hard"
+      },
+      "AC_OBJ_MineralActor_VeryHard": {
+        "m_maxHealth": 5000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_MineralActor_VeryHard"
+      },
+      "AC_OBJ_MineralActor_Epic": {
+        "m_maxHealth": 10000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_MineralActor_Epic"
+      },
+      "KineticShieldDefault": {
+        "m_maxHealth": 1300.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "KineticShieldDefault"
+      },
+      "KineticShieldShell": {
+        "m_maxHealth": 99999.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "KineticShieldShell"
+      },
+      "KineticShieldDome": {
+        "m_maxHealth": 99999.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "KineticShieldDome"
+      },
+      "AC_OBJ_BigDrill_Core": {
+        "m_maxHealth": 2000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AC_OBJ_BigDrill_Core"
+      },
+      "Translocator": {
+        "m_maxHealth": 300.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "Translocator"
+      },
+      "VehicleDefault": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "VehicleDefault"
+      },
+      "PlayerBanner": {
+        "m_maxHealth": 350.0,
+        "m_regenerationRate": 1.0,
+        "m_regenerationDelay": 0.5,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "PlayerBanner"
+      },
+      "AIfriendly": {
+        "m_maxHealth": 999999.0,
+        "m_regenerationRate": 10000.0,
+        "m_regenerationDelay": 0.25,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AIfriendly"
+      },
+      "Basic_Movement_A": {
+        "m_maxHealth": 100.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": 0.0,
+        "m_segments": 1,
+        "m_rowName": "Basic_Movement_A"
+      },
+      "Weakspot_Armor": {
+        "m_maxHealth": 400.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "Weakspot_Armor"
+      },
+      "RedBarrel_Health": {
+        "m_maxHealth": 400.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "RedBarrel_Health"
+      },
+      "ExplosivePlant": {
+        "m_maxHealth": 125.0,
+        "m_regenerationRate": 10.0,
+        "m_regenerationDelay": 1.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "ExplosivePlant"
+      },
+      "MinableSegment": {
+        "m_maxHealth": 500.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "MinableSegment"
+      },
+      "MineralRockBasic": {
+        "m_maxHealth": 3000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "MineralRockBasic"
+      },
+      "AI_Strider": {
+        "m_maxHealth": 40.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Strider"
+      },
+      "AI_Strider_2": {
+        "m_maxHealth": 100.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Strider_2"
+      },
+      "AI_Strider_3": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Strider_3"
+      },
+      "AI_Strider_4": {
+        "m_maxHealth": 200.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Strider_4"
+      },
+      "AI_Strider_5": {
+        "m_maxHealth": 300.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Strider_5"
+      },
+      "AI_Rattler": {
+        "m_maxHealth": 150.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Rattler"
+      },
+      "AI_Rattler_2": {
+        "m_maxHealth": 250.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Rattler_2"
+      },
+      "AI_Rattler_3": {
+        "m_maxHealth": 350.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Rattler_3"
+      },
+      "AI_Rattler_4": {
+        "m_maxHealth": 500.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Rattler_4"
+      },
+      "AI_Weremole": {
+        "m_maxHealth": 750.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Weremole"
+      },
+      "AI_Weremole_2": {
+        "m_maxHealth": 1000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Weremole_2"
+      },
+      "AI_Crusher": {
+        "m_maxHealth": 3000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Crusher"
+      },
+      "AI_Crusher_2": {
+        "m_maxHealth": 5000.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Crusher_2"
+      },
+      "Consumable_LaserTrap": {
+        "m_maxHealth": 1.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 0.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "Consumable_LaserTrap"
+      }
+    }
+  }
+]

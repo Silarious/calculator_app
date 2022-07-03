@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AI_SenseTrigger_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YAISenseTriggerRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "Player_Footstep_Sprint": {
+        "m_intensity": 1.0,
+        "m_maxRange": 2000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Player_Footstep_Sprint"
+      },
+      "Player_Footstep_Walk": {
+        "m_intensity": 1.0,
+        "m_maxRange": 1000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Player_Footstep_Walk"
+      },
+      "Player_Footstep_Crouch": {
+        "m_intensity": 1.0,
+        "m_maxRange": 250.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Player_Footstep_Crouch"
+      },
+      "Weapon_Silent": {
+        "m_intensity": 1.0,
+        "m_maxRange": 1500.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Weapon_Silent"
+      },
+      "Weapon_Regular": {
+        "m_intensity": 1.0,
+        "m_maxRange": 3500.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Weapon_Regular"
+      },
+      "Weapon_Loud": {
+        "m_intensity": 1.0,
+        "m_maxRange": 6000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Weapon_Loud"
+      },
+      "Debug_VeryLoud": {
+        "m_intensity": 9999.0,
+        "m_maxRange": 0.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Debug_VeryLoud"
+      },
+      "Debug_VerySmelly": {
+        "m_intensity": 9999.0,
+        "m_maxRange": 0.0,
+        "m_type": "EYAISenseType::None",
+        "m_rowName": "Debug_VerySmelly"
+      },
+      "Player_Footstep_Landing": {
+        "m_intensity": 1.0,
+        "m_maxRange": 1200.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Player_Footstep_Landing"
+      },
+      "ImpactDefault": {
+        "m_intensity": 1.0,
+        "m_maxRange": 600.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "ImpactDefault"
+      },
+      "ImpactGrenade": {
+        "m_intensity": 1.0,
+        "m_maxRange": 3000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "ImpactGrenade"
+      },
+      "Uplink/Evac": {
+        "m_intensity": 1.5,
+        "m_maxRange": 5000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "Uplink/Evac"
+      },
+      "DungeonTrigger": {
+        "m_intensity": 1.0,
+        "m_maxRange": 5000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "DungeonTrigger"
+      },
+      "LaserDrill": {
+        "m_intensity": 1.5,
+        "m_maxRange": 5000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "LaserDrill"
+      },
+      "OilPump": {
+        "m_intensity": 1.0,
+        "m_maxRange": 3000.0,
+        "m_type": "EYAISenseType::Hearing",
+        "m_rowName": "OilPump"
+      }
+    }
+  }
+]

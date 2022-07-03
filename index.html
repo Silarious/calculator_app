@@ -18,27 +18,51 @@
                 <select id="weaponSelection"></select>
             </div>
             <div class="hubBoxInputs" id="modSelection">
-                <div class="selection">
+                <div class="selection" id = "SEL1">
                     <p>Magazine</p>
-                    <select name="SLOT1" id="SLOT1" size="5" class="weaponStatInput mod_slot">
+                    <select name="SLOT1" id="SLOT1" size="4" class="weaponStatInput mod_slot">
                         <option id="Default" value="0" m_krypto="0">None</option>
                     </select>
                 </div>
-                <div class="selection">
-                    <p>Body</p>
-                    <select name="SLOT2" id="SLOT2" size="5" class="weaponStatInput mod_slot">
+                <div class="selection" id = "SEL2">
+                    <p>Ammo Converter</p>
+                    <select name="SLOT2" id="SLOT2" size="4" class="weaponStatInput mod_slot">
                         <option id="Default" value="0" m_krypto="0">None</option>
                     </select>
                 </div>
-                <div class="selection">
-                    <p>Rail/Scope</p>
-                    <select name="SLOT3" id="SLOT3" size="5" class="weaponStatInput mod_slot">
+                <div class="selection" id = "SEL3">
+                    <p>Muzzle</p>
+                    <select name="SLOT3" id="SLOT3" size="4" class="weaponStatInput mod_slot">
                         <option id="Default" value="0" m_krypto="0">None</option>
                     </select>
                 </div>
-                <div class="selection">
-                    <p>Stock/Handle</p>
-                    <select name="SLOT4" id="SLOT4" size="5" class="weaponStatInput mod_slot">
+                <div class="selection" id = "SEL4">
+                    <p>Optics/Scope</p>
+                    <select name="SLOT4" id="SLOT4" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection" id = "SEL5">
+                    <p>Stock</p>
+                    <select name="SLOT5" id="SLOT5" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection" id = "SEL6" style="display: none">
+                    <p>Foregrip</p>
+                    <select name="SLOT6" id="SLOT6" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection" id = "SEL7" style="display: none">
+                    <p>Reargrip</p>
+                    <select name="SLOT7" id="SLOT7" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0" m_krypto="0">None</option>
+                    </select>
+                </div>
+                <div class="selection" id = "SEL8" style="display: none">
+                    <p>Tactical</p>
+                    <select name="SLOT8" id="SLOT8" size="4" class="weaponStatInput mod_slot">
                         <option id="Default" value="0" m_krypto="0">None</option>
                     </select>
                 </div>
@@ -53,22 +77,53 @@
                     <input id="headshotAccuracySlider" class="weaponStatInput headshotAccuracy" type="range" min="0" max="100" value="100" step="1" oninput="syncInput(this.value,'headshotAccuracyBox')">
                 </div>
                 <div class="inputContainer">
-                    <p class="inputText">Distance:<input id="distanceBox" class="weaponStatInput distance" type="number" name="accuracy" value="1000" min="0" max="10000" step="100" oninput="syncInput(this.value,'distanceSlider')"></p>
-                    <input id="distanceSlider" class="weaponStatInput distance" type="range" min="0" max="10000" value="1000" step="100" oninput="syncInput(this.value,'distanceBox')">
+                    <p class="inputText">Distance (m):<input id="distanceBox" class="weaponStatInput distance" type="number" name="accuracy" value="10" min="0" max="100" step="0.5" oninput="syncInput(this.value,'distanceSlider')"></p>
+                    <input id="distanceSlider" class="weaponStatInput distance" type="range" min="0" max="100" value="10" step="0.5" oninput="syncInput(this.value,'distanceBox')">
                 </div>
                 <div class="inputContainer">
-                    <p class="inputText">Health:<input id="healthBox" class="weaponStatInput health" type="number" name="health" value="1000" min="100" max="20000" step="50" oninput="syncInput(this.value,'healthSlider')"></p>
-                    <input id="healthSlider" class="weaponStatInput health" type="range" min="100" max="20000" value="1000" step="50" oninput="syncInput(this.value,'healthBox')">
+                    <p class="inputText">Health:<input id="healthBox" class="weaponStatInput health" type="number" name="health" min="5" max="10000" value="100" step="5" oninput="syncInput(this.value,'healthSlider')"></p>
+                    <input id="healthSlider" class="weaponStatInput health" type="range" min="5" max="10000" value="100" step="5" oninput="syncInput(this.value,'healthBox')">
+                </div>
+                <div class="inputContainer">
+                    <p class="inputText">Armor:<input id="armorBox" class="weaponStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
+                    <input id="armorSlider" class="weaponStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Target Type:
-                        <select id="target_selection" class="weaponStatInput targetType" name="targets">
+                        <select id="targetSelection" class="weaponStatInput targetType" name="targets">
                             <option id="Player" value="0">Player</option>
                             <option id="Monster" value="1">Creature</option>
-                            <option id="Other" value="2">Other</option>
                         </select>
                     </p>
                 </div>
+                <div class="inputContainer">
+                    <p class="inputText">Select Monster:</p>
+                        <select id="monsterSelection" class="weaponStatInput monster_selection" name="monsters">
+                            <option id="AI_None" value="none">None</option>
+                            <!--<option id="AI_GlowBeetle_Blast">Tick</option>-->
+                            <option id="AI_Strider">Strider</option>
+                            <option id="AI_Strider_2">Heavy Strider</option>
+                            <option id="AI_Rattler">Rattler</option>
+                            <option id="AI_Rattler_2">Mature Rattler</option>
+                            <option id="AI_Weremole">Marauder</option>
+                            <option id="AI_Weremole_2">Savage Marauder</option>
+                            <option id="AI_Crusher">Crusher</option>
+                            <option id="AI_Crusher_2">Alpha Crusher</option>
+                        </select>
+                </div>
+                <div class="inputContainer">
+                    <p class="inputText">Select Helmet:</p>
+                        <select id="helmetSelection" class="weaponStatInput helmetType" name="helmet">
+                            <option id="Helmet_None" value="none">None</option>
+                        </select>
+                </div>
+                <div class="inputContainer">
+                    <p class="inputText">Select Shield:</p>
+                        <select id="shieldSelection" class="weaponStatInput shieldType" name="shield">
+                            <option id="Shield_None" value="none">None</option>
+                        </select>
+                </div>
+                
                 
             </div>
             <table id="weaponStats">
@@ -118,13 +173,13 @@
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_directDamageFalloffStartRange">
-                    <th>Damage Falloff Start</th>
+                    <th>Damage Falloff Start (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_directDamageFalloffEndRange">
-                    <th>Damage Falloff End</th>
+                    <th>Damage Falloff End (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
@@ -159,8 +214,20 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
+                <tr id="t-m_equipTime">
+                    <th>Equip Time</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
                 <tr id="t-m_targetingTime">
                     <th>ADS Time</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
+                <tr id="t-m_detectionRange">
+                    <th>AI Detection Range (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>

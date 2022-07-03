@@ -1,7 +1,7 @@
 "use strict"; //! JS Scrict Mode
 
 //* Loading JSON Files
-const files_JSON = ["PRO_Tuning","PRO_Weapons","PRO_Mods","PRO_ModPerks","PRO_Perks","PRO_Transport","ST_Weapons","ST_Mods"]; // Insert all JSONs to DATA_JSON folder then add file name to files_JSON array. 
+const files_JSON = ["PRO_Tuning","PRO_Health","PRO_Weapons","PRO_Mods","PRO_ModPerks","PRO_Perks","PRO_Transport","PRO_Helmets","PRO_PlayerShield","AI_SenseTrigger_DT","Ai_Tuning_DT","ST_Weapons","ST_Mods"]; // Insert all JSONs to DATA_JSON folder then add file name to files_JSON array. 
 const num_files = files_JSON.length - 1; // Find number of files in files_JSON - 1 to account for 0 based.
 
 //* XMLHttpRequest Method

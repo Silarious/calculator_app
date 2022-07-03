@@ -13,6 +13,7 @@ body, select {
 .hubBoxInputs {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 /* Selection */
 .selection {
@@ -34,6 +35,9 @@ body, select {
 #weaponSelection option {
     padding:2px;
 }
+select#monsterSelection,select#helmetSelection,select#shieldSelection {
+    width: -webkit-fill-available;
+}
 #modSelection {
     display:flex;
     flex-direction: column;
@@ -43,7 +47,7 @@ body, select {
     min-width:12em;
 }
 .inputContainer {
-	margin: 0px 0px 15px 0;
+	margin: 0px 0px 20px 0;
 }
 .inputText {
     margin:0;

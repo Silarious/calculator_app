@@ -4,12 +4,14 @@ import { load_JSON } from "./loadData.js";
 
 //*Global Variables
 var date = new Date();
-var slots = ["SLOT1","SLOT2","SLOT3","SLOT4"];
-
+var slots = ["SLOT1","SLOT2","SLOT3","SLOT4","SLOT5","SLOT6","SLOT7","SLOT8"];
+const weapons = PRO_Weapons[0].Rows;
+const Tuning = PRO_Tuning[0].Rows;
+const Sense = AI_SenseTrigger_DT[0].Rows;
 //* Filter Real Weapons
 //Not all objects in PRO_Tuning are usable/real weapons, filtering and creating variables for real weapons is done here.
 const weaponCodeNameList = [];
-const weapons = PRO_Weapons[0].Rows;
+
 for (let key in weapons) { // Only show objects that pass the filter for the weapon name.
     let m_weaponName = weapons[key].m_weaponName;
     (m_weaponName.hasOwnProperty('Key') === true // Ternary Operator
@@ -26,21 +28,25 @@ for (let key in weapons) { // Only show objects that pass the filter for the wea
 
 //! MUST FIND DYNAMIC WAY TO EXECUTE THE FOLLOWING
 // Object Deconstructing all the correct weapon entries from PRO_Tuning and storing in variable of the same weapon name.
-const Tuning = PRO_Tuning[0].Rows;
+
 const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_HVY_Shell_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_E_Launch_Nade_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01, WP_E_Sniper_Bullet_01} = Tuning
 //TODO: The above is a static way and will be obsolete to changes in the data.
 
-//*Weapon Tags Import
-for (let i = 0; i < weaponCodeNameList.length; i++) {
-    eval(weaponCodeNameList[i]+".m_weaponTags" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_weaponTags;");
-}
 
-//* Weapon Vanity Names Import
-//Appending vanity/human friendly names to the weapon variables.
 for (let i = 0; i < weaponCodeNameList.length; i++) {
+//*Weapon Tags & Slots Import
+    eval(weaponCodeNameList[i]+".m_weaponTags" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_weaponTags;");
+    eval(weaponCodeNameList[i]+".m_modSlots" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_modSlots;");
+//Appending vanity/human friendly names to the weapon variables.
     eval(weaponCodeNameList[i]+'.m_weaponName' + '='+ 'weapons' + '.' + weaponCodeNameList[i] + '.m_weaponName.Key;');
-    eval(weaponCodeNameList[i]+'.m_transportName' + '='+ 'weapons' + '.' + weaponCodeNameList[i] + '.m_transportDataTableRow.RowName;');
-} 
+    eval(weaponCodeNameList[i]+'.m_transportName' + '=' + 'weapons' + '.' + weaponCodeNameList[i] + '.m_transportDataTableRow.RowName;');
+//Detection range import
+    let m_AISenseTriggeredOnFire = eval(weaponCodeNameList[i] + '.m_AISenseTriggeredOnFire.RowName');
+    eval(weaponCodeNameList[i]+'.m_detectionRange = AI_SenseTrigger_DT[0].Rows.' + m_AISenseTriggeredOnFire + '.m_maxRange/100;');
+    if (eval(weaponCodeNameList[i]+'.m_AISenseTriggeredOnFire.RowName') === "Weapon_Silent"){
+        eval(weaponCodeNameList[i]+'.m_isSilenced' + '='+ '1');
+    } else {eval(weaponCodeNameList[i]+'.m_isSilenced' + '='+ '0');}
+}
 
 const weaponVanityName = ST_Weapons.filter(function(weapon) {
     return weapon.Key.includes('Name') 
@@ -67,7 +73,7 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
     let transportName = eval( weaponCodeNameList[i] + '.m_transportName');
     eval(weaponCodeNameList[i]+".m_transportType" + "=" + "transport" + "." + transportName + ".m_transportType.replace('EYWeaponTransportType::','');");
     eval(weaponCodeNameList[i]+'.m_maxTraceDistance' + '='+ 'transport' + '.' + transportName + '.m_hitscanData.m_maxTraceDistance;');
-    eval(weaponCodeNameList[i]+'.m_initialProjectileSpeed' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_initialProjectileSpeed;');
+    eval(weaponCodeNameList[i]+'.m_initialProjectileSpeed' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_initialProjectileSpeed / 100;');
     eval(weaponCodeNameList[i]+'.m_acceleration' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_acceleration;');
     eval(weaponCodeNameList[i]+'.m_accelerationApplyDelayTime' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_accelerationApplyDelayTime;');
     eval(weaponCodeNameList[i]+'.m_gravityScale' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_gravityScale;');
@@ -79,32 +85,20 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 const mods = PRO_Mods[0].Rows;
 const modPerks = PRO_ModPerks[0].Rows;
 const modCodeNameList = [];
-/* for (let key in mods) { // Only show objects that pass the filter for the weapon name.
-    if (key.startsWith('MOD')  === true && !key.includes('Kit')){
-        mods[key].weaponName = key.replace('MOD',"WP").split('__')[0];
-        mods[key].slot = key.split('__')[1].split('_')[0];
-        let perkRowHandle = mods[key].m_perkRowHandle.DataTable;
-        if (perkRowHandle !== null && perkRowHandle.ObjectPath === "Prospect/Content/DataTables/PRO_ModPerks.0"){
-            let modName = mods[key].m_perkRowHandle.RowName;
-            mods[key].m_defaultModInstanceData.m_attributeMods = eval("modPerks."+modName+".m_attributeModifiers");
+ for (let key in mods) { // Only show objects that pass the filter for the weapon name.
+    if (key.startsWith('Mod')  === true){
+        for (let i = 0; i < ST_Mods.length; i++) {
+            if (mods[key].m_name.Key === ST_Mods[i].Key) {
+                mods[key].vanityName = ST_Mods[i].SourceString;
+            }
         }
-        mods[key].vanityName = ST_Mods.filter(function(weapon) {
-            return weapon.Key.includes(mods[key].m_modName.Key) && !weapon.SourceString.includes('NOT IMPLEMENTED');
-        });
         modCodeNameList.push(mods[key].m_rowName); 
     }
-    //Mods with Ampersand broke strings into 2 parts, this loop creates a new key without & and deletes old key.
-    if (String(key).includes("&")) {
-        let oldKey = key;
-        let newKey = key.replace("&","");
-        mods[newKey] = mods[oldKey];
-        delete mods[oldKey];
-    }
-} */
+} 
 for (let key in mods) {
     if (key.startsWith('Mod')  === true){
         mods[key].attributeMods = mods[key].m_defaultModInstanceData.m_attributeMods;
-        if (mods[key].m_perHandlePropertyDefinition != []) {
+        if (mods[key].m_perHandlePropertyDefinition.length != 0 && mods[key].m_perHandlePropertyDefinition[0].m_attributeMods.length != 0) {
             for (let i = 0; i < mods[key].m_perHandlePropertyDefinition.length; i++) {
                 mods[key].attributeMods.push(mods[key].m_perHandlePropertyDefinition[i].m_attributeMods[0])
             }
@@ -112,12 +106,13 @@ for (let key in mods) {
         
     }
 }
+
 //* Complex Weapon Stats
 // Calculating and appending stats that require equation using other stats from the weapons variables.
 // Total Damage Calculation, Weakspot/Headshot Calculation, Movement Speed Calculation
 
 for (let i = 0; i < weaponCodeNameList.length; i++) {
-    eval(weaponCodeNameList[i]+'.m_movementSpeed = (' + weaponCodeNameList[i]+'.m_movementSpeedMultiplier * 3.91).toFixed(2)');
+    eval(weaponCodeNameList[i]+'.m_movementSpeed = (' + weaponCodeNameList[i]+'.m_movementSpeedMultiplier * 3.57).toFixed(2)');
     eval(weaponCodeNameList[i]+'.m_rangeMultiplier = 1');
     eval(weaponCodeNameList[i]+'.m_piercing = 0');
     eval(weaponCodeNameList[i]+'.m_weaponTargetingFOV = null');
@@ -129,6 +124,7 @@ let weaponSelection = document.getElementById('weaponSelection');
 weaponSelection.size = weaponCodeNameList.length;
 for (let i = 0; i < weaponCodeNameList.length; i++) {
     let option = document.createElement("option");
+    //option.text = eval(weaponCodeNameList[i] + '.m_rowName').replace("_01","") //Debug Mode
     option.text = eval(weaponCodeNameList[i] + '.m_vanityName');
     option.id = weaponCodeNameList[i];
     weaponSelection.add(option);
@@ -157,31 +153,38 @@ sortSelection('weaponSelection');
 function updateWeaponSelection () {
     for (let i = 0; i < slots.length; i++) {
         let modSlot = document.getElementById(slots[i]);
-
-        //Clears mod options from each slot before repopulating with new options.
-        while (modSlot.options.length) {modSlot.remove(0);}	
-        let option = document.createElement("option");
-        option.text = "None";
-        option.id = "Default";
-        option.setAttribute("value",0);
-        option.setAttribute("m_krypto",0);
-        modSlot.add(option);
+        clearSelection(modSlot,"None","Mod_None")
         document.getElementById(slots[i]).selectedIndex = '0';
-/*         document.getElementById('SLOT1').selectedIndex = getCookie('SLOT1');
-        document.getElementById('SLOT2').selectedIndex = getCookie('SLOT2');
-        document.getElementById('SLOT3').selectedIndex = getCookie('SLOT3');
-        document.getElementById('SLOT4').selectedIndex = getCookie('SLOT4'); */
-
-        for (let key in mods) {
-            if (mods[key].slot === slots[i] && mods[key].weaponName === weaponSelection.options[weaponSelection.selectedIndex].id && mods[key].m_defaultModInstanceData.m_attributeMods.length > 0){
-                let option = document.createElement("option");
-                //option.text = mods[key].vanityName[0].SourceString;
-                option.text = key;
-                option.id = key;
-                modSlot.add(option);
-            }
+}
+    for (let key in mods) {
+        for (let i = 0; i < mods[key].m_modCompatibilityTags.length; i++) {
+            if (eval("("+weaponSelection.options[weaponSelection.selectedIndex].id + ".m_weaponTags).includes('"+mods[key].m_modCompatibilityTags[i]+"')")) {
+                let slotSwitch;
+                switch(mods[key].m_modType){
+                    case "EYModificationSlotType::Magazine": slotSwitch = 0; break;
+                    case "EYModificationSlotType::AmmoConverter": slotSwitch = 1; break;
+                    case "EYModificationSlotType::Muzzle": slotSwitch = 2; break;
+                    case "EYModificationSlotType::Optics": slotSwitch = 3; break;
+                    case "EYModificationSlotType::Stock": slotSwitch = 4; break;
+                    default: slotSwitch = 7; break;
+                } 
+                    let option = document.createElement("option");
+                    //option.text = key; //Debug Mode
+                    option.text = mods[key].vanityName + mods[key].m_rarity.replace("EYItemRarityType::"," ");
+                    option.id = key;
+                    document.getElementById(slots[slotSwitch]).add(option);
+            } 
         }
     }
+}
+
+function clearSelection(target,text,id) {
+    while (target.options.length) {target.remove(0);}	
+    let option = document.createElement("option");
+    option.text = text;
+    option.id = id;
+    option.value = "none";
+    target.add(option);
 }
 
 function parameterAdjustment(w_parameterValue, w_modifierType, w_modifierValue){
@@ -212,12 +215,60 @@ for (let key in WP_A_AR_Bullet_01){
 //Array of attributes that there is a table cell for in index.html
 var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier", "m_penetration",
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
-"m_reloadTime","m_targetingTime","m_initialProjectileSpeed"];
+"m_reloadTime","m_equipTime","m_targetingTime","m_detectionRange","m_initialProjectileSpeed"];
 //Same as visAttributes but for "Detailed Stats" section
 var calcAttributes = ["totalDamage","headshotDamage","DPS","RPM","damagePerMag","shotsToKill","TTK"];
 
 function calculateWeaponStats(Modded,Init){
     let wep = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
+
+    let monsterSelection = document.getElementById('monsterSelection');
+    let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
+    
+
+    let helmetSelection = document.getElementById('helmetSelection');
+    let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
+    clearSelection(helmetSelection,"None","Helmet_None")
+
+    for (let key in PRO_Helmets[0].Rows) {
+        let option = document.createElement("option");
+        //option.text = key; //Debug Mode
+        option.text = key.replace(/[\d_]+/g, ' ') + eval("PRO_Helmets[0].Rows."+key+".m_rarity.replace('EYItemRarityType::','')");
+        option.id = key;
+        helmetSelection.add(option);
+    }
+
+    let shieldSelection = document.getElementById('shieldSelection');
+    let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
+    clearSelection(shieldSelection,"None","Shield_None")
+
+    for (let key in PRO_PlayerShield[0].Rows) {
+            if (key.startsWith('Test')  !== true && key !== "PlayerDefault") {
+            let option = document.createElement("option");
+            //option.text = key; //Debug Mode
+            option.text = key.replace(/[\d_]+/g, ' ') + eval("PRO_PlayerShield[0].Rows."+key+".m_rarity.replace('EYItemRarityType::','')");
+            option.id = key;
+            shieldSelection.add(option);
+            }
+    }
+
+    if (monsterType !== "AI_None"){
+        document.getElementById('healthSlider').value = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
+        document.getElementById('healthBox').value = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
+        document.getElementById('targetSelection').value = 1;
+        document.getElementById('helmetSelection').value = "none";
+        document.getElementById('shieldSelection').value = "none"
+    } /* else {
+        let helmetArmor;
+        let shieldArmor;
+        if(helmetType !== "Helmet_None"){let helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount");}else{helmetArmor = 0}
+        if(shieldType !== "Shield_None"){let shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount");}else{shieldArmor = 0}
+        let totalArmor = helmetArmor + shieldArmor;
+        document.getElementById('armorSlider').value = totalArmor;
+        document.getElementById('armorBox').value = totalArmor;
+        document.getElementById('monsterSelection').value = "none";
+        document.getElementById('targetSelection').value = 0;
+    } */
 
     //Query user input and declare them.
     let accuracy = parseFloat(document.getElementById('accuracySlider').value/100);
@@ -226,14 +277,18 @@ function calculateWeaponStats(Modded,Init){
     let accuracy2 = accuracy - headshotaccuracy2;
     let targetRange = parseFloat(document.getElementById('distanceSlider').value);
     let health = parseInt(document.getElementById('healthSlider').value);
-    let tt = document.getElementById("target_selection");
+    let armor = parseInt(document.getElementById('armorSlider').value);
+    let tt = document.getElementById("targetSelection");
     let targetType = tt.options[tt.selectedIndex].getAttribute('id');
+
+    
+
 
     //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
     let m_chainReactionDamageReduction = 1.0;
     let m_applyChainReaction = 0;
-
+    console.log(mods);
 
     for (let i = 0; i < attributes.length; i++) {
         window[attributes[i]] = eval("wep." + attributes[i]);
@@ -242,7 +297,7 @@ function calculateWeaponStats(Modded,Init){
         for (let i = 0; i < slots.length; i++) {
             let mod = eval("document.querySelector('#"+slots[i]+"').selectedOptions[0].id");
 
-            if (mod === "Default"){}else{
+            if (mod === "Mod_None"){}else{
             let modAttributes = eval("mods."+ mod + ".m_defaultModInstanceData.m_attributeMods");
             modAttributes.forEach(function(mod) {
                 let attribute = mod.m_attribute.split(":")[2];
@@ -253,9 +308,11 @@ function calculateWeaponStats(Modded,Init){
                 switch(attribute){
                     // Damage Variables
                     case "DamageScalingDealtAgainstPlayers": attribute = "m_directDamagePlayerMultiplier" ; break;
-                    case "DamageScalingDealtAgainstAI": attribute = "m_directDamageEnemyMultiplier" ; break;                
+                    case "DamageScalingDealtAgainstAI": attribute = "m_directDamageEnemyMultiplier" ; break;   
+                    case "DamageEnemyMultiplier": attribute = "m_directDamageEnemyMultiplier" ; break;             
                     case "WeaponDamageDirect": attribute = "m_directDamage" ; break;
                     case "WeaponDamage": attribute = "m_directDamage" ; break;
+                    case "WeaponPenetration": attribute = "m_penetration" ; break;
                     case "WeaponDamageRadial": attribute = "m_radialDamage" ; break;
                     case "RadialStartFalloffRange": attribute = "m_radialDamageFalloffStartRange" ; break;
                     case "RadialFalloffMultiplier": attribute = "m_radialDamageFalloffMultiplier" ; break;
@@ -276,6 +333,7 @@ function calculateWeaponStats(Modded,Init){
                     case "MaxSpeed": attribute = "m_movementSpeed"; break;
                     case "WeaponIsLooping": attribute = "m_isLooping"; break;
                     // Projectile Variables
+                    case "WeaponIsSilenced": attribute = "m_isSilenced"; break;
                     case "ProjectileMaxSpeed": attribute = "null"; break;
                     case "ProjectileInitialSpeed": attribute = "m_initialProjectileSpeed"; break;
                     // Range Variables
@@ -286,7 +344,7 @@ function calculateWeaponStats(Modded,Init){
                     case "WeaponSpreadUnaimed": attribute = "m_defaultWeaponSpread"; break;
                     case "WeaponSpreadMax" : attribute = "m_weaponSpreadMax"; break;
                     case "WeaponSpreadIncreaseRate" : attribute = "m_weaponSpreadIncreaseSpeed"; break;
-                    case "WeaponTargetingSpreadMultiplier": attribute = "m_targetingSpreadDefaultMultiplier"; break;
+                    case "WeaponTargetingSpreadMultiplier": attribute = "m_targetingSpreadDefault"; break;
                     case "WeaponTargetingRecoil": attribute = "m_targetingRecoil"; break;
                     case "WeaponRecoilIncreaseRate": attribute = "m_weaponSpreadIncreaseSpeed"; break;
                     case "WeaponTargetingFOV": attribute = "m_weaponTargetingFOV"; break;
@@ -298,30 +356,56 @@ function calculateWeaponStats(Modded,Init){
                     case "ChainReactionDamagePercentReduction": attribute = "m_chainReactionDamageReduction"; break;
                     //Ignored Variables
                     case "WeaponRefireAnimationRateScaleMultiplier": attribute = "null"; break;
-                    case "ProjectileLifeSpan": attribute = "null"; break;
-                    case "ProjectileArmingTime": attribute = "null"; break;
                     case "WeaponScaleOffset": attribute = "null"; break;
                     case "WeaponMaxTraceRange": attribute = "null"; break;
                     case "WeaponSpreadDecreaseRate": attribute = "null"; break;
                     case "WeaponRecoilCompenstationSpeedY": attribute = "null"; break;
+                    case "WeaponRecoilVertical": attribute = "null"; break;
                     //TODO Add these projectile stats to calculator
                     case "ProjectileAccelerationMovementSpeed": attribute = "null"; break;
                     case "ProjectileAccelerationDelay": attribute = "null"; break;
                     case "ProjectileAcceleration": attribute = "null"; break;
                     case "ProjectileGravityScale": attribute = "null"; break;
+                    case "ProjectileLifeSpan": attribute = "null"; break;
+                    case "ProjectileArmingTime": attribute = "null"; break;
                 }
                 if(attribute === "null"){}else{eval(attribute + " = Number(parameterAdjustment(eval(attribute),type,value).toFixed(3))");}
                 };
+                /* if (m_isSilenced = 1) {
+                    m_detectionRange = AI_SenseTrigger_DT[0].Rows.Weapon_Silent.m_maxRange/100;
+                } */
             });
             };
         };
     };
-    if (m_rangeMultiplier < 10){
-    m_directDamageFalloffStartRange = m_directDamageFalloffStartRange * m_rangeMultiplier;
-    m_directDamageFalloffEndRange = m_directDamageFalloffEndRange * m_rangeMultiplier;
+    
+    let m_effectiveHealthPerArmorConstant;
+    if (targetType === "Player"){
+        m_effectiveHealthPerArmorConstant = 0.025
     } else {
-        m_directDamageFalloffStartRange = m_directDamageFalloffStartRange + m_rangeMultiplier;
-        m_directDamageFalloffEndRange = m_directDamageFalloffEndRange + m_rangeMultiplier;
+        m_effectiveHealthPerArmorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace('AI_',"")+".m_effectiveHealthPerArmorConstant")
+    }
+ 
+    let remainder = m_penetration - armor;
+    let penMulti = health/(health + Math.abs(remainder) * m_effectiveHealthPerArmorConstant * health);
+    let damageScale;
+    if (remainder > 0) {
+        damageScale = 2 - penMulti;
+    } else if (penMulti > 2){
+        damageScale = 2;
+    } else if (penMulti < 0.3){
+        damageScale = 0.3;
+    } else {
+        damageScale = penMulti;
+    }
+    m_directDamage *= damageScale;
+
+    if (m_rangeMultiplier < 10){
+        m_directDamageFalloffStartRange = ((m_directDamageFalloffStartRange * m_rangeMultiplier)/100).toFixed(0);
+        m_directDamageFalloffEndRange = ((m_directDamageFalloffEndRange * m_rangeMultiplier)/100).toFixed(0);
+    } else {
+        m_directDamageFalloffStartRange = ((m_directDamageFalloffStartRange + m_rangeMultiplier)/100).toFixed(0);
+        m_directDamageFalloffEndRange = ((m_directDamageFalloffEndRange + m_rangeMultiplier)/100).toFixed(0);
     }
     let targetMulti = 1 - (1 - m_directDamageFalloffMultiplier) * ((targetRange - m_directDamageFalloffStartRange) / (m_directDamageFalloffEndRange - m_directDamageFalloffStartRange));
 
@@ -335,14 +419,15 @@ function calculateWeaponStats(Modded,Init){
     } 
     switch(targetType) {
         case "Monster": m_directDamage = ((m_directDamage * rangeMulti) * m_directDamageEnemyMultiplier).toFixed(3); break;
-        case "Other": m_directDamage = (m_directDamage * rangeMulti); break;
         default: m_directDamage = ((m_directDamage * rangeMulti) * m_directDamagePlayerMultiplier).toFixed(3); break;
     }
 
     let totalDamage = (((m_directDamage * rangeMulti) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
     let headshotDamage = ((((m_directDamage * rangeMulti) + m_radialDamage) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier).toFixed(1);
-
-    let singleShotDamage = (m_directDamage * rangeMulti) * m_amountOfImmediateFires;
+    
+    m_ammoInClip = Math.round(m_ammoInClip);
+    
+        let singleShotDamage = (m_directDamage * rangeMulti) * m_amountOfImmediateFires;
     let singleShotDamageCrit = (((m_directDamage * rangeMulti) * m_weakAreaDamageMultiplier) * m_amountOfImmediateFires)
     if (Number(m_amountOfBurst) > Number(0)) {
         var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * (singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
@@ -379,10 +464,10 @@ function calculateWeaponStats(Modded,Init){
         eval("document.querySelector('#t-" + calcAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML).toFixed(3);");
     };
 
-    var highAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier",
+    var highAttributes = ["m_directDamage","totalDamage","m_penetration","m_radialDamage","m_directDamageFalloffMultiplier",
     "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
     "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage"];
-    var lowAttributes = ["m_spinupTime","m_refireTime","m_reloadTime","m_targetingTime","shotsToKill","TTK"];
+    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK"];
 
     for (let i = 0; i < highAttributes.length; i++) {
         markTopValues(highAttributes[i],true);
@@ -469,4 +554,4 @@ document.querySelectorAll('.weaponStatInput').forEach(item => {
 //Debugging
 console.log(mods);
 console.log(mods.Mod_Optic_2x_01);
-console.log(WP_A_AR_Bullet_01);
+console.log(WP_D_AR_Bullet_01);

@@ -1,0 +1,5209 @@
+[
+{
+  "Key" : "Generic_Error",
+  "SourceString" : "ERROR",
+  "Comment" : "Generic error text.",
+  "" : ""
+},
+{
+  "Key" : "Generic_Gotit",
+  "SourceString" : "Got it!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Previewed",
+  "SourceString" : "Previewed",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Loading",
+  "SourceString" : "LOADING",
+  "Comment" : "Loading Text",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_Item_Already_Owned",
+  "SourceString" : "Owned",
+  "Comment" : "message to show if item is already owned",
+  "" : ""
+},
+{
+  "Key" : "Generic_Already_Owned",
+  "SourceString" : "Owned",
+  "Comment" : "message to show if item or bundle is already owned",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_Item_BlockedByExclusivityPickUp",
+  "SourceString" : "Pickup by Owner pending",
+  "Comment" : "message to show if pickup item is blocked for a short duration due another player having exclusive pick up rights for the moment",
+  "" : ""
+},
+{
+  "Key" : "Generic_Item_Level",
+  "SourceString" : "Lv. {0}",
+  "Comment" : "text to display item level",
+  "" : ""
+},
+{
+  "Key" : "Generic_Item_Amount",
+  "SourceString" : "{amount}x",
+  "Comment" : "text to display item amount",
+  "" : ""
+},
+{
+  "Key" : "Generic_Value_Display",
+  "SourceString" : "{0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Objective_Helper",
+  "SourceString" : "{0}m",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Player_Level_Display",
+  "SourceString" : "Lv. {0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Possible_Victory_Points",
+  "SourceString" : "{0} {1}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Global_XP",
+  "SourceString" : "REP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Global_XP_Variation",
+  "SourceString" : "XP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_View",
+  "SourceString" : "View",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KeyPrompt_Esc",
+  "SourceString" : "ESC",
+  "Comment" : "Global back prompt",
+  "" : ""
+},
+{
+  "Key" : "Generic_KeyPrompt_BACK",
+  "SourceString" : "BACK",
+  "Comment" : "Global back prompt",
+  "" : ""
+},
+{
+  "Key" : "Generic_KeyPrompt_HUD_Pickup",
+  "SourceString" : "Pick up",
+  "Comment" : "HUD pick up plate button prompt",
+  "" : ""
+},
+{
+  "Key" : "Generic_ExitToStation",
+  "SourceString" : "Exit to Station",
+  "Comment" : "a space station is our main menu",
+  "" : ""
+},
+{
+  "Key" : "Generic_Costs",
+  "SourceString" : "Required Resources",
+  "Comment" : "Section title for item costs",
+  "" : ""
+},
+{
+  "Key" : "Generic_Header_Incoming",
+  "SourceString" : "Incoming",
+  "Comment" : "A panel header used in various screens",
+  "" : ""
+},
+{
+  "Key" : "Generic_Header_Attention",
+  "SourceString" : "Attention",
+  "Comment" : "A panel header used in various screens",
+  "" : ""
+},
+{
+  "Key" : "Generic_WelcomePacakage",
+  "SourceString" : "Welcome Package!",
+  "Comment" : "Name of the into package badum gives the player",
+  "" : ""
+},
+{
+  "Key" : "Generic_RewardPopupTitle",
+  "SourceString" : "Granted Rewards!",
+  "Comment" : "Name of generic rewards",
+  "" : ""
+},
+{
+  "Key" : "Generic_NewItems",
+  "SourceString" : "New Items",
+  "Comment" : "Sub header describing new items",
+  "" : ""
+},
+{
+  "Key" : "Generic_ContainerHeader",
+  "SourceString" : "Container",
+  "Comment" : "Header text of container that has items",
+  "" : ""
+},
+{
+  "Key" : "Generic_ContractsHeader",
+  "SourceString" : "Open Jobs",
+  "Comment" : "Header text of contracts container",
+  "" : ""
+},
+{
+  "Key" : "Generic_Health",
+  "SourceString" : "Health",
+  "Comment" : "Generic health text",
+  "" : ""
+},
+{
+  "Key" : "Generic_Stamina",
+  "SourceString" : "Stamina",
+  "Comment" : "Generic stamina text",
+  "" : ""
+},
+{
+  "Key" : "Generic_Claimed",
+  "SourceString" : "Claimed",
+  "Comment" : "Generic claim text",
+  "" : ""
+},
+{
+  "Key" : "Generic_ClaimedReward",
+  "SourceString" : "Reward Claimed!",
+  "Comment" : "Generic claim reward text",
+  "" : ""
+},
+{
+  "Key" : "Generic_ClaimAll",
+  "SourceString" : "Claim All",
+  "Comment" : "Generic claim all text",
+  "" : ""
+},
+{
+  "Key" : "Generic_ClaimItem",
+  "SourceString" : "Claim Item",
+  "Comment" : "Generic claim item text",
+  "" : ""
+},
+{
+  "Key" : "Generic_Purchase",
+  "SourceString" : "Purchase",
+  "Comment" : "Generic purchase text",
+  "" : ""
+},
+{
+  "Key" : "Generic_Free",
+  "SourceString" : "Free",
+  "Comment" : "Generic free text",
+  "" : ""
+},
+{
+  "Key" : "Generic_SelectAllLevels",
+  "SourceString" : "Select all levels",
+  "Comment" : "Generic select all levels text",
+  "" : ""
+},
+{
+  "Key" : "Generic_DeselectAllLevels",
+  "SourceString" : "Deselect all levels",
+  "Comment" : "Generic deselect all levels text",
+  "" : ""
+},
+{
+  "Key" : "Generic_EULA",
+  "SourceString" : "EULA",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PrivacyPolicy",
+  "SourceString" : "Privacy Policy",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Legal",
+  "SourceString" : "Legal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_NoAmmo",
+  "SourceString" : "No Ammo",
+  "Comment" : "Item tag for no ammo",
+  "" : ""
+},
+{
+  "Key" : "Generic_New",
+  "SourceString" : "New",
+  "Comment" : "Item tag for new",
+  "" : ""
+},
+{
+  "Key" : "Generic_Selected",
+  "SourceString" : "Selected",
+  "Comment" : "Item tag for selected",
+  "" : ""
+},
+{
+  "Key" : "Generic_Equipped",
+  "SourceString" : "Equipped",
+  "Comment" : "Item tag for equipped",
+  "" : ""
+},
+{
+  "Key" : "Generic_Upgrade",
+  "SourceString" : "Upgrade",
+  "Comment" : "Item tag for upgrade",
+  "" : ""
+},
+{
+  "Key" : "Generic_Consumable",
+  "SourceString" : "Health Consumable",
+  "Comment" : "Generic consumable text",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_LocalPlacementTopThree",
+  "SourceString" : "You've finished in {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th) place! Good Job!",
+  "Comment" : "Text informing the player about his own place in case he didn't win the game",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_LocalPlacement",
+  "SourceString" : "You finished {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th), Remember, fortune favors the bold, Prospector!",
+  "Comment" : "Text informing the player about his own place in case he didn't win the game",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_LocalSquadWinner",
+  "SourceString" : "YOUR SQUAD WON!",
+  "Comment" : "Local player's squad won the match",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_OtherSquadWinner",
+  "SourceString" : "{SquadName} won the match!",
+  "Comment" : "Other squad won the match",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_LocalSquadPlacementTopThree",
+  "SourceString" : "Your squad finished in {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th) place! Good Job!",
+  "Comment" : "Text informing the player about his own place in case he didn't win the game",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_LocalSquadPlacement",
+  "SourceString" : "Your squad finished {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th). Remember, fortune favors the bold, Prospector!",
+  "Comment" : "Text informing the player about his own place in case he didn't win the game",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_Victory_Points_Text",
+  "SourceString" : "Jobs Completed:",
+  "Comment" : "Final score from completed activities",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_Score_Breakdown",
+  "SourceString" : "Score breakdown",
+  "Comment" : "Comprehensive score breakdown",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_To_Station",
+  "SourceString" : "PRESS [E] TO EXIT TO STATION",
+  "Comment" : "Prompt to go back to station",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_To_Match Results",
+  "SourceString" : "PRESS [Q] TO TOGGLE MATCH RESULTS",
+  "Comment" : "Prompt to toggle on/off match results",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_To_DeathRecap",
+  "SourceString" : "PRESS [U] TO TOGGLE DAMAGE RECAP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_ReturnToStation",
+  "SourceString" : "RETURNING TO STATION IN...",
+  "Comment" : "Headline for return to station timer",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_MatchRunningTime",
+  "SourceString" : "MATCH RUNNING...",
+  "Comment" : "Headline for match still running timer",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_GoToStation",
+  "SourceString" : "GO TO STATION",
+  "Comment" : "Description text of the button for returning to the station",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_Spectate",
+  "SourceString" : "< Spectate",
+  "Comment" : "Description text of the button for switching to spectate tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_Results",
+  "SourceString" : "Results",
+  "Comment" : "Description text of the button for switching to results tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_Rewards",
+  "SourceString" : "Rewards",
+  "Comment" : "Description text of the button for switching to rewards tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_RankUpdates",
+  "SourceString" : "Rank Updates",
+  "Comment" : "Description of the text button switching to the rank updates tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_SeasonProgress",
+  "SourceString" : "Season Progress",
+  "Comment" : "Description of the text button switching to the seasons tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_SeasonTitleProgress",
+  "SourceString" : "<Highlighted>{Season Progress}</>",
+  "Comment" : "Title of the season tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_ChallengeProgressTitle",
+  "SourceString" : "Challenge Progress",
+  "Comment" : "Subtitle of challenge progress in the season tab",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_TABswitchHint",
+  "SourceString" : "[Press TAB to switch state]",
+  "Comment" : "Description text how to switch tabs",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_EOM_SpectateToEoM_switchHint",
+  "SourceString" : "[Press SPACE to skip to match results]",
+  "Comment" : "Description text how to switch tabs",
+  "" : ""
+},
+{
+  "Key" : "Generic_EndOfMatch_EOM_EoMToSpectate_switchHint",
+  "SourceString" : "[Press SPACE to go back to spectating]",
+  "Comment" : "Description text how to switch tabs",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_Escaped",
+  "SourceString" : "EXTRACTED",
+  "Comment" : "Headline indicating that you have been able to escape the planet",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_Killed",
+  "SourceString" : "YOU'VE BEEN FOAMED",
+  "Comment" : "Headline indicating that you have been killed - if \"foamed\" does not sound good in local language",
+  "" : " use \"eliminated\""
+},
+{
+  "Key" : "Generic_MatchResult_KilledByActor",
+  "SourceString" : "FOAMED BY {ActorName}",
+  "Comment" : "Headline indicating who killed you - if \"foamed\" does not sound good in local language",
+  "" : " use \"eliminated\""
+},
+{
+  "Key" : "Generic_MatchResult_KilledByItem",
+  "SourceString" : "Using {ItemName}",
+  "Comment" : "Headline indicating what killed you",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_VictoryPointHeadline",
+  "SourceString" : "YOU GAINED",
+  "Comment" : "Headline indicating that Victory Points were gained",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_PerformanceRewardsHeadline",
+  "SourceString" : "YOUR PERFORMANCE REWARDS",
+  "Comment" : "Headline for performance rewards (match end rewards)",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_LuckyFinds",
+  "SourceString" : "LUCKY FINDS",
+  "Comment" : "Headline for rewards earned DURING the match (term: lucky finds)",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_HowToLuckyFinds",
+  "SourceString" : "No lucky finds! Try to explore more and hunt rare monsters!",
+  "Comment" : "Description explaining the player how to get lucky finds if he didn't get any",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_MatchResultHeader",
+  "SourceString" : "MATCH RESULTS",
+  "Comment" : "game session results",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_MatchAchievementFirstEvaced",
+  "SourceString" : "FIRST PROSPECTOR TO EXTRACT",
+  "Comment" : "first player to escape the planet",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_MatchAchievementAllContracts",
+  "SourceString" : "COMPLETE ALL JOBS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchResult_MatchAchievementEvaced",
+  "SourceString" : "EXTRACTED FROM THE PLANET",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchRankHeader",
+  "SourceString" : "Match Rank:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_Money_Row",
+  "SourceString" : "Krypto Marks",
+  "Comment" : "CREDITS",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_Collectible_Poster_Row",
+  "SourceString" : "Poster",
+  "Comment" : "poster",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_MoneyBox_Row",
+  "SourceString" : "Krypto Marks",
+  "Comment" : "CREDITS",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_PickedUpQueue",
+  "SourceString" : "PICKED UP",
+  "Comment" : "HUD loot pickup widget headline",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Vaintar_Shell_Row",
+  "SourceString" : "Vaintar Shell",
+  "Comment" : "Crafting material - fictional creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Cadmium_Row",
+  "SourceString" : "Cadmium",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Nickel_Row",
+  "SourceString" : "Nickel",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Pure_Veltecite_Row",
+  "SourceString" : "Pure Veltecite",
+  "Comment" : "Exotic Crafting material - fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Veltecite_Heart_Row",
+  "SourceString" : "Veltecite Heart",
+  "Comment" : "Exotic Crafting material - fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Chalni_Feather_Row",
+  "SourceString" : "Chalni Feather",
+  "Comment" : "Crafting material - fictional creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_AzureTree_Row",
+  "SourceString" : "AzureTree",
+  "Comment" : "Crafting material - fictional plant that's blue",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_ExoNeedle_Row",
+  "SourceString" : "ExoNeedle",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Explosives_Row",
+  "SourceString" : "Explosives",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_FocusCrystal_Row",
+  "SourceString" : "FocusCrystal",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_MagneticOre_Row",
+  "SourceString" : "MagneticOre",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_NeuroToxicGland_Row",
+  "SourceString" : "NeuroToxicGland",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_OpticGlass_Row",
+  "SourceString" : "OpticGlass",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_PolariumCrystal_Row",
+  "SourceString" : "PoliriumCrystal",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Polonium_Row",
+  "SourceString" : "Polonium",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_PowerSource_Row",
+  "SourceString" : "PowerSource",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_Prefabricate_Row",
+  "SourceString" : "Prefabricate",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_SpareCasing_Row",
+  "SourceString" : "SpareCasing",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_TitanOre_Row",
+  "SourceString" : "TitanOre",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_HuntItem_Row",
+  "SourceString" : "Biomass",
+  "Comment" : "Drop from Hunt activity targets, needed to complete activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_TrackingReward_Row",
+  "SourceString" : "Blue Runner Egg",
+  "Comment" : "Drop from Track activity, needed to complete activity - fictional creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_DenItem_Row",
+  "SourceString" : "Nest",
+  "Comment" : "Drop from Monster Nests",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_AmmoBox",
+  "SourceString" : "Ammo Box",
+  "Comment" : "A type of loot container the player can encounter in match",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_FilingCabinents",
+  "SourceString" : "Cabinet",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_MedCase",
+  "SourceString" : "Medical Case",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Stash",
+  "SourceString" : "Hidden Stash",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_WeaponCrate",
+  "SourceString" : "Military Box",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_ConsumableBox",
+  "SourceString" : "Consumable Box",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Locker",
+  "SourceString" : "Civilian Locker",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Safe",
+  "SourceString" : "Safe",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_MinerCrate",
+  "SourceString" : "Industrial Crate",
+  "Comment" : "Industrial crate from the Korolev faction",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Jacket",
+  "SourceString" : "Jacket",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_StorageBox",
+  "SourceString" : "Storage Box",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Luggage",
+  "SourceString" : "Luggage",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_SuitCase",
+  "SourceString" : "Briefcase",
+  "Comment" : "A small bag similar to a briefcase",
+  "" : ""
+},
+{
+  "Key" : "Generic_RecallCharge_Pickup_Name",
+  "SourceString" : "Emergency Recall Charge",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_RecallCharge_Pickup_Headline",
+  "SourceString" : "Emergency Recall Charge",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_RecallCharge_Pickup_Desc",
+  "SourceString" : "Recharges depleted emergency recall teleporter for owner. Locked for other users.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_RecallCharge_Quest",
+  "SourceString" : "Retrieve Recall Charge",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_RecallCharge_Prompt",
+  "SourceString" : "Retrieve to Recharge",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Pact_PactTimer",
+  "SourceString" : "{Time}s left",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Generic_QuestNotActive",
+  "SourceString" : "JOB NOT ACTIVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_Notification_Failed_Pickup",
+  "SourceString" : "CANNOT HOLD ANOTHER ITEM",
+  "Comment" : "Player cannot hold item twice",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_Notification_Prompt_Pickup",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP ZEAL SHARD",
+  "Comment" : "fictional precious mineral",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_Prompt_Pickup",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_Prompt_Deliver",
+  "SourceString" : "HOLD [{ButtonName0}] TO DELIVER ITEM(S)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_NeedDeliveryItem",
+  "SourceString" : "You have nothing to deliver",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_SuccessfulDelivery",
+  "SourceString" : "ITEM DELIVERED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_DeliveryInstruction",
+  "SourceString" : "DELIVER THE ITEM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Name",
+  "SourceString" : "Brightcap Harvesting",
+  "Comment" : "Brightcap is a fictional glowing mushroom",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Prompt_Deliver",
+  "SourceString" : "HOLD [{ButtonName0}] TO DELIVER BRIGHTCAP MUSHROOMS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Prompt_Pickup",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP BRIGHTCAP MUSHROOM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Prompt_Backpack",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP CANISTER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Prompt_Harvest",
+  "SourceString" : "HOLD [{ButtonName0}] TO HARVEST BRIGHTCAP MUSHROOM",
+  "Comment" : "harvest as in pick up from ground",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_DeliveryFailed",
+  "SourceString" : "YOU HAVE NO BRIGHTCAPS TO DELIVER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_Delivering",
+  "SourceString" : "Transferring Brightcaps",
+  "Comment" : "transferring items from player to a delivery container",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_ShortInstruction",
+  "SourceString" : "Harvest & Deliver Brightcaps",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_QuestLog",
+  "SourceString" : "Deliver Brightcaps",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_AdditionalMessage",
+  "SourceString" : "Harvest Brightcap mushrooms and deliver them to one of several delivery stations.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SingleStation_AdditionalMessage",
+  "SourceString" : "Harvest Brightcap mushrooms and deliver them to the delivery station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_MarkerName",
+  "SourceString" : "Delivery Station",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_HoldingInformation",
+  "SourceString" : "{0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_CollectedDP",
+  "SourceString" : "Gained Brightcaps ({0})",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_DroppedDP",
+  "SourceString" : "Dropped Brightcaps ({0})",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Name",
+  "SourceString" : "Storm Egg Hunt",
+  "Comment" : "Strange alien eggs that appeared during storms on Fortuna",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Prompt_Deliver",
+  "SourceString" : "HOLD [{ButtonName0}] TO DELIVER STORM EGGS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Prompt_Pickup",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP STORM EGGS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Prompt_Backpack",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP BASKET OF STORM EGGS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Prompt_Harvest",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP STORM EGGS",
+  "Comment" : "harvest as in pick up from ground",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_DeliveryFailed",
+  "SourceString" : "YOU HAVE NO STORM EGGS TO DELIVER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_Delivering",
+  "SourceString" : "Transferring Storm Eggs",
+  "Comment" : "transferring items from player to a delivery container",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_ShortInstruction",
+  "SourceString" : "Pick Up & Deliver Storm Eggs",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_QuestLog",
+  "SourceString" : "Deliver Storm Eggs",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_AdditionalMessage",
+  "SourceString" : "Pick up Storm Eggs and deliver them to one of several delivery stations.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_MarkerName",
+  "SourceString" : "Delivery Station",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_HoldingInformation",
+  "SourceString" : "Holding {0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_CollectedDP",
+  "SourceString" : "Gained Storm Eggs ({0})",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_SpringEvent_DroppedDP",
+  "SourceString" : "Dropped Storm Eggs ({0})",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_StationBlocked",
+  "SourceString" : "DELIVERY BLOCKED BY OTHER PROSPECTOR",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Deposit_MegaFieldDetected",
+  "SourceString" : "CONCENTRATED BRIGHTCAP FIELD LOCATED",
+  "Comment" : "Area with lots of these items",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_Name",
+  "SourceString" : "Salvage",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_ShortInstruction",
+  "SourceString" : "Salvage Research Drones",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_QuestLog",
+  "SourceString" : "Salvage Drones",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_LongInstruction",
+  "SourceString" : "Salvage Research Drones before they are rendered useless by monster attacks. Salvaging several Drones can activate the launch of the Drone Carrier - defend it from monsters and other Prospectors.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_Notification",
+  "SourceString" : "{0} UNDER ATTACK - SALVAGE RESEARCH DRONES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_Bonus",
+  "SourceString" : "SALVAGE BONUS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_InteractionPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO SALVAGE DRONE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_MapMarkerTitle",
+  "SourceString" : "{0} remaining",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_SubActorName",
+  "SourceString" : "Research Drone",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_SubActorValue",
+  "SourceString" : "Value:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_SubActorCondition",
+  "SourceString" : "Condition:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Salvage_MapMarker_ActiveInTimer",
+  "SourceString" : "{0} s",
+  "Comment" : "Time in seconds until new drones appear",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Defend_Name",
+  "SourceString" : "Drone Carrier Launch",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Defend_ShortInstruction",
+  "SourceString" : "Defend Drone Carrier",
+  "Comment" : "drone carrier is a small ship/rocket that carries drones",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Defend_QuestLog",
+  "SourceString" : "Defend Drone Carrier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Defend_DefendSuccess",
+  "SourceString" : "{0} DRONE CARRIER LAUNCHED BY {1}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Defend_DefendFail",
+  "SourceString" : "{0} DRONE CARRIER DESTROYED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Attack_Name",
+  "SourceString" : "Drone Carrier Sabotage",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Attack_ShortInstruction",
+  "SourceString" : "Sabotage Drone Carrier launch",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Attack_QuestLog",
+  "SourceString" : "Sabotage Drone Carrier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_ShieldsDownIn",
+  "SourceString" : "(Exposed in: {0} s)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_Notification",
+  "SourceString" : "{0} DRONE CARRIER PREPARING FOR LAUNCH BY {1}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_NotificationAttacked",
+  "SourceString" : "PROSPECTOR ATTACKING YOUR DRONE CARRIER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_NotificationAttackedFriendly",
+  "SourceString" : "YOU ARE ATTACKING YOUR OWN DRONE CARRIER",
+  "Comment" : "oops",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Name",
+  "SourceString" : "Multi-Drone Carrier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Health",
+  "SourceString" : "Health:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status",
+  "SourceString" : "Status:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_DockedDrones",
+  "SourceString" : "Salvage progress:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_DispatchedDrones",
+  "SourceString" : "Current drones to salvage:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status_Pending",
+  "SourceString" : "Waiting...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status_Ready",
+  "SourceString" : "Ready to be launched",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status_Preparing",
+  "SourceString" : "Preparing for launch...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status_Launching",
+  "SourceString" : "Launching!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Status_ComeBack",
+  "SourceString" : "Drones dispatched in: {0} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Drones",
+  "SourceString" : "Currently dispatched drones:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_MapMarkerTitle",
+  "SourceString" : "Drone Carrier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_MapMarkerTitleTime",
+  "SourceString" : "Drone Carrier: {0} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Sabotage_SubActor_Interact",
+  "SourceString" : "HOLD [{ButtonName0}] TO LAUNCH DRONE CARRIER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Collect_Item_00",
+  "SourceString" : "Swamp Spores",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Collect_Item_01",
+  "SourceString" : "Beach Crystals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Collect_Item_02",
+  "SourceString" : "Clovertree Seeds",
+  "Comment" : "fictional plant",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Collect_Item_03",
+  "SourceString" : "Datarecorder",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Collect_Item_04",
+  "SourceString" : "Skeletal Remains",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_MapMarker",
+  "SourceString" : "{Progress} / {Total}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_PoweredUp",
+  "SourceString" : "POWERED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_RebootTimer",
+  "SourceString" : "Shutdown in: {0} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_HealPlant_PlateHeadline",
+  "SourceString" : "Healing Plant",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_HealPlant_PlateDesc",
+  "SourceString" : "Recharges health for nearby creatures. Needs to recharge after extensive usage.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_ShortInstruction",
+  "SourceString" : "Drill for Veltecite Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_QuestLog",
+  "SourceString" : "Drill for Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Name",
+  "SourceString" : "Veltecite Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AdditionalMessage",
+  "SourceString" : "Call down drills on Veltecite veins; bigger finds take longer and attract more attention.",
+  "Comment" : "mineral veins",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_ShortInstruction",
+  "SourceString" : "Capture Uplink relay",
+  "Comment" : "Uplink is an activity where player connects to a static device in order to upload data off a server and transmit to space",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_QuestLog",
+  "SourceString" : "Capture Uplink",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Name",
+  "SourceString" : "Uplink",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_AdditionalMessage",
+  "SourceString" : "Capture Uplink relays; others may capture if not defended.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Hunt_ShortInstruction",
+  "SourceString" : "Hunt for Biomass",
+  "Comment" : "Biomass is the remains of mutated creatures that players need to collect",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Hunt_QuestLog",
+  "SourceString" : "Hunt for Biomass",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Hunt_Name",
+  "SourceString" : "Hunt",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Hunt_AdditionalMessage",
+  "SourceString" : "Hunt down marked creatures with mutations to collect Biomass.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_ShortInstruction",
+  "SourceString" : "Power up Facility",
+  "Comment" : "Turning on power to various installations and structures",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_QuestLog",
+  "SourceString" : "Power Up Facility",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Name",
+  "SourceString" : "Power up Facility",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_AdditionalMessage",
+  "SourceString" : "Power up facilities by activating their power terminals and main generator.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_ShortInstruction",
+  "SourceString" : "Retrieve the Zeal shard",
+  "Comment" : "fictional precious mineral",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_QuestLog",
+  "SourceString" : "Hold the Zeal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_Name",
+  "SourceString" : "Retrieve Zeal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_RedTrophy_Name",
+  "SourceString" : "Red Zeal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_AdditionalMessage",
+  "SourceString" : "Holding onto the shard collects data over time, but exposes you to other Prospectors.",
+  "Comment" : "Item is always visible on the map",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_ShortInstruction",
+  "SourceString" : "Refine Letium gas",
+  "Comment" : "Fictional volatile gas",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_QuestLog",
+  "SourceString" : "Refine Letium",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Name",
+  "SourceString" : "Refine Letium",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_AdditionalMessage",
+  "SourceString" : "Place refiners on Letium gas vents, or steal them from others.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_ShortInstruction",
+  "SourceString" : "Evacuate the Planet!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_QuestLog",
+  "SourceString" : "Extract",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_Name",
+  "SourceString" : "Extract",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_AdditionalMessage",
+  "SourceString" : "FIND AN EXRACTION SHIP AND GET OFF THE PLANET",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacActivated",
+  "SourceString" : "EXTRACTION ACTIVATED",
+  "Comment" : "evacuation activity enabled",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_PlatformXActivated",
+  "SourceString" : "{0} EXTRACTION HAS BEEN ACTIVATED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_PlayerXEvacuated",
+  "SourceString" : "{0} HAS EXTRACTION FROM THE PLANET",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_QuestNotActive",
+  "SourceString" : "EXTRACTION NOT ACTIVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacProgressArrival",
+  "SourceString" : "EXTRACTION SHIP ARRIVING",
+  "Comment" : "refers to the evac ship",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacProgressLeaving",
+  "SourceString" : "EXTRACTION SHIP LEAVING",
+  "Comment" : "refers to the evac ship",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalArrival",
+  "SourceString" : "EXTRACTION SHIP ARRIVING",
+  "Comment" : "refers to the evac ship",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalLanded",
+  "SourceString" : "EXTRACTION SHIP LANDED",
+  "Comment" : "refers to the evac ship",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalInteraction",
+  "SourceString" : "HOLD [{ButtonName0}] TO CALL FOR EXTRACTION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalInteractionAuthenticate",
+  "SourceString" : "HOLD [{ButtonName0}] FOR QUICK AUTHENTICATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalAuthenticateNotAvailable",
+  "SourceString" : "AUTHENTICATION NOT AVAILABE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacTerminalMapMarker",
+  "SourceString" : "EXTRACTION TERMINAL",
+  "Comment" : "Computer terminal to call the evac ship",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacShipMapMarker",
+  "SourceString" : "EXTRACTION SHIP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EvacInteraction",
+  "SourceString" : "HOLD [{ButtonName0}] TO EXTRACTION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_HoldAreaProgress_InProgress",
+  "SourceString" : "Authorization in progress",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_HoldAreaProgress_Interrupted",
+  "SourceString" : "Authorization interrupted!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_HoldAreaProgress_Ready",
+  "SourceString" : "Ready to enter ship",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_MoneySpawner_ShortInstruction",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_MoneySpawner_Name",
+  "SourceString" : "MoneySpawner",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_MoneySpawner_AdditionalMessage",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_ShortInstruction",
+  "SourceString" : "Deliver Item",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_QuestLog",
+  "SourceString" : "Deliver Item",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_Name",
+  "SourceString" : "Item Delivery",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Delivery_AdditionalMessage",
+  "SourceString" : "Find and deliver the item to the delivery station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_ShortInstruction",
+  "SourceString" : "Activate and hold the Central Station",
+  "Comment" : "Facility in the center of the map with a king-of-the-hill style mechanic",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_QuestLog",
+  "SourceString" : "Activate Central Station",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Name",
+  "SourceString" : "Power up Central Station",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_AdditionalMessage",
+  "SourceString" : "The Central Station can now be activated. Stay inside to acquire valuable data.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_ShortInstruction",
+  "SourceString" : "Track creature",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_QuestLog",
+  "SourceString" : "Track Creature",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_Name",
+  "SourceString" : "Tracking",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_AdditionalMessage",
+  "SourceString" : "Track a local creature and bring back your findings for further research.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Download_ShortInstruction",
+  "SourceString" : "Retrieve research data",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Download_QuestLog",
+  "SourceString" : "Retrieve Research Data",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Download_Name",
+  "SourceString" : "Download Data",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Download_AdditionalMessage",
+  "SourceString" : "Download research data stored in human settlements.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_ShortInstruction",
+  "SourceString" : "Kill Warden Alpha",
+  "Comment" : "Boss creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_QuestLog",
+  "SourceString" : "Defeat Warden Alpha",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_Name",
+  "SourceString" : "Warden Alpha",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_AdditionalMessage",
+  "SourceString" : "A Warden Alpha has left its burrow; kill it.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_ShortInstruction",
+  "SourceString" : "Obtain Storm Crystals",
+  "Comment" : "fictional precious minerals that spawn in a storm",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_QuestLog",
+  "SourceString" : "Obtain Storm Crystals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_Name",
+  "SourceString" : "Cycle Spike",
+  "Comment" : "Surge / spike in an electromagnetic field",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_AdditionalMessage",
+  "SourceString" : "Collect valuable Storm Crystals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_InteractionPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO COLLECT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_StartInDuration",
+  "SourceString" : "CYCLE SPIKE STARTS IN {duration} SECONDS!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_StartingNow",
+  "SourceString" : "CYCLE SPIKE STARTING NOW!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_Ended",
+  "SourceString" : "CYCLE SPIKE IS OVER!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_Marker_Countdown",
+  "SourceString" : "Cycle Spike in {time} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_Marker_Active",
+  "SourceString" : "Cycle Spike {time} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_StormSurge_LightningDamageName",
+  "SourceString" : "Cycle spike lightning",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_ShipsArrive",
+  "SourceString" : "EXTRACTION SHIP ARRIVED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_PreArrival01",
+  "SourceString" : "EXTRACTION SHIP ARRIVES IN 3 MINUTES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_PreArrival02",
+  "SourceString" : "EXTRACTION SHIP ARRIVES IN 2 MINUTES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_PreArrival03",
+  "SourceString" : "EXTRACTION SHIP ARRIVES IN 1 MINUTES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_EscapeNow",
+  "SourceString" : "EXTRACT FROM THE PLANET!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_ShipsLeave",
+  "SourceString" : "EXTRACTION SHIP ABOUT TO LEAVE...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_ShipsLeft",
+  "SourceString" : "EXTRACTION SHIP LEAVING!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_MatchDamage",
+  "SourceString" : "STORM ANOMALY AT PEAK! SUIT DAMAGE!",
+  "Comment" : "Warning that storm radiation is damaging the player's suit",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Escape_ShipKillFeedName",
+  "SourceString" : "Landing ship",
+  "Comment" : "Kill feed display name of the ship when it lands on a player and kills it",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Idle",
+  "SourceString" : "Idle",
+  "Comment" : "Standard activated Mineral on the map",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Started",
+  "SourceString" : "Drilling",
+  "Comment" : "Mineral Refinement has started",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Complete",
+  "SourceString" : "Complete",
+  "Comment" : "Mineral ready to pick up",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_NotifyHalfHealth",
+  "SourceString" : "DRILL AT HALF HEALTH!",
+  "Comment" : "automated mineral drill",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_NotifyLowHealth",
+  "SourceString" : "DRILL AT VERY LOW HEALTH!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_NotifyDestroyed",
+  "SourceString" : "DRILL WAS DESTROYED!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_MaxLevelPlayer",
+  "SourceString" : "YOUR REFINER REACHED MAX LEVEL",
+  "Comment" : "automated gas refiner becoming more efficient",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_MaxLevelOther",
+  "SourceString" : "RIVAL REFINER REACHED MAX LEVEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_StealPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO STEAL FROM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerIsPlayers",
+  "SourceString" : "YOU OWN THIS REFINER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerIsPactMates",
+  "SourceString" : "OWNED BY PACTMATE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_InteractToRefine",
+  "SourceString" : "HOLD [{ButtonName0}] TO REFINE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerCaptured",
+  "SourceString" : "REFINER CAPTURED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerDestroyed",
+  "SourceString" : "ONE OF YOUR REFINERS WAS DESTROYED!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerStolen",
+  "SourceString" : "A REFINER WAS STOLEN!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerBeingStolen",
+  "SourceString" : "REFINER BEING STOLEN BY {TEXT}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_RefinerRate",
+  "SourceString" : "({ratefloat} / second)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_Lvl",
+  "SourceString" : "Lvl",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_HealthTitle",
+  "SourceString" : "Health:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_CurrentRate",
+  "SourceString" : "Current Rate:",
+  "Comment" : "rate at which the refiner scores points",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_RatePerSecond",
+  "SourceString" : "(XX / second)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_OwnerTitle",
+  "SourceString" : "Owner:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_OwnerYou",
+  "SourceString" : "You",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Widget_OwnerPactmate",
+  "SourceString" : "Pactmate",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Enum_Available",
+  "SourceString" : "Available",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Farmon_Enum_Claimed",
+  "SourceString" : "Claimed",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_Name",
+  "SourceString" : "Power Generator",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_AlreadyPowered",
+  "SourceString" : "POWERED UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_TerminalsNeeded",
+  "SourceString" : "Terminals activated:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_RewardsHeadline",
+  "SourceString" : "Payment for power-up:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_Progress_InteractionPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO POWER UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_AllTerminalsActivated",
+  "SourceString" : "Terminals activated!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUpv_MainTerminalReady",
+  "SourceString" : "ALL TERMINALS ONLINE - MAIN GENERATOR READY",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_MainTerminalReady",
+  "SourceString" : "ALL TERMINALS ONLINE - MAIN GENERATOR READY",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_PowersUpJoin",
+  "SourceString" : "POWERS UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Actor_PowerUpReadyAgain",
+  "SourceString" : "A facility needs to be powered up again!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Main_NewPowerUp",
+  "SourceString" : "NEW FACILITY TO POWER UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Main_AllAvailableAgain",
+  "SourceString" : "All facilities need to be powered up again!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Terminals_Inactive",
+  "SourceString" : "Facility inactive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Terminals_AlreadyActivated",
+  "SourceString" : "Already activated",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Terminals_ActivationPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO ACTIVATE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Terminals_DestroyOvergrowth",
+  "SourceString" : "DESTROY OVERGROWTH",
+  "Comment" : "Weeds that grow over electronics",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PowerUp_Terminals_OnScreenMarker",
+  "SourceString" : "Terminal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_MapMarkerReady",
+  "SourceString" : "Central Station Active!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_MapMarkerNotReady",
+  "SourceString" : "Central Station inactive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_TerminalsProgress",
+  "SourceString" : "{progress}/{total} CENTRAL STATION TERMINALS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_Started",
+  "SourceString" : "CENTRAL STATION ACTIVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_ShutDown",
+  "SourceString" : "CENTRAL STATION SHUT DOWN",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_NeedMorePowerUp",
+  "SourceString" : "Not enough Facilities have been Powered up",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_TerminalsNeeded",
+  "SourceString" : "Activate nearby terminals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_StartSuperPowerUp",
+  "SourceString" : "HOLD [{ButtonName0}] TO ACTIVATE STATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_Actor_SuperPowerUpActive",
+  "SourceString" : "Central Station is active",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_PowerUpProgress",
+  "SourceString" : "{count} / {req} Facilities powered up",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_SuperPowerUp_PowerUpProgressHint",
+  "SourceString" : "{count} more Facilities need to be powered up to activate the Central Station!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Difficulty1",
+  "SourceString" : "Meager",
+  "Comment" : "mineral deposit quality",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Difficulty2",
+  "SourceString" : "Average",
+  "Comment" : "mineral deposit quality",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Difficulty3",
+  "SourceString" : "Rich",
+  "Comment" : "mineral deposit quality",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Difficulty4",
+  "SourceString" : "Massive",
+  "Comment" : "mineral deposit quality",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_Difficulty5",
+  "SourceString" : "Epic",
+  "Comment" : "mineral deposit quality",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficulty1",
+  "SourceString" : "Easy",
+  "Comment" : "difficulty when activating mineral activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficulty2",
+  "SourceString" : "Medium",
+  "Comment" : "difficulty when activating mineral activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficulty3",
+  "SourceString" : "Hard",
+  "Comment" : "difficulty when activating mineral activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficulty4",
+  "SourceString" : "Very Hard",
+  "Comment" : "difficulty when activating mineral activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficulty5",
+  "SourceString" : "Extreme",
+  "Comment" : "difficulty when activating mineral activity",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_AIDifficultyLabel",
+  "SourceString" : "Difficulty:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefinedAmountLabel",
+  "SourceString" : "Use Melee or Tool to Mine",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefinedDropChance",
+  "SourceString" : "Chance to drop:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefineStartPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO DRILL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefineCollectPrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO LAUNCH DRILL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefineInProgress",
+  "SourceString" : "Drilling in progress",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_RefineDone",
+  "SourceString" : "Ready for launch",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Minerals_MapMarker_EpicActiveInTimer",
+  "SourceString" : "{0} s",
+  "Comment" : "Time in seconds until new epic mineral appears",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimStatusUnclaimed",
+  "SourceString" : "Unclaimed",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimStatusClaimedBy",
+  "SourceString" : "Claimed by {Name}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimStatusCapturing",
+  "SourceString" : "Capturing",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimStatusContested",
+  "SourceString" : "Contested",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimTakenBy",
+  "SourceString" : "UPLINK CLAIMED BY {0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimTaken",
+  "SourceString" : "UPLINK CLAIMED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Actor_ClaimContestedBy",
+  "SourceString" : "YOUR UPLINK IS CONTESTED BY: {0}",
+  "Comment" : "Uplink location contested by another player",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Switched",
+  "SourceString" : "UPLINK RELAY SWITCHED",
+  "Comment" : "Uplink activity locations move every few minutes",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_SwitchIn60s",
+  "SourceString" : "UPLINK RELAY SWITCHING SOON",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_SwitchIn10s",
+  "SourceString" : "UPLINK RELAY SWITCH IMMINENT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Active",
+  "SourceString" : "UPLINK RELAY ACTIVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Widget_UplinkInactive",
+  "SourceString" : "Uplink Relay inactive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Widget_UplinkIsNext",
+  "SourceString" : "Next active Uplink Relay",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Widget_UplinkIsCaptured",
+  "SourceString" : "Claimed Uplink Relay",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Widget_UplinkCapturingByPlayer",
+  "SourceString" : "Claiming Uplink Relay",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_Widget_UplinkReady",
+  "SourceString" : "Uplink Relay ready to capture",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_MapMarker_ActiveForTimer",
+  "SourceString" : "Active for {0} s",
+  "Comment" : "Time in seconds until the uplink stops being active",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_MapMarker_NextActive",
+  "SourceString" : "Next Active",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Uplink_MapMarker_Inactive",
+  "SourceString" : "Inactive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossPendingSpawn",
+  "SourceString" : "WARDEN ALPHA SPAWN LOCATION REVEALED",
+  "Comment" : "where the boss will appear",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossSpawned",
+  "SourceString" : "WARDEN ALPHA SPAWNED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossKilled",
+  "SourceString" : "WARDEN ALPHA KILLED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossHalfHP",
+  "SourceString" : "WARDEN ALPHA AT HALF HEALTH",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossAttacked",
+  "SourceString" : "WARDEN ALPHA IS BEING ATTACKED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossMapMarkerIncoming",
+  "SourceString" : "Spawning: {0} s",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Boss_BossMapMarker",
+  "SourceString" : "Warden Alpha",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_Actor_NewActivity_Notification",
+  "SourceString" : "NEW OBJECTIVE: TRACK CREATURE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Tracking_TargetActor",
+  "SourceString" : "TRACKING SUCCESSFUL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_Completed",
+  "SourceString" : "DOWNLOAD COMPLETE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadPreInfo",
+  "SourceString" : "Download",
+  "Comment" : "Download X Data",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadPostInfo",
+  "SourceString" : "data",
+  "Comment" : "Download X Data",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadPrePrompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO DOWNLOAD",
+  "Comment" : "Download X Data",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadPostPrompt",
+  "SourceString" : "DATA",
+  "Comment" : "Download X Data",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadAlreadyDone",
+  "SourceString" : "DATA ALREADY DOWNLOADED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadNewQuest",
+  "SourceString" : "NEW JOB: DATA RETRIEVAL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_DownloadData_DownloadSuccess",
+  "SourceString" : "DATA SUCCESSFULLY DOWNLOADED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_Trophy_TrophyDropped",
+  "SourceString" : "Zeal Shard dropped",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_KillContract_ShortInstruction",
+  "SourceString" : "Take out Ruthless Prospectors",
+  "Comment" : "Ruthless refers to players that are willing to break the rules to get what they want but aren't outright evil",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_KillContract_QuestLog",
+  "SourceString" : "Hunt the Ruthless",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_KillContract2_ShortInstruction",
+  "SourceString" : "Take out Rival Prospectors",
+  "Comment" : "Ruthless refers to players that are willing to break the rules to get what they want but aren't outright evil",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_KillContract2_QuestLog",
+  "SourceString" : "Eliminate Rivals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_Name",
+  "SourceString" : "Mag-Train",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_AdditionalMessage",
+  "SourceString" : "Activate the Mag-Train and fight off rivals until you reach the final stop",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_QuestLog",
+  "SourceString" : "Escort Mag-Train",
+  "Comment" : "quest for players to ride on and protect a moving train",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_ShortInstruction",
+  "SourceString" : "Activate and escort the Mag-Train",
+  "Comment" : "quest for players to ride on and protect a moving train",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_InteractConsoleCapture",
+  "SourceString" : "HOLD [{ButtonName0}] TO CAPTURE MAG-TRAIN",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_InteractConsoleLoading",
+  "SourceString" : "LOADING CARGO",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_InteractConsoleReturn",
+  "SourceString" : "RETURNING TO STATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_PainTrain_InteractConsoleOwnerChange",
+  "SourceString" : "!!!OWNERSHIP CHANGE!!!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_BigDrill_NextLocationMapMarker",
+  "SourceString" : "Next Location",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Activity_BigDrill_Name",
+  "SourceString" : "Laser Drill",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AICharacterPlate_Hunted",
+  "SourceString" : "{name}",
+  "Comment" : "Reduntant for now given name distinction (mutated and elite)",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_ScoreTracker",
+  "SourceString" : "Jobs Completed:",
+  "Comment" : "completed activities",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactTimer",
+  "SourceString" : "{Time}s left",
+  "Comment" : "time left before pact expires",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactMemberTitle",
+  "SourceString" : "Pact Member",
+  "Comment" : "teammate",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_WASD",
+  "SourceString" : "W, A, S, D",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Space",
+  "SourceString" : "Space",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_LShift",
+  "SourceString" : "Left Shift",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_LCtrl",
+  "SourceString" : "Left Control",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_DirectionalMovement",
+  "SourceString" : "Directional Movement",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_JumpJetPack",
+  "SourceString" : "Jump / Jetpack",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Sprint",
+  "SourceString" : "Sprint",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Crouch",
+  "SourceString" : "Crouch",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_LMB",
+  "SourceString" : "LMB",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_RMB",
+  "SourceString" : "RMB",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_MouseWheelUp",
+  "SourceString" : "Mouse Wheel Up",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_MouseWheelDown",
+  "SourceString" : "Mouse Wheel Down",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_R",
+  "SourceString" : "R",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Q",
+  "SourceString" : "Q",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_E",
+  "SourceString" : "E",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_FireWeapon",
+  "SourceString" : "Fire weapon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ZoomAim",
+  "SourceString" : "Zoom & Aim",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_NextWeapon",
+  "SourceString" : "Next weapon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_PreviousWeapon",
+  "SourceString" : "Previous weapon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Reload",
+  "SourceString" : "Reload",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Ability1",
+  "SourceString" : "Activate Ability 1",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Ability2",
+  "SourceString" : "Activate Ability 2",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Melee",
+  "SourceString" : "Melee Attack",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_CommWheel",
+  "SourceString" : "Communication Wheel",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Tab/M",
+  "SourceString" : "Tab/M",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_F",
+  "SourceString" : "F",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_M",
+  "SourceString" : "M",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_T",
+  "SourceString" : "T",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_G",
+  "SourceString" : "G",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_C",
+  "SourceString" : "C",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_HoldV",
+  "SourceString" : "Hold V",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_HoldT",
+  "SourceString" : "Hold T",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_HoldH",
+  "SourceString" : "Hold H",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Scoreboard",
+  "SourceString" : "Toggle scoreboard/map",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Interact",
+  "SourceString" : "Interact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Map",
+  "SourceString" : "Toggle map",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Store",
+  "SourceString" : "Gear Store",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Pact",
+  "SourceString" : "Comm Link",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_CancelPact",
+  "SourceString" : "Break Comm Link",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ShowHelp",
+  "SourceString" : "Show help overlay",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ShiftF10",
+  "SourceString" : "Shift + F10",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ShiftF6",
+  "SourceString" : "Shift + F6",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ShiftX",
+  "SourceString" : "Shift + S",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_Bugit",
+  "SourceString" : "BugIt",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ProfileClient",
+  "SourceString" : "Profile client",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_ProfileServer",
+  "SourceString" : "Profile server",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_DebugMenu",
+  "SourceString" : "Debug menu",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleMovement",
+  "SourceString" : "Navigation & Movement",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleWeaponsAbilities",
+  "SourceString" : "Gear & Combat",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleSocial",
+  "SourceString" : "Social",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleInteraction",
+  "SourceString" : "Interaction & Social",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleMisc",
+  "SourceString" : "Misc",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HelpOverlay_TitleDebug",
+  "SourceString" : "Debug",
+  "Comment" : "debug",
+  "" : ""
+},
+{
+  "Key" : "Generic_MonsterDen_Interaction",
+  "SourceString" : "[{ButtonName0}] LOOT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tutorial_TutorialName",
+  "SourceString" : "TUTORIAL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tutorial_TutorialIntro",
+  "SourceString" : "INITIALIZING SIMULATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tutorial_TutorialExit",
+  "SourceString" : "EXIT TUTORIAL?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tutorial_TutorialExitDesc",
+  "SourceString" : "Are you sure you want to exit the tutorial? All gear and aquired loot will not carry over to the station. The tutorial can be accessed again from the station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_LandingZone",
+  "SourceString" : "Go to the landing zone",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_Pact",
+  "SourceString" : "Start a Pact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_Escape",
+  "SourceString" : "Escape the planet!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_FindMainGenerator",
+  "SourceString" : "Find the Main Generator",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_Activate3Terminals",
+  "SourceString" : "Activate 3 Terminals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_PowerMainGenerator",
+  "SourceString" : "Power up the Main Generator",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_CheckScoreboard",
+  "SourceString" : "Check the Scoreboard",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_DefendYourself",
+  "SourceString" : "Defend yourself",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_RefineMinerals",
+  "SourceString" : "Refine Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_BuyWeapon",
+  "SourceString" : "Buy a weapon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_CompleteAnotherMineral",
+  "SourceString" : "Complete another Mineral Refinement",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_CallDownShip",
+  "SourceString" : "Call down an escape ship",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialTask_WaitForAuthorization",
+  "SourceString" : "Wait for authorization to complete",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Map",
+  "SourceString" : "Press [TAB] to open MAP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Jump",
+  "SourceString" : "Press [SPACE] to JUMP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_NavMode",
+  "SourceString" : "Press [{ButtonName0}] to use SCANNER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_ADS",
+  "SourceString" : "HOLD [{ButtonName0}] to AIM WEAPON",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Melee",
+  "SourceString" : "Press [{ButtonName0}] to MELEE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Move",
+  "SourceString" : "Press [W][A][S][D] to MOVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Sprint",
+  "SourceString" : "HOLD [SHIFT] to SPRINT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Pact",
+  "SourceString" : "LOOK AT Dummy and press [T] to INVITE TO PACT",
+  "Comment" : "Tutorial spawns a puppet you're prompted to pact with and form a team",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_BreakPact",
+  "SourceString" : "HOLD [T] to BREAK PACT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_CommWheel",
+  "SourceString" : "HOLD [V] to open COMM WHEEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Shoot",
+  "SourceString" : "Click [LMB] SHOOT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Interact",
+  "SourceString" : "Hold [F] to INTERACT with objects",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_FindTerminal1",
+  "SourceString" : "Find a Terminal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_FindTerminal2",
+  "SourceString" : "Find the second Terminal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_FindTerminal3",
+  "SourceString" : "Find the last Terminal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_DestroyOvergrowth",
+  "SourceString" : "Destroy the overgrowth",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Scoreboard",
+  "SourceString" : "Press [TAB] to open SCOREBOARD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_Aim",
+  "SourceString" : "Hold [RMB] to AIM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_InteractMinerals",
+  "SourceString" : "Interact with Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_CollectMinerals",
+  "SourceString" : "Collect refined Minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_GearStore",
+  "SourceString" : "Press [{ButtonName0}] to open GEAR STORE",
+  "Comment" : "gear store is the menu where you buy guns and abilities",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_PickUpWeapon",
+  "SourceString" : "Pick up your Purchase",
+  "Comment" : "weapons etc are dropped from space in a small rocket container",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_BuyWeapon",
+  "SourceString" : "Buy a weapon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_EscapeTerminal",
+  "SourceString" : "Interact with the Escape Terminal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_EscapeTimer",
+  "SourceString" : "Stay close to the ship",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialPrompt_EnterShip",
+  "SourceString" : "Enter the ship!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialInteraction_CompleteEasyMineral",
+  "SourceString" : "Complete the easy Mineral Objective first",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialInteraction_BuyWeapon",
+  "SourceString" : "Buy a new weapon first",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialInteraction_CompletePowerUp",
+  "SourceString" : "Complete the Power Up Objective first",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_TutorialInteraction_NotReady",
+  "SourceString" : "Not ready yet",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_ZealDropPrompt",
+  "SourceString" : "To Drop",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfo_Level",
+  "SourceString" : "Lv. {0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfo_ButtonPrompt",
+  "SourceString" : "L",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfo_XP",
+  "SourceString" : "{0} XP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfo_LevelText",
+  "SourceString" : "LEVEL {Level}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfo_LevelUp",
+  "SourceString" : "LEVEL UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfoLowerLetter_LevelUp",
+  "SourceString" : "Level Up",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_KitLevelInfoLevelUpEffect",
+  "SourceString" : "Level Up effect",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlacementUI_LeadNotice",
+  "SourceString" : "YOU ARE IN THE LEAD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlacementUI_LostLeadNotice",
+  "SourceString" : "YOU LOST THE LEAD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlacementUI_PlayerPlacement",
+  "SourceString" : "{Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlacementUI_VictoryPoints",
+  "SourceString" : "{0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlacementUI_ShowScoreboardKey",
+  "SourceString" : "Tab",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_Level",
+  "SourceString" : "Level",
+  "Comment" : "Player level",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_MaxLevel",
+  "SourceString" : "Max Level Reached",
+  "Comment" : "Player level",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_Standing",
+  "SourceString" : "STANDING",
+  "Comment" : "Player standing as in rank / progression",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_LevelAllCaps",
+  "SourceString" : "LEVEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_MaxStanding",
+  "SourceString" : "Max Standing Reached",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_UnspentPoints",
+  "SourceString" : "Unspent Points",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_FactionProgressScreen_UnlockNewItemsIn",
+  "SourceString" : "UNLOCK NEW ITEMS IN {XPAmount} XP",
+  "Comment" : "text indicating when new items will be unlocked",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_GearSetTitle",
+  "SourceString" : "GEAR STORE SUPPLIES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_Weapons",
+  "SourceString" : "WEAPONS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_Abilities",
+  "SourceString" : "ABILITIES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_Consumables",
+  "SourceString" : "CONSUMABLES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_MiscItems",
+  "SourceString" : "MISC",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GearSetEditorScreen_Outfit",
+  "SourceString" : "OUTFIT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_Scoreboard",
+  "SourceString" : "SCOREBOARD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_Level",
+  "SourceString" : "Level",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_PlayerName",
+  "SourceString" : "Prospector Name",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_VictoryPoints",
+  "SourceString" : "Completed Contracts",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_Objectives",
+  "SourceString" : "Objectives",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_MeleeChargeHint",
+  "SourceString" : "To Charge",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_UI_CloseWindow",
+  "SourceString" : "Close",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_PactKey",
+  "SourceString" : "T",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_PactPrompt",
+  "SourceString" : "Comm Link",
+  "Comment" : "Buttont Prompt to invite a player to a pact",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_InvitePending",
+  "SourceString" : "Invite Pending...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_PactPromptGuide",
+  "SourceString" : "\"T\" to invite",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_PactCancellingInvite",
+  "SourceString" : "Cancelling Invite",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PactWidget_PactCancellingPact",
+  "SourceString" : "Breaking Comm Link",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_01",
+  "SourceString" : "Feeble Spitter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_02",
+  "SourceString" : "Spitter",
+  "Comment" : "hostile creature that spits toxic projectiles",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_03",
+  "SourceString" : "Warrior Spitter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_04",
+  "SourceString" : "Mutated Spitter",
+  "Comment" : "1st tier hunt creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_05",
+  "SourceString" : "Aberrant Spitter",
+  "Comment" : "2nd tier hunt creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_06",
+  "SourceString" : "Evolved Spitter",
+  "Comment" : "3rd tier hunt creature",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_07",
+  "SourceString" : "Feeble Bombardier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_08",
+  "SourceString" : "Bombardier",
+  "Comment" : "hostile creature that spits large explosive projectiles",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_09",
+  "SourceString" : "Warrior Bombardier",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_10",
+  "SourceString" : "Feeble Skulker",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_11",
+  "SourceString" : "Stinger",
+  "Comment" : "Hostile creature that spits fast projectiles from far away",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_12",
+  "SourceString" : "Warrior Skulker",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_13",
+  "SourceString" : "Feeble Hurler",
+  "Comment" : "hostile creature that spits multiple slow projectiles when near",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_14",
+  "SourceString" : "Ravager",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Spitter_15",
+  "SourceString" : "Warrior Hurler",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_01",
+  "SourceString" : "Feeble Squatter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_02",
+  "SourceString" : "Grubling",
+  "Comment" : "hostile melee creature - squatter refers both to their pose and to them living in abandoned places",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_03",
+  "SourceString" : "Warrior Squatter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_04",
+  "SourceString" : "Mutated Squatter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_05",
+  "SourceString" : "Aberrant Squatter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_06",
+  "SourceString" : "Evolved Squatter",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Drone_07",
+  "SourceString" : "Howler Thrall",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Warden_01",
+  "SourceString" : "Warden",
+  "Comment" : "large strong creature usually guarding areas",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Warden_02",
+  "SourceString" : "Evolved Warden",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Warden_03",
+  "SourceString" : "Warden Alpha",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Warden_04",
+  "SourceString" : "Brute",
+  "Comment" : "large strong creature that rushes down players",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_PoisonPlant",
+  "SourceString" : "Poison Plant",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_BlastBeetle_01",
+  "SourceString" : "Blast Tick",
+  "Comment" : "Tick as in the bug - suicide creature that runs to player and explodes",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_BlastBeetle_Champion_01",
+  "SourceString" : "Acid Tick",
+  "Comment" : "Tick as in the bug - suicide creature that runs to player and explodes leaving behind a pool of acid",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_BlastBeetle_Elite_01",
+  "SourceString" : "Brood Tick",
+  "Comment" : "Tick as in the bug - suicide creature that runs to player and explodes spawning other tick creatures",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_BlastBeetle_Heal",
+  "SourceString" : "Heal Tick",
+  "Comment" : "Tick as in the bug - suicide creature that runs to player and explodes",
+  "" : "healing him and anything around him"
+},
+{
+  "Key" : "Generic_CharacterNames_Howler_01",
+  "SourceString" : "Howler",
+  "Comment" : "Flying creature that howls to buff nearby enemies",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Howler_02",
+  "SourceString" : "Overseer",
+  "Comment" : "Flying creature that howls to buff nearby enemies or summon more enemies",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Howler_04",
+  "SourceString" : "Tick Master",
+  "Comment" : "Flying creature that howls to buff nearby enemies or summon ticks",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Plunderbot_01",
+  "SourceString" : "Assaulter",
+  "Comment" : "Android enemy - Co refers to fictional company CoTEC - Squadie refers to basic unit (has gun and shoots it)",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Plunderbot_02",
+  "SourceString" : "Blaster",
+  "Comment" : "Robot with a grenade launcher",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Plunderbot_03",
+  "SourceString" : "Rocketeer",
+  "Comment" : "Robot with a rocket launcher",
+  "" : ""
+},
+{
+  "Key" : "Generic_PlayerLevelUpMessage",
+  "SourceString" : "You reached Level",
+  "Comment" : "player level",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsPrompt_CurrentlyLeading",
+  "SourceString" : "YOU ARE CURRENTLY LEADING THE MATCH",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsPrompt_CurrentPosition",
+  "SourceString" : "You are currently in {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th) place",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsPrompt_SquadCurrentlyLeading",
+  "SourceString" : "YOUR SQUAD IS CURRENTLY LEADING THE MATCH",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsPrompt_SquadCurrentPosition",
+  "SourceString" : "Your squad is currently in {Place}{Place}|ordinal(one=st,two=nd,few=rd,other=th) place",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsPrompt",
+  "SourceString" : "Press [Q] Toggle Match Result Data",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_MatchResultsSwitchContent",
+  "SourceString" : "PRESS [TAB] TO TOGGLE MAP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_ExitToStationPrompt",
+  "SourceString" : "SPECTATOR\nPRESS [E] TO EXIT TO STATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_Loading",
+  "SourceString" : "LOADING...\nPLEASE STAND BY",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_WatchingPlayer",
+  "SourceString" : "Spectating:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_3rdPersonKey",
+  "SourceString" : "Space",
+  "Comment" : "Space key",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_3rdPersonPrompt",
+  "SourceString" : "3rd person",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SpectatorScreen_1stPersonPrompt",
+  "SourceString" : "1st person",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Pact_InvitingPlayer",
+  "SourceString" : "Inviting {PlayerName}  ...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Pact_OtherSentInvite",
+  "SourceString" : "{PlayerName} wants to pact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_PlayerVP",
+  "SourceString" : "?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_AliveCounter",
+  "SourceString" : "ALIVE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_StormWarning",
+  "SourceString" : "DANGER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Pact_PenaltyHint",
+  "SourceString" : "Earnings Share: {0}%",
+  "Comment" : "Displaying the current pact scoring penalty",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Pact_Break",
+  "SourceString" : "Break Pact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_Title",
+  "SourceString" : "CONTRACTS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_HintA",
+  "SourceString" : "COMPLETE <GoldenHighlight>THE MOST CONTRACTS</> AND ESCAPE THE PLANET",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_HintB",
+  "SourceString" : "COMPLETE <GoldenHighlight>ALL CONTRACTS</>",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_SideQuests",
+  "SourceString" : "SIDE OBJECTIVES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_NewQuest",
+  "SourceString" : "NEW CONTRACT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_QuestTestsA",
+  "SourceString" : "COMPLETE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_QuestTestsB",
+  "SourceString" : "ALL CONTRACTS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressManager_QuestTestsC",
+  "SourceString" : "10 ?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_VictoryPointPerQuest",
+  "SourceString" : "({0} ?)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_Completed",
+  "SourceString" : "COMPLETED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_CurrentProgression",
+  "SourceString" : "+{0} {1}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_QuestCompleted",
+  "SourceString" : "CONTRACT COMPLETED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_VictoryPointAnim",
+  "SourceString" : "+{0} COMPLETED CONTRACTS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_QuestProgressWidget_QuestLoopIncrease",
+  "SourceString" : "CONTRACT RANK UP",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Jetpack_Energy",
+  "SourceString" : "BOOSTER",
+  "Comment" : "Fuel for the jetpack",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Jetpack_Attack",
+  "SourceString" : "To Charge",
+  "Comment" : "Charge / rush melee attack",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_Mods_ActiveMods",
+  "SourceString" : "Active Mods:",
+  "Comment" : "weapon or suit modifications",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_LowAmmo_LowAmmo",
+  "SourceString" : "Low Ammo",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_LowAmmo_Heal",
+  "SourceString" : "HOLD [F] TO HEAL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_LowAmmo_Reload",
+  "SourceString" : "TO RELOAD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_GenericInteract",
+  "SourceString" : "Press to interact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_GenericCapturing",
+  "SourceString" : "Capturing...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_HoldButtonAction",
+  "SourceString" : "Hold",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_OnCeasefireBroken",
+  "SourceString" : "{PlayerWhoGainedBounty} broke the ceasefire with {SquadName}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_TutorialTitle",
+  "SourceString" : "TUTORIAL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_DishonorableMarker",
+  "SourceString" : "Ruthless",
+  "Comment" : "Highlights that a player is 'ruthless' and a threat",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_EarningShare",
+  "SourceString" : "Earnings Share: {earningPercentage}%",
+  "Comment" : "Tells the player what the earning share is with his pactmate in percent",
+  "" : ""
+},
+{
+  "Key" : "Generic_DamageNumber_Shielded",
+  "SourceString" : "Shielded",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_Interaction_Revive",
+  "SourceString" : "[F] Revive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_Interaction_Execute",
+  "SourceString" : "[F] Take out - 1000 Credit Bounty (7 min)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_ShieldRecharge",
+  "SourceString" : "EMERGENCY RECALL DEPLETED",
+  "Comment" : "this is a teleport to spawn location when downed",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_ShieldRecharge_1",
+  "SourceString" : "DEAD MAN WALKING",
+  "Comment" : "Refers to the player not having this escape teleport so will die if downed",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_TeleportHintMessage",
+  "SourceString" : "SINGLE USE RECALL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_TeleportDepletedMessage",
+  "SourceString" : "RECALL DEPLETED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_OnScreenStatusMessage",
+  "SourceString" : "AUTO-RECOVER IN:",
+  "Comment" : "player is downed and must survive for some seconds to revive",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_OnGettingRevived",
+  "SourceString" : "FRIENDLY ASSISTING",
+  "Comment" : "a friendly player is trying to heal",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_OnGettingExecuted",
+  "SourceString" : "HOSTILE TRIGGERING STASIS",
+  "Comment" : "a hostile player is trying to put the player into stasis - ie kill",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_OnBountyCollected",
+  "SourceString" : "Bounty placed on {BountyPlayer} collected by {BountyGainedPlayer}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_OnExecutionAndBounty",
+  "SourceString" : "{PlayerWhoGainedBounty} stranded {ExecutedPlayer}.\nBOUNTY PLACED ON {PlayerWhoGainedBounty}!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_ShieldRechargePlate",
+  "SourceString" : "DEAD MAN WALKING",
+  "Comment" : "Refers to the player not having this escape teleport so will die if downed",
+  "" : ""
+},
+{
+  "Key" : "Generic_DBNO_InDBNOPlate",
+  "SourceString" : "EMERGENCY TRIAGE",
+  "Comment" : "player is downed and must survive for some seconds to revive",
+  "" : ""
+},
+{
+  "Key" : "Generic_DamageRecap_Title",
+  "SourceString" : "Recent Damage Taken:",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DamageRecap_Title_EndOfMatch",
+  "SourceString" : "DAMAGE REPORT",
+  "Comment" : "readout of recent damage received",
+  "" : ""
+},
+{
+  "Key" : "Generic_DamageRecap_ButtonPrompt",
+  "SourceString" : "Damage Report",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DamageRecap_NoDamageEventsAvailable",
+  "SourceString" : "No recent damage taken",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Hello",
+  "SourceString" : "Hello",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_OnMyWay",
+  "SourceString" : "On my way",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Sorry",
+  "SourceString" : "Sorry",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_DontShoot",
+  "SourceString" : "Don't Shoot",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_FollowMe",
+  "SourceString" : "Follow me",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_LetsWorkTogether",
+  "SourceString" : "Let's work Together",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_INeedShields",
+  "SourceString" : "I need shields",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_INeedAmmo",
+  "SourceString" : "I need ammo",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Go",
+  "SourceString" : "Go",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Taunt",
+  "SourceString" : "Taunt",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_HoldPosition",
+  "SourceString" : "Hold position",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_INeedWeapons",
+  "SourceString" : "I need weapons",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_INeedCraftingMaterials",
+  "SourceString" : "I need materials",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_More",
+  "SourceString" : "More",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Yes",
+  "SourceString" : "Yes!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_No",
+  "SourceString" : "No!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Friend?",
+  "SourceString" : "Join Forces?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_OverHere",
+  "SourceString" : "Over here!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_PlayerNearby",
+  "SourceString" : "Prospector nearby!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_StayBack",
+  "SourceString" : "Stay back!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Farmon",
+  "SourceString" : "Set up Gas Refiners!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_FarmonWheel",
+  "SourceString" : "REFINING +\n(Set up Refiners)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Minerals",
+  "SourceString" : "Get Minerals!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_MineralsWheel",
+  "SourceString" : "MINERALS +\n(Get Minerals)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Evac",
+  "SourceString" : "Extract!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_PowerUp",
+  "SourceString" : "Power a facility!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Boss",
+  "SourceString" : "Kill Warden Alpha!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Trophy",
+  "SourceString" : "Get Zeal!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_TrophyWheel",
+  "SourceString" : "ZEAL +\n(Get Zeal)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Hunt",
+  "SourceString" : "Hunt!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Uplink",
+  "SourceString" : "Cap Uplink!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_UplinkWheel",
+  "SourceString" : "UPLINK +\n(Cap Uplink)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_CommWheelTitle",
+  "SourceString" : "COMMWHEEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_DBNO_HelpMe",
+  "SourceString" : "Help, I'm down!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Help",
+  "SourceString" : "Help!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Thanks",
+  "SourceString" : "Thanks!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Team",
+  "SourceString" : "TEAM +\n(Call Over)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Objectives",
+  "SourceString" : "OBJECTIVES (+)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Cautious",
+  "SourceString" : "Be cautious!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Aggro",
+  "SourceString" : "Be aggressive!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Loot",
+  "SourceString" : "Find loot!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Monsters",
+  "SourceString" : "Kill creatures!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Stick",
+  "SourceString" : "Stick together!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Spread",
+  "SourceString" : "Spread out!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Money",
+  "SourceString" : "I need cash!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_Collect",
+  "SourceString" : "Find Brightcaps!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_CollectWheel",
+  "SourceString" : "BRIGHTCAPS +\n(Find Brightcaps)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_SalvageMain",
+  "SourceString" : "Salvage Drones!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_SabotageDefend",
+  "SourceString" : "Defend Drone Carrier!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_SabotageAttack",
+  "SourceString" : "Destroy Drone Carrier!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_FewMinerals",
+  "SourceString" : "Get a few Minerals!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_EpicMinerals",
+  "SourceString" : "Get epic Minerals!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_StealFarmon",
+  "SourceString" : "Take over Refiners!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_DefendFarmon",
+  "SourceString" : "Defend our Refiners!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_HuntZeal",
+  "SourceString" : "Find the Zeal carrier!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_DefendZeal",
+  "SourceString" : "Defend the Zeal carrier!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_DefendUplink",
+  "SourceString" : "Defend the Uplink!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_NextUplink",
+  "SourceString" : "Go to next Uplink!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_CollectDeposit",
+  "SourceString" : "Deposit our Brightcaps!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_CollectCamp",
+  "SourceString" : "Camp the Brigtcap deposit!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_SuperPowerUp",
+  "SourceString" : "Power the Central Station!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_StormSurge",
+  "SourceString" : "Cycle Spike!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_PainTrainWheel",
+  "SourceString" : "TRAIN +\n(Capture the train!)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_PainTrain",
+  "SourceString" : "Get the Train!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_PainTrainDefend",
+  "SourceString" : "Defend the Train!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterVanity_ItemsTitleHeader",
+  "SourceString" : "Items: {CategoryName}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CommWheel_SpamProtection",
+  "SourceString" : "Comm Wheel Stack Overflow",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_BannerWheel_BannerWheelTitle",
+  "SourceString" : "BANNERWHEEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_EmoteWheel_EmoteWheelTitle",
+  "SourceString" : "EXPRESSION WHEEL",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_EmoteWheel_EntryEmptyState",
+  "SourceString" : "Add",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_EmoteWheel_EntryNoExpression",
+  "SourceString" : "No Expression",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ScannerHUD_Ready",
+  "SourceString" : "Ready to Scan",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ScannerHUD_Scanning",
+  "SourceString" : "Scanning",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ScannerHUD_FeedbackNegative",
+  "SourceString" : "Nothing detected",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ScannerHUD_FeedbackPositive",
+  "SourceString" : "Item detected",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterSelection_HeadLine",
+  "SourceString" : "Choose your Prospector",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterSelection_Body01",
+  "SourceString" : "You can change your Prospector and customize further any time you're in the station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterSelection_Body02",
+  "SourceString" : "If you played the old version of The Cycle, you'll find your unlocked items in the later following menus.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_BackButton",
+  "SourceString" : "BACK",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Color",
+  "SourceString" : "STYLE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Item",
+  "SourceString" : "ITEM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_ArchetypeTitle",
+  "SourceString" : "Prospector",
+  "Comment" : "Refers to character customization base",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_ResetCustomizationButton",
+  "SourceString" : "RESET PROSPECTOR",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_DialogHeadline",
+  "SourceString" : "Reset character appearance?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_DialogMessage",
+  "SourceString" : "Changes will only affect the current active character preset",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Head",
+  "SourceString" : "HEAD",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Chest",
+  "SourceString" : "CHEST",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Gloves",
+  "SourceString" : "GLOVES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_BaseSuit",
+  "SourceString" : "BASE SUIT",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Boots",
+  "SourceString" : "BOOTS",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_WeaponPreview",
+  "SourceString" : "WEAPON PREVIEW",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Emote",
+  "SourceString" : "EMOTE",
+  "Comment" : "these are short dances",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Melee",
+  "SourceString" : "MELEE",
+  "Comment" : "these are meleeweapons",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Spraay",
+  "SourceString" : "SPRAY",
+  "Comment" : "these are sprays",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Droppod",
+  "SourceString" : "DROP POD",
+  "Comment" : "these are droppods",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_Category_Prospectors",
+  "SourceString" : "Prospectors",
+  "Comment" : "Category for Prospectors Selection in Character Customization",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_NotOwned",
+  "SourceString" : "Not Owned",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_ConfirmMessage",
+  "SourceString" : "CONFIRM",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_DeclineMessage",
+  "SourceString" : "DECLINE",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_AcceptChangesTitle",
+  "SourceString" : "CONFIRM CHANGES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_AcceptChangesDescription",
+  "SourceString" : "Apply changes to the Prospector?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterCustomization_DisregardChangesTitle",
+  "SourceString" : "DISREGARD CHANGES",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Weather_RadiationMeasurmentUnit",
+  "SourceString" : "Rad",
+  "Comment" : "Radiation",
+  "" : ""
+},
+{
+  "Key" : "BuildDescription",
+  "SourceString" : "Experimental Test Server",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_InstructionMessage",
+  "SourceString" : "HOLD [{0}] to use ride",
+  "Comment" : "Command to tell the player to hold a specific key to start using the vehicle",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_AboutToBeStolen",
+  "SourceString" : "{0} is stealing your ride!",
+  "Comment" : "When other player is trying to steal players vehicle.",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_VehicleGetOffKeyFirst",
+  "SourceString" : "Press",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_VehicleGetOffKeySecond",
+  "SourceString" : "to leave your ride",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Bounty_BountyStarted",
+  "SourceString" : "{player} HAVE BECOME RUTHLESS",
+  "Comment" : "Text when player with a specific name becomes ruthlless",
+  "" : ""
+},
+{
+  "Key" : "Generic_Bounty_BountyEnded",
+  "SourceString" : "{player} IS NO LONGER RUTHLESS",
+  "Comment" : "Text when a player who have been ruthless no longer is",
+  "" : ""
+},
+{
+  "Key" : "Generic_Ruthless_BecameRuthless",
+  "SourceString" : "Ruthless Level increased",
+  "Comment" : "Text when owning player become ruthless",
+  "" : ""
+},
+{
+  "Key" : "Generic_Ruthless_NoLongerRuthless",
+  "SourceString" : "NO LONGER RUTHLESS",
+  "Comment" : "Text when owning player become ruthless",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_Description",
+  "SourceString" : "A simple off-road gravbike capable of quickly carrying a prospector across the surface of Fortuna III.",
+  "Comment" : "Temporary vehicle description",
+  "" : ""
+},
+{
+  "Key" : "Generic_Vehicle_Title",
+  "SourceString" : "Ride",
+  "Comment" : "Temporary vehicle title",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootItems_CM_WinterMaterial_Event_01_Row",
+  "SourceString" : "Singing Spaceman",
+  "Comment" : "Crafting material",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interactable_LootCrate",
+  "SourceString" : "Supply Crate",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interactable_LootCrateSmall",
+  "SourceString" : "Box",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interactable_Collectible_Poster",
+  "SourceString" : "Poster",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interactable_Collectible_Poster_Prompt",
+  "SourceString" : "HOLD [{ButtonName0}] TO PICK UP POSTER",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Archetype",
+  "SourceString" : "Here you can change how you're represented in the match.\\nThis serves as the base character from which you can build on with further vanity options.\\n\\nPlease note that these vanity options have no gameplay effect and are purely cosmetic.",
+  "Comment" : " \"Here is a temp description \\n for archetype selection\"",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Banner",
+  "SourceString" : "Choose which banner you want to have represent you, and plant it on the ground in-match with [{BannerKey}] to symbolize your claim.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Emote",
+  "SourceString" : "Choose which Foam Pose to use when defeated in battle.\\n\\nSelect an Emote Move to taunt your enemies or just goof around by pressing [{EmoteKey}] during the match.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Vehicle",
+  "SourceString" : "Choose which ride style suits you best. \\n\\nPlease note that these options are visual only and do not affect your ride's behavior or performance.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_DropPod",
+  "SourceString" : "Choose a style for your drop pod, visible in the launch bay and your landing location. \\n\\nPlease note that these changes are visual only and have no gameplay effect.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Spray",
+  "SourceString" : "Choose which spray you want to use, and paint it on surfaces with [{BannerKey}] to let everyone see.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ApperenceCategoryExplanation_Pet",
+  "SourceString" : "Choose a style for your pet. \\n\\nPlease note that these changes are visual only and have no gameplay effect.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_WaitingForPlayers",
+  "SourceString" : "Waiting for teammates to finish the match",
+  "Comment" : "During lobby screen we wait for people",
+  "" : ""
+},
+{
+  "Key" : "Generic_MatchInfoScreen_StartRequeue",
+  "SourceString" : "REDEPLOY",
+  "Comment" : "User in end of match wants to start matchmaking for another game",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Normal",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Stormy",
+  "SourceString" : "Storm",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Thunderous",
+  "SourceString" : "Thunder",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Weak",
+  "SourceString" : "Weak",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Hunt",
+  "SourceString" : "Mutated",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_AIContextName_Alpha",
+  "SourceString" : "Alpha",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Ranked",
+  "SourceString" : "Ranked",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Unranked",
+  "SourceString" : "Unranked",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_RechargeEmergencyRecall_Interaction",
+  "SourceString" : "HOLD [{ButtonName0}] RECHARGE EMERGENCY RECALL ({0} credits)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DiscordRP_Station_State",
+  "SourceString" : "In Station",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DiscordRP_Station_State_Text",
+  "SourceString" : "Doing Station things",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DiscordRP_Match_State",
+  "SourceString" : "In Match",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_DiscordRP_Match_State_Text",
+  "SourceString" : "On my way to steal your minerals",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_Hold",
+  "SourceString" : "HOLD {ButtonName0}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_Press",
+  "SourceString" : "Press {ButtonName0} to interact",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_MissingItem",
+  "SourceString" : "You do not have the required Item",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Interaction_Door_Hold",
+  "SourceString" : "HOLD {ButtonName0} OPEN / CLOSE DOOR",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_InsuranceTokenCurrency_Name",
+  "SourceString" : "Insurance Tokens",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SoftCurrency_Name",
+  "SourceString" : "Krypto Marks",
+  "Comment" : "name for soft currency",
+  "" : ""
+},
+{
+  "Key" : "Generic_Button_Close",
+  "SourceString" : "Close",
+  "Comment" : "to close a popup/menu",
+  "" : ""
+},
+{
+  "Key" : "Generic_Button_Skip",
+  "SourceString" : "Skip",
+  "Comment" : "to skip past a popup/menu",
+  "" : ""
+},
+{
+  "Key" : "Acquisition_AcquiredFrom",
+  "SourceString" : "Acquired from:",
+  "Comment" : "Text indicating where an item is acquired from (e.g. shop or season pass).",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_IdleKickWarning",
+  "SourceString" : "YOU ARE ABOUT TO BE RETURNED TO THE STATION DUE TO IDLING! PLEASE MOVE!",
+  "Comment" : "Warning to players that have not moved in a while before they get forcefully returned to station.",
+  "" : ""
+},
+{
+  "Key" : "Generic_HUD_IdleKickWarningEFF",
+  "SourceString" : "ARE YOU STILL THERE? PLEASE MOVE OR YOU WILL BE FOAMED!",
+  "Comment" : "Warning to players that have not moved in a while before they get foamed.",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Strider",
+  "SourceString" : "Strider",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Strider_3",
+  "SourceString" : "Heavy Strider",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Rattler",
+  "SourceString" : "Rattler",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Rattler_2",
+  "SourceString" : "Mature Rattler",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Weremole",
+  "SourceString" : "Marauder",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Weremole_2",
+  "SourceString" : "Savage Marauder",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_Crusher",
+  "SourceString" : "Crusher",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CharacterNames_AlphaCrusher",
+  "SourceString" : "Alpha Crusher",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CancelContract_Text",
+  "SourceString" : "Cancel Active Contract?",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CancelContract_Title",
+  "SourceString" : "Contract Cancellation",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ShutdownTitle_Text",
+  "SourceString" : "SHUTDOWN WARNING!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ShutdownTitle_Description",
+  "SourceString" : "Game is about to shut down. Please evacuate the planet in {RemainingTime} or all items will be lost",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Starting_Header",
+  "SourceString" : "TUTORIAL SIMULATION STARTING...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Starting_Tips",
+  "SourceString" : "THIS SIMULATION CAN BE SKIPPED VIA THE <BH2>ESCAPE MENU</> AT ANY TIME. \n<BH2>GEAR</> AND <BH2>ACQUIRED LOOT</> WILL <BH2>NOT</> CARRY OVER TO STATION.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Failed_Header",
+  "SourceString" : "TUTORIAL SIMULATION INTERRUPTED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Failed_ContinueButton",
+  "SourceString" : "CONTINUE SIMULATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Failed_SkipButton",
+  "SourceString" : "SKIP TO STATION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Completed_Header",
+  "SourceString" : "TUTORIAL SIMULATION COMPLETED",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Completed_Subtitle",
+  "SourceString" : "RETURNING TO STATION...\n<BH2>GEAR</> AND <BH2>ACQUIRED LOOT</> WILL <BH2>NOT</> CARRY OVER.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_CoreLoopTutorial_Failed_Subtitle",
+  "SourceString" : "DYING WITHIN THIS SIMULATION WILL NOT RESULT IN THE LOSS OF ANY OF YOUR GEAR.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ItemSort_Alphabetical",
+  "SourceString" : "Alphabetical",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ItemSort_ItemType",
+  "SourceString" : "Item Type",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ItemSort_Rarity",
+  "SourceString" : "Rarity",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_OrganicsBox",
+  "SourceString" : "Cooler",
+  "Comment" : "A small box that keeps organic matter cool",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_FactoryContainer",
+  "SourceString" : "Dumpster",
+  "Comment" : "A big Factory Container",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Jacket_Osiris",
+  "SourceString" : "Jacket",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_LootContainer_Jacket_Korolev",
+  "SourceString" : "Jacket",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tooltip_Currency_Aurum",
+  "SourceString" : "Aurum can be used to purchase the Premium Fortuna Pass and cosmetics, as well as pay for Gear Salvage attempts and build timer skips.\n\nAurum is gained by upgrading your Quarters, through the Fortuna Pass, or purchased in the Store.\n\nAurum balance is not affected by season wipes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tooltip_Currency_KMark",
+  "SourceString" : "K-Marks are the main currency on Fortuna Station, used to purchase all sorts of gear, Standard Insurance, build timer skips, and other services.\n\nK-Marks are earned by working for the factions, selling items looted from the surface, and upgrading your Quarters.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Tooltip_Currency_InsruanceToken",
+  "SourceString" : "Insurance Tokens pay for an item's Gear Salvage attempt, replacing its Aurum cost.\n\nInsurance Tokens are primarily gained by progressing in the Fortuna Pass",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_InteractionWithObject_Press",
+  "SourceString" : "Press {ButtonName0} to interact with",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_ContractLocked_Level",
+  "SourceString" : "Lvl",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Lvl_Format",
+  "SourceString" : "LVL {Level}",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_GenericPlayer",
+  "SourceString" : "Prospector",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Team",
+  "SourceString" : "Squad",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Intro_Copyright",
+  "SourceString" : "© 2022 Yager Development GMBH. All Rights Reserved.\nUnreal® Engine, Copyright 1998 - 2022, Epic Games, Inc. All Rights Reserved. Unreal®, Unreal® Engine\nThe Circle-U and the powered by Unreal® Engine Logo are trademarks or Registered trademarks of Epic Games, Inc. In the United States of America and elsewhere.\n\nThis software product includes BattlEye™ anti-cheat technology, © 2022 BattlEye Innovations e.K.. All rights reserved.\nPortions of this program © 2020 Microsoft Azure PlayFab\nThe Cycle uses the Steam® Audio SDK. Steam® is a trademark or registered trademark of Valve Corporation in the United States of America and elsewhere. © 2017 – 2022, Valve Corp. All rights reserved.",
+  "Comment" : "copyright text during middleware intro",
+  "" : ""
+},
+{
+  "Key" : "Generic_SteamOverlayDisabled",
+  "SourceString" : "The in-game Steam overlay is not enabled.\nActivate the overlay in Steam/Settings/In-game, then restart your game.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_SteamPurchaseDelayWarning",
+  "SourceString" : "Please note that purchases through Steam may take a moment to be reflected on your account.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Matchmaking_ErrorMessage",
+  "SourceString" : "Matchmaking Error",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Matchmaking_ErrorMessageCodeAppend",
+  "SourceString" : " Code: ",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Matchmaking_FindingServer",
+  "SourceString" : "Searching for server spot",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Generic_Matchmaking_WaitingServer",
+  "SourceString" : "Waiting for server start",
+  "Comment" : "",
+  "" : ""
+}]
