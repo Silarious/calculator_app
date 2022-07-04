@@ -515,22 +515,12 @@ document.querySelectorAll('.ehpStatInput').forEach(item => {
         } 
     })
 });
-/* let lastArmorStatInput = 0;
-document.querySelectorAll('.armorStatInput').forEach(item => {
-    item.addEventListener('input', event => {
-        if(Date.now() - lastHpStatInput > 40) {
-            targetSelection.value = 3;
-            monsterSelection.value = "custom";
-            calculateWeaponStats ();
-            calculateWeaponStats(true);
-            lastEhpInput = Date.now();
-        } 
-    })
-}); */
 
 targetSelection.addEventListener('change', event => {
     if(targetSelection.options[targetSelection.selectedIndex].value === "1") {
         monsterSelection.value = "AI_Strider";
+        helmetSelection.value = "none";
+        shieldSelection.value = "none";
 
         let m_maxHealth = eval("PRO_Health[0].Rows.AI_Strider.m_maxHealth");
         setSliderBox("health",m_maxHealth);
@@ -565,50 +555,30 @@ monsterSelection.addEventListener('change', event => {
         calculateWeaponStats(true);
     }
 })
-helmetSelection.addEventListener('change', event => {
-    if(helmetSelection.options[helmetSelection.selectedIndex].value !== "none") {
-        targetSelection.value = 0;
-        monsterSelection.value = "none";
 
+document.querySelectorAll('.gearSelection').forEach(item => {
+    item.addEventListener('change', event => {
         let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
         let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
 
         let helmetArmor = 0;
         let shieldArmor = 0;
-
-        console.log(helmetType)
-        helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")
-        if (shieldType !== "Shield_None"){shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")}
+        if(helmetSelection.options[helmetSelection.selectedIndex].value !== "none") {
+            targetSelection.value = 0;
+            monsterSelection.value = "none";
+            helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")
+        } 
+        if(shieldSelection.options[shieldSelection.selectedIndex].value !== "none") {
+            targetSelection.value = 0;
+            monsterSelection.value = "none";
+            shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")
+        } 
         let totalArmor = helmetArmor + shieldArmor;
         setSliderBox("armor",totalArmor);
         calculateWeaponStats ();
         calculateWeaponStats(true);
-    } else {
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
-    }
+    })
 });
-shieldSelection.addEventListener('change', event => {
-    if(shieldSelection.options[shieldSelection.selectedIndex].value !== "none") {
-        targetSelection.value = 0;
-        monsterSelection.value = "none";
-
-        let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
-        let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
-
-        let helmetArmor = 0;
-        let shieldArmor = 0;
-
-        console.log(helmetType)
-        if (helmetType !== "Helmet_None"){helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")}
-        shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")
-        let totalArmor = helmetArmor + shieldArmor;
-        setSliderBox("armor",totalArmor);
-
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
-    }
-})
 
 /* function rememberSelection(mods){
     document.cookie = 'weaponSelection=' + document.getElementById('weaponSelection').selectedIndex + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';
