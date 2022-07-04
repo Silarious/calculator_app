@@ -5,6 +5,10 @@ import { load_JSON } from "./loadData.js";
 //*Global Variables
 var date = new Date();
 var slots = ["SLOT1","SLOT2","SLOT3","SLOT4","SLOT5","SLOT6","SLOT7","SLOT8"];
+var targetSelection = document.getElementById('targetSelection');
+var monsterSelection = document.getElementById('monsterSelection');
+var helmetSelection = document.getElementById('helmetSelection');
+var shieldSelection = document.getElementById('shieldSelection');
 const weapons = PRO_Weapons[0].Rows;
 const Tuning = PRO_Tuning[0].Rows;
 const Sense = AI_SenseTrigger_DT[0].Rows;
@@ -219,56 +223,9 @@ var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMul
 //Same as visAttributes but for "Detailed Stats" section
 var calcAttributes = ["totalDamage","headshotDamage","DPS","RPM","damagePerMag","shotsToKill","TTK"];
 
+
 function calculateWeaponStats(Modded,Init){
     let wep = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
-
-    let monsterSelection = document.getElementById('monsterSelection');
-    let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
-    
-
-    let helmetSelection = document.getElementById('helmetSelection');
-    let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
-    clearSelection(helmetSelection,"None","Helmet_None")
-
-    for (let key in PRO_Helmets[0].Rows) {
-        let option = document.createElement("option");
-        //option.text = key; //Debug Mode
-        option.text = key.replace(/[\d_]+/g, ' ') + eval("PRO_Helmets[0].Rows."+key+".m_rarity.replace('EYItemRarityType::','')");
-        option.id = key;
-        helmetSelection.add(option);
-    }
-
-    let shieldSelection = document.getElementById('shieldSelection');
-    let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
-    clearSelection(shieldSelection,"None","Shield_None")
-
-    for (let key in PRO_PlayerShield[0].Rows) {
-            if (key.startsWith('Test')  !== true && key !== "PlayerDefault") {
-            let option = document.createElement("option");
-            //option.text = key; //Debug Mode
-            option.text = key.replace(/[\d_]+/g, ' ') + eval("PRO_PlayerShield[0].Rows."+key+".m_rarity.replace('EYItemRarityType::','')");
-            option.id = key;
-            shieldSelection.add(option);
-            }
-    }
-
-    if (monsterType !== "AI_None"){
-        document.getElementById('healthSlider').value = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
-        document.getElementById('healthBox').value = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
-        document.getElementById('targetSelection').value = 1;
-        document.getElementById('helmetSelection').value = "none";
-        document.getElementById('shieldSelection').value = "none"
-    } /* else {
-        let helmetArmor;
-        let shieldArmor;
-        if(helmetType !== "Helmet_None"){let helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount");}else{helmetArmor = 0}
-        if(shieldType !== "Shield_None"){let shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount");}else{shieldArmor = 0}
-        let totalArmor = helmetArmor + shieldArmor;
-        document.getElementById('armorSlider').value = totalArmor;
-        document.getElementById('armorBox').value = totalArmor;
-        document.getElementById('monsterSelection').value = "none";
-        document.getElementById('targetSelection').value = 0;
-    } */
 
     //Query user input and declare them.
     let accuracy = parseFloat(document.getElementById('accuracySlider').value/100);
@@ -276,19 +233,17 @@ function calculateWeaponStats(Modded,Init){
     let headshotaccuracy2 = accuracy * headshotAccuracy;
     let accuracy2 = accuracy - headshotaccuracy2;
     let targetRange = parseFloat(document.getElementById('distanceSlider').value);
-    let health = parseInt(document.getElementById('healthSlider').value);
-    let armor = parseInt(document.getElementById('armorSlider').value);
     let tt = document.getElementById("targetSelection");
     let targetType = tt.options[tt.selectedIndex].getAttribute('id');
-
+    let health = parseInt(document.getElementById('healthSlider').value);
+    let armor = parseInt(document.getElementById('armorSlider').value);
     
-
+    let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
 
     //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
     let m_chainReactionDamageReduction = 1.0;
     let m_applyChainReaction = 0;
-    console.log(mods);
 
     for (let i = 0; i < attributes.length; i++) {
         window[attributes[i]] = eval("wep." + attributes[i]);
@@ -380,11 +335,11 @@ function calculateWeaponStats(Modded,Init){
     };
     
     let m_effectiveHealthPerArmorConstant;
-    if (targetType === "Player"){
-        m_effectiveHealthPerArmorConstant = 0.025
+    if (targetType === "Monster") {
+        m_effectiveHealthPerArmorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace("AI_","")+".m_effectiveHealthPerArmorConstant")
     } else {
-        m_effectiveHealthPerArmorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace('AI_',"")+".m_effectiveHealthPerArmorConstant")
-    }
+        m_effectiveHealthPerArmorConstant = 0.025
+    }  
  
     let remainder = m_penetration - armor;
     let penMulti = health/(health + Math.abs(remainder) * m_effectiveHealthPerArmorConstant * health);
@@ -478,6 +433,11 @@ function calculateWeaponStats(Modded,Init){
     //rememberSelection(true)
 } 
 
+function setSliderBox(ID,value){
+    document.getElementById(`${ID}Box`).value = value;
+    document.getElementById(`${ID}Slider`).value = value
+}
+
 function markTopValues(attr,highBest){
     let def = document.querySelector(`#t-${attr} .default`);
     let mod = document.querySelector(`#t-${attr} .mod`);
@@ -531,16 +491,124 @@ weaponSelection.addEventListener('change', populateWeaponStats);
 modSelection.addEventListener("change", calculateWeaponStats(true));
 
 //Listens for any input change and recalculates stats
-let lastMove = 0;
+let lastInput = 0;
 document.querySelectorAll('.weaponStatInput').forEach(item => {
     item.addEventListener('input', event => {
-        if(Date.now() - lastMove > 40) {
+        if(Date.now() - lastInput > 40) {
             calculateWeaponStats ();
             calculateWeaponStats(true);
-            lastMove = Date.now();
+            lastInput = Date.now();
         } 
     })
 });
+
+let lastEhpInput = 0;
+document.querySelectorAll('.ehpStatInput').forEach(item => {
+    item.addEventListener('input', event => {
+        if(Date.now() - lastEhpInput > 40) {
+            targetSelection.value = 2;
+            helmetSelection.value = "none";
+            shieldSelection.value = "none";
+            calculateWeaponStats ();
+            calculateWeaponStats(true);
+            lastEhpInput = Date.now();
+        } 
+    })
+});
+/* let lastArmorStatInput = 0;
+document.querySelectorAll('.armorStatInput').forEach(item => {
+    item.addEventListener('input', event => {
+        if(Date.now() - lastHpStatInput > 40) {
+            targetSelection.value = 3;
+            monsterSelection.value = "custom";
+            calculateWeaponStats ();
+            calculateWeaponStats(true);
+            lastEhpInput = Date.now();
+        } 
+    })
+}); */
+
+targetSelection.addEventListener('change', event => {
+    if(targetSelection.options[targetSelection.selectedIndex].value === "1") {
+        monsterSelection.value = "AI_Strider";
+
+        let m_maxHealth = eval("PRO_Health[0].Rows.AI_Strider.m_maxHealth");
+        setSliderBox(health,m_maxHealth);
+        
+        let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows.Strider.m_defaultArmor");
+        setSliderBox(armor,m_defaultArmor);
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    }
+})
+
+monsterSelection.addEventListener('change', event => {
+    if(monsterSelection.options[monsterSelection.selectedIndex].value !== "none") {
+        targetSelection.value = 1;
+        helmetSelection.value = "none";
+        shieldSelection.value = "none";
+
+        let monsterSelection = monsterSelection;
+        let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
+        let monsterTuning = monsterType.slice(3); 
+        
+        let m_maxHealth = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
+        setSliderBox(health,m_maxHealth);
+        
+        let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
+        setSliderBox(armor,m_defaultArmor);
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    } else {
+        targetSelection.value = 0;
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    }
+})
+helmetSelection.addEventListener('change', event => {
+    if(helmetSelection.options[helmetSelection.selectedIndex].value !== "none") {
+        targetSelection.value = 0;
+        monsterSelection.value = "none";
+
+        let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
+        let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
+
+        let helmetArmor = 0;
+        let shieldArmor = 0;
+
+        console.log(helmetType)
+        helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")
+        if (shieldType !== "Shield_None"){shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")}
+        let totalArmor = helmetArmor + shieldArmor;
+        setSliderBox(armor,totalArmor);
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    } else {
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    }
+});
+shieldSelection.addEventListener('change', event => {
+    if(shieldSelection.options[shieldSelection.selectedIndex].value !== "none") {
+        targetSelection.value = 0;
+        monsterSelection.value = "none";
+
+        let helmetType = helmetSelection.options[helmetSelection.selectedIndex].getAttribute('id');
+        let shieldType = shieldSelection.options[shieldSelection.selectedIndex].getAttribute('id');
+
+        let helmetArmor = 0;
+        let shieldArmor = 0;
+
+        console.log(helmetType)
+        if (helmetType !== "Helmet_None"){helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")}
+        shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")
+        let totalArmor = helmetArmor + shieldArmor;
+        setSliderBox(armor,totalArmor);
+
+        calculateWeaponStats ();
+        calculateWeaponStats(true);
+    }
+})
 
 /* function rememberSelection(mods){
     document.cookie = 'weaponSelection=' + document.getElementById('weaponSelection').selectedIndex + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';

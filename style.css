@@ -35,7 +35,7 @@ body, select {
 #weaponSelection option {
     padding:2px;
 }
-select#monsterSelection,select#helmetSelection,select#shieldSelection {
+select#monsterSelection,select#helmetSelection,select#shieldSelection,select#targetSelection {
     width: -webkit-fill-available;
 }
 #modSelection {
@@ -56,6 +56,9 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection {
     width: 5em;
     color:#000;
     float:right;
+}
+.weaponStatInput,.ehpStatInput {
+    width: -webkit-fill-available;
 }
 
 /* Table */

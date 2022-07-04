@@ -82,26 +82,27 @@
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Health:<input id="healthBox" class="weaponStatInput health" type="number" name="health" min="5" max="10000" value="100" step="5" oninput="syncInput(this.value,'healthSlider')"></p>
-                    <input id="healthSlider" class="weaponStatInput health" type="range" min="5" max="10000" value="100" step="5" oninput="syncInput(this.value,'healthBox')">
+                    <input id="healthSlider" class="hpStatInput ehpStatInput health" type="range" min="5" max="10000" value="100" step="5" oninput="syncInput(this.value,'healthBox')">
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Armor:<input id="armorBox" class="weaponStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
-                    <input id="armorSlider" class="weaponStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
+                    <input id="armorSlider" class="armorStatInput ehpStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Target Type:
-                        <select id="targetSelection" class="weaponStatInput targetType" name="targets">
+                        <select id="targetSelection" class="targetType dropdownInput" name="targets">
                             <option id="Player" value="0">Player</option>
-                            <option id="Monster" value="1">Creature</option>
+                            <option id="Monster" value="1">Monster</option>
+                            <option id="Custom" value="2">Custom</option>
                         </select>
                     </p>
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Select Monster:</p>
-                        <select id="monsterSelection" class="weaponStatInput monster_selection" name="monsters">
+                        <select id="monsterSelection" class="monsterType dropdownInput" name="monsters">
                             <option id="AI_None" value="none">None</option>
                             <!--<option id="AI_GlowBeetle_Blast">Tick</option>-->
-                            <option id="AI_Strider">Strider</option>
+                            <option id="AI_Strider" value="AI_Strider">Strider</option>
                             <option id="AI_Strider_2">Heavy Strider</option>
                             <option id="AI_Rattler">Rattler</option>
                             <option id="AI_Rattler_2">Mature Rattler</option>
@@ -113,15 +114,36 @@
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Select Helmet:</p>
-                        <select id="helmetSelection" class="weaponStatInput helmetType" name="helmet">
-                            <option id="Helmet_None" value="none">None</option>
-                        </select>
+                    <select id="helmetSelection" class="helmetType dropdownInput" name="helmet">
+                        <option id="Helmet_None" value="none">None</option>
+                        <option id="Helmet_01">Helmet Common</option>
+                        <option id="Helmet_02">Helmet Uncommon</option>
+                        <option id="Helmet_03">Helmet Rare</option>
+                        <option id="Helmet_04">Helmet Epic</option>
+                        <option id="Helmet_05">Helmet Exotic</option>
+                        <option id="Helmet_Tactical_01">Helmet Tactical Common</option>
+                        <option id="Helmet_Tactical_02">Helmet Tactical Uncommon</option>
+                        <option id="Helmet_Tactical_03">Helmet Tactical Rare</option>
+                        <option id="Helmet_Restoration_01">Helmet Restoration Uncommon</option>
+                        <option id="Helmet_Restoration_02">Helmet Restoration Rare</option>
+                        <option id="Helmet_NV_01">Helmet NV Legendary</option>
+                    </select>
                 </div>
                 <div class="inputContainer">
                     <p class="inputText">Select Shield:</p>
-                        <select id="shieldSelection" class="weaponStatInput shieldType" name="shield">
-                            <option id="Shield_None" value="none">None</option>
-                        </select>
+                    <select id="shieldSelection" class="shieldType dropdownInput" name="shield">
+                        <option id="Shield_None" value="none">None</option>
+                        <option id="Shield_01">Shield Common</option>
+                        <option id="Shield_02">Shield Uncommon</option>
+                        <option id="Shield_03">Shield Rare</option>
+                        <option id="Shield_04">Shield Epic</option>
+                        <option id="Shield_05">Shield Exotic</option>
+                        <option id="Shield_Tactical_01">Shield Tactical Common</option>
+                        <option id="Shield_Tactical_02">Shield Tactical Uncommon</option>
+                        <option id="Shield_Tactical_03">Shield Tactical Rare</option>
+                        <option id="Shield_Restoration_01">Shield Restoration Uncommon</option>
+                        <option id="Shield_Restoration_02">Shield Restoration Rare</option>
+                    </select>
                 </div>
                 
                 
