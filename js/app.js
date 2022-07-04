@@ -533,10 +533,10 @@ targetSelection.addEventListener('change', event => {
         monsterSelection.value = "AI_Strider";
 
         let m_maxHealth = eval("PRO_Health[0].Rows.AI_Strider.m_maxHealth");
-        setSliderBox(health,m_maxHealth);
+        setSliderBox("health",m_maxHealth);
         
         let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows.Strider.m_defaultArmor");
-        setSliderBox(armor,m_defaultArmor);
+        setSliderBox("armor",m_defaultArmor);
         calculateWeaponStats ();
         calculateWeaponStats(true);
     }
@@ -553,10 +553,10 @@ monsterSelection.addEventListener('change', event => {
         let monsterTuning = monsterType.slice(3); 
         
         let m_maxHealth = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
-        setSliderBox(health,m_maxHealth);
+        setSliderBox("health",m_maxHealth);
         
         let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
-        setSliderBox(armor,m_defaultArmor);
+        setSliderBox("armor",m_defaultArmor);
         calculateWeaponStats ();
         calculateWeaponStats(true);
     } else {
@@ -580,7 +580,7 @@ helmetSelection.addEventListener('change', event => {
         helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")
         if (shieldType !== "Shield_None"){shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")}
         let totalArmor = helmetArmor + shieldArmor;
-        setSliderBox(armor,totalArmor);
+        setSliderBox("armor",totalArmor);
         calculateWeaponStats ();
         calculateWeaponStats(true);
     } else {
@@ -603,7 +603,7 @@ shieldSelection.addEventListener('change', event => {
         if (helmetType !== "Helmet_None"){helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")}
         shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")
         let totalArmor = helmetArmor + shieldArmor;
-        setSliderBox(armor,totalArmor);
+        setSliderBox("armor",totalArmor);
 
         calculateWeaponStats ();
         calculateWeaponStats(true);
