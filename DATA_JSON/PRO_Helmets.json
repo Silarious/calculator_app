@@ -949,7 +949,7 @@
         "m_rowName": "Helmet_03"
       },
       "Helmet_04": {
-        "m_armorAmount": 26,
+        "m_armorAmount": 27,
         "m_armoredHitZones": [
           {
             "DataTable": {
@@ -1233,7 +1233,7 @@
         "m_rowName": "Helmet_04"
       },
       "Helmet_05": {
-        "m_armorAmount": 28,
+        "m_armorAmount": 29,
         "m_armoredHitZones": [
           {
             "DataTable": {
@@ -3164,7 +3164,7 @@
         "m_rowName": "Helmet_Restoration_02"
       },
       "Helmet_NV_01": {
-        "m_armorAmount": 28,
+        "m_armorAmount": 29,
         "m_armoredHitZones": [
           {
             "DataTable": {

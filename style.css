@@ -7,13 +7,13 @@ body, select {
 /* Hub Box */
 .hubBox {
 	display: flex;
-	gap: 10px;
+	gap: 25px;
 	flex-wrap: wrap;
 }
 .hubBoxInputs {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 /* Selection */
 .selection {
@@ -22,18 +22,29 @@ body, select {
     /*width: 220px;*/
 }
 .selection p {
-    margin:5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     text-align: center;
+}
+img{
+    box-sizing:border-box;
+    border:0;
+    vertical-align:middle;
+    -ms-interpolation-mode:bicubic
+}
+#wpLogo {
+    width: 170px;
 }
 #weaponSelection {
     padding:5px;
     overflow-y: auto;
     scrollbar-width: none; /*For Firefox*/;
     -ms-overflow-style: none;  /*For Internet Explorer 10+*/;
-    min-width:12em;
+    min-width:14em;
 }
 #weaponSelection option {
-    padding:2px;
+    padding: 2px;
+    font-size: 16px;
 }
 select#monsterSelection,select#helmetSelection,select#shieldSelection,select#targetSelection {
     width: -webkit-fill-available;
@@ -42,6 +53,7 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 225px;
 }
 #SLOT1,#SLOT2,#SLOT3,#SLOT4{
     min-width:12em;
@@ -52,7 +64,7 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
 .inputText {
     margin:0;
 }
-.weaponStatInput[type=number]{
+.weaponStatInput[type=number],.ehpStatInput[type=number]{
     width: 5em;
     color:#000;
     float:right;
@@ -62,11 +74,15 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
 }
 
 /* Table */
-td, th, tr, table {
-    border-collapse: collapse;
+td, th, tr {
     border: 1px solid var(--border-color);
-    padding: 0 7px;
+    border-style: inset;
+    padding: 2px 8px;
     min-width: 75px;
+}
+table {
+    border: 0px solid;
+    border-spacing: 0px;
 }
 td {
     text-align: right;
@@ -74,6 +90,11 @@ td {
 th {
     font-weight:normal;
 }
+th#wpName,th#thLogo,.statSections {
+    border: 0px;
+    padding-top: 10px;
+}
+
 
 /** Minimal Scrollbar **/
 /* WebKit and Blink */

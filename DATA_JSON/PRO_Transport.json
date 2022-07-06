@@ -88,7 +88,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -178,7 +177,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -268,7 +266,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -358,7 +355,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -448,7 +444,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -538,7 +533,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -628,7 +622,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -718,7 +711,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -808,7 +800,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -898,7 +889,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -988,7 +978,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1078,7 +1067,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1168,7 +1156,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1258,7 +1245,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1348,7 +1334,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1438,7 +1423,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1528,7 +1512,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1618,7 +1601,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1708,7 +1690,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1814,7 +1795,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -1901,7 +1881,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel2",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2004,7 +1983,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2094,7 +2072,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2184,7 +2161,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2271,7 +2247,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2361,7 +2336,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2451,7 +2425,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2541,7 +2514,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2628,7 +2600,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel2",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2731,7 +2702,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2818,7 +2788,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2908,7 +2877,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -2998,7 +2966,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3088,7 +3055,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3181,7 +3147,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Capsule",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3271,7 +3236,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Capsule",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3358,7 +3322,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": true,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3448,7 +3411,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Invalid",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3538,7 +3500,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Invalid",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3625,7 +3586,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3709,7 +3669,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3799,7 +3758,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3889,7 +3847,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -3979,7 +3936,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -4069,7 +4025,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Hitscan",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": false,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -4159,7 +4114,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -4249,7 +4203,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -4339,7 +4292,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {
@@ -4429,7 +4381,6 @@
         "m_produceImpactRegadlessOfHit": false,
         "m_transportType": "EYWeaponTransportType::Projectile",
         "m_transportCollisionTraceChannel": "ECC_GameTraceChannel1",
-        "m_replicateThroughSimulatedImpact": false,
         "m_supportsObjectPooling": true,
         "m_damageInfoApplyRowHandle": {
           "DataTable": {

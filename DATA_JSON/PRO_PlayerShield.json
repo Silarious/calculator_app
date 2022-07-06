@@ -1109,7 +1109,7 @@
         "m_rowName": "Shield_03"
       },
       "Shield_04": {
-        "m_armorAmount": 26,
+        "m_armorAmount": 27,
         "m_armoredHitZones": [
           {
             "DataTable": {
@@ -1400,7 +1400,7 @@
         "m_rowName": "Shield_04"
       },
       "Shield_05": {
-        "m_armorAmount": 28,
+        "m_armorAmount": 29,
         "m_armoredHitZones": [
           {
             "DataTable": {

@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PRO_PlayerStamina",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YStaminaDataTableRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "PlayerDefault": {
+        "m_maxStamina": 100.0,
+        "m_regenerationRate": 40.0,
+        "m_regenerationGrowthCurve": {
+          "ObjectName": "CurveFloat Curve_Player_Stamina_Regen",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Curve_Player_Stamina_Regen.0"
+        },
+        "m_regenerationDelay": 1.5,
+        "m_stateOverrides": [
+          {
+            "m_states": [
+              "EYPlayerStateBlueprint::Melee",
+              "EYPlayerStateBlueprint::MeleeHeavy"
+            ],
+            "m_regenerationRateScalar": 0.0
+          }
+        ],
+        "m_staminaRegenerationMovementData": {
+          "m_walkingRegenerationRateScalar": 0.4,
+          "m_stationaryRegenerationRateScalar": 1.0,
+          "m_jumpingRegenerationRateScalar": 0.4
+        },
+        "m_jumpConsumption": 10.0,
+        "m_jumpNoStaminaScalar": 1.0,
+        "m_sprintConsumptionRate": 3.0,
+        "m_sprintDashConsumptionRate": 0.0,
+        "m_sprintMinStamina": 2.0,
+        "m_sprintDashMinStamina": 0.0,
+        "m_slideConsumptionRate": 8.0,
+        "m_slideMinStamina": 5.0,
+        "m_climbingInstantConsumption": 0.0,
+        "m_climbingDegenerationRate": 5.0,
+        "m_allowMeleeWithoutStamina": true,
+        "m_allowMeleeHeavyWithoutStamina": false,
+        "m_StaminaReducedOnTakingHit": 0.0,
+        "m_rowName": "PlayerDefault"
+      }
+    }
+  }
+]

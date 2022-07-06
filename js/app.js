@@ -5,6 +5,7 @@ import { load_JSON } from "./loadData.js";
 //*Global Variables
 var date = new Date();
 var slots = ["SLOT1","SLOT2","SLOT3","SLOT4","SLOT5","SLOT6","SLOT7","SLOT8"];
+var rarities = ["Common","Uncommon","Rare","Epic","Exotic","Legendary"];
 var targetSelection = document.getElementById('targetSelection');
 var monsterSelection = document.getElementById('monsterSelection');
 var helmetSelection = document.getElementById('helmetSelection');
@@ -19,12 +20,11 @@ const weaponCodeNameList = [];
 for (let key in weapons) { // Only show objects that pass the filter for the weapon name.
     let m_weaponName = weapons[key].m_weaponName;
     (m_weaponName.hasOwnProperty('Key') === true // Ternary Operator
-    && key.startsWith('WP') 
-    && !key.includes('02') 
+    && key.includes('WP') 
     && !key.includes('Exotic') 
-    && !key.includes('LMG_Needle') 
-    && !key.includes('Leaf') 
-    && !key.includes('scrappy') 
+    && !key.includes('HVY_Shell')
+    && !key.includes('Launch_Nade')
+    && !key.includes('Event')
     ? weaponCodeNameList.push(key)
     : null);
 
@@ -33,14 +33,20 @@ for (let key in weapons) { // Only show objects that pass the filter for the wea
 //! MUST FIND DYNAMIC WAY TO EXECUTE THE FOLLOWING
 // Object Deconstructing all the correct weapon entries from PRO_Tuning and storing in variable of the same weapon name.
 
-const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_HVY_Shell_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_E_Launch_Nade_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01, WP_E_Sniper_Bullet_01} = Tuning
+const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01, WP_E_Sniper_Bullet_01,WP_E_Pistol_Bullet_01_scrappy,WP_E_SGun_Bullet_01_scrappy,WP_E_SMG_Bullet_01_scrappy,WP_E_AR_Energy_01_scrappy} = Tuning
 //TODO: The above is a static way and will be obsolete to changes in the data.
 
 
 for (let i = 0; i < weaponCodeNameList.length; i++) {
 //*Weapon Tags & Slots Import
-    eval(weaponCodeNameList[i]+".m_weaponTags" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_weaponTags;");
-    eval(weaponCodeNameList[i]+".m_modSlots" + "=" + "weapons" + "." + weaponCodeNameList[i] + ".m_modSlots;");
+    eval(weaponCodeNameList[i]+".m_weaponTags = weapons." + weaponCodeNameList[i] + ".m_weaponTags;");
+    eval(weaponCodeNameList[i]+".m_modSlots = weapons." + weaponCodeNameList[i] + ".m_modSlots;");
+    eval(weaponCodeNameList[i]+".itemWeight = weapons." + weaponCodeNameList[i] + ".itemWeight;");
+    for (let x = 0; x < rarities.length; x++) {
+        if (eval("weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0]") != undefined && eval("weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+            eval(weaponCodeNameList[i]+".itemCost = weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+        }
+    }
 //Appending vanity/human friendly names to the weapon variables.
     eval(weaponCodeNameList[i]+'.m_weaponName' + '='+ 'weapons' + '.' + weaponCodeNameList[i] + '.m_weaponName.Key;');
     eval(weaponCodeNameList[i]+'.m_transportName' + '=' + 'weapons' + '.' + weaponCodeNameList[i] + '.m_transportDataTableRow.RowName;');
@@ -55,16 +61,17 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 const weaponVanityName = ST_Weapons.filter(function(weapon) {
     return weapon.Key.includes('Name') 
     && weapon.Key.includes('WP') 
-    && !weapon.Key.includes('02') 
     && !weapon.Key.includes('Exotic') 
-    && !weapon.Key.includes('LMG_Needle') 
-    && !weapon.Key.includes('Leaf')
-    && !weapon.Key.includes('Event');
+    && !weapon.Key.includes('HVY_Shell')
+    && !weapon.Key.includes('Launch_Nade')
+    && !weapon.Key.includes('Event')
 }); //TODO: replace all includes/filters with REGEX. 
 
 for (let y = 0; y < weaponVanityName.length; y++) {
     for (let x = 0; x < weaponCodeNameList.length; x++) {
-        if (weaponVanityName[y].Key.includes(weaponCodeNameList[x])){
+        if (weaponVanityName[y].Key === `Weapons_${weaponCodeNameList[x]}_Name`){
+            eval(weaponCodeNameList[x]+'.m_vanityName =' + 'weaponVanityName[y].SourceString')
+        } else if (weaponVanityName[y].Key === `${weaponCodeNameList[x].replace("scrappy","Scrappy")}_Name`){
             eval(weaponCodeNameList[x]+'.m_vanityName =' + 'weaponVanityName[y].SourceString')
         }
     }
@@ -107,7 +114,6 @@ for (let key in mods) {
                 mods[key].attributeMods.push(mods[key].m_perHandlePropertyDefinition[i].m_attributeMods[0])
             }
         }
-        
     }
 }
 
@@ -155,6 +161,10 @@ sortSelection('weaponSelection');
 
 // Listen and execute function when new weapon is selected.
 function updateWeaponSelection () {
+    let uiBig = eval("weapons." + weaponSelection.options[weaponSelection.selectedIndex].id + ".m_uiData.m_textureUIBig.AssetPathName.split('.')[1]");
+    uiBig = "imgs/" + uiBig + ".png";
+    document.getElementById("wpLogo").src = uiBig;
+
     for (let i = 0; i < slots.length; i++) {
         let modSlot = document.getElementById(slots[i]);
         clearSelection(modSlot,"None","Mod_None")
@@ -221,7 +231,7 @@ var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMul
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
 "m_reloadTime","m_equipTime","m_targetingTime","m_detectionRange","m_initialProjectileSpeed"];
 //Same as visAttributes but for "Detailed Stats" section
-var calcAttributes = ["totalDamage","headshotDamage","DPS","RPM","damagePerMag","shotsToKill","TTK"];
+var calcAttributes = ["totalDamage","headshotDamage","DPS","RPM","damagePerMag","shotsToKill","TTK","totalCost","m_ammoCost","totalWeight","CPS","CPP"];
 
 
 function calculateWeaponStats(Modded,Init){
@@ -236,9 +246,12 @@ function calculateWeaponStats(Modded,Init){
     let tt = document.getElementById("targetSelection");
     let targetType = tt.options[tt.selectedIndex].getAttribute('id');
     let health = parseInt(document.getElementById('healthSlider').value);
+    let healthRegen = document.getElementById('healthRegenSlider').value;
+    let regenDelay = document.getElementById('regenDelaySlider').value;
     let armor = parseInt(document.getElementById('armorSlider').value);
-    
-    let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
+    let armorConstant = document.getElementById('armorConstantSlider').value;
+    let totalWeight = 0;
+    let totalCost = 0;
 
     //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
@@ -254,6 +267,12 @@ function calculateWeaponStats(Modded,Init){
 
             if (mod === "Mod_None"){}else{
             let modAttributes = eval("mods."+ mod + ".m_defaultModInstanceData.m_attributeMods");
+            totalWeight += eval("mods."+ mod + ".itemWeight")
+            for (let x = 0; x < rarities.length; x++) {
+                if (eval("mods." + mod +".m_itemShopsCraftingData[0]") != undefined && eval("mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+                    eval("totalCost += mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+                }
+            }            
             modAttributes.forEach(function(mod) {
                 let attribute = mod.m_attribute.split(":")[2];
                 let type = mod.m_modifierType.split(":")[2];
@@ -331,18 +350,12 @@ function calculateWeaponStats(Modded,Init){
                 } */
             });
             };
+            
         };
     };
-    
-    let m_effectiveHealthPerArmorConstant;
-    if (targetType === "Monster") {
-        m_effectiveHealthPerArmorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace("AI_","")+".m_effectiveHealthPerArmorConstant")
-    } else {
-        m_effectiveHealthPerArmorConstant = 0.025
-    }  
  
     let remainder = m_penetration - armor;
-    let penMulti = health/(health + Math.abs(remainder) * m_effectiveHealthPerArmorConstant * health);
+    let penMulti = health/(health + Math.abs(remainder) * armorConstant * health);
     let damageScale;
     if (remainder > 0) {
         damageScale = 2 - penMulti;
@@ -382,7 +395,7 @@ function calculateWeaponStats(Modded,Init){
     
     m_ammoInClip = Math.round(m_ammoInClip);
     
-        let singleShotDamage = (m_directDamage * rangeMulti) * m_amountOfImmediateFires;
+    let singleShotDamage = (m_directDamage * rangeMulti) * m_amountOfImmediateFires;
     let singleShotDamageCrit = (((m_directDamage * rangeMulti) * m_weakAreaDamageMultiplier) * m_amountOfImmediateFires)
     if (Number(m_amountOfBurst) > Number(0)) {
         var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * (singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
@@ -392,13 +405,19 @@ function calculateWeaponStats(Modded,Init){
     let RPM = ((60/m_refireTime)*accuracy).toFixed(0);
     let shotsToKill = (Math.ceil(health / ((singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2))).toFixed(0);
 
+    let numOfReload = Math.floor(shotsToKill / (m_ammoInClip + 1));
+
+    if (numOfReload > 0 && m_reloadTime > regenDelay && healthRegen > 0) {
+        health += (m_reloadTime - regenDelay) * healthRegen;
+        shotsToKill = (Math.ceil(health / ((singleShotDamage + m_radialDamage) * accuracy2 + (singleShotDamageCrit + m_radialDamage) * headshotaccuracy2))).toFixed(0);
+    }
+
     if (Number(m_amountOfBurst) > Number(0)) {
         var shootingTime = ((Math.ceil(shotsToKill / (m_amountOfBurst + 1)) * m_refireTime) + (Math.ceil(shotsToKill / (m_amountOfBurst + 1)) * (m_amountOfBurst + 1)) * m_burstInterval);
     } else {
         var shootingTime = Math.abs(shotsToKill * m_refireTime);
     }
 
-    let numOfReload = Math.floor(shotsToKill / (m_ammoInClip + 1));
     let reloadTime = Math.abs(numOfReload * m_reloadTime);
     let spinupTime = Math.abs((numOfReload + 1) * m_spinupTime);
     let TTK = (shootingTime + reloadTime + spinupTime).toFixed(3);
@@ -407,6 +426,46 @@ function calculateWeaponStats(Modded,Init){
     document.getElementById("wpName").innerHTML = wep.m_vanityName;
 
     document.getElementById("t-m_transportType").innerHTML = m_transportType;
+
+    //*Cost & Weight Calculations 
+    const PRO_AmmoCost = [
+        {
+            "Light": {
+                "cost": 230,
+                "amount": 125
+            },
+            "Medium": {
+                "cost": 230,
+                "amount": 75
+            },
+            "Heavy": {
+                "cost": 1000,
+                "amount": 20
+            },
+            "Shotgun": {
+                "cost": 510,
+                "amount": 20
+            },
+            "Special": {
+                "cost": 760,
+                "amount": 10
+            },
+        }
+    ]
+    let m_ammoType = wep.m_ammoTypeToUse.RowName;
+    let m_ammoCost;
+    let m_ammoAmount;
+    eval("m_ammoCost = PRO_AmmoCost[0]."+m_ammoType+".cost");
+    eval("m_ammoAmount = PRO_AmmoCost[0]."+m_ammoType+".amount");
+
+    let CPS = ((m_ammoCost / m_ammoAmount) / m_refireTime).toFixed(2);
+    m_ammoCost = ((m_ammoCost / m_ammoAmount) * shotsToKill).toFixed(2);
+
+    totalWeight += wep.itemWeight;
+    totalCost += wep.itemCost;
+
+    let CPP = (totalCost / totalWeight).toFixed(2);
+
     //*Populate Table with unmodded stats
     for (let i = 0; i < visAttributes.length; i++) {
         if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = " + visAttributes[i] + ";");};
@@ -422,7 +481,7 @@ function calculateWeaponStats(Modded,Init){
     var highAttributes = ["m_directDamage","totalDamage","m_penetration","m_radialDamage","m_directDamageFalloffMultiplier",
     "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
     "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage"];
-    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK"];
+    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","m_ammoCost","CPS","totalCost","totalWeight"];
 
     for (let i = 0; i < highAttributes.length; i++) {
         markTopValues(highAttributes[i],true);
@@ -524,12 +583,26 @@ targetSelection.addEventListener('change', event => {
 
         let m_maxHealth = eval("PRO_Health[0].Rows.AI_Strider.m_maxHealth");
         setSliderBox("health",m_maxHealth);
+
+        let m_regenerationRate = eval("PRO_Health[0].Rows.AI_Strider.m_regenerationRate");
+        setSliderBox("healthRegen",m_regenerationRate);
+
+        let m_regenerationDelay = eval("PRO_Health[0].Rows.AI_Strider.m_regenerationDelay");
+        setSliderBox("regenDelay",m_regenerationDelay);
         
         let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows.Strider.m_defaultArmor");
         setSliderBox("armor",m_defaultArmor);
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
+
+        let armorConstant = eval("Ai_Tuning_DT[0].Rows.Strider.m_effectiveHealthPerArmorConstant")
+        setSliderBox("armorConstant",armorConstant);
+    } else if (targetSelection.options[targetSelection.selectedIndex].value === "0") {
+        monsterSelection.value = "none";
+        setSliderBox("health",100);
+        setSliderBox("armor",0);
+        setSliderBox("armorConstant",0.025);
     }
+    calculateWeaponStats ();
+    calculateWeaponStats(true);
 })
 
 monsterSelection.addEventListener('change', event => {
@@ -538,22 +611,31 @@ monsterSelection.addEventListener('change', event => {
         helmetSelection.value = "none";
         shieldSelection.value = "none";
 
-        let monsterSelection = monsterSelection;
         let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
         let monsterTuning = monsterType.slice(3); 
         
         let m_maxHealth = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
         setSliderBox("health",m_maxHealth);
+
+        let m_regenerationRate = eval("PRO_Health[0].Rows."+monsterType+".m_regenerationRate");
+        setSliderBox("healthRegen",m_regenerationRate);
+
+        let m_regenerationDelay = eval("PRO_Health[0].Rows."+monsterType+".m_regenerationDelay");
+        setSliderBox("regenDelay",m_regenerationDelay);
         
         let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
         setSliderBox("armor",m_defaultArmor);
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
+        
+        let armorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace("AI_","")+".m_effectiveHealthPerArmorConstant")
+        setSliderBox("armorConstant",armorConstant);
+
+        document.querySelector('#t-CPA').innerHTML = 0;
+        document.querySelector('#t-armorTotalCost').innerHTML = 0;
     } else {
         targetSelection.value = 0;
-        calculateWeaponStats ();
-        calculateWeaponStats(true);
     }
+    calculateWeaponStats ();
+    calculateWeaponStats(true);
 })
 
 document.querySelectorAll('.gearSelection').forEach(item => {
@@ -563,18 +645,35 @@ document.querySelectorAll('.gearSelection').forEach(item => {
 
         let helmetArmor = 0;
         let shieldArmor = 0;
+        let armorTotalCost = 0;
         if(helmetSelection.options[helmetSelection.selectedIndex].value !== "none") {
             targetSelection.value = 0;
             monsterSelection.value = "none";
             helmetArmor = eval("PRO_Helmets[0].Rows."+helmetType+".m_armorAmount")
+            for (let x = 0; x < rarities.length; x++) {
+                if (eval("PRO_Helmets[0].Rows." + helmetType +".m_itemShopsCraftingData[0]") != undefined && eval("PRO_Helmets[0].Rows." + helmetType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+                    eval("armorTotalCost += PRO_Helmets[0].Rows." + helmetType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+                }
+            }
         } 
         if(shieldSelection.options[shieldSelection.selectedIndex].value !== "none") {
             targetSelection.value = 0;
             monsterSelection.value = "none";
             shieldArmor = eval("PRO_PlayerShield[0].Rows."+shieldType+".m_armorAmount")
+            for (let x = 0; x < rarities.length; x++) {
+                if (eval("PRO_PlayerShield[0].Rows." + shieldType +".m_itemShopsCraftingData[0]") != undefined && eval("PRO_PlayerShield[0].Rows." + shieldType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+                    eval("armorTotalCost += PRO_PlayerShield[0].Rows." + shieldType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+                }
+            }
         } 
         let totalArmor = helmetArmor + shieldArmor;
         setSliderBox("armor",totalArmor);
+
+        document.querySelector('#t-armorTotalCost').innerHTML = armorTotalCost;
+        let CPA;
+        if(totalArmor !== 0){CPA =armorTotalCost/totalArmor}else{CPA = 0}
+        document.querySelector('#t-CPA').innerHTML = CPA.toFixed(0);
+
         calculateWeaponStats ();
         calculateWeaponStats(true);
     })
@@ -592,4 +691,4 @@ document.querySelectorAll('.gearSelection').forEach(item => {
 //Debugging
 console.log(mods);
 console.log(mods.Mod_Optic_2x_01);
-console.log(WP_D_AR_Bullet_01);
+console.log(WP_A_AR_Bullet_01);

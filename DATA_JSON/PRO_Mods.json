@@ -2659,7 +2659,7 @@
               {
                 "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
                 "m_modifierType": "EYGPAModifierType::Override",
-                "m_modifierValue": 14.0,
+                "m_modifierValue": 18.0,
                 "m_minAttributeValue": -1.0,
                 "m_duration": 0.0,
                 "m_lerpTime": -1.0,
@@ -2691,7 +2691,7 @@
               "m_weaponVisibilityWhileTargetingOverride": "EYOverrideShowWeapon::DontChangeDefaultWeaponSetting"
             },
             "m_shouldOffsetScope": true,
-            "m_scopeOffset": -1.7
+            "m_scopeOffset": -1.6
           },
           {
             "m_rowHandle": {
@@ -4104,7 +4104,7 @@
               {
                 "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
                 "m_modifierType": "EYGPAModifierType::Override",
-                "m_modifierValue": 17.0,
+                "m_modifierValue": 22.0,
                 "m_minAttributeValue": -1.0,
                 "m_duration": 0.0,
                 "m_lerpTime": -1.0,
@@ -4136,7 +4136,7 @@
               "m_weaponVisibilityWhileTargetingOverride": "EYOverrideShowWeapon::DontChangeDefaultWeaponSetting"
             },
             "m_shouldOffsetScope": true,
-            "m_scopeOffset": -1.7
+            "m_scopeOffset": -1.6
           },
           {
             "m_rowHandle": {
@@ -9676,14 +9676,14 @@
             "m_meshAttachments": [
               {
                 "m_mesh": {
-                  "AssetPathName": "/Game/Weapons/AssaultRifle/COT_AR55/ModMagazineExtended02/WP_AssaultRifle_COT_AR55_ModMagazineExtended02_SK.WP_AssaultRifle_COT_AR55_ModMagazineExtended02_SK",
+                  "AssetPathName": "/Game/Weapons/AssaultRifle/COT_AR55/ModMagazine/WP_AssaultRifle_COT_AR55_ModMagazine_SK.WP_AssaultRifle_COT_AR55_ModMagazine_SK",
                   "SubPathString": ""
                 },
                 "m_socketAttachmentName": "ModMagazineSocket"
               },
               {
                 "m_mesh": {
-                  "AssetPathName": "/Game/Weapons/AssaultRifle/COT_AR55/ModMagazineExtended02/WP_AssaultRifle_COT_AR55_ModMagazineExtended02_SK.WP_AssaultRifle_COT_AR55_ModMagazineExtended02_SK",
+                  "AssetPathName": "/Game/Weapons/AssaultRifle/COT_AR55/ModMagazine/WP_AssaultRifle_COT_AR55_ModMagazine_Empty_SK.WP_AssaultRifle_COT_AR55_ModMagazine_Empty_SK",
                   "SubPathString": ""
                 },
                 "m_socketAttachmentName": "ModMagazineEmptySocket"
@@ -15891,7 +15891,7 @@
           },
           "description": {
             "TableId": "ST_Mods",
-            "Key": "Mod_Magazine_Medium_EXTReload_01_Description"
+            "Key": "Mod_Magazine_Medium_EXTReload_02_Description"
           },
           "flavor_text": {
             "CultureInvariantString": null
@@ -16116,7 +16116,7 @@
           },
           "description": {
             "TableId": "ST_Mods",
-            "Key": "Mod_Magazine_Medium_EXTReload_01_Description"
+            "Key": "Mod_Magazine_Medium_EXTReload_02_Description"
           },
           "flavor_text": {
             "CultureInvariantString": null
@@ -28064,7 +28064,7 @@
               {
                 "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
                 "m_modifierType": "EYGPAModifierType::Override",
-                "m_modifierValue": 44.0,
+                "m_modifierValue": 52.0,
                 "m_minAttributeValue": -1.0,
                 "m_duration": 0.0,
                 "m_lerpTime": -1.0,
@@ -29484,7 +29484,7 @@
               {
                 "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
                 "m_modifierType": "EYGPAModifierType::Override",
-                "m_modifierValue": 44.0,
+                "m_modifierValue": 52.0,
                 "m_minAttributeValue": -1.0,
                 "m_duration": 0.0,
                 "m_lerpTime": -1.0,
@@ -29516,7 +29516,7 @@
               "m_weaponVisibilityWhileTargetingOverride": "EYOverrideShowWeapon::DontChangeDefaultWeaponSetting"
             },
             "m_shouldOffsetScope": true,
-            "m_scopeOffset": -1.7
+            "m_scopeOffset": -1.6
           },
           {
             "m_rowHandle": {
@@ -30839,7 +30839,7 @@
               {
                 "m_attribute": "EYGameplayAttribute::WeaponTargetingFOV",
                 "m_modifierType": "EYGPAModifierType::Override",
-                "m_modifierValue": 14.0,
+                "m_modifierValue": 17.5,
                 "m_minAttributeValue": -1.0,
                 "m_duration": 0.0,
                 "m_lerpTime": -1.0,
@@ -30871,7 +30871,7 @@
               "m_weaponVisibilityWhileTargetingOverride": "EYOverrideShowWeapon::DontChangeDefaultWeaponSetting"
             },
             "m_shouldOffsetScope": true,
-            "m_scopeOffset": -1.7
+            "m_scopeOffset": -1.6
           },
           {
             "m_rowHandle": {
