@@ -9,11 +9,17 @@ body, select {
 	display: flex;
 	gap: 25px;
 	flex-wrap: wrap;
+    align-items: flex-start;
 }
 .hubBoxInputs {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.hubBoxStats {
+    display: flex;
+    flex-direction: column;
 }
 /* Selection */
 .selection {
@@ -32,7 +38,7 @@ img{
     vertical-align:middle;
     -ms-interpolation-mode:bicubic
 }
-#wpLogo {
+img#wpLogo {
     width: 170px;
 }
 #weaponSelection {
@@ -47,12 +53,14 @@ img{
     font-size: 16px;
 }
 select#monsterSelection,select#helmetSelection,select#shieldSelection,select#targetSelection {
-    width: -webkit-fill-available;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
 #modSelection {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 225px;
 }
 #SLOT1,#SLOT2,#SLOT3,#SLOT4{
@@ -70,7 +78,9 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
     float:right;
 }
 .weaponStatInput,.ehpStatInput {
-    width: -webkit-fill-available;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
 
 /* Table */
@@ -87,15 +97,44 @@ table {
 td {
     text-align: right;
 }
+.tdWide {
+    width: calc(75px * 3);
+    padding: 2px 26px;
+}
 th {
     font-weight:normal;
+}
+th.statName {
+    width: 200px;
 }
 th#wpName,th#thLogo,.statSections {
     border: 0px;
     padding-top: 10px;
 }
 
+/* Collapsible Tables */
+.collapsible {
+    background-color: transparent;
+    color: var(--button-color);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 10px 2px 0px 2px;
+    margin: auto;
+    font-size: 16px;
+}
+  
+  .active, .collapsible:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+  }
 
+.weaponStats p {
+    text-align: center;
+    padding: 10px 2px 0px 2px;
+    margin: 0;
+}
 /** Minimal Scrollbar **/
 /* WebKit and Blink */
 ::-webkit-scrollbar {

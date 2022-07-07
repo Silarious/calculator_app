@@ -1,0 +1,506 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AnalyticsSampling_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YAnalyticsTypesSettingsRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "default_analytics_sampling": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "button_clicked": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "station_interaction": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "distance_traveled_tnc": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "spawn_ai": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "looted_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "melee_attack": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "ai_statistics": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "deactivate_activity": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activate_activity": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "loot_area_phases": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "killed_ai": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "get_pvp_damage": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "functions_used": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "weapon_statistics": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "eom_navigation_event_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "latency_server": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "latency_client": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "fps_match_summary": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "fps_match_summary_server": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "com_wheel": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "ability_statistics": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "client_rubberbanding_statistics": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "server_rubberbanding_statistics": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "contract_interaction": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "escape_triggered": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "audio_settings": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "virtual_currencies": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "tutorial_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_report": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_quit": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_muted": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_added_title": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "logout_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "login_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "initial_connect": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "friends_import": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "friend_list": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "client_disconnected": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "ccu": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "ccu_session": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "ftue_funnel": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "activity_bigdrill_flyto": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_laser_drill": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_meteor": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_mineral": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_oil_pumps": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_powerup": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "activity_uplink": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "char_customization_selected": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "player_matched": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "item_incoming": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "item_outgoing": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "login_queue_left": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "login_queue_entered": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "loadout_selected": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "killed_event": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "keybinding_change": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "match_summary_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "faction_reputation": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "squad_invite": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "stuck_spot": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "client_statistics_hardware": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "contract": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "controls_settings": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "durability": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "map_loading_time_event": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "minimap_open": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "open_attachment_screen": {
+        "m_isEnabled": false,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_accept_squad_invite": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_stats": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "prospector_xp": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "vanity_usage": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "video_settings": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "activity_elite_crusher": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "cheat_detection_bi_stats": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "payment": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "purchase_flow": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "season_progression_tnc": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_ban": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "payment_report_steam": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "payment_report_egs": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      }
+    }
+  }
+]

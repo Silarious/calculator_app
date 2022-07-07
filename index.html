@@ -2,11 +2,31 @@
 <!-- * Extension Better Comments used to add highlighting. https://github.com/aaron-bond/better-comments * -->
 <html>
     <head>
+        <link rel="icon" href="https://thecycle.wiki/images/6/64/Favicon.ico" type="image/x-icon">
+        <meta name="description" content="A weapons stats calculator for Weapons in The Cycle including mods, armor, accuracy and more options.">
+        <meta property="og:image" content="https://thecycle.wiki/images/e/eb/FP_Gear.png">
+        <title>The Cycle Frontier Weapon Calculator</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="dark-theme.css">
-       <!--  <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
-       <script type="module" src="/js/app.js"></script>
-       <script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLJMHNRWHN"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FLJMHNRWHN');
+        </script>
+        <script>
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "5s59gzzg2k");
+        </script>
+
+        <script type="module" src="/js/app.js"></script>
+        <script>
            function syncInput(value,id) {
                 eval("document.getElementById('" + id + "').value =" + value)
            }
@@ -60,7 +80,7 @@
                         <option id="Default" value="0" m_krypto="0">None</option>
                     </select>
                 </div>
-                <div class="selection" id = "SEL8">
+                <div class="selection" id = "SEL8" style="display:none;">
                     <p>Tactical</p>
                     <select name="SLOT8" id="SLOT8" size="4" class="weaponStatInput mod_slot">
                         <option id="Default" value="0" m_krypto="0">None</option>
@@ -93,7 +113,11 @@
                     <input id="regenDelaySlider" class="weaponStatInput regenDelay" type="range" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'regenDelayBox')">
                 </div>
                 <div class="inputContainer">
-                    <p class="inputText">Armor:<input id="armorBox" class="armorStatInput ehpStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
+                    <p class="inputText">Helmet Armor:<input id="helmetArmorBox" class="armorStatInput ehpStatInput helmetArmor" type="number" name="helmetArmor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'helmetArmorSlider')"></p>
+                    <input id="helmetArmorSlider" class="armorStatInput ehpStatInput helmetArmor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'helmetArmorBox')">
+                </div>
+                <div class="inputContainer">
+                    <p class="inputText">Body Armor:<input id="armorBox" class="armorStatInput ehpStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
                     <input id="armorSlider" class="armorStatInput ehpStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
                 </div>
                 <div class="inputContainer">
@@ -160,197 +184,274 @@
                 
                 
             </div>
-            <table id="weaponStats">
+            <div class="hubBoxStats">
+            <table class="weaponStats">
                 <tbody><tr>
-                <th rowspan="2" id="thLogo"><div><img id="wpLogo" src="image1.png"></div></th>
+                <th rowspan="2" id="thLogo"><div><img id="wpLogo" src="imgs/UI_Items_Weapons_Big_AR55.png"></div></th>
                 <th id="wpName" colspan="3" style="text-align:center; font-size:26px;">&nbsp</th>
                 </tr>
                 <tr>
                     <th>Default</th>
-                    <th>Mods/Upgrades</th>
+                    <th>Mods</th>
                     <th>Difference</th>
                 </tr>
                 <tr id="t-m_directDamage">
-                    <th>Direct Damage</th>
+                    <th class="statName">Direct Damage</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
+                <tr id="t-adjustedDamage">
+                    <th class="statName">Penetration Adjusted Damage</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_penetration">
-                    <th>Penetration</th>
+                    <th class="statName">Penetration</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_radialDamage">
-                    <th>AOE Damage</th>
+                    <th class="statName">AOE Damage</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-totalDamage">
-                    <th>Total (Direct + AOE)</th>
+                    <th class="statName">Total (Direct + AOE)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-headshotDamage">
-                    <th>Critical Damage</th>
+                    <th class="statName">Critical Damage</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
+                <tr id="t-adjustedCritDamage">
+                    <th class="statName">Penetration Adjusted Crit</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_directDamageFalloffMultiplier">
-                    <th>Damage Falloff Multiplier</th>
+                    <th class="statName">Damage Falloff Multiplier</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_directDamageFalloffStartRange">
-                    <th>Damage Falloff Start (m)</th>
+                    <th class="statName">Damage Falloff Start (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_directDamageFalloffEndRange">
-                    <th>Damage Falloff End (m)</th>
+                    <th class="statName">Damage Falloff End (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_ammoInClip">
-                    <th>Magazine Size</th>
+                    <th class="statName">Magazine Size</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_movementSpeed">
-                    <th>Movement Speed m/s</th>
+                    <th class="statName">Movement Speed m/s</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_spinupTime">
-                    <th>Spinup Time</th>
+                    <th class="statName">Spinup Time</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_refireTime">
-                    <th>Refire Time</th>
+                    <th class="statName">Refire Time</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_reloadTime">
-                    <th>Reload Time</th>
+                    <th class="statName">Reload Time</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_equipTime">
-                    <th>Equip Time</th>
+                    <th class="statName">Equip Time</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_targetingTime">
-                    <th>ADS Time</th>
+                    <th class="statName">ADS Time</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
+                
                 <tr id="t-m_detectionRange" style="display: none">
-                    <th>AI Detection Range (m)</th>
+                    <th class="statName">AI Detection Range (m)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_initialProjectileSpeed">
-                    <th>Projectile Speed m/s</th>
+                    <th class="statName">Projectile Speed m/s</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="ProjectileType">
-                    <th>Projectile Type</th>
+                    <th class="statName">Projectile Type</th>
                     <td colspan="3" id="t-m_transportType" style="text-align:center">&nbsp</td>
                 </tr>
-                <tr id="Detailed Stats Spacer">
-                    <th colspan="4" class="statSections" style="text-align:center;">Special Stats</th></tr>
+            </tbody>
+        </table>
+        <button type="button" class="collapsible" title="Click to toggle Special Stats">Special Stats</button>
+                <table class="weaponStats">
+                    <tbody>
                 <tr id="t-DPS">
-                    <th>Damage Per Second</th>
+                    <th class="statName">Damage Per Second</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-RPM">
-                    <th>Rounds Per Minute</th>
+                    <th class="statName">Rounds Per Minute</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-damagePerMag">
-                    <th>Damage Per Mag</th>
+                    <th class="statName">Damage Per Mag</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-shotsToKill">
-                    <th>Shots to Kill</th>
+                    <th class="statName">Shots to Kill</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-TTK">
-                    <th>Time To Kill (s)</th>
+                    <th class="statName">Time To Kill (s)</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="Cost Stats Spacer">
-                    <th colspan="4" class="statSections" style="text-align:center;">Weapon Cost & Weight</th></tr>
+            </tbody>
+        </table>
+        <button type="button" class="collapsible" title="Click to toggle Weapon Cost & Weight">Weapon Cost & Weight</button>
+                <table class="weaponStats">
+                    <tbody>
                 <tr id="t-totalCost">
-                    <th>Total Cost</th>
+                    <th class="statName">Total Cost</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-totalWeight">
-                    <th>Total Weight</th>
+                    <th class="statName">Total Weight</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-CPP">
-                    <th>Cost per Pound</th>
+                    <th class="statName">Cost per Pound</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-m_ammoCost">
-                    <th>Ammo Cost</th>
+                    <th class="statName">Ammo Cost</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-CPS">
-                    <th>Ammo Cost Per Second</th>
+                    <th class="statName">Ammo Cost Per Second</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="Cost Stats Spacer">
-                    <th colspan="4" class="statSections" style="text-align:center;">Armor Cost</th></tr>
+            </tbody>
+        </table>
+            <button type="button" class="collapsible" title="Click to toggle Armor Cost">Armor Cost</button>
+                <table class="weaponStats">
+                    <tbody>
                 <tr id="ArmorCost">
-                    <th>Total Cost</th>
-                    <td colspan="3" id="t-armorTotalCost" style="text-align:center">&nbsp</td>
+                    <th class="statName">Total Cost</th>
+                    <td class="tdWide" id="t-armorTotalCost" style="text-align:center">&nbsp</td>
                 </tr>
-                <tr id="CPA">
-                    <th>Cost per 1 Armor</th>
-                    <td colspan="3" id="t-CPA" style="text-align:center">&nbsp</td>
+                <tr id="helmetArmorCost">
+                    <th class="statName">Helmet Armor Cost</th>
+                    <td class="tdWide" id="t-helmetArmorCost" style="text-align:center">&nbsp</td>
                 </tr>
-                </tbody></table>
+                <tr id="shieldArmorCost">
+                    <th class="statName">Body Armor Cost</th>
+                    <td class="tdWide" id="t-shieldArmorCost" style="text-align:center">&nbsp</td>
+                </tr>
+                <tr id="CPBA">
+                    <th class="statName">Cost per Body Armor</th>
+                    <td class="tdWide" id="t-CPBA" style="text-align:center">&nbsp</td>
+                </tr>
+                <tr id="CPHA">
+                    <th class="statName">Cost per Helmet Armor</th>
+                    <td class="tdWide" id="t-CPHA" style="text-align:center">&nbsp</td>
+                </tr>
+            </tbody>
+        </table>
+            <button type="button" class="collapsible" title="Click to toggle Recoil Stats">Recoil Stats</button>
+                <table class="weaponStats">
+                    <tbody>
+                            <tr id="t-m_defaultWeaponSpread">
+                                <th class="statName">Default Spread</th>
+                                <td class="default"></td>
+                                <td class="mod"></td>
+                                <td class="diff"></td>
+                            </tr>
+                            <tr id="t-m_weaponSpreadMax">
+                                <th class="statName">Max Spread</th>
+                                <td class="default"></td>
+                                <td class="mod"></td>
+                                <td class="diff"></td>
+                            </tr>
+                            <tr id="t-m_weaponSpreadIncreaseSpeed">
+                                <th class="statName">Spread Increase Rate</th>
+                                <td class="default"></td>
+                                <td class="mod"></td>
+                                <td class="diff"></td>
+                            </tr>
+                            <tr id="t-m_weaponSpreadDecreaseSpeed">
+                                <th class="statName">Spread Decrease Rate</th>
+                                <td class="default"></td>
+                                <td class="mod"></td>
+                                <td class="diff"></td>
+                            </tr>
+                            <tr id="t-recoilVertical">
+                                <th class="statName">Vertical Recoil</th>
+                                <td class="default"></td>
+                                <td class="mod"></td>
+                                <td class="diff"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
         </div>
+        
+        <div class="content">
+            <p>Lorem ipsum...</p>
+        </div>
+        
     </body>
 </html>

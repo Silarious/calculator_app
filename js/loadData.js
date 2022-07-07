@@ -25,13 +25,16 @@ export function load_JSON(){
 }
 
 //* Fetch Method
-/* export function load_JSON(handler){
-    for (var i = 0; i <= num_files; window[files_JSON[i]] = DataTable[i], i++) {
-        fetch('./DATA_JSON/' + files_JSON[i] + '.json') 
-        .then(response => response.json())
-        .then(data => console.log(data));
+/* export function load_JSON(){
+    for (let i = 0; i <= num_files; window[files_JSON[i]] = DataTable[i], i++) {
+    fetch('./DATA_JSON/' + files_JSON[i] + '.json') 
+    .then(response => {
+    return response.json();
+    })
+    .then(jsondata => eval("let " + DataTable[i] + "= jsondata"));
     }
-}  */
+} */
+
 //console.log(PRO_Tuning[0])
 //* JQuery Method
 // TODO: Move the following jQuery methods to another file for late use.
@@ -51,4 +54,4 @@ for (var i = 0; i <= num_files; window[files_JSON[i]] = DataTable[i][0].Rows, i+
         })());
 } */
 
-load_JSON(DataTable);
+load_JSON();
