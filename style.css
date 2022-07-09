@@ -1,6 +1,35 @@
 * {
     color:var(--text-color);
 }
+body {
+    margin: 0px;
+}
+.page-header-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.page-header {
+    min-height: 40px;
+    background: #16222ee3;
+}
+.header-text {
+    font-size: 1.5em;
+    color: white;
+    font-family: Oswald;
+    text-align: center;
+    margin: 3px;
+}
+.version-info,.settingsBox {
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border: solid 1px #ffffff5c;
+    border-radius: 5px;
+    width: fit-content;
+    float: right;
+}
 body, select {
     background-color: var(--bg-color);
 } 
@@ -10,12 +39,15 @@ body, select {
 	gap: 25px;
 	flex-wrap: wrap;
     align-items: flex-start;
+    padding: 0px 4px;
+    min-height: calc(100vh - 50px);
+    height: max-content;
+    margin-top: 50px;
 }
 .hubBoxInputs {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 14px;
 }
 .hubBoxStats {
     display: flex;
@@ -41,6 +73,10 @@ img{
 img#wpLogo {
     width: 170px;
 }
+img.matLogo {
+    height: 24px;
+    margin-right: 4px;
+}
 #weaponSelection {
     padding:5px;
     overflow-y: auto;
@@ -50,7 +86,7 @@ img#wpLogo {
 }
 #weaponSelection option {
     padding: 2px;
-    font-size: 16px;
+    font-size: 16px; 
 }
 select#monsterSelection,select#helmetSelection,select#shieldSelection,select#targetSelection {
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
@@ -62,12 +98,13 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
     flex-direction: column;
     justify-content: flex-start;
     width: 225px;
+    gap: 10px;
 }
 #SLOT1,#SLOT2,#SLOT3,#SLOT4{
     min-width:12em;
 }
 .inputContainer {
-	margin: 0px 0px 20px 0;
+    margin: 0px 0px 20px 0;
 }
 .inputText {
     margin:0;
@@ -81,6 +118,10 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
     width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
     width: fill-available;
+}
+
+.advancedStat {
+    display: var(--advanced-mode);
 }
 
 /* Table */
@@ -120,15 +161,27 @@ th#wpName,th#thLogo,.statSections {
     border: none;
     outline: none;
     text-align: center;
-    padding: 10px 2px 0px 2px;
+    padding: 15px 2px 0px 2px;
     margin: auto;
     font-size: 16px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    width: 100%;
 }
-  
-  .active, .collapsible:hover {
+
+.collapsible::after {
+    font-size: 12px;
+    content: "[Expand]";
+    margin-left:10px;
+}
+.active, .collapsible:hover {
     color: var(--text-color);
-    text-decoration: underline;
-  }
+}
+.active::after {
+    font-size: 12px;
+    content: "[Collapse]";
+    margin-left:10px;
+}
 
 .weaponStats p {
     text-align: center;

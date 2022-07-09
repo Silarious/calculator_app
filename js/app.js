@@ -10,15 +10,24 @@ var targetSelection = document.getElementById('targetSelection');
 var monsterSelection = document.getElementById('monsterSelection');
 var helmetSelection = document.getElementById('helmetSelection');
 var shieldSelection = document.getElementById('shieldSelection');
-const weapons = PRO_Weapons[0].Rows;
+
+
+const Weapons = PRO_Weapons[0].Rows;
 const Tuning = PRO_Tuning[0].Rows;
 const Sense = AI_SenseTrigger_DT[0].Rows;
+const Mods = PRO_Mods[0].Rows;
+const ModPerks = PRO_ModPerks[0].Rows;
+const Transport = PRO_Transport[0].Rows;
+const Materials = Materials_DT[0].Rows;
+
+//Style Related Global Variable
+const root = document.querySelector(":root");
 // Filter Real Weapons
 //Not all objects in PRO_Tuning are usable/real weapons, filtering and creating variables for real weapons is done here.
 const weaponCodeNameList = [];
 
-for (let key in weapons) { // Only show objects that pass the filter for the weapon name.
-    let m_weaponName = weapons[key].m_weaponName;
+for (let key in Weapons) { // Only show objects that pass the filter for the weapon name.
+    let m_weaponName = Weapons[key].m_weaponName;
     (m_weaponName.hasOwnProperty('Key') === true // Ternary Operator
     && key.includes('WP') 
     && !key.includes('Exotic') 
@@ -39,17 +48,24 @@ const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Ene
 
 for (let i = 0; i < weaponCodeNameList.length; i++) {
 //Weapon Tags & Slots Import
-    eval(weaponCodeNameList[i]+".m_weaponTags = weapons." + weaponCodeNameList[i] + ".m_weaponTags;");
-    eval(weaponCodeNameList[i]+".m_modSlots = weapons." + weaponCodeNameList[i] + ".m_modSlots;");
-    eval(weaponCodeNameList[i]+".itemWeight = weapons." + weaponCodeNameList[i] + ".itemWeight;");
+    eval(weaponCodeNameList[i]+".m_weaponTags = Weapons." + weaponCodeNameList[i] + ".m_weaponTags;");
+    eval(weaponCodeNameList[i]+".m_modSlots = Weapons." + weaponCodeNameList[i] + ".m_modSlots;");
+    eval(weaponCodeNameList[i]+".itemWeight = Weapons." + weaponCodeNameList[i] + ".itemWeight;");
+    eval(weaponCodeNameList[i]+".materials = {}");
     for (let x = 0; x < rarities.length; x++) {
-        if (eval("weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0]") != undefined && eval("weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
-            eval(weaponCodeNameList[i]+".itemCost = weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+        if (eval("Weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0]") != undefined && eval("Weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+            eval(weaponCodeNameList[i]+".itemCost = Weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount");
+            let m_itemRecipeIngredients = eval("Weapons." + weaponCodeNameList[i]+".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients")
+            if(m_itemRecipeIngredients.length > 1){
+                for (let y = 1; y < m_itemRecipeIngredients.length; y++){
+                    eval(weaponCodeNameList[i]+".materials." + m_itemRecipeIngredients[y].m_costType.RowName + "=" + m_itemRecipeIngredients[y].m_costAmount);
+                }
+            }
         }
     }
 //Appending vanity/human friendly names to the weapon variables.
-    eval(weaponCodeNameList[i]+'.m_weaponName' + '='+ 'weapons' + '.' + weaponCodeNameList[i] + '.m_weaponName.Key;');
-    eval(weaponCodeNameList[i]+'.m_transportName' + '=' + 'weapons' + '.' + weaponCodeNameList[i] + '.m_transportDataTableRow.RowName;');
+    eval(weaponCodeNameList[i]+'.m_weaponName' + '='+ 'Weapons' + '.' + weaponCodeNameList[i] + '.m_weaponName.Key;');
+    eval(weaponCodeNameList[i]+'.m_transportName' + '=' + 'Weapons' + '.' + weaponCodeNameList[i] + '.m_transportDataTableRow.RowName;');
 //Detection range import
     let m_AISenseTriggeredOnFire = eval(weaponCodeNameList[i] + '.m_AISenseTriggeredOnFire.RowName');
     eval(weaponCodeNameList[i]+'.m_detectionRange = AI_SenseTrigger_DT[0].Rows.' + m_AISenseTriggeredOnFire + '.m_maxRange/100;');
@@ -79,42 +95,45 @@ for (let y = 0; y < weaponVanityName.length; y++) {
 
 // Weapons Protectile Import
 //Appending useful information from PRO_Transport to weapon variables.
-const transport = PRO_Transport[0].Rows //transport is used in all evals below, do not delete cause its "Unused"
 for (let i = 0; i < weaponCodeNameList.length; i++) {
     let transportName = eval( weaponCodeNameList[i] + '.m_transportName');
-    eval(weaponCodeNameList[i]+".m_transportType" + "=" + "transport" + "." + transportName + ".m_transportType.replace('EYWeaponTransportType::','');");
-    eval(weaponCodeNameList[i]+'.m_maxTraceDistance' + '='+ 'transport' + '.' + transportName + '.m_hitscanData.m_maxTraceDistance;');
-    eval(weaponCodeNameList[i]+'.m_initialProjectileSpeed' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_initialProjectileSpeed / 100;');
-    eval(weaponCodeNameList[i]+'.m_acceleration' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_acceleration;');
-    eval(weaponCodeNameList[i]+'.m_accelerationApplyDelayTime' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_accelerationApplyDelayTime;');
-    eval(weaponCodeNameList[i]+'.m_gravityScale' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_gravityScale;');
-    eval(weaponCodeNameList[i]+'.m_collisionRadius' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_collisionRadius;');
-    eval(weaponCodeNameList[i]+'.m_bounce' + '='+ 'transport' + '.' + transportName + '.m_projectileData.m_bounce;');
+    eval(weaponCodeNameList[i]+".m_transportType" + "=" + "Transport" + "." + transportName + ".m_transportType.replace('EYWeaponTransportType::','');");
+    eval(weaponCodeNameList[i]+'.m_maxTraceDistance' + '='+ 'Transport' + '.' + transportName + '.m_hitscanData.m_maxTraceDistance;');
+    eval(weaponCodeNameList[i]+'.m_initialProjectileSpeed' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_initialProjectileSpeed / 100;');
+    eval(weaponCodeNameList[i]+'.m_acceleration' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_acceleration;');
+    eval(weaponCodeNameList[i]+'.m_accelerationApplyDelayTime' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_accelerationApplyDelayTime;');
+    eval(weaponCodeNameList[i]+'.m_gravityScale' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_gravityScale;');
+    eval(weaponCodeNameList[i]+'.m_collisionRadius' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_collisionRadius;');
+    eval(weaponCodeNameList[i]+'.m_bounce' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_bounce;');
 } 
 
 // Weapon Mods Import
-const mods = PRO_Mods[0].Rows;
-const modPerks = PRO_ModPerks[0].Rows;
 const modCodeNameList = [];
- for (let key in mods) { // Only show objects that pass the filter for the weapon name.
+ for (let key in Mods) { // Only show objects that pass the filter for the weapon name.
     if (key.startsWith('Mod')  === true){
         for (let i = 0; i < ST_Mods.length; i++) {
-            if (mods[key].m_name.Key === ST_Mods[i].Key) {
-                mods[key].vanityName = ST_Mods[i].SourceString;
+            if (Mods[key].m_name.Key === ST_Mods[i].Key) {
+                Mods[key].vanityName = ST_Mods[i].SourceString;
             }
         }
-        modCodeNameList.push(mods[key].m_rowName); 
+        modCodeNameList.push(Mods[key].m_rowName); 
     }
 } 
-for (let key in mods) {
+for (let key in Mods) {
     if (key.startsWith('Mod')  === true){
-        mods[key].attributeMods = mods[key].m_defaultModInstanceData.m_attributeMods;
-        if (mods[key].m_perHandlePropertyDefinition.length != 0 && mods[key].m_perHandlePropertyDefinition[0].m_attributeMods.length != 0) {
-            for (let i = 0; i < mods[key].m_perHandlePropertyDefinition.length; i++) {
-                mods[key].attributeMods.push(mods[key].m_perHandlePropertyDefinition[i].m_attributeMods[0])
+        Mods[key].attributeMods = Mods[key].m_defaultModInstanceData.m_attributeMods;
+        if (Mods[key].m_perHandlePropertyDefinition.length != 0 && Mods[key].m_perHandlePropertyDefinition[0].m_attributeMods.length != 0) {
+            for (let i = 0; i < Mods[key].m_perHandlePropertyDefinition.length; i++) {
+                Mods[key].attributeMods.push(Mods[key].m_perHandlePropertyDefinition[i].m_attributeMods[0])
             }
         }
     }
+}
+
+//Materials_DT Import
+const materialCodeNameList = [];
+for (let key in Materials){
+    materialCodeNameList.push(key);
 }
 
 // Complex Weapon Stats
@@ -162,20 +181,20 @@ sortSelection('weaponSelection');
 
 // Listen and execute function when new weapon is selected.
 function updateWeaponSelection () {
-/*     let uiBig = eval("weapons." + weaponSelection.options[weaponSelection.selectedIndex].id + ".m_uiData.m_textureUIBig.AssetPathName.split('.')[1]");
-    uiBig = document.location.origin + "/imgs/" + uiBig + ".png";
-    document.getElementById("wpLogo").src = uiBig; */
+    let uiBig = eval("Weapons." + weaponSelection.options[weaponSelection.selectedIndex].id + ".m_uiData.m_textureUIBig.AssetPathName.split('.')[1]");
+    uiBig = "https://thecycle.wiki/apps/calculator/imgs/weapons/" + uiBig + ".png";
+    document.getElementById("wpLogo").src = uiBig;
 
     for (let i = 0; i < slots.length; i++) {
         let modSlot = document.getElementById(slots[i]);
         clearSelection(modSlot,"None","Mod_None")
         document.getElementById(slots[i]).selectedIndex = '0';
 }
-    for (let key in mods) {
-        for (let i = 0; i < mods[key].m_modCompatibilityTags.length; i++) {
-            if (eval("("+weaponSelection.options[weaponSelection.selectedIndex].id + ".m_weaponTags).includes('"+mods[key].m_modCompatibilityTags[i]+"')")) {
+    for (let key in Mods) {
+        for (let i = 0; i < Mods[key].m_modCompatibilityTags.length; i++) {
+            if (eval("("+weaponSelection.options[weaponSelection.selectedIndex].id + ".m_weaponTags).includes('"+Mods[key].m_modCompatibilityTags[i]+"')")) {
                 let slotSwitch;
-                switch(mods[key].m_modType){
+                switch(Mods[key].m_modType){
                     case "EYModificationSlotType::Magazine": slotSwitch = 0; break;
                     case "EYModificationSlotType::AmmoConverter": slotSwitch = 1; break;
                     case "EYModificationSlotType::Muzzle": slotSwitch = 2; break;
@@ -185,14 +204,14 @@ function updateWeaponSelection () {
                 } 
                     let option = document.createElement("option");
                     //option.text = key; //Debug Mode
-                    option.text = mods[key].vanityName + mods[key].m_rarity.replace("EYItemRarityType::"," ");
+                    option.text = Mods[key].vanityName + Mods[key].m_rarity.replace("EYItemRarityType::"," ");
                     option.id = key;
                     document.getElementById(slots[slotSwitch]).add(option);
             } 
         }
-        if (mods[key].m_modType.includes("Grip") && key !== "NoGrip") {
+        if (Mods[key].m_modType.includes("Grip") && key !== "NoGrip") {
                 let slotSwitch;
-                switch(mods[key].m_modType){
+                switch(Mods[key].m_modType){
                     case "EYModificationSlotType::ForeGrip": slotSwitch = 5; break;
                     case "EYModificationSlotType::RearGrip": slotSwitch = 6; break;
                     case "EYModificationSlotType::Tactical": slotSwitch = 7; break;
@@ -200,7 +219,7 @@ function updateWeaponSelection () {
                 } 
                 let option = document.createElement("option");
                 //option.text = key; //Debug Mode
-                option.text = mods[key].vanityName + mods[key].m_rarity.replace("EYItemRarityType::"," ");
+                option.text = Mods[key].vanityName + Mods[key].m_rarity.replace("EYItemRarityType::"," ");
                 option.id = key;
                 document.getElementById(slots[slotSwitch]).add(option);
         }
@@ -269,6 +288,15 @@ function calculateWeaponStats(Modded,Init){
     let totalWeight = 0;
     let totalCost = 0;
 
+
+    if (wep.m_maxTraceDistance > 10000) {
+        document.getElementById('distanceSlider').max = wep.m_maxTraceDistance/1000;   
+    } else {
+        document.getElementById('distanceSlider').max = wep.m_maxTraceDistance/100;
+    }
+    
+
+
     //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
     let m_chainReactionDamageReduction = 1.0;
@@ -278,15 +306,26 @@ function calculateWeaponStats(Modded,Init){
         window[attributes[i]] = eval("wep." + attributes[i]);
     };
     if (Modded === true) {
+        var modMaterials = {};
         for (let i = 0; i < slots.length; i++) {
             let mod = eval("document.querySelector('#"+slots[i]+"').selectedOptions[0].id");
-
             if (mod === "Mod_None"){}else{
-            let modAttributes = eval("mods."+ mod + ".m_defaultModInstanceData.m_attributeMods");
-            totalWeight += eval("mods."+ mod + ".itemWeight")
+            let modAttributes = eval("Mods."+ mod + ".m_defaultModInstanceData.m_attributeMods");
+            totalWeight += eval("Mods."+ mod + ".itemWeight")
             for (let x = 0; x < rarities.length; x++) {
-                if (eval("mods." + mod +".m_itemShopsCraftingData[0]") != undefined && eval("mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
-                    eval("totalCost += mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
+                if (eval("Mods." + mod +".m_itemShopsCraftingData[0]") != undefined && eval("Mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
+                    let m_itemRecipeIngredients = eval("Mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients")
+                    eval("totalCost +=" + m_itemRecipeIngredients[0].m_costAmount)
+                    if(m_itemRecipeIngredients.length > 1){
+                        for (let y = 1; y < m_itemRecipeIngredients.length; y++){
+                            if (eval("modMaterials."+ m_itemRecipeIngredients[y].m_costType.RowName)){
+                                eval("modMaterials."+ m_itemRecipeIngredients[y].m_costType.RowName +"+=" + m_itemRecipeIngredients[y].m_costAmount);
+                            } else {
+                                eval("modMaterials."+ m_itemRecipeIngredients[y].m_costType.RowName +"=" + m_itemRecipeIngredients[y].m_costAmount);
+                            }
+                            
+                        }
+                    }
                 }
             }            
             modAttributes.forEach(function(mod) {
@@ -415,6 +454,7 @@ function calculateWeaponStats(Modded,Init){
     } else {
         rangeMulti = targetMulti;
     } 
+
     switch(targetType) {
         case "Monster": m_directDamage = ((m_directDamage * rangeMulti) * m_directDamageEnemyMultiplier).toFixed(3); break;
         default: m_directDamage = ((m_directDamage * rangeMulti) * m_directDamagePlayerMultiplier).toFixed(3); break;
@@ -499,6 +539,54 @@ function calculateWeaponStats(Modded,Init){
     if(recoilVertical != 0) {
         recoilVertical = (m_minRecoilY * recoilVertical).toFixed(2);
     }
+    //Crafting Stats
+
+    let table = document.getElementById("Cost&WeightStats");
+    function extend (target) {
+        for(var i=1; i<arguments.length; ++i) {
+            var from = arguments[i];
+            if(typeof from !== 'object') continue;
+            for(var j in from) {
+                if(from.hasOwnProperty(j)) {
+                    target[j] = typeof from[j]==='object'
+                    ? extend({}, target[j], from[j])
+                    : from[j];
+                }
+            }
+        }
+        return target;
+    }
+
+    let totalMaterials = extend({},wep.materials,modMaterials);
+
+    const elements = document.getElementsByClassName("material");
+    while(elements.length > 0){
+        elements[0].parentNode.removeChild(elements[0]);
+    }
+    if (totalMaterials  !== '{}') {
+        for (let i = 0; i < materialCodeNameList.length; i++) {
+            if (eval("'"+materialCodeNameList[i]+"'") in totalMaterials) {
+                let row = table.insertRow(-1);
+                row.classList = "material";
+                let cell1 = document.createElement("th");
+                row.appendChild(cell1)
+                let cell2 = row.insertCell(1);
+                let materialCodeName = eval("Materials."+materialCodeNameList[i]+".m_uiWidgetData.m_title.Key")
+                let uiBig = eval("Materials."+materialCodeNameList[i]+".m_hudIconBig.AssetPathName").split(".")[1]
+                let matLogo = "https://thecycle.wiki/apps/calculator/imgs/materials/" + uiBig + ".png";
+                cell1.innerHTML ="<img class='matLogo' src='" + matLogo + "'/>";
+                for (let x = 0; x < ST_Materials.length; x++) {
+                    if (materialCodeName === ST_Materials[x].Key) {
+                        cell1.innerHTML += ST_Materials[x].SourceString;
+                    }
+                }
+                //cell1.innerHTML = materialCodeNameList[i];
+                cell2.innerHTML = eval("totalMaterials." + materialCodeNameList[i])
+                cell2.colSpan = "3";
+                cell2.style.textAlign = "center";
+            } 
+        } 
+    } 
     
 
     //Populate Table with unmodded stats
@@ -667,14 +755,25 @@ monsterSelection.addEventListener('change', event => {
 
         let m_regenerationDelay = eval("PRO_Health[0].Rows."+monsterType+".m_regenerationDelay");
         setSliderBox("regenDelay",m_regenerationDelay);
+        console.log(monsterType)
+        let bodyArmor;
+        let headArmor;
+        if (monsterType.includes("Crusher")){
+        bodyArmor = eval("AiArmor_DT[0].Rows."+monsterTuning+".m_armorAmount");
+        headArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
+        } else {
+        bodyArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
         
-        let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
-        setSliderBox("armor",m_defaultArmor);
-        
+        }
+        setSliderBox("armor",bodyArmor);
+        setSliderBox("helmetArmor",headArmor);
         let armorConstant = eval("Ai_Tuning_DT[0].Rows."+monsterType.replace("AI_","")+".m_effectiveHealthPerArmorConstant")
         setSliderBox("armorConstant",armorConstant);
 
-        document.querySelector('#t-CPA').innerHTML = 0;
+        document.querySelector('#t-CPBA').innerHTML = 0;
+        document.querySelector('#t-CPHA').innerHTML = 0;
+        document.querySelector('#t-helmetArmorCost').innerHTML = 0;
+        document.querySelector('#t-shieldArmorCost').innerHTML = 0;
         document.querySelector('#t-armorTotalCost').innerHTML = 0;
     } else {
         targetSelection.value = 0;
@@ -744,13 +843,12 @@ document.querySelectorAll('.gearSelection').forEach(item => {
 }; */
 
 //Cosmetic
-var coll = document.getElementsByClassName("collapsible");
-var i;
+let collapsible = document.getElementsByClassName("collapsible");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+for (let i = 0; i < collapsible.length; i++) {
+    collapsible[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    let content = this.nextElementSibling;
     if (content.style.display !== "none") {
       content.style.display = "none";
     } else {
@@ -759,7 +857,18 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+let advancedMode = document.getElementById("advancedStatToggle");
+advancedMode.addEventListener("click", function() {
+    if(advancedMode.checked){
+        root.style.setProperty("--advanced-mode", `block`);
+    } else {
+        root.style.setProperty("--advanced-mode", `none`);
+    }
+    
+});
+
 //Debugging
-/* console.log(mods);
-console.log(mods.Mod_Optic_2x_01);
-console.log(WP_A_AR_Bullet_01); */
+/* console.log(Mods);
+console.log(Mods.Mod_Optic_2x_01); 
+console.log(WP_A_Sniper_Gauss_01.materials); */
+

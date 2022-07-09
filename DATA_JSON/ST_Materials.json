@@ -1,0 +1,2863 @@
+[
+{
+  "Key" : "Material_Item_Tooltip",
+  "SourceString" : "Material",
+  "Comment" : "Material Tooltip",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_ItemType",
+  "SourceString" : "QuestItem",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_Battery_Name",
+  "SourceString" : "Battery",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_Battery_Description",
+  "SourceString" : "A letium-based battery that can be used to power various machinery on Fortuna.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_LaserDrillBeacon_Name",
+  "SourceString" : "Laser Drill Beacon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_LaserDrillBeacon_Description",
+  "SourceString" : "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OilPumpBeacon_Name",
+  "SourceString" : "Oil Pump Beacon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OilPumpBeacon_Description",
+  "SourceString" : "A powerful locator that can be used to call down an ICA NiC pump and refiner on an oil deposit.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_AlphaWardenBait_Name",
+  "SourceString" : "Alpha Crusher Bait",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_AlphaWardenBait_Description",
+  "SourceString" : "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OrbitalCannonTarget_Name",
+  "SourceString" : "Orbital Cannon Beacon",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OrbitalCannonTarget_Description",
+  "SourceString" : "Used for opening the Elite Crusher Caverns, highly charged Osiris laser gets fired at location of this beacon.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Common_Name",
+  "SourceString" : "Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Common_Description",
+  "SourceString" : "A data drive. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Uncommon_Name",
+  "SourceString" : "Uncommon Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Uncommon_Description",
+  "SourceString" : "A data drive with some interesting information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Rare_Name",
+  "SourceString" : "Rare Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Rare_Description",
+  "SourceString" : "A data drive with rare information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Epic_Name",
+  "SourceString" : "Valuable Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Epic_Description",
+  "SourceString" : "A data drive with valuable information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Legendary_Name",
+  "SourceString" : "Unique Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_Legendary_Description",
+  "SourceString" : "A data drive with highly valuable and unique information. Can be exchanged for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_DigSite_Name",
+  "SourceString" : "\"Dig Site\" Data Drive",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_HardDrive_DigSite_Description",
+  "SourceString" : "A data drive carrying information on the Bright Sands Dig Site.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ChalniFeather_Name",
+  "SourceString" : "Chalni Feather",
+  "Comment" : "fictional animal",
+  "" : ""
+},
+{
+  "Key" : "Material_ChalniFeather_Description",
+  "SourceString" : "Material used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ChalniFeather_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_VaintarShell_Name",
+  "SourceString" : "Vaintar Shell",
+  "Comment" : "fictional animal",
+  "" : ""
+},
+{
+  "Key" : "Material_VaintarShell_Description",
+  "SourceString" : "Material used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_VaintarShell_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cadmium_Name",
+  "SourceString" : "Cadmium",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cadmium_Description",
+  "SourceString" : "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth selling at the station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cadmium_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormSurgeCrystal_Name",
+  "SourceString" : "Storm Surge Crystal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormSurgeCrystal_Description",
+  "SourceString" : "Malformed veltecite, created when the Cycle emits a localized spike and excites latent veltecite veins underground into growing at an accelerated rate. It's definitely health hazard, but it's also worth a lot...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormSurgeCrystal_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorFragment_Name",
+  "SourceString" : "Meteor Fragment",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorFragment_Description",
+  "SourceString" : "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Highly valuable.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorFragment_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorFragment_Location",
+  "SourceString" : "Can be mined from meteors that fall to the surface.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorCore_Name",
+  "SourceString" : "Meteor Core",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorCore_Description",
+  "SourceString" : "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Extremely valuable.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorCore_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MeteorCore_Location",
+  "SourceString" : "Can be mined from meteors that fall to the surface.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Biomass_Name",
+  "SourceString" : "Mutated Biomass",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Biomass_Description",
+  "SourceString" : "Fortuna III's hostile creatures are already mutated versions of smaller and less aggressive ancestors, but Cycle Storms push forward rarer latent mutations. Researchers buy this stuff, as do some \"fancy\" restaurants.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Biomass_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BlueRunnerEgg_Name",
+  "SourceString" : "Blue Runner Egg",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BlueRunnerEgg_Description",
+  "SourceString" : "Blue Runner eggs have a notoriously thick shell, allowing them to only care for the eggs when close to hatching. Can be sold on the station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BlueRunnerEgg_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BlueRunnerEgg_Location",
+  "SourceString" : "The creatures that lay these eggs often leave tracks behind. Follow them!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaWardenHeart_Name",
+  "SourceString" : "Alpha Crusher Heart",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaWardenHeart_Description",
+  "SourceString" : "The heart of an Alpha Crusher, or at least chunks of it, can be used for several almost miraculous medical treatments. It's also a local delicacy, for those with more money than sense.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaWardenHeart_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaWardenHeart_Location",
+  "SourceString" : "Generally found inside Alpha Crushers. Good luck!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Brightcap_Name",
+  "SourceString" : "Brightcap Mushroom",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Brightcap_Description",
+  "SourceString" : "Good for selling and desired by Osiris for their rare properties. Also tastes good, if prepared properly.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Brightcap_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Brightcap_Location",
+  "SourceString" : "Primarily grow around the swamps and jungles of Fortuna.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GlowyBrightcap_Name",
+  "SourceString" : "Glowy Brightcap Mushroom",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GlowyBrightcap_Description",
+  "SourceString" : "A rare glowy mushroom that can only be harvested during the storm on Fortuna. Highly coveted by Osiris.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GlowyBrightcap_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GlowyBrightcap_Location",
+  "SourceString" : "Can be harvested only during the storm around the swamps and jungles of Fortuna.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_VelteciteFragment_Name",
+  "SourceString" : "Veltecite Fragment",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_VelteciteFragment_Description",
+  "SourceString" : "Veltecite Fragment, NEED PROPER DESCRIPTION",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_VelteciteFragment_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Nickel_Name",
+  "SourceString" : "Nickel",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Nickel_Description",
+  "SourceString" : "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth mining.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Nickel_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Nickel_Location",
+  "SourceString" : "Nickel Veins be found in most areas on Fortuna. You can use a Mineral Scanner to help you find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CommonVeltecite_Name",
+  "SourceString" : "Flawed Veltecite",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_CommonVeltecite_Description",
+  "SourceString" : "While relatively low in value, flawed veltecite is still valuable enough to be worth taking a pickaxe to some rocks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CommonVeltecite_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CommonVeltecite_Location",
+  "SourceString" : "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ArdorShard_Name",
+  "SourceString" : "Cloudy Veltecite",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_ArdorShard_Description",
+  "SourceString" : "Shards of Cloudy Veltecite are often used for energy storage and generation. Korolev are always looking for any that prospectors can mine.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ArdorShard_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ArdorShard_Location",
+  "SourceString" : "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RareVeltecite_Name",
+  "SourceString" : "Clear Veltecite",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_RareVeltecite_Description",
+  "SourceString" : "A rare shard of clear Veltecite. Korolev will pay a decent bit of pocket money for any that prospectors uncover with their pickaxes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RareVeltecite_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RareVeltecite_Location",
+  "SourceString" : "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicVeltecite_Name",
+  "SourceString" : "Pure Veltecite",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicVeltecite_Description",
+  "SourceString" : "Very rare shard of pure Veltecite torn out of a mineral vein, highly valued by Korolev and others.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicVeltecite_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicVeltecite_Location",
+  "SourceString" : "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryVeltecite_Name",
+  "SourceString" : "Veltecite Heart",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryVeltecite_Description",
+  "SourceString" : "The \"heart\" of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryVeltecite_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryVeltecite_Location",
+  "SourceString" : "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagneticOre_Name",
+  "SourceString" : "Magnetite",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagneticOre_Description",
+  "SourceString" : "Properly refined and treated, these ores can be used to create powerful magnets used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagneticOre_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagneticOre_Location",
+  "SourceString" : "Magnetite Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FocusCrystal_Name",
+  "SourceString" : "Focus Crystal",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_FocusCrystal_Description",
+  "SourceString" : "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FocusCrystal_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FocusCrystal_Location",
+  "SourceString" : "Crystal Veins can often be found in the Jungles of Fortuna. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Polonium_Name",
+  "SourceString" : "Polonium",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Polonium_Description",
+  "SourceString" : "Valuable glowy mineral that can only be mined during an active storm on Fortuna III",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Polonium_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolariumCrystal_Name",
+  "SourceString" : "Polirium Crystal",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_PolariumCrystal_Description",
+  "SourceString" : "Rare crystal, is of scientific interest and can be sold for K-Marks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolariumCrystal_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DerelictExplosives_Name",
+  "SourceString" : "Derelict Explosives",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DerelictExplosives_Description",
+  "SourceString" : "Fortuna III's settlers took to using explosives to both mold the environment to their liking and get rid of the local pests. Can still be sold on the station, for fireworks of course.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DerelictExplosives_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DerelictExplosives_Location",
+  "SourceString" : "Can be found in Dumpsters within very high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OpticGlass_Name",
+  "SourceString" : "Optic Glass",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OpticGlass_Description",
+  "SourceString" : "Perfectly polished, lenses like these often find themselves used more in high-powered cutting machinery than in actual optic equipment.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OpticGlass_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OpticGlass_Location",
+  "SourceString" : "Can be found in Cabinets.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PowerSource_Name",
+  "SourceString" : "Power Cell",
+  "Comment" : "a battery",
+  "" : ""
+},
+{
+  "Key" : "Material_PowerSource_Description",
+  "SourceString" : "Material used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PowerSource_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SpareCasing_Name",
+  "SourceString" : "Hardened Metals",
+  "Comment" : "high quality scrap metal",
+  "" : ""
+},
+{
+  "Key" : "Material_SpareCasing_Description",
+  "SourceString" : "Material used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SpareCasing_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SpareCasing_Location",
+  "SourceString" : "Can be found in any Structures and Containers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ExoNeedles_Name",
+  "SourceString" : "Howler Needles",
+  "Comment" : "fictional plant",
+  "" : ""
+},
+{
+  "Key" : "Material_ExoNeedles_Description",
+  "SourceString" : "Material used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ExoNeedles_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_NeuroToxicGlands_Name",
+  "SourceString" : "Toxic Glands",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_NeuroToxicGlands_Description",
+  "SourceString" : "The foul smelling sack some creatures use to produce compounds capable of breaking down common synthetic materials, nevermind human flesh.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_NeuroToxicGlands_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_NeuroToxicGlands_Location",
+  "SourceString" : "Rare Drop from killed Blast Ticks and Acid Ticks.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_TitanOre_Name",
+  "SourceString" : "Titan Ore",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_TitanOre_Description",
+  "SourceString" : "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_TitanOre_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_TitanOre_Location",
+  "SourceString" : "Titan Ore Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolymetallicPrefabricate_Name",
+  "SourceString" : "Polymetallic Prefabricate",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolymetallicPrefabricate_Description",
+  "SourceString" : "One of those \"miracle materials\", sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolymetallicPrefabricate_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PolymetallicPrefabricate_Location",
+  "SourceString" : "Can be found in Cabinets.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AzureTree_Name",
+  "SourceString" : "Azure Tree Bark",
+  "Comment" : "fictional blue tree",
+  "" : ""
+},
+{
+  "Key" : "Material_AzureTree_Description",
+  "SourceString" : "Azure Trees are found sprinkled around the less shaded areas of Fortuna III, with their bark coveted for artisanal goods.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AzureTree_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AzureTree_Location",
+  "SourceString" : "Can be found in Coolers and at Woodcutter Camp.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WinterMaterial_Event_01_Name",
+  "SourceString" : "Singing Spaceman",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WinterMaterial_Event_01_Description",
+  "SourceString" : "A jolly little spaceman figurine, themed after the suits used by the crew of the Starlight Song as they assisted in the rescue of Aurora Station over the planet Neptune in 2125.\n\nModels like this would often sing short and happy songs, light up, or even dance around.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_UncommonModKit_Name",
+  "SourceString" : "Uncommon Mod Kit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_UncommonModKit_Description",
+  "SourceString" : "Uncommon mod kit description FILL IN.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RareModKit_Name",
+  "SourceString" : "Rare Mod Kit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RareModKit_Description",
+  "SourceString" : "Rare mod kit description FILL IN.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicModKit_Name",
+  "SourceString" : "Epic Mod Kit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_EpicModKit_Description",
+  "SourceString" : "Epic mod kit description FILL IN.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryModKit_Name",
+  "SourceString" : "Legendary Mod Kit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LegendaryModKit_Description",
+  "SourceString" : "Legendary mod kit description FILL IN.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OldCurrency_Name",
+  "SourceString" : "Old Currency",
+  "Comment" : "fictional mineral",
+  "" : ""
+},
+{
+  "Key" : "Material_OldCurrency_Description",
+  "SourceString" : "Currency used on Fortuna III before the evacuations. Still in use by some on Prospect Station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OldCurrency_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OldCurrency_Location",
+  "SourceString" : "Can be found in civilian structures and belongings.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DataPad_Name",
+  "SourceString" : "Interactive Screen",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DataPad_Description",
+  "SourceString" : "Interactive Screens were common among civilians on Fortuna III, used for all sorts of purposes. Cached data and basic components give them some selling value.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DataPad_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DataPad_Location",
+  "SourceString" : "Can be found in Briefcases and Luggage within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagStab_Name",
+  "SourceString" : "Magnetic Field Stabilizer",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagStab_Description",
+  "SourceString" : "A component necessary for certain weapons with high power usage.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagStab_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MagStab_Location",
+  "SourceString" : "Can be found in Dumpsters.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AutoLoader_Name",
+  "SourceString" : "Autoloader",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AutoLoader_Description",
+  "SourceString" : "Used for printing a variety of equipment requiring regular charges, such as weapons.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AutoLoader_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AutoLoader_Location",
+  "SourceString" : "Can be found in Industrial Crates within very high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShockAbsorber_Name",
+  "SourceString" : "Shock Absorber",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShockAbsorber_Description",
+  "SourceString" : "A component used for certain weapons with heavy recoil.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShockAbsorber_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShockAbsorber_Location",
+  "SourceString" : "Can be found in Dumpsters.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MiniReactor_Name",
+  "SourceString" : "Miniature Reactor",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MiniReactor_Description",
+  "SourceString" : "Useful for printing equipment with high power requirements.\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MiniReactor_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MiniReactor_Location",
+  "SourceString" : "Can be found in the storage rooms of power facilities.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPURed_Name",
+  "SourceString" : "Master Unit CPU",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPURed_Description",
+  "SourceString" : "An advanced CPU, ideal for the running adaptive AI systems or the manipulation of complex energy fields.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPURed_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPURed_Location",
+  "SourceString" : "Can be found in Safes within very high danger areas.",
+  "Comment" : "Jackets",
+  "" : "Briefcases and Luggage."
+},
+{
+  "Key" : "Material_CPUBlue_Name",
+  "SourceString" : "Zero Systems CPU",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPUBlue_Description",
+  "SourceString" : "Made for crunching through large datasets, used in several devices that require large amounts of simple calculations.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPUBlue_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CPUBlue_Location",
+  "SourceString" : "Can be found in Cabinets",
+  "Comment" : "Briefcases and Luggage.",
+  "" : ""
+},
+{
+  "Key" : "Material_ShardSlicer_Name",
+  "SourceString" : "Shard Slicer",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShardSlicer_Description",
+  "SourceString" : "A delicate yet powerful machine used for printing certain items.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShardSlicer_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ShardSlicer_Location",
+  "SourceString" : "Can be found in Civilian Lockers within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MultiTool_Name",
+  "SourceString" : "Co-TEC MultiTool",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MultiTool_Description",
+  "SourceString" : "Used to print, repair, and manipulate simple machinery and electronics. That includes weapons, of course.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MultiTool_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_MultiTool_Location",
+  "SourceString" : "Can be found in Industrial Crates.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PrintResin_Name",
+  "SourceString" : "Print Resin",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PrintResin_Description",
+  "SourceString" : "Can be loaded into most printers to print the base components of almost anything, from rubber ducks to weapon parts.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PrintResin_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PrintResin_Location",
+  "SourceString" : "Can be found in any Structures or Containers within very high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BallBearings_Name",
+  "SourceString" : "Ball Bearings",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BallBearings_Description",
+  "SourceString" : "A simple mechanical component used to print a multitude of machines with moving parts, such as firearms.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BallBearings_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BallBearings_Location",
+  "SourceString" : "Can be found in Dumpsters and Industrial Crates.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GyroScope_Name",
+  "SourceString" : "Gyroscope",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GyroScope_Description",
+  "SourceString" : "Helps keeps things pointing where they're supposed to be pointing even in the roughest conditions, making it quite useful for printing some weapon components.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GyroScope_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GyroScope_Location",
+  "SourceString" : "Can be found in Cabinets within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HydraulicPiston_Name",
+  "SourceString" : "Hydraulic Piston",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HydraulicPiston_Description",
+  "SourceString" : "Useful for printing weapons and beacons. The tech may be hundreds of years old, but if it works, it works.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HydraulicPiston_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HydraulicPiston_Location",
+  "SourceString" : "Can be found in Industrial Crates.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CompoundSheets_Name",
+  "SourceString" : "Compound Sheets",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CompoundSheets_Description",
+  "SourceString" : "Standardized metal and plastic sheets like these are used to print everything from tractors to weapons, so long as you follow the right printing instructions.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CompoundSheets_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CompoundSheets_Location",
+  "SourceString" : "Can be found in any Structures and Containers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alloys_Name",
+  "SourceString" : "Metallic Alloys",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alloys_Description",
+  "SourceString" : "A collection of metal alloys used as a base material in many items, ready to slot into compatible printers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alloys_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alloys_Location",
+  "SourceString" : "Can be found in Dumpsters and Industrial Crates.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CreatureClaw_Name",
+  "SourceString" : "Sharp Claw",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CreatureClaw_Description",
+  "SourceString" : "Hard and sharp, claws like these are capable of piercing a prospector's defenses and rip their flesh apart with ease.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CreatureClaw_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CreatureClaw_Location",
+  "SourceString" : "Obtained from killing hostile Fortuna III creatures.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherTongue_Name",
+  "SourceString" : "Crusher Tongue",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherTongue_Description",
+  "SourceString" : "Tough and slimy, the tongue's secretions have a variety of uses if refined, and the flesh itself is considered a delicacy if prepared correctly.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherTongue_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherTongue_Location",
+  "SourceString" : "Obtained from killing Crushers on Fortuna III's surface.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaCrusherSkull_Name",
+  "SourceString" : "Alpha Crusher Skull",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaCrusherSkull_Description",
+  "SourceString" : "It doesn't seem to have any real practical purpose, but this trophy is one of the most desired items Fortuna III produces.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaCrusherSkull_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AlphaCrusherSkull_Location",
+  "SourceString" : "Obtained from killing Alpha Crushers on Fortuna III's surface. Good luck!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GenericCreatureDrop_Name",
+  "SourceString" : "Spinal Base",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GenericCreatureDrop_Description",
+  "SourceString" : "Wanted for several rare materials easily harvested from the spine, as well as for research by those looking into the origins of Fortuna III's hostile creatures.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GenericCreatureDrop_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_GenericCreatureDrop_Location",
+  "SourceString" : "Obtained by killing hostile creatures on Fortuna III.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormyCreatureDrop_Name",
+  "SourceString" : "Charged Spinal Base",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormyCreatureDrop_Description",
+  "SourceString" : "The base of the spine of a hostile Fortuna III creature affected by the Cycle. Contains some useful materials for various items or research.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormyCreatureDrop_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StormyCreatureDrop_Location",
+  "SourceString" : "Obtained by killing hostile creatures during an active storm.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HardenedBoneAlloy_Name",
+  "SourceString" : "Hardened Bone Plates",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HardenedBoneAlloy_Description",
+  "SourceString" : "Dropped from some of Fortuna III's toughest creatures, can be used for printing certain items after refining.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HardenedBoneAlloy_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_HardenedBoneAlloy_Location",
+  "SourceString" : "Obtained by killing Marauders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FlakedLethium_Name",
+  "SourceString" : "Letium Clot",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FlakedLethium_Description",
+  "SourceString" : "Solidified mass of Letium, rare and valuable.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FlakedLethium_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_FlakedLethium_Location",
+  "SourceString" : "Obtained by using a Korolev Laser Drill to drill a Letium Deposit.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OilTank_Name",
+  "SourceString" : "NiC Oil Cannister",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OilTank_Description",
+  "SourceString" : "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.\n\nAlmost looks like it's alive, moving and swirling on its own.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OilTank_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_OilTank_Location",
+  "SourceString" : "Can be extracted from an exposed Oil Well using an ICA Oil Pump.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureNickel_Name",
+  "SourceString" : "Altered Nickel",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureNickel_Description",
+  "SourceString" : "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this ore seems to have been affected by proximity with the rare crystals.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureNickel_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureNickel_Location",
+  "SourceString" : "Nickel Veins can be found in most areas on Fortuna. A Mineral Scanner can help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BrittleTitanOre_Name",
+  "SourceString" : "Brittle Titan Ore",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BrittleTitanOre_Description",
+  "SourceString" : "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BrittleTitanOre_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_BrittleTitanOre_Location",
+  "SourceString" : "Titan Ore Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureFocusCrystal_Name",
+  "SourceString" : "Pure Focus Crystal",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureFocusCrystal_Description",
+  "SourceString" : "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureFocusCrystal_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PureFocusCrystal_Location",
+  "SourceString" : "Crystal Veins can often be found in the Jungles of Fortuna. A Mineral Scanner can be modded to help find them.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WaterPlant_Name",
+  "SourceString" : "Waterweed Filament",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WaterPlant_Description",
+  "SourceString" : "The pollen filament of a Waterweed, a plant that can only be harvested around water bodies such as lakes or swamps on Fortuna III. The blossoms themselves are worthless, but these Filaments fetch a decent price on Prospect Station.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WaterPlant_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WaterPlant_Location",
+  "SourceString" : "Grows around Lakes and other still waters on Fortuna.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DesertPlant_Name",
+  "SourceString" : "Dustbloom",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DesertPlant_Description",
+  "SourceString" : "This lonely weed grows in open, arid areas on Fortuna III and develops valuable vibrant blossoms when exposed to direct sunlight.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DesertPlant_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_DesertPlant_Location",
+  "SourceString" : "Flourishes in open, arid areas of Fortuna.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_IvyPlant_Name",
+  "SourceString" : "Pale Ivy Blossom",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_IvyPlant_Description",
+  "SourceString" : "The blossom of Pale Ivy, a strange plant that likes to climb up walls to keep its gorgeous, divinely smelling petals out of the reach of critters and insects.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_IvyPlant_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_IvyPlant_Location",
+  "SourceString" : "Likes to grow on walls and cliffs in overgrown areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alien Fruit_Name",
+  "SourceString" : "Indigenous Fruit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alien Fruit_Description",
+  "SourceString" : "Tastes delicious, and can be processed to gain some useful chemicals.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alien Fruit_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Alien Fruit_Location",
+  "SourceString" : "Can be found in Coolers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Fabrics_Name",
+  "SourceString" : "Textiles",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Fabrics_Description",
+  "SourceString" : "Heavy and durable fabrics, useful for printing various items.\n\nYou can never get the smell of mildew out of these.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Fabrics_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Fabrics_Location",
+  "SourceString" : "Can be found in Civilian Lockers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cables_Name",
+  "SourceString" : "Electronic Cables",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cables_Description",
+  "SourceString" : "A bundle of cables, still in good condition.\n\nUnfortunately not platinum plated, unsuitable for true audio transmission.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cables_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Cables_Location",
+  "SourceString" : "Can be found in Cabinets",
+  "Comment" : "Briefcases and Luggage.",
+  "" : ""
+},
+{
+  "Key" : "Material_Insulation_Name",
+  "SourceString" : "Salvaged Insulation",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Insulation_Description",
+  "SourceString" : "Even outside of its intended purpose, the materials still have various uses in item printing.\n\nYes, it's asbestos.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Insulation_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Insulation_Location",
+  "SourceString" : "Can be found in any Structures and Containers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Copper Wire_Name",
+  "SourceString" : "Copper Wire",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Copper Wire_Description",
+  "SourceString" : "Still the best bang for the buck for electric cables, makes for a good and cheap electric conductor.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Copper Wire_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Copper Wire_Location",
+  "SourceString" : "Can be found in Dumpsters.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Smart mesh_Name",
+  "SourceString" : "Smart Mesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Smart mesh_Description",
+  "SourceString" : "Adaptable material, used for printing various items.\n\nAlso a fun art tool!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Smart mesh_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Smart mesh_Location",
+  "SourceString" : "Can be found in Dumpsters and Industrial Crates within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Circuit Board_Name",
+  "SourceString" : "Circuit Board",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Circuit Board_Description",
+  "SourceString" : "An old circuit board, its components can be salvaged and repurposed to build new items.\n\nAnd now you can put e-waste management on your resume.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Circuit Board_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Circuit Board_Location",
+  "SourceString" : "Can be found in Briefcases and Luggage.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Adhesive_Name",
+  "SourceString" : "Resin Gun",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Adhesive_Description",
+  "SourceString" : "Multi purpose tool, handy for sticking things together or providing flexible insulation.\n\nThe warning label says to not use if you need a warning label.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Adhesive_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Adhesive_Location",
+  "SourceString" : "Can be found in Coolers and Civilian Lockers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RadioSpareParts_Name",
+  "SourceString" : "Radio Equipment",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RadioSpareParts_Description",
+  "SourceString" : "An old colonial radio transceiver; salvaging these for item printing is cheaper than buying new parts.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RadioSpareParts_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RadioSpareParts_Location",
+  "SourceString" : "Can be found in Briefcases and Luggage.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Antibiotics_Name",
+  "SourceString" : "Old Medicine",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Antibiotics_Description",
+  "SourceString" : "Medicine left behind on the planet, can be processed to make new supplies.\n\nFortuna's colonists definitely had a lot of pills...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Antibiotics_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Antibiotics_Location",
+  "SourceString" : "Can be found in Medical Cases.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PortableLabEquipmentBox_Name",
+  "SourceString" : "Portable Lab",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PortableLabEquipmentBox_Description",
+  "SourceString" : "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.\n\nLoaded with delicate tools, sensitive software, and no manual.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PortableLabEquipmentBox_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_PortableLabEquipmentBox_Location",
+  "SourceString" : "Can be found in Cabinets within very high danger areas.",
+  "Comment" : "Briefcases and Luggage.",
+  "" : ""
+},
+{
+  "Key" : "Material_Battery_Name",
+  "SourceString" : "\"Fusion Cartridge\" Batteries ",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Battery_Description",
+  "SourceString" : "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.\n\nNot actually fusion powered, but still worryingly radioactive.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Battery_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Battery_Location",
+  "SourceString" : "Can be found in Civilian Lockers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LiquidFertilizer_Name",
+  "SourceString" : "\"Magic-GROW\" Fertilizer",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LiquidFertilizer_Description",
+  "SourceString" : "A powerful and sweet smelling chemical, can be processed to help manufacture other items.\n\nDon't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LiquidFertilizer_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_LiquidFertilizer_Location",
+  "SourceString" : "Can be found in Coolers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SamplingDevice_Name",
+  "SourceString" : "Biological Sampler",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SamplingDevice_Description",
+  "SourceString" : "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.\n\nThis model incorporates a pressure-activated injector as well. Mildly concerning.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SamplingDevice_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SamplingDevice_Location",
+  "SourceString" : "Can be found in Medical Cases.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AnaestheticsContainers_Name",
+  "SourceString" : "Medical Supplies",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AnaestheticsContainers_Description",
+  "SourceString" : "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.\n\nThere are A LOT of warning labels here.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AnaestheticsContainers_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AnaestheticsContainers_Location",
+  "SourceString" : "Can be found in Medical Cases.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ProteinBar_Name",
+  "SourceString" : "Nutritional Bar",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ProteinBar_Description",
+  "SourceString" : "Nutrion's flagship product, a full day's meal in a single candy bar.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ProteinBar_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_ProteinBar_Location",
+  "SourceString" : "Can be found in Coolers and Civilian Lockers within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Jewellery_Name",
+  "SourceString" : "Jewellery",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Jewellery_Description",
+  "SourceString" : "A simple and easy way to carry one's riches and memories.\n\nAlso very easy to lose during an emergency evacuation.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Jewellery_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_Jewellery_Location",
+  "SourceString" : "Can be found in Safes",
+  "Comment" : "Jackets",
+  "" : "Briefcases and Luggage."
+},
+{
+  "Key" : "Material_SampleContainer_Name",
+  "SourceString" : "Sample Container",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SampleContainer_Description",
+  "SourceString" : "A sealed self-powered container for exotic alien samples.\n\nScientists are always putting little things in jars and hoping for the best.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SampleContainer_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_SampleContainer_Location",
+  "SourceString" : "Can be found in Coolers and Civilian Lockers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AluminumParts_Name",
+  "SourceString" : "Aluminum scrap",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AluminumParts_Description",
+  "SourceString" : "Mostly aluminum and steel; not the most valuable salvage, but useful for printing.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AluminumParts_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_AluminumParts_Location",
+  "SourceString" : "Can be found in any Structures and Containers within high danger areas.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_Name",
+  "SourceString" : "Strider Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_Description",
+  "SourceString" : "The torn off head of a dead Strider.\n\nCareful, it can still bite!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_Location",
+  "SourceString" : "Generally found on Striders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_03_Name",
+  "SourceString" : "Heavy Strider Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_03_Description",
+  "SourceString" : "The torn off head of a dead Heavy Strider.\n\nFar too ugly to mount on a wall.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_03_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderHead_03_Location",
+  "SourceString" : "Can be found on Heavy Striders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_Name",
+  "SourceString" : "Rattler Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_Description",
+  "SourceString" : "The torn off head of a dead Rattler.\n\nCorrosive drool everywhere, handle with gloves.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_Location",
+  "SourceString" : "Often found in the vicinity of a Rattler.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_02_Name",
+  "SourceString" : "Mature Rattler Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_02_Description",
+  "SourceString" : "The torn off head of a dead Mature Rattler.\n\nThese things do NOT age gracefully...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_02_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerHead_02_Location",
+  "SourceString" : "Mature Rattlers tend to have these.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_Name",
+  "SourceString" : "Marauder Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_Description",
+  "SourceString" : "The torn off head of a dead Marauder.\n\nThe eyes still follow you around. Creepy.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_Location",
+  "SourceString" : "Often located on a Marauder.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_02_Name",
+  "SourceString" : "Savage Marauder Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_02_Description",
+  "SourceString" : "The torn off head of a dead Savage Marauder.\n\nIt's still blinking. Menacingly.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_02_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleHead_02_Location",
+  "SourceString" : "Savage Marauders sometimes lose these.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherHead_Name",
+  "SourceString" : "Crusher Head",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherHead_Description",
+  "SourceString" : "The torn off head of a dead Crusher.\n\nIt's even uglier up close... Still, a fine trophy!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherHead_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherHead_Location",
+  "SourceString" : "Can generally be found by first locating a Crusher.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_Name",
+  "SourceString" : "Strider Flesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_Description",
+  "SourceString" : "A chunk of Strider flesh. Presumably of a dead one.\n\nYou know, if you cook it properly it's actually pretty good.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_Location",
+  "SourceString" : "Found on dead Striders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_3_Name",
+  "SourceString" : "Heavy Strider Flesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_3_Description",
+  "SourceString" : "A chunk of flesh from a Heavy Strider.\n\nTougher than normal Strider meat, it barely bleeds.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_3_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_StriderMeat_3_Location",
+  "SourceString" : "Found on dead Heavy Striders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_Name",
+  "SourceString" : "Rattler Eyes",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_Description",
+  "SourceString" : "The eyes of a dead Rattler\n\nWell, hopefully it was dead, anyway...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_Location",
+  "SourceString" : "Can be plucked out of a dead Rattler.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_2_Name",
+  "SourceString" : "Mature Rattler Eyes",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_2_Description",
+  "SourceString" : "The eyes of a dead Mature Rattler\n\nAge only improved the thing's sight...",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_2_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerEyes_2_Location",
+  "SourceString" : "Tend to come from dead Mature Rattlers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_Name",
+  "SourceString" : "Marauder Flesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_Description",
+  "SourceString" : "A chunk of Marauder flesh.\n\nIt moves if you poke it.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_Location",
+  "SourceString" : "Generally found after a Marauder finds you. What happens next is an adventure!",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_2_Name",
+  "SourceString" : "Savage Marauder Flesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_2_Description",
+  "SourceString" : "A chunk of Savage Marauder flesh.\n\nBurns if you touch it without gloves.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_2_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_WeremoleMeat_2_Location",
+  "SourceString" : "Can be \"obtained\" from Savage Marauders.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherMeat_Name",
+  "SourceString" : "Crusher Flesh",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherMeat_Description",
+  "SourceString" : "A chunk of Crusher flesh.\n\nEven its meat is hard as bone.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherMeat_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherMeat_Location",
+  "SourceString" : "Commonly found on a dead Crusher.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerSkin_Name",
+  "SourceString" : "Rattler Skin",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerSkin_Description",
+  "SourceString" : "Taken off a skinned Rattler.\n\nFashionable! Just don't think about where it came from.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerSkin_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_RattlerSkin_Location",
+  "SourceString" : "Stripped off of dead Rattlers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherSkin_Name",
+  "SourceString" : "Crusher Hide",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherSkin_Description",
+  "SourceString" : "Taken off a skinned Crusher.\n\n(read: hacked repeatedly until something fell off)",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherSkin_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "Material_CrusherSkin_Location",
+  "SourceString" : "Generally obtained from dead Crushers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_KorolevScrip_Name",
+  "SourceString" : "Korolev Scrip",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_KorolevScrip_Description",
+  "SourceString" : "Rewarded by Korolev, required for upgrades to your Quarters' Stash and Safe Pockets.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_KorolevScrip_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_KorolevScrip_Location",
+  "SourceString" : "Obtained by completing Missions and Jobs for Korolev",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OsirisScrip_Name",
+  "SourceString" : "Osiris Scrip",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OsirisScrip_Description",
+  "SourceString" : "Rewarded by Osiris, required for upgrades to your Quarters' K-Mark and Aurum generators.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OsirisScrip_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_OsirisScrip_Location",
+  "SourceString" : "Obtained by completing Missions and Jobs for Osiris",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_ICAScrip_Name",
+  "SourceString" : "ICA Scrip",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_ICAScrip_Description",
+  "SourceString" : "Rewarded by the ICA, required for upgrades to your Quarters' Supply Crate Generator and Gear Printer.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_ICAScrip_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "QuestItem_ICAScrip_Location",
+  "SourceString" : "Obtained by completing Missions and Jobs for the ICA",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "#NAME?",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem1_Name",
+  "SourceString" : "Miner Cam #2F53",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem1_Description",
+  "SourceString" : "Camera belonging to a \"Jamie Faulkner\". The last video file is damaged, but the audio is of a large crowd demanding to be let in\" before suddenly cutting off.\"",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem1_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem1_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem2_Name",
+  "SourceString" : "Miner Cam #D027",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem2_Description",
+  "SourceString" : "Owner named only as \"Temporary\". Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem2_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem2_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem3_Name",
+  "SourceString" : "Miner Cam #A45D",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem3_Description",
+  "SourceString" : "Camera belonging to a \"Mayumi S. Nagao\". Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem3_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_MinerItem3_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_EngineerItem_Name",
+  "SourceString" : "Letium Coated Helmet",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_EngineerItem_Description",
+  "SourceString" : "An engineer's helmet caked in Letium. The embedded sensors may have recorded something important.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_EngineerItem_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_EngineerItem_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_CreatureSample_Name",
+  "SourceString" : "Letium Bio Samples",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_CreatureSample_Description",
+  "SourceString" : "A container preserving... something. A label on the side states: \"WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE\"",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_CreatureSample_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_CreatureSample_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_LaserDrillPart_Name",
+  "SourceString" : "Laser Drill Control Unit",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_LaserDrillPart_Description",
+  "SourceString" : "Part of the system that manages the Drill. Hopefully it can be reconfigured to safely mine for Letium.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_LaserDrillPart_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_LaserDrillPart_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_ICAPersonalItem_Name",
+  "SourceString" : "Sign of Life from Stranded Prospector",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_ICAPersonalItem_Description",
+  "SourceString" : "A photo of Marie and a prospector named Tao. Rare to see paper photographs anymore, it must have meant a lot to the owner.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_ICAPersonalItem_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_ICAPersonalItem_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem1_Name",
+  "SourceString" : "Notes on Meteor Experiment - 1",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem1_Description",
+  "SourceString" : "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working \"Fireball generator would be revolutionary.\"",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem1_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem1_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem2_Name",
+  "SourceString" : "Notes on Meteor Experiment - 2",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem2_Description",
+  "SourceString" : "Data on the first prototype for \"Project Fireball\". Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\n\nFinal notes suggest switching resources to look into \"NiC\".",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem2_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_PowerPlantItem2_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OilPumpPart_Name",
+  "SourceString" : "Oil Pump Part",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OilPumpPart_Description",
+  "SourceString" : "One of the few remaining components from an old oil pump that still looks to be in working condition.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OilPumpPart_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OilPumpPart_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OldBones_Name",
+  "SourceString" : "Old Bones",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OldBones_Description",
+  "SourceString" : "Belonging to a long dead creature, damage has exposed metalic elements that seemed to have formed after death.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OldBones_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_OldBones_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_AlphaSkull_Name",
+  "SourceString" : "Warden Skull",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_AlphaSkull_Description",
+  "SourceString" : "The skull of a massive beast extinct before the colonization of Fortuna III. Parts of it seem to have unnatural grooves and geometric shapes.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_AlphaSkull_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_AlphaSkull_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_FlightRecorder_Name",
+  "SourceString" : "Flight Recorder",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_FlightRecorder_Description",
+  "SourceString" : "A cargo ship's flight recorder, only slightly damaged. Highly encrypted and beyond your suit's ability to access.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_FlightRecorder_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_FlightRecorder_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_Notebook_Name",
+  "SourceString" : "Old Notebook",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_Notebook_Description",
+  "SourceString" : "An Osiris researcher's notebook. It's seen better days. Full of formulas, drawings, and long paragraphs regarding the unnatural evolution and mutations of Fortuna III's fauna caused by Progenitor terraformers.",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_Notebook_Lore",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+},
+{
+  "Key" : "MissionItem_Notebook_Location",
+  "SourceString" : "",
+  "Comment" : "",
+  "" : ""
+}]

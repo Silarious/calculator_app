@@ -1,0 +1,440 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AiArmor_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YArmorDataTableRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "TestArmor": {
+        "m_armorAmount": 100,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "StriderHead"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {},
+        "m_rarity": "EYItemRarityType::Invalid",
+        "m_itemTags": [],
+        "m_itemMeshes": [],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "CultureInvariantString": null
+        },
+        "m_maxAmountPerStack": 0,
+        "m_startAmount": -1,
+        "m_durabilityMax": -1,
+        "m_durabilityBrokenPriceModifier": 1.0,
+        "m_repairCostMaxDurability": 100,
+        "m_repairCostBase": 100,
+        "m_repairCostModifierBroken": 100,
+        "m_metaUIItem": {
+          "display_name": {
+            "CultureInvariantString": null
+          },
+          "description": {
+            "CultureInvariantString": null
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::None",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 1.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Unassigned",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": false,
+        "m_overrideInteractionTime": 0.2,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 5,
+        "m_scrappingReturnDefault": 0,
+        "m_isBlueprint": false,
+        "m_overrideScrappingReturnsPerRarity": {},
+        "m_overrideScrappingReputationPerRarity": {},
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "TestArmor"
+      },
+      "Crusher": {
+        "m_armorAmount": 55,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Crusher_Armor"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {},
+        "m_rarity": "EYItemRarityType::Invalid",
+        "m_itemTags": [],
+        "m_itemMeshes": [],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "CultureInvariantString": null
+        },
+        "m_maxAmountPerStack": 0,
+        "m_startAmount": -1,
+        "m_durabilityMax": -1,
+        "m_durabilityBrokenPriceModifier": 1.0,
+        "m_repairCostMaxDurability": 100,
+        "m_repairCostBase": 100,
+        "m_repairCostModifierBroken": 100,
+        "m_metaUIItem": {
+          "display_name": {
+            "CultureInvariantString": null
+          },
+          "description": {
+            "CultureInvariantString": null
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::None",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 1.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Unassigned",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": false,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 5,
+        "m_scrappingReturnDefault": 0,
+        "m_isBlueprint": false,
+        "m_overrideScrappingReturnsPerRarity": {},
+        "m_overrideScrappingReputationPerRarity": {},
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Crusher"
+      },
+      "Crusher_2": {
+        "m_armorAmount": 65,
+        "m_armoredHitZones": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_HitZones",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_HitZones.0"
+            },
+            "RowName": "Crusher_Armor"
+          }
+        ],
+        "m_attributeModifiers": [],
+        "m_perks": [],
+        "m_rarityTypes": {},
+        "m_rarity": "EYItemRarityType::Invalid",
+        "m_itemTags": [],
+        "m_itemMeshes": [],
+        "m_itemVisOverride": {
+          "m_bpStartingRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "m_bpScale": 1.0,
+          "m_meshTranslation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "m_pickupClassOverride": null,
+        "m_scannableRowHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_largeIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_hudIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_name": {
+          "CultureInvariantString": null
+        },
+        "m_maxAmountPerStack": 0,
+        "m_startAmount": -1,
+        "m_durabilityMax": -1,
+        "m_durabilityBrokenPriceModifier": 1.0,
+        "m_repairCostMaxDurability": 100,
+        "m_repairCostBase": 100,
+        "m_repairCostModifierBroken": 100,
+        "m_metaUIItem": {
+          "display_name": {
+            "CultureInvariantString": null
+          },
+          "description": {
+            "CultureInvariantString": null
+          },
+          "flavor_text": {
+            "CultureInvariantString": null
+          }
+        },
+        "misc_type": "EYMiscellaneousType::Invalid",
+        "device_class": "EYDeviceClass::None",
+        "device_category": "EYDeviceCategory::AssaultRifle",
+        "ammo_type": "EYAmmoType::None",
+        "starter": false,
+        "modification_slots": [],
+        "vanity_type": "EYVanityType::None",
+        "compatible_item_IDs": [],
+        "compatible_item_type": [],
+        "compatible_device_class": [],
+        "compatible_device_category": [],
+        "compatible_ammo_type": [],
+        "itemWeight": 1.0,
+        "m_isDefaultEntry": false,
+        "slot": "EYDefaultItemSlot::Unassigned",
+        "default_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "default_secondary_vanity": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_shouldOverrideInteractionTime": false,
+        "m_overrideInteractionTime": -1.0,
+        "m_pickupWidgetOverride": null,
+        "m_blueprintIcon": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "m_itemShopsCraftingData": [],
+        "m_amountPerPurchase": 1,
+        "m_scrappingFactionProgressionIncrement": 5,
+        "m_scrappingReturnDefault": 0,
+        "m_isBlueprint": false,
+        "m_overrideScrappingReturnsPerRarity": {},
+        "m_overrideScrappingReputationPerRarity": {},
+        "m_unlockData": {
+          "m_shouldBeDisplayedAsEndOfChainReward": true,
+          "m_factionUnlockData": [],
+          "m_contractLockPurchase": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_contractLockCrafting": {
+            "DataTable": null,
+            "RowName": "None"
+          }
+        },
+        "m_collisionSpherePickUpOverride": 0.0,
+        "m_pickUpMeshVisualizationOverride": {
+          "m_mesh": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "m_materialOverride": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        "m_useCustomMeshRelativeTranslationOverride": false,
+        "m_meshRelativeTranslation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "m_meshRelativeRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "m_pickupMeshScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "m_rowName": "Crusher_2"
+      }
+    }
+  }
+]

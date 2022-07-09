@@ -33,6 +33,9 @@
        </script>
     </head>
     <body>
+        <div class="page-header-wrapper">
+            <div class="page-header"><span><p class="header-text" style="text-align:center;">The Cycle Frontier Weapons Calculator</p></span></div>
+        </div>
         <div class="hubBox">
             <div class="selection">
                 <select id="weaponSelection"></select>
@@ -40,50 +43,50 @@
             <div class="hubBoxInputs" id="modSelection">
                 <div class="selection" id = "SEL1">
                     <p>Magazine</p>
-                    <select name="SLOT1" id="SLOT1" size="7" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                    <select name="SLOT1" id="SLOT1" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL2">
                     <p>Ammo Converter</p>
-                    <select name="SLOT2" id="SLOT2" size="7" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                    <select name="SLOT2" id="SLOT2" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL3">
                     <p>Muzzle</p>
-                    <select name="SLOT3" id="SLOT3" size="7" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                    <select name="SLOT3" id="SLOT3" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL4">
                     <p>Optics/Scope</p>
-                    <select name="SLOT4" id="SLOT4" size="3" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                    <select name="SLOT4" id="SLOT4" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL5">
                     <p>Stock</p>
-                    <select name="SLOT5" id="SLOT5" size="7" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                    <select name="SLOT5" id="SLOT5" size="4" class="weaponStatInput mod_slot">
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL6">
                     <p>Foregrip</p>
                     <select name="SLOT6" id="SLOT6" size="4" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL7">
                     <p>Reargrip</p>
                     <select name="SLOT7" id="SLOT7" size="4" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
                 <div class="selection" id = "SEL8" style="display:none;">
                     <p>Tactical</p>
                     <select name="SLOT8" id="SLOT8" size="4" class="weaponStatInput mod_slot">
-                        <option id="Default" value="0" m_krypto="0">None</option>
+                        <option id="Default" value="0">None</option>
                     </select>
                 </div>
             </div>
@@ -93,7 +96,7 @@
                     <input id="accuracySlider" class="weaponStatInput accuracy" type="range" min="1" max="100" value="100" step="1" oninput="syncInput(this.value,'accuracyBox')">
                 </div>
                 <div class="inputContainer">
-                    <p class="inputText">Headshot %:<input id="headshotAccuracyBox" class="weaponStatInput headshotAccuracy" type="number" name="headshotAccuracy" value="0" min="0" max="100" oninput="syncInput(this.value,'headshotAccuracySlider')"></p>
+                    <p class="inputText">Head/Weakspot %:<input id="headshotAccuracyBox" class="weaponStatInput headshotAccuracy" type="number" name="headshotAccuracy" value="0" min="0" max="100" oninput="syncInput(this.value,'headshotAccuracySlider')"></p>
                     <input id="headshotAccuracySlider" class="weaponStatInput headshotAccuracy" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'headshotAccuracyBox')">
                 </div>
                 <div class="inputContainer">
@@ -104,11 +107,11 @@
                     <p class="inputText">Health:<input id="healthBox" class="hpStatInput ehpStatInput health" type="number" name="health" min="5" max="5000" value="100" step="5" oninput="syncInput(this.value,'healthSlider')"></p>
                     <input id="healthSlider" class="hpStatInput ehpStatInput health" type="range" min="5" max="5000" value="100" step="5" oninput="syncInput(this.value,'healthBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="inputContainer advancedStat">
                     <p class="inputText">Health Regen:<input id="healthRegenBox" class="weaponStatInput healthRegen" type="number" name="healthRegen" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'healthRegenSlider')"></p>
                     <input id="healthRegenSlider" class="weaponStatInput healthRegen" type="range" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'healthRegenBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="inputContainer advancedStat">
                     <p class="inputText">Regen Delay:<input id="regenDelayBox" class="weaponStatInput regenDelay" type="number" name="regenDelay" min="0" max="0" value="0" step="0.1" oninput="syncInput(this.value,'regenDelaySlider')"></p>
                     <input id="regenDelaySlider" class="weaponStatInput regenDelay" type="range" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'regenDelayBox')">
                 </div>
@@ -120,7 +123,7 @@
                     <p class="inputText">Body Armor:<input id="armorBox" class="armorStatInput ehpStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
                     <input id="armorSlider" class="armorStatInput ehpStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="inputContainer advancedStat">
                     <p class="inputText">Armor Constant:<input id="armorConstantBox" class="armorConstantStatInput ehpStatInput armorConstant" type="number" name="armorConstant" min="0" max="0.5" value="0.025" step="0.005" oninput="syncInput(this.value,'armorConstantSlider')"></p>
                     <input id="armorConstantSlider" class="armorConstantStatInput ehpStatInput armorConstant" type="range" min="0" max="0.5" value="0.025" step="0.005" oninput="syncInput(this.value,'armorConstantBox')">
                 </div>
@@ -187,7 +190,7 @@
             <div class="hubBoxStats">
             <table class="weaponStats">
                 <tbody><tr>
-                <th rowspan="2" id="thLogo"><div><img id="wpLogo" src="imgs/UI_Items_Weapons_Big_AR55.png"></div></th>
+                <th rowspan="2" id="thLogo"><div><img id="wpLogo" src="https://thecycle.wiki/apps/calculator/imgs/weapons/UI_Items_Weapons_Big_AR55.png"></div></th>
                 <th id="wpName" colspan="3" style="text-align:center; font-size:26px;">&nbsp</th>
                 </tr>
                 <tr>
@@ -316,7 +319,7 @@
                 </tr>
             </tbody>
         </table>
-        <button type="button" class="collapsible" title="Click to toggle Special Stats">Special Stats</button>
+        <button type="button" class="collapsible active" id="SpecialStats" title="Click to toggle Special Stats">Special Stats</button>
                 <table class="weaponStats">
                     <tbody>
                 <tr id="t-DPS">
@@ -352,7 +355,7 @@
             </tbody>
         </table>
         <button type="button" class="collapsible" title="Click to toggle Weapon Cost & Weight">Weapon Cost & Weight</button>
-                <table class="weaponStats">
+                <table class="weaponStats" id="Cost&WeightStats" style="display:none">
                     <tbody>
                 <tr id="t-totalCost">
                     <th class="statName">Total Cost</th>
@@ -367,7 +370,7 @@
                     <td class="diff"></td>
                 </tr>
                 <tr id="t-CPP">
-                    <th class="statName">Cost per Pound</th>
+                    <th class="statName">Value per Pound</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
@@ -384,10 +387,13 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
+                <tr colspan="4">
+                    <th colspan="4">Crafting Materials</th>
+                </tr>
             </tbody>
         </table>
-            <button type="button" class="collapsible" title="Click to toggle Armor Cost">Armor Cost</button>
-                <table class="weaponStats">
+            <button type="button" class="collapsible" id="ArmorCostStats" title="Click to toggle Armor Cost">Armor Cost</button>
+                <table class="weaponStats" style="display:none">
                     <tbody>
                 <tr id="ArmorCost">
                     <th class="statName">Total Cost</th>
@@ -411,8 +417,8 @@
                 </tr>
             </tbody>
         </table>
-            <button type="button" class="collapsible" title="Click to toggle Recoil Stats">Recoil Stats</button>
-                <table class="weaponStats">
+            <button type="button" class="collapsible" id="RecoilStats" title="Click to toggle Recoil Stats">Recoil Stats</button>
+                <table class="weaponStats" style="display:none">
                     <tbody>
                             <tr id="t-m_defaultWeaponSpread">
                                 <th class="statName">Default Spread</th>
@@ -447,11 +453,12 @@
                         </tbody>
                     </table>
                 </div>
-        </div>
-        
-        <div class="content">
-            <p>Lorem ipsum...</p>
-        </div>
-        
+                <div class="settingsBox"><input type="checkbox" id="advancedStatToggle" value="advanced">
+                    <label for="advancedStatToggle"> Advanced Mode</label></div>
+                
+        </div>     
+    <footer>
+        <div class="version-info">Game Version: 1.3.5</a><br> Calculator Build: 1.1<br> Last Update: July 8 2022<br> Author: ArtemusMaximus</div>
+    </footer>   
     </body>
 </html>
