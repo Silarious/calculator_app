@@ -36,28 +36,28 @@ body, select {
 /* Hub Box */
 .hubBox {
 	display: flex;
-	gap: 25px;
 	flex-wrap: wrap;
     align-items: flex-start;
     padding: 0px 4px;
     min-height: calc(100vh - 50px);
     height: max-content;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .hubBoxInputs {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .hubBoxStats {
-    display: flex;
-    flex-direction: column;
+    width: min-content;
+    margin: auto;
 }
 /* Selection */
 .selection {
     display:flex;
     flex-direction: column;
-    /*width: 220px;*/
 }
 .selection p {
     margin-top: 5px;
@@ -71,22 +71,37 @@ img{
     -ms-interpolation-mode:bicubic
 }
 img#wpLogo {
-    width: 170px;
+    width: 200px;
 }
 img.matLogo {
     height: 24px;
     margin-right: 4px;
 }
+div#weaponModSelection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h3 {
+    text-align: center;
+    margin: 20px 0px 4px 0px;
+}
+#sectionWrapper {
+    width: 100%;
+}
 #weaponSelection {
-    padding:5px;
     overflow-y: auto;
     scrollbar-width: none; /*For Firefox*/;
     -ms-overflow-style: none;  /*For Internet Explorer 10+*/;
-    min-width:14em;
+    width:200px;
 }
-#weaponSelection option {
+/* #weaponSelection option {
     padding: 2px;
-    font-size: 16px; 
+} */
+select {
+    padding: 4px;
 }
 select#monsterSelection,select#helmetSelection,select#shieldSelection,select#targetSelection {
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
@@ -100,14 +115,15 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
     width: 225px;
     gap: 10px;
 }
-#SLOT1,#SLOT2,#SLOT3,#SLOT4{
-    min-width:12em;
+#SLOT1,#SLOT2,#SLOT3,#SLOT4,#SLOT5,#SLOT6,#SLOT7,#SLOT8{
+    width:200px;
 }
 .inputContainer {
-    margin: 0px 0px 20px 0;
+    width: 200px;
 }
 .inputText {
     margin:0;
+    text-align: center;
 }
 .weaponStatInput[type=number],.ehpStatInput[type=number]{
     width: 5em;
@@ -128,7 +144,7 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
 td, th, tr {
     border: 1px solid var(--border-color);
     border-style: inset;
-    padding: 2px 8px;
+    padding: 2px 4px;
     min-width: 75px;
 }
 table {
@@ -150,7 +166,6 @@ th.statName {
 }
 th#wpName,th#thLogo,.statSections {
     border: 0px;
-    padding-top: 10px;
 }
 
 /* Collapsible Tables */
@@ -219,3 +234,14 @@ th#wpName,th#thLogo,.statSections {
    scrollbar-width:Thin;
    scrollbar-color:rgba(255,255,255,0.8) transparent;
 }
+/*Mobile Styling*/
+@media only screen and (max-width: 760px) {
+    .hubBoxInputs,div#weaponModSelection {
+        gap: 10%;
+    }
+    .selection p, .inputText {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+  }

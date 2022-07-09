@@ -151,7 +151,7 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 // Create Selection Boxes
 //Populate weapon selection list
 let weaponSelection = document.getElementById('weaponSelection');
-weaponSelection.size = weaponCodeNameList.length;
+//weaponSelection.size = weaponCodeNameList.length;
 for (let i = 0; i < weaponCodeNameList.length; i++) {
     let option = document.createElement("option");
     //option.text = eval(weaponCodeNameList[i] + '.m_rowName').replace("_01","") //Debug Mode
@@ -541,7 +541,7 @@ function calculateWeaponStats(Modded,Init){
     }
     //Crafting Stats
 
-    let table = document.getElementById("Cost&WeightStats");
+    let table = document.getElementById("CraftingStats");
     function extend (target) {
         for(var i=1; i<arguments.length; ++i) {
             var from = arguments[i];
@@ -603,8 +603,8 @@ function calculateWeaponStats(Modded,Init){
 
     var highAttributes = ["m_directDamage","adjustedDamage","totalDamage","m_penetration","m_radialDamage","m_directDamageFalloffMultiplier",
     "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
-    "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage"];
-    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","m_ammoCost","CPS","totalCost","totalWeight"];
+    "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage","m_weaponSpreadDecreaseSpeed"];
+    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","m_ammoCost","CPS","totalCost","totalWeight","recoilVertical","m_weaponSpreadIncreaseSpeed","m_weaponSpreadMax","m_defaultWeaponSpread"];
 
     for (let i = 0; i < highAttributes.length; i++) {
         markTopValues(highAttributes[i],true);
@@ -675,7 +675,7 @@ function populateWeaponStats() {
 }
 weaponSelection.addEventListener('change', populateWeaponStats);
 
-modSelection.addEventListener("change", calculateWeaponStats(true));
+weaponModSelection.addEventListener("change", calculateWeaponStats(true));
 
 //Listens for any input change and recalculates stats
 let lastInput = 0;
