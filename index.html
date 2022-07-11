@@ -24,8 +24,8 @@
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "5s59gzzg2k");
         </script>
-
-        <script type="module" src="/js/app.js"></script>
+        <!-- <script type="module" src="/js/app.js"></script> -->
+        <script type="module" src="https://thecycle.wiki/apps/calculator/js/app.js"></script>
         <script>
            function syncInput(value,id) {
                 eval("document.getElementById('" + id + "').value =" + value)
@@ -92,7 +92,7 @@
             <div id="sectionWrapper">
                 <h3>Select Target</h3>
                 <div class="hubBoxInputs" id="inputSliders">
-                    <div class="inputContainer">
+                    <div class="selection">
                         <p class="inputText">Target Type:
                             <select id="targetSelection" class="targetType dropdownInput" name="targets">
                                 <option id="Player" value="0">Player</option>
@@ -101,7 +101,7 @@
                             </select>
                         </p>
                     </div>
-                    <div class="inputContainer">
+                    <div class="selection">
                         <p class="inputText">Monster</p>
                             <select id="monsterSelection" class="monsterType dropdownInput" name="monsters">
                                 <option id="AI_None" value="none">None</option>
@@ -116,7 +116,7 @@
                                 <option id="AI_Crusher_2">Alpha Crusher</option>
                             </select>
                     </div>
-                    <div class="inputContainer">
+                    <div class="selection">
                         <p class="inputText">Helmet</p>
                         <select id="helmetSelection" class="helmetType dropdownInput gearSelection" name="helmet">
                             <option id="Helmet_None" value="none">None</option>
@@ -133,7 +133,7 @@
                             <option id="Helmet_NV_01">Helmet NV Legendary</option>
                         </select>
                     </div>
-                    <div class="inputContainer">
+                    <div class="selection">
                         <p class="inputText">Shield</p>
                         <select id="shieldSelection" class="shieldType dropdownInput gearSelection" name="shieldSelection">
                             <option id="Shield_None" value="none">None</option>
@@ -154,39 +154,39 @@
             <div id="sectionWrapper">
                 <h3>Set Target Info</h3>
             <div class="hubBoxInputs">
-                <div class="inputContainer">
+                <div class="selection">
                     <p class="inputText" style="text-align:left">Accuracy %<input id="accuracyBox" class="weaponStatInput accuracy" type="number" name="accuracy" value="100" min="1" max="100" oninput="syncInput(this.value,'accuracySlider')"></p>
                     <input id="accuracySlider" class="weaponStatInput accuracy" type="range" min="1" max="100" value="100" step="1" oninput="syncInput(this.value,'accuracyBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="selection">
                     <p class="inputText" style="text-align:left">Head/Weakspot %<input id="headshotAccuracyBox" class="weaponStatInput headshotAccuracy" type="number" name="headshotAccuracy" value="0" min="0" max="100" oninput="syncInput(this.value,'headshotAccuracySlider')"></p>
                     <input id="headshotAccuracySlider" class="weaponStatInput headshotAccuracy" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'headshotAccuracyBox')">
                 </div>
-                <div class="inputContainer">
-                    <p class="inputText" style="text-align:left">Distance (m)<input id="distanceBox" class="weaponStatInput distance" type="number" name="accuracy" value="10" min="0" max="100" step="0.1" oninput="syncInput(this.value,'distanceSlider')"></p>
-                    <input id="distanceSlider" class="weaponStatInput distance" type="range" min="0" max="100" value="10" step="0.1" oninput="syncInput(this.value,'distanceBox')">
+                <div class="selection">
+                    <p class="inputText" style="text-align:left">Distance (m)<input id="distanceBox" class="weaponStatInput distance" type="number" name="accuracy" value="10" min="1" max="100" step="0.1" oninput="syncInput(this.value,'distanceSlider')"></p>
+                    <input id="distanceSlider" class="weaponStatInput distance" type="range" min="1" max="100" value="10" step="0.1" oninput="syncInput(this.value,'distanceBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="selection">
                     <p class="inputText" style="text-align:left">Health<input id="healthBox" class="hpStatInput ehpStatInput health" type="number" name="health" min="5" max="5000" value="100" step="5" oninput="syncInput(this.value,'healthSlider')"></p>
                     <input id="healthSlider" class="hpStatInput ehpStatInput health" type="range" min="5" max="5000" value="100" step="5" oninput="syncInput(this.value,'healthBox')">
                 </div>
-                <div class="inputContainer advancedStat">
+                <div class="selection advancedStat">
                     <p class="inputText" style="text-align:left">Health Regen<input id="healthRegenBox" class="weaponStatInput healthRegen" type="number" name="healthRegen" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'healthRegenSlider')"></p>
                     <input id="healthRegenSlider" class="weaponStatInput healthRegen" type="range" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'healthRegenBox')">
                 </div>
-                <div class="inputContainer advancedStat">
+                <div class="selection advancedStat">
                     <p class="inputText" style="text-align:left">Regen Delay<input id="regenDelayBox" class="weaponStatInput regenDelay" type="number" name="regenDelay" min="0" max="0" value="0" step="0.1" oninput="syncInput(this.value,'regenDelaySlider')"></p>
                     <input id="regenDelaySlider" class="weaponStatInput regenDelay" type="range" min="0" max="100" value="0" step="0.1" oninput="syncInput(this.value,'regenDelayBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="selection">
                     <p class="inputText" style="text-align:left">Helmet Armor<input id="helmetArmorBox" class="armorStatInput ehpStatInput helmetArmor" type="number" name="helmetArmor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'helmetArmorSlider')"></p>
                     <input id="helmetArmorSlider" class="armorStatInput ehpStatInput helmetArmor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'helmetArmorBox')">
                 </div>
-                <div class="inputContainer">
+                <div class="selection">
                     <p class="inputText" style="text-align:left">Body Armor<input id="armorBox" class="armorStatInput ehpStatInput armor" type="number" name="armor" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorSlider')"></p>
                     <input id="armorSlider" class="armorStatInput ehpStatInput armor" type="range" min="0" max="100" value="0" step="1" oninput="syncInput(this.value,'armorBox')">
                 </div>
-                <div class="inputContainer advancedStat">
+                <div class="selection advancedStat">
                     <p class="inputText" style="text-align:left">Armor Constant<input id="armorConstantBox" class="armorConstantStatInput ehpStatInput armorConstant" type="number" name="armorConstant" min="0" max="0.5" value="0.025" step="0.005" oninput="syncInput(this.value,'armorConstantSlider')"></p>
                     <input id="armorConstantSlider" class="armorConstantStatInput ehpStatInput armorConstant" type="range" min="0" max="0.5" value="0.025" step="0.005" oninput="syncInput(this.value,'armorConstantBox')">
                 </div>
@@ -205,12 +205,12 @@
                     <th>Difference</th>
                 </tr>
                 <tr id="t-m_directDamage">
-                    <th class="statName">Direct Damage</th>
+                    <th class="statName">Damage per Bullet</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="t-adjustedDamage">
+                <tr id="t-adjustedDamage" class="advancedStat">
                     <th class="statName">Penetration Adjusted Damage</th>
                     <td class="default"></td>
                     <td class="mod"></td>
@@ -228,8 +228,20 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
+                <tr id="t-m_amountOfImmediateFires">
+                    <th class="statName">Bullets per Shot</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
                 <tr id="t-totalDamage">
-                    <th class="statName">Total Damage</th>
+                    <th class="statName">Total Damage per Shot</th>
+                    <td class="default"></td>
+                    <td class="mod"></td>
+                    <td class="diff"></td>
+                </tr>
+                <tr id="t-adjustedTotalDamage" class="advancedStat">
+                    <th class="statName">Pen Adjusted Total Damage</th>
                     <td class="default"></td>
                     <td class="mod"></td>
                     <td class="diff"></td>
@@ -240,7 +252,7 @@
                     <td class="mod"></td>
                     <td class="diff"></td>
                 </tr>
-                <tr id="t-adjustedCritDamage">
+                <tr id="t-adjustedCritDamage" class="advancedStat">
                     <th class="statName">Penetration Adjusted Crit</th>
                     <td class="default"></td>
                     <td class="mod"></td>
@@ -470,7 +482,7 @@
                 
         </div>     
     <footer>
-        <div class="version-info">Game Version: 1.3.5</a><br> Calculator Build: 1.1<br> Last Update: July 8 2022<br> Author: ArtemusMaximus</div>
+        <div class="version-info">Game Version: 1.3.5</a><br> Calculator Build: 1.2<br> Last Update: July 10 2022<br> Author: ArtemusMaximus</div>
     </footer>   
     </body>
 </html>

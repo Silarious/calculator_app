@@ -261,11 +261,11 @@ for (let key in WP_A_AR_Bullet_01){
 };
 
 //Array of attributes that there is a table cell for in index.html
-var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier", "m_penetration",
+var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier", "m_penetration","m_amountOfImmediateFires",
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
 "m_reloadTime","m_equipTime","m_targetingTime","m_detectionRange","m_initialProjectileSpeed","m_defaultWeaponSpread","m_weaponSpreadMax","m_weaponSpreadIncreaseSpeed","m_weaponSpreadDecreaseSpeed"];
 //Same as visAttributes but for "Detailed Stats" section
-var calcAttributes = ["adjustedDamage","totalDamage","headshotDamage","adjustedCritDamage","DPS","RPM","damagePerMag","shotsToKill","TTK","totalCost","m_ammoCost","totalWeight","CPS","CPP","recoilVertical"];
+var calcAttributes = ["adjustedDamage","totalDamage","adjustedTotalDamage","headshotDamage","adjustedCritDamage","DPS","RPM","damagePerMag","shotsToKill","TTK","totalCost","m_ammoCost","totalWeight","CPS","CPP","recoilVertical"];
 
 
 function calculateWeaponStats(Modded,Init){
@@ -276,6 +276,7 @@ function calculateWeaponStats(Modded,Init){
     let headshotAccuracy = parseFloat(document.getElementById('headshotAccuracySlider').value/100);
     let headshotaccuracy2 = accuracy * headshotAccuracy;
     let accuracy2 = accuracy - headshotaccuracy2;
+    let pelletsHit = wep.m_amountOfImmediateFires * accuracy;
     let targetRange = parseFloat(document.getElementById('distanceSlider').value);
     let tt = document.getElementById("targetSelection");
     let targetType = tt.options[tt.selectedIndex].getAttribute('id');
@@ -421,7 +422,7 @@ function calculateWeaponStats(Modded,Init){
     } else {
         damageScale = penMulti;
     }
-    let adjustedDamage = (m_directDamage * damageScale).toFixed(3);
+    
 
     let remainder2 = m_penetration - helmetArmor;
     let penMulti2 = health/(health + Math.abs(remainder2) * armorConstant * health);
@@ -454,31 +455,33 @@ function calculateWeaponStats(Modded,Init){
     } else {
         rangeMulti = targetMulti;
     } 
+    m_directDamage *= rangeMulti;
 
     switch(targetType) {
-        case "Monster": m_directDamage = ((m_directDamage * rangeMulti) * m_directDamageEnemyMultiplier).toFixed(3); break;
-        default: m_directDamage = ((m_directDamage * rangeMulti) * m_directDamagePlayerMultiplier).toFixed(3); break;
+        case "Monster": m_directDamage = m_directDamage * m_directDamageEnemyMultiplier.toFixed(3); break;
+        default: m_directDamage = m_directDamage * m_directDamagePlayerMultiplier.toFixed(3); break;
     }
-
-    let totalDamage = (((m_directDamage * rangeMulti) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
-    let headshotDamage = ((((m_directDamage * rangeMulti) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
-    let adjustedCritDamage = (((((m_directDamage * damageScale2) * rangeMulti) * m_amountOfImmediateFires) * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
+    let adjustedDamage = (((m_directDamage * damageScale))+ m_radialDamage).toFixed(3);
+    let totalDamage = ((m_directDamage + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
+    let adjustedTotalDamage = (((m_directDamage * damageScale) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
+    let headshotDamage = ((m_directDamage * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
+    let adjustedCritDamage = (((m_directDamage * damageScale2) * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
 
     m_ammoInClip = Math.round(m_ammoInClip);
     
     if (Number(m_amountOfBurst) > Number(0)) {
-        var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * (adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
+        var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * ((adjustedDamage * pelletsHit) + m_radialDamage) * accuracy2 + ((adjustedCritDamage * pelletsHit) + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
     } else {
-        var DPS = (((1 / m_refireTime) * accuracy) * ((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2)).toFixed(2);
+        var DPS = (((1 / m_refireTime) * accuracy) * (((adjustedDamage * pelletsHit) + m_radialDamage) * accuracy2 + ((adjustedCritDamage * pelletsHit) + m_radialDamage) * headshotaccuracy2)).toFixed(2);
     }
     let RPM = ((60/m_refireTime)*accuracy).toFixed(0);
-    let shotsToKill = (Math.ceil(health / ((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2))).toFixed(0);
+    let shotsToKill = Math.ceil((health / ((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2))/m_amountOfImmediateFires);
 
     let numOfReload = Math.floor(shotsToKill / (m_ammoInClip + 1));
 
     if (numOfReload > 0 && m_reloadTime > regenDelay && healthRegen > 0) {
         health += (m_reloadTime - regenDelay) * healthRegen;
-        shotsToKill = (Math.ceil(health / ((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2))).toFixed(0);
+        shotsToKill = ((Math.ceil(health / ((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2)))).toFixed(0);
     }
 
     if (Number(m_amountOfBurst) > Number(0)) {
@@ -490,7 +493,7 @@ function calculateWeaponStats(Modded,Init){
     let reloadTime = Math.abs(numOfReload * m_reloadTime);
     let spinupTime = Math.abs((numOfReload + 1) * m_spinupTime);
     let TTK = (shootingTime + reloadTime + spinupTime).toFixed(3);
-    let damagePerMag = (((adjustedDamage + m_radialDamage) * accuracy2 + (adjustedCritDamage + m_radialDamage) * headshotaccuracy2) * m_ammoInClip).toFixed(0);
+    let damagePerMag = ((((adjustedDamage * pelletsHit) + m_radialDamage) * accuracy2 + ((adjustedCritDamage * pelletsHit) + m_radialDamage) * headshotaccuracy2) * m_ammoInClip).toFixed(0);
 
     document.getElementById("wpName").innerHTML = wep.m_vanityName;
 
@@ -601,7 +604,7 @@ function calculateWeaponStats(Modded,Init){
         eval("document.querySelector('#t-" + calcAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML).toFixed(3);");
     };
 
-    var highAttributes = ["m_directDamage","adjustedDamage","totalDamage","m_penetration","m_radialDamage","m_directDamageFalloffMultiplier",
+    var highAttributes = ["m_directDamage","adjustedDamage","totalDamage","adjustedTotalDamage","m_penetration","m_amountOfImmediateFires","m_radialDamage","m_directDamageFalloffMultiplier",
     "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
     "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage","m_weaponSpreadDecreaseSpeed"];
     var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","m_ammoCost","CPS","totalCost","totalWeight","recoilVertical","m_weaponSpreadIncreaseSpeed","m_weaponSpreadMax","m_defaultWeaponSpread"];
@@ -860,7 +863,7 @@ for (let i = 0; i < collapsible.length; i++) {
 let advancedMode = document.getElementById("advancedStatToggle");
 advancedMode.addEventListener("click", function() {
     if(advancedMode.checked){
-        root.style.setProperty("--advanced-mode", `block`);
+        root.style.setProperty("--advanced-mode", `table-row`);
     } else {
         root.style.setProperty("--advanced-mode", `none`);
     }
@@ -872,3 +875,11 @@ advancedMode.addEventListener("click", function() {
 console.log(Mods.Mod_Optic_2x_01); 
 console.log(WP_A_Sniper_Gauss_01.materials); */
 
+//TODO Global list
+/*
+Hide stats like bullets per shot, spinup time, etc for weapons where mods dont use or change the stat.
+Change calculateWeaponStats() to only include weapon stats, remove crafting, cost and other stats that change with sliders or mods.
+
+
+
+*/
