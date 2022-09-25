@@ -1,2 +1,9 @@
 
 .vscode/settings.json
+.vscode/launch.json
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/ProjectSettings.json
+.vs/calculator_app/v16/.suo
+.vs/calculator_app/config/applicationhost.config
+js/Test.js

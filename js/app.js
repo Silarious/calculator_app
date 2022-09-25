@@ -1,11 +1,16 @@
-"use strict"; //! JS Scrict Mode
+"use strict"; //! JS Strict Mode
+
 // Import JS Files
 import { load_JSON } from "./loadData.js";
-
+//const data = require('./DATA_JSON/PRO_Tuning.json');
 //Global Variables
 var date = new Date();
 var slots = ["SLOT1","SLOT2","SLOT3","SLOT4","SLOT5","SLOT6","SLOT7","SLOT8"];
 var rarities = ["Common","Uncommon","Rare","Epic","Exotic","Legendary"];
+var highAttributes = ["m_directDamage","adjustedDamage","totalDamage","adjustedTotalDamage","m_penetration","m_amountOfImmediateFires","m_radialDamage","m_directDamageFalloffMultiplier",
+    "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
+    "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage","m_weaponSpreadDecreaseSpeed"];
+var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","ammoCost","CPS","totalCost","totalWeight","recoilVertical","m_weaponSpreadIncreaseSpeed","m_weaponSpreadMax","m_defaultWeaponSpread"];
 var targetSelection = document.getElementById('targetSelection');
 var monsterSelection = document.getElementById('monsterSelection');
 var helmetSelection = document.getElementById('helmetSelection');
@@ -29,8 +34,8 @@ const weaponCodeNameList = [];
 for (let key in Weapons) { // Only show objects that pass the filter for the weapon name.
     let m_weaponName = Weapons[key].m_weaponName;
     (m_weaponName.hasOwnProperty('Key') === true // Ternary Operator
-    && key.includes('WP') 
-    && !key.includes('Exotic') 
+    && key.includes('WP')
+    && !key.includes('Exotic')
     && !key.includes('HVY_Shell')
     && !key.includes('Launch_Nade')
     && !key.includes('Event')
@@ -40,7 +45,7 @@ for (let key in Weapons) { // Only show objects that pass the filter for the wea
 } //TODO: replace all includes/filters with REGEX.
 
 //! MUST FIND DYNAMIC WAY TO EXECUTE THE FOLLOWING
-// Object Deconstructing all the correct weapon entries from PRO_Tuning and storing in variable of the same weapon name.
+// Object De-constructing all the correct weapon entries from PRO_Tuning and storing in variable of the same weapon name.
 
 const {WP_G_Pistol_Energy_01, WP_G_SMG_Needle_01, WP_A_AR_Bullet_01, WP_G_AR_Energy_01, WP_D_AR_Bullet_01, WP_D_Sniper_Gauss_01, WP_A_BR_Bullet_01, WP_D_SMG_Energy_01, WP_D_SGun_Shard_01, WP_A_Launch_MSL_01, WP_G_HVY_Beam_01, WP_A_Pistol_Bullet_01, WP_D_Pistol_Bullet_01, WP_E_Pistol_Bullet_01, WP_E_BR_Bullet_01, WP_E_SMG_Bullet_01, WP_D_HVY_Exotic_01, WP_G_Sniper_Energy_01, WP_A_Sniper_Gauss_01, WP_D_BR_Shard_01, WP_G_AR_Beam_01, WP_A_SGun_Energy_01, WP_G_AR_Needle_01, WP_A_SMG_Shard_01, WP_A_LMG_Needle_01, WP_D_LMG_Energy_01, WP_E_AR_Energy_01, WP_E_SGun_Bullet_01, WP_E_Sniper_Bullet_01,WP_E_Pistol_Bullet_01_scrappy,WP_E_SGun_Bullet_01_scrappy,WP_E_SMG_Bullet_01_scrappy,WP_E_AR_Energy_01_scrappy} = Tuning
 //TODO: The above is a static way and will be obsolete to changes in the data.
@@ -75,13 +80,13 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 }
 
 const weaponVanityName = ST_Weapons.filter(function(weapon) {
-    return weapon.Key.includes('Name') 
-    && weapon.Key.includes('WP') 
-    && !weapon.Key.includes('Exotic') 
+    return weapon.Key.includes('Name')
+    && weapon.Key.includes('WP')
+    && !weapon.Key.includes('Exotic')
     && !weapon.Key.includes('HVY_Shell')
     && !weapon.Key.includes('Launch_Nade')
     && !weapon.Key.includes('Event')
-}); //TODO: replace all includes/filters with REGEX. 
+}); //TODO: replace all includes/filters with REGEX.
 
 for (let y = 0; y < weaponVanityName.length; y++) {
     for (let x = 0; x < weaponCodeNameList.length; x++) {
@@ -93,7 +98,7 @@ for (let y = 0; y < weaponVanityName.length; y++) {
     }
 }
 
-// Weapons Protectile Import
+// Weapons Projectile Import
 //Appending useful information from PRO_Transport to weapon variables.
 for (let i = 0; i < weaponCodeNameList.length; i++) {
     let transportName = eval( weaponCodeNameList[i] + '.m_transportName');
@@ -105,20 +110,20 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
     eval(weaponCodeNameList[i]+'.m_gravityScale' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_gravityScale;');
     eval(weaponCodeNameList[i]+'.m_collisionRadius' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_collisionRadius;');
     eval(weaponCodeNameList[i]+'.m_bounce' + '='+ 'Transport' + '.' + transportName + '.m_projectileData.m_bounce;');
-} 
+}
 
 // Weapon Mods Import
 const modCodeNameList = [];
- for (let key in Mods) { // Only show objects that pass the filter for the weapon name.
+for (let key in Mods) { // Only show objects that pass the filter for the weapon name.
     if (key.startsWith('Mod')  === true){
         for (let i = 0; i < ST_Mods.length; i++) {
             if (Mods[key].m_name.Key === ST_Mods[i].Key) {
                 Mods[key].vanityName = ST_Mods[i].SourceString;
             }
         }
-        modCodeNameList.push(Mods[key].m_rowName); 
+        modCodeNameList.push(Mods[key].m_rowName);
     }
-} 
+}
 for (let key in Mods) {
     if (key.startsWith('Mod')  === true){
         Mods[key].attributeMods = Mods[key].m_defaultModInstanceData.m_attributeMods;
@@ -161,21 +166,21 @@ for (let i = 0; i < weaponCodeNameList.length; i++) {
 }
 
 //Sort selection alphabetically
- function sortSelection(ID){
-  let sel = document.getElementById(ID);
-  let ary = (function(nl) {
-    let a = [];
-    for (let i = 0, len = nl.length; i < len; i++)
-      a.push(nl.item(i));
-    return a;
-  })(sel.options);
-  ary.sort(function(a,b){
-    return a.text < b.text ? -1 : a.text > b.text ? 1 : 0;
-  });
-  for (let i = 0, len = ary.length; i < len; i++)
-    sel.remove(ary[i].index);
-  for (let i = 0, len = ary.length; i < len; i++)
-    sel.add(ary[i], null);
+function sortSelection(ID) {
+    let sel = document.getElementById(ID);
+    let ary = (function (nl) {
+        let a = [];
+        for (let i = 0, len = nl.length; i < len; i++)
+            a.push(nl.item(i));
+        return a;
+    })(sel.options);
+    ary.sort(function (a, b) {
+        return a.text < b.text ? -1 : a.text > b.text ? 1 : 0;
+    });
+    for (let i = 0, len = ary.length; i < len; i++)
+        sel.remove(ary[i].index);
+    for (let i = 0, len = ary.length; i < len; i++)
+        sel.add(ary[i], null);
 };
 sortSelection('weaponSelection');
 
@@ -201,13 +206,13 @@ function updateWeaponSelection () {
                     case "EYModificationSlotType::Optics": slotSwitch = 3; break;
                     case "EYModificationSlotType::Stock": slotSwitch = 4; break;
                     default: slotSwitch = 7; break;
-                } 
+                }
                     let option = document.createElement("option");
                     //option.text = key; //Debug Mode
                     option.text = Mods[key].vanityName + Mods[key].m_rarity.replace("EYItemRarityType::"," ");
                     option.id = key;
                     document.getElementById(slots[slotSwitch]).add(option);
-            } 
+            }
         }
         if (Mods[key].m_modType.includes("Grip") && key !== "NoGrip") {
                 let slotSwitch;
@@ -216,7 +221,7 @@ function updateWeaponSelection () {
                     case "EYModificationSlotType::RearGrip": slotSwitch = 6; break;
                     case "EYModificationSlotType::Tactical": slotSwitch = 7; break;
                     default: slotSwitch = 7; break;
-                } 
+                }
                 let option = document.createElement("option");
                 //option.text = key; //Debug Mode
                 option.text = Mods[key].vanityName + Mods[key].m_rarity.replace("EYItemRarityType::"," ");
@@ -227,7 +232,7 @@ function updateWeaponSelection () {
 }
 
 function clearSelection(target,text,id) {
-    while (target.options.length) {target.remove(0);}	
+    while (target.options.length) {target.remove(0);}
     let option = document.createElement("option");
     option.text = text;
     option.id = id;
@@ -235,23 +240,23 @@ function clearSelection(target,text,id) {
     target.add(option);
 }
 
-function parameterAdjustment(w_parameterValue, w_modifierType, w_modifierValue){
+function parameterAdjustment(w_parameterValue, w_modifierType, w_modifierValue) {
     var result;
     switch (w_modifierType) {
-      case 'Additive':
-        result = Number(w_parameterValue + w_modifierValue);
-        break;
-      case 'Multiplicitive_PreAdd':
-        result = Number(w_parameterValue * w_modifierValue);
-        break;
-      case 'Multiplicitive_PostAdd':
-        result = Number(w_parameterValue * w_modifierValue);
-        break;
-      case 'Override':
-        result = Number(w_modifierValue);
+        case 'Additive':
+            result = Number(w_parameterValue + w_modifierValue);
+            break;
+        case 'Multiplicitive_PreAdd':
+            result = Number(w_parameterValue * w_modifierValue);
+            break;
+        case 'Multiplicitive_PostAdd':
+            result = Number(w_parameterValue * w_modifierValue);
+            break;
+        case 'Override':
+            result = Number(w_modifierValue);
     }
     return result;
-  }
+}
 
 
 //Add each weapon attribute to array, this array is used for dyanamic varible declaration
@@ -263,12 +268,14 @@ for (let key in WP_A_AR_Bullet_01){
 //Array of attributes that there is a table cell for in index.html
 var visAttributes = ["m_directDamage","m_radialDamage","m_directDamageFalloffMultiplier", "m_penetration","m_amountOfImmediateFires",
 "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed","m_spinupTime","m_refireTime",
-"m_reloadTime","m_equipTime","m_targetingTime","m_detectionRange","m_initialProjectileSpeed","m_defaultWeaponSpread","m_weaponSpreadMax","m_weaponSpreadIncreaseSpeed","m_weaponSpreadDecreaseSpeed"];
+"m_reloadTime","m_equipTime","m_targetingTime","m_detectionRange","m_initialProjectileSpeed","m_defaultWeaponSpread","m_weaponSpreadMax",
+"m_weaponSpreadIncreaseSpeed","m_weaponSpreadDecreaseSpeed","adjustedDamage","totalDamage","adjustedTotalDamage","headshotDamage","adjustedCritDamage",
+"DPS","RPM","damagePerMag","shotsToKill","TTK","recoilVertical","ammoCost","totalCost"];
 //Same as visAttributes but for "Detailed Stats" section
-var calcAttributes = ["adjustedDamage","totalDamage","adjustedTotalDamage","headshotDamage","adjustedCritDamage","DPS","RPM","damagePerMag","shotsToKill","TTK","totalCost","m_ammoCost","totalWeight","CPS","CPP","recoilVertical"];
+var newWeaponAttributes = ["totalWeight","CPS","CPP"];
 
 
-function calculateWeaponStats(Modded,Init){
+function calculateWeaponStats(newWeapon,isModded){
     let wep = eval(weaponSelection.options[weaponSelection.selectedIndex].id);
 
     //Query user input and declare them.
@@ -287,16 +294,18 @@ function calculateWeaponStats(Modded,Init){
     let armor = parseInt(document.getElementById('armorSlider').value);
     let armorConstant = document.getElementById('armorConstantSlider').value;
     let totalWeight = 0;
+
+    let modCost = 0;
+    let wepCost = wep.itemCost;
     let totalCost = 0;
+    totalCost += wepCost;
 
 
     if (wep.m_maxTraceDistance > 10000) {
-        document.getElementById('distanceSlider').max = wep.m_maxTraceDistance/1000;   
+        document.getElementById('distanceSlider').max = wep.m_maxTraceDistance/1000;
     } else {
         document.getElementById('distanceSlider').max = wep.m_maxTraceDistance/100;
     }
-    
-
 
     //Declaring values for chain reaction variables to bypass errors with empty values when displaying stats.
     let m_chainReactionRadius = 0.0;
@@ -306,7 +315,7 @@ function calculateWeaponStats(Modded,Init){
     for (let i = 0; i < attributes.length; i++) {
         window[attributes[i]] = eval("wep." + attributes[i]);
     };
-    if (Modded === true) {
+    if (isModded === true) {
         var modMaterials = {};
         for (let i = 0; i < slots.length; i++) {
             let mod = eval("document.querySelector('#"+slots[i]+"').selectedOptions[0].id");
@@ -316,6 +325,7 @@ function calculateWeaponStats(Modded,Init){
             for (let x = 0; x < rarities.length; x++) {
                 if (eval("Mods." + mod +".m_itemShopsCraftingData[0]") != undefined && eval("Mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"']") != undefined) {
                     let m_itemRecipeIngredients = eval("Mods." + mod +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients")
+                    eval("modCost +=" + m_itemRecipeIngredients[0].m_costAmount)
                     eval("totalCost +=" + m_itemRecipeIngredients[0].m_costAmount)
                     if(m_itemRecipeIngredients.length > 1){
                         for (let y = 1; y < m_itemRecipeIngredients.length; y++){
@@ -324,11 +334,10 @@ function calculateWeaponStats(Modded,Init){
                             } else {
                                 eval("modMaterials."+ m_itemRecipeIngredients[y].m_costType.RowName +"=" + m_itemRecipeIngredients[y].m_costAmount);
                             }
-                            
                         }
                     }
                 }
-            }            
+            }
             modAttributes.forEach(function(mod) {
                 let attribute = mod.m_attribute.split(":")[2];
                 let type = mod.m_modifierType.split(":")[2];
@@ -338,8 +347,8 @@ function calculateWeaponStats(Modded,Init){
                 switch(attribute){
                     // Damage Variables
                     case "DamageScalingDealtAgainstPlayers": attribute = "m_directDamagePlayerMultiplier" ; break;
-                    case "DamageScalingDealtAgainstAI": attribute = "m_directDamageEnemyMultiplier" ; break;   
-                    case "DamageEnemyMultiplier": attribute = "m_directDamageEnemyMultiplier" ; break;             
+                    case "DamageScalingDealtAgainstAI": attribute = "m_directDamageEnemyMultiplier" ; break;
+                    case "DamageEnemyMultiplier": attribute = "m_directDamageEnemyMultiplier" ; break;
                     case "WeaponDamageDirect": attribute = "m_directDamage" ; break;
                     case "WeaponDamage": attribute = "m_directDamage" ; break;
                     case "WeaponPenetration": attribute = "m_penetration" ; break;
@@ -406,7 +415,7 @@ function calculateWeaponStats(Modded,Init){
                 } */
             });
             };
-            
+
         };
     };
 
@@ -422,7 +431,7 @@ function calculateWeaponStats(Modded,Init){
     } else {
         damageScale = penMulti;
     }
-    
+
 
     let remainder2 = m_penetration - helmetArmor;
     let penMulti2 = health/(health + Math.abs(remainder2) * armorConstant * health);
@@ -436,7 +445,7 @@ function calculateWeaponStats(Modded,Init){
     } else {
         damageScale2 = penMulti2;
     }
-    
+
 
     if (rangeMultiplier < 10){
         m_directDamageFalloffStartRange = ((m_directDamageFalloffStartRange * rangeMultiplier)/100).toFixed(0);
@@ -454,21 +463,21 @@ function calculateWeaponStats(Modded,Init){
         rangeMulti = 1;
     } else {
         rangeMulti = targetMulti;
-    } 
-    m_directDamage *= rangeMulti;
+    }
+    let directDamage = (m_directDamage * rangeMulti).toFixed(3);
 
     switch(targetType) {
         case "Monster": m_directDamage = m_directDamage * m_directDamageEnemyMultiplier.toFixed(3); break;
         default: m_directDamage = m_directDamage * m_directDamagePlayerMultiplier.toFixed(3); break;
     }
-    let adjustedDamage = (((m_directDamage * damageScale))+ m_radialDamage).toFixed(3);
+    let adjustedDamage = (((directDamage * damageScale))+ m_radialDamage).toFixed(3);
     let totalDamage = ((m_directDamage + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
-    let adjustedTotalDamage = (((m_directDamage * damageScale) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
+    let adjustedTotalDamage = (((directDamage * damageScale) + m_radialDamage) * m_amountOfImmediateFires).toFixed(1);
     let headshotDamage = ((m_directDamage * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
-    let adjustedCritDamage = (((m_directDamage * damageScale2) * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
+    let adjustedCritDamage = (((directDamage * damageScale2) * m_weakAreaDamageMultiplier)+ m_radialDamage).toFixed(1);
 
     m_ammoInClip = Math.round(m_ammoInClip);
-    
+
     if (Number(m_amountOfBurst) > Number(0)) {
         var DPS = (((1 / (m_refireTime + (m_burstInterval * (m_amountOfBurst + 1))) * accuracy) * ((adjustedDamage * pelletsHit) + m_radialDamage) * accuracy2 + ((adjustedCritDamage * pelletsHit) + m_radialDamage) * headshotaccuracy2) * (m_amountOfBurst + 1)).toFixed(2);
     } else {
@@ -498,8 +507,14 @@ function calculateWeaponStats(Modded,Init){
     document.getElementById("wpName").innerHTML = wep.m_vanityName;
 
     document.getElementById("t-m_transportType").innerHTML = m_transportType;
+    document.getElementById("t-wepCost").innerHTML = wepCost;
 
-    //Cost & Weight Calculations 
+    //Recoil Stats
+    if(recoilVertical != 0) {
+        recoilVertical = (m_minRecoilY * recoilVertical).toFixed(2);
+    }
+
+    //Cost & Weight Calculations
     const PRO_AmmoCost = [
         {
             "Light": {
@@ -524,24 +539,22 @@ function calculateWeaponStats(Modded,Init){
             },
         }
     ]
+
     let m_ammoType = wep.m_ammoTypeToUse.RowName;
-    let m_ammoCost;
-    let m_ammoAmount;
-    eval("m_ammoCost = PRO_AmmoCost[0]."+m_ammoType+".cost");
-    eval("m_ammoAmount = PRO_AmmoCost[0]."+m_ammoType+".amount");
 
-    let CPS = ((m_ammoCost / m_ammoAmount) / m_refireTime).toFixed(2);
-    m_ammoCost = ((m_ammoCost / m_ammoAmount) * shotsToKill).toFixed(2);
+    let ammoCost;
+    let ammoAmount;
+    eval("ammoCost = PRO_AmmoCost[0]."+m_ammoType+".cost");
+    eval("ammoAmount = PRO_AmmoCost[0]."+m_ammoType+".amount");
 
+    ammoCost = ((ammoCost / ammoAmount) * shotsToKill).toFixed(2);
+
+    if (newWeapon === true || isModded === true){
+    var CPS = ((ammoCost / ammoAmount) / m_refireTime).toFixed(2);
     totalWeight += wep.itemWeight;
-    totalCost += wep.itemCost;
+    var CPP = (totalCost / totalWeight).toFixed(2);
 
-    let CPP = (totalCost / totalWeight).toFixed(2);
 
-    //Recoil Stats
-    if(recoilVertical != 0) {
-        recoilVertical = (m_minRecoilY * recoilVertical).toFixed(2);
-    }
     //Crafting Stats
 
     let table = document.getElementById("CraftingStats");
@@ -587,27 +600,23 @@ function calculateWeaponStats(Modded,Init){
                 cell2.innerHTML = eval("totalMaterials." + materialCodeNameList[i])
                 cell2.colSpan = "3";
                 cell2.style.textAlign = "center";
-            } 
-        } 
-    } 
-    
-
+            }
+        }
+    }
+    }
     //Populate Table with unmodded stats
     for (let i = 0; i < visAttributes.length; i++) {
-        if (Modded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = " + visAttributes[i] + ";");};
+        if (isModded === true) {}else{eval("document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML = " + visAttributes[i] + ";");};
         eval("document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML = " + visAttributes[i] + ";");
         eval("document.querySelector('#t-" + visAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + visAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + visAttributes[i] + " .default').innerHTML).toFixed(3);");
     };
-    for (let i = 0; i < calcAttributes.length; i++) {
-        if (Modded === true) {}else{eval("document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML =" + calcAttributes[i] + ";");};
-        eval("document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML =" + calcAttributes[i] + ";");
-        eval("document.querySelector('#t-" + calcAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + calcAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + calcAttributes[i] + " .default').innerHTML).toFixed(3);");
+    if(newWeapon === true){
+    for (let i = 0; i < newWeaponAttributes.length; i++) {
+        if (isModded === true) {}else{eval("document.querySelector('#t-" + newWeaponAttributes[i] + " .default').innerHTML =" + newWeaponAttributes[i] + ";");};
+        eval("document.querySelector('#t-" + newWeaponAttributes[i] + " .mod').innerHTML =" + newWeaponAttributes[i] + ";");
+        eval("document.querySelector('#t-" + newWeaponAttributes[i] + " .diff').innerHTML = Number(document.querySelector('#t-" + newWeaponAttributes[i] + " .mod').innerHTML - document.querySelector('#t-" + newWeaponAttributes[i] + " .default').innerHTML).toFixed(3);");
     };
-
-    var highAttributes = ["m_directDamage","adjustedDamage","totalDamage","adjustedTotalDamage","m_penetration","m_amountOfImmediateFires","m_radialDamage","m_directDamageFalloffMultiplier",
-    "m_directDamageFalloffStartRange","m_directDamageFalloffEndRange","m_ammoInClip","m_movementSpeed",
-    "m_initialProjectileSpeed","DPS","RPM","damagePerMag","headshotDamage","m_weaponSpreadDecreaseSpeed"];
-    var lowAttributes = ["m_detectionRange","m_spinupTime","m_refireTime","m_reloadTime","m_equipTime","m_targetingTime","shotsToKill","TTK","m_ammoCost","CPS","totalCost","totalWeight","recoilVertical","m_weaponSpreadIncreaseSpeed","m_weaponSpreadMax","m_defaultWeaponSpread"];
+    }
 
     for (let i = 0; i < highAttributes.length; i++) {
         markTopValues(highAttributes[i],true);
@@ -616,11 +625,11 @@ function calculateWeaponStats(Modded,Init){
         markTopValues(lowAttributes[i],false);
     };
     //rememberSelection(true)
-} 
+}
 
 function setSliderBox(ID,value){
     document.getElementById(`${ID}Box`).value = value;
-    document.getElementById(`${ID}Slider`).value = value
+    document.getElementById(`${ID}Slider`).value = value;
 }
 
 function markTopValues(attr,highBest){
@@ -631,10 +640,10 @@ function markTopValues(attr,highBest){
     let lower;
 
     switch (highBest) {
-        case true : 
+        case true :
         higher = "rgb(92, 232, 92)"
         lower = "rgba(255, 80, 80, 0.96)"; break;
-        case false : 
+        case false :
         higher = "rgba(255, 80, 80, 0.96)"
         lower = "rgb(92, 232, 92)"; break;
     }
@@ -651,11 +660,106 @@ function markTopValues(attr,highBest){
 
 };
 
-function getCookie(name) {
+function addToCompare(){
+    let tableLength = document.getElementById('compareTable').tHead.children[0].children.length;
+    let firstCol = document.getElementById('compareTable').tHead.children[0].children[1];
+    let lastCol = document.getElementById('compareTable').tHead.children[0].children[tableLength - 1];
+    let wepName = weaponSelection.options[weaponSelection.selectedIndex].value;
+
+    let tr = document.getElementById('compareTable').tHead.children[0];
+    let columns = document.getElementById('compareTable').tHead.children[0].children.length;
+    let th = document.createElement('th');
+    th.innerHTML = wepName;
+    th.innerHTML += `<a href="#"class="del" >❌</a>`
+    tr.appendChild(th);
+
+    let compareTable = document.getElementById('compareTable').tBodies[0]
+    for (let i = 0; i < compareTable.children.length; i++) {
+        tr = compareTable.children[i];
+        let td = document.createElement('td');
+        let i2 = i + 2;
+        td.innerHTML = document.getElementById('weaponStats').tBodies[0].children[i2].children[1].innerHTML;
+        td.id = document.getElementById('weaponStats').tBodies[0].children[i2].id.replace("t-","compare-");
+        tr.appendChild(td);
+    }
+
+
+    for (let x = 0; x < document.getElementById('compareTable').tBodies[0].children.length; x++) {
+        let compareArr = [];
+        let compareRow = compareTable.children[x];
+
+        for (let i = 0; i < compareRow.children.length; i++) {
+            compareRow.children[i].style.color = "var(--text-color)";
+            if (i !== 0){
+                let value;
+                switch (compareRow.children[i].innerHTML) {
+                    case "Projectile": value = 1; break;
+                    case "Hitscan": value = 1;
+                    compareRow.children[i].style.color = "rgb(92, 232, 92)"; break;
+                    default: value = Number(compareRow.children[i].innerHTML);
+                }
+                compareArr.push(value)
+            }
+        }
+        if (compareArr.length > 1) {
+            if (compareArr.every( (val, i, arr) => val === arr[0] )){
+            } else {
+                const max = Math.max(...compareArr);
+                const min = Math.min(...compareArr);
+                const maxIndexes = [];
+                const minIndexes = [];
+
+                for (let index = 0; index < compareArr.length; index++) {
+                    if (compareArr[index] === max) {
+                        maxIndexes.push(index);
+                    } else if (compareArr[index] === min) {
+                        minIndexes.push(index);
+                    }
+                }
+
+                for (let i = 0; i < maxIndexes.length; i++) {
+                    let int = maxIndexes[i] + 1;
+                    let statID = compareRow.children[int].id.replace("compare-", "");
+                    const found = highAttributes.includes(statID);
+                    if (found){
+                        compareRow.children[int].style.color = "rgb(92, 232, 92)";
+                    } else {
+                        compareRow.children[int].style.color = "rgba(255, 80, 80, 0.96)"
+                    }
+                }
+
+                for (let i = 0; i < minIndexes.length; i++) {
+                    let int = minIndexes[i] + 1;
+                    let statID = compareRow.children[int].id.replace("compare-", "");
+                    const found = lowAttributes.includes(statID);
+                    console.log(found)
+                    if (found){
+                        compareRow.children[int].style.color = "rgb(92, 232, 92)";
+                    } else {
+                        compareRow.children[int].style.color = "rgba(255, 80, 80, 0.96)"
+                    }
+                }
+
+            }
+        }
+    }
+}
+// Source: https://stackoverflow.com/a/42763442
+document.getElementById("compareTable").addEventListener("click", function(e) {
+    const tgt = e.target.closest("a");
+
+    if (tgt && tgt.classList.contains("del")) {
+      const idx = tgt.parentElement.cellIndex;
+      [...document.getElementById("compareTable").rows].forEach(row => row.cells[idx].remove());
+    }
+  })
+
+//find javascript index of cell in table.
+/* function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
     if (parts.length === 2) return parts.pop().split(';').shift();
-}
+} */
 
 // Populates the table with data from first option when the selection box has loaded.
 function initLoad() {
@@ -666,33 +770,33 @@ function initLoad() {
     document.querySelector('#t-shieldArmorCost').innerHTML = 0;
     document.querySelector('#t-armorTotalCost').innerHTML = 0;
     updateWeaponSelection ();
-    calculateWeaponStats ();
+    calculateWeaponStats (true,false);
 }
 weaponSelection.addEventListener("load", initLoad());
 
 //Used to populate table with data every time selection changes.
 function populateWeaponStats() {
     //rememberSelection ();
-    updateWeaponSelection ();
-    calculateWeaponStats ();
+    updateWeaponSelection();
+    calculateWeaponStats(true,false);
 }
 weaponSelection.addEventListener('change', populateWeaponStats);
 
-weaponModSelection.addEventListener("change", calculateWeaponStats(true));
+weaponModSelection.addEventListener("change", calculateWeaponStats(false,true));
 
 //Listens for any input change and recalculates stats
 let lastInput = 0;
 document.querySelectorAll('.weaponStatInput').forEach(item => {
     item.addEventListener('input', event => {
-        if(Date.now() - lastInput > 40) {
-            calculateWeaponStats ();
-            calculateWeaponStats(true);
+        if(Date.now() - lastInput > 100) {
+            calculateWeaponStats();
+            calculateWeaponStats(false,true);
             lastInput = Date.now();
         } else {
             setTimeout(function() {
                 calculateWeaponStats ();
-                calculateWeaponStats(true);
-            }, 40);
+                calculateWeaponStats(false,true);
+            }, 100);
         }
     })
 });
@@ -705,9 +809,14 @@ document.querySelectorAll('.ehpStatInput').forEach(item => {
             helmetSelection.value = "none";
             shieldSelection.value = "none";
             calculateWeaponStats ();
-            calculateWeaponStats(true);
+            calculateWeaponStats(false,true);
             lastEhpInput = Date.now();
-        } 
+        } else {
+            setTimeout(function() {
+                calculateWeaponStats ();
+                calculateWeaponStats(false,true);
+            }, 100);
+        }
     })
 });
 
@@ -725,7 +834,7 @@ targetSelection.addEventListener('change', event => {
 
         let m_regenerationDelay = eval("PRO_Health[0].Rows.AI_Strider.m_regenerationDelay");
         setSliderBox("regenDelay",m_regenerationDelay);
-        
+
         let m_defaultArmor = eval("Ai_Tuning_DT[0].Rows.Strider.m_defaultArmor");
         setSliderBox("armor",m_defaultArmor);
 
@@ -738,7 +847,7 @@ targetSelection.addEventListener('change', event => {
         setSliderBox("armorConstant",0.025);
     }
     calculateWeaponStats ();
-    calculateWeaponStats(true);
+    calculateWeaponStats(false,true);
 })
 
 monsterSelection.addEventListener('change', event => {
@@ -748,8 +857,8 @@ monsterSelection.addEventListener('change', event => {
         shieldSelection.value = "none";
 
         let monsterType = monsterSelection.options[monsterSelection.selectedIndex].getAttribute('id');
-        let monsterTuning = monsterType.slice(3); 
-        
+        let monsterTuning = monsterType.slice(3);
+
         let m_maxHealth = eval("PRO_Health[0].Rows."+monsterType+".m_maxHealth");
         setSliderBox("health",m_maxHealth);
 
@@ -758,7 +867,7 @@ monsterSelection.addEventListener('change', event => {
 
         let m_regenerationDelay = eval("PRO_Health[0].Rows."+monsterType+".m_regenerationDelay");
         setSliderBox("regenDelay",m_regenerationDelay);
-        console.log(monsterType)
+
         let bodyArmor;
         let headArmor;
         if (monsterType.includes("Crusher")){
@@ -766,7 +875,7 @@ monsterSelection.addEventListener('change', event => {
         headArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
         } else {
         bodyArmor = eval("Ai_Tuning_DT[0].Rows."+monsterTuning+".m_defaultArmor");
-        
+
         }
         setSliderBox("armor",bodyArmor);
         setSliderBox("helmetArmor",headArmor);
@@ -782,7 +891,7 @@ monsterSelection.addEventListener('change', event => {
         targetSelection.value = 0;
     }
     calculateWeaponStats ();
-    calculateWeaponStats(true);
+    calculateWeaponStats(false,true);
 })
 
 document.querySelectorAll('.gearSelection').forEach(item => {
@@ -805,7 +914,7 @@ document.querySelectorAll('.gearSelection').forEach(item => {
                     eval("helmetArmorCost = PRO_Helmets[0].Rows." + helmetType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
                 }
             }
-        } 
+        }
         if(shieldSelection.options[shieldSelection.selectedIndex].value !== "none") {
             targetSelection.value = 0;
             monsterSelection.value = "none";
@@ -816,7 +925,7 @@ document.querySelectorAll('.gearSelection').forEach(item => {
                     eval("shieldArmorCost = PRO_PlayerShield[0].Rows." + shieldType +".m_itemShopsCraftingData[0].m_craftingPricesPerRarity['EYItemRarityType::"+rarities[x]+"'].m_itemRecipeIngredients[0].m_costAmount")
                 }
             }
-        } 
+        }
         let totalArmor = helmetArmor + shieldArmor;
         setSliderBox("helmetArmor",helmetArmor);
         setSliderBox("armor",shieldArmor);
@@ -832,16 +941,17 @@ document.querySelectorAll('.gearSelection').forEach(item => {
         document.querySelector('#t-CPHA').innerHTML = CPHA.toFixed(0);
 
         calculateWeaponStats ();
-        calculateWeaponStats(true);
+        calculateWeaponStats(false,true);
     })
 });
+
+document.getElementById("addCompare").addEventListener("click", addToCompare);
 
 /* function rememberSelection(mods){
     document.cookie = 'weaponSelection=' + document.getElementById('weaponSelection').selectedIndex + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';
 
-    for (let i = 0; i < slots.length; i++) { 
+    for (let i = 0; i < slots.length; i++) {
         document.cookie = slots[i] + "=" + (mods ? document.getElementById(slots[i]).selectedIndex : '0'); + '; ' + 'expires=' + date.setDate(date.getDate() + 1); + '; path=/';
-        console.log(getCookie(slots[i]));
     }
 }; */
 
@@ -852,12 +962,12 @@ for (let i = 0; i < collapsible.length; i++) {
     collapsible[i].addEventListener("click", function() {
     this.classList.toggle("active");
     let content = this.nextElementSibling;
-    if (content.style.display !== "none") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+        if (content.style.display !== "none") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
 }
 
 let advancedMode = document.getElementById("advancedStatToggle");
@@ -867,17 +977,17 @@ advancedMode.addEventListener("click", function() {
     } else {
         root.style.setProperty("--advanced-mode", `none`);
     }
-    
+
 });
 
 //Debugging
+addToCompare()
 /* console.log(Mods);
-console.log(Mods.Mod_Optic_2x_01); 
+console.log(Mods.Mod_Optic_2x_01);
 console.log(WP_A_Sniper_Gauss_01.materials); */
 
 //TODO Global list
 /*
-Hide stats like bullets per shot, spinup time, etc for weapons where mods dont use or change the stat.
 Change calculateWeaponStats() to only include weapon stats, remove crafting, cost and other stats that change with sliders or mods.
 
 

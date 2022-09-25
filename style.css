@@ -7,31 +7,31 @@ body {
 }
 .page-header-wrapper {
     position: absolute;
-    width: 100%;
     top: 0;
+    width: 100%;
 }
 .page-header {
-    min-height: 40px;
     background: #16222ee3;
+    max-height: 40px;
 }
 .header-text {
-    font-size: 1.5em;
     color: white;
     font-family: Oswald;
-    text-align: center;
+    font-size: clamp(1em,4vw,1.5em);
     margin: 0;
-    padding: 2px;
+    padding: 2px; 
+    text-align: center;
 }
 .version-info,.settingsBox {
-    line-height: 25px;
-    text-align: center;
-    display: block;
-    padding: 10px;
     border: solid 1px #ffffff5c;
     border-radius: 5px;
-    width: fit-content;
-    height: max-content;
+    display: block;
     float: right;
+    height: max-content;
+    line-height: 25px;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
 }
 body, select {
     background-color: var(--bg-color);
@@ -39,24 +39,25 @@ body, select {
 /* Hub Box */
 .hubBox {
 	display: flex;
-    padding: 0px 4px;
-    min-height: calc(100vh - 50px);
+    flex-wrap: wrap;
+    gap:40px;
     height: max-content;
     margin-top: 40px;
-    gap:40px;
+    min-height: calc(100vh - 40px);
+    padding: 0px 4px;
 }
 .hubBoxInputs {
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    align-content: flex-start;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 .hubBoxStats {
-    width: min-content;
     margin: auto;
+    width: min-content;
 }
 /* Selection */
 .selection {
@@ -65,43 +66,37 @@ body, select {
     width: var(--widthSync);
 }
 .selection p {
-    margin-top: 0px;
     margin-bottom: 0px;
+    margin-top: 0px;
     text-align: center;
 }
 img{
-    box-sizing:border-box;
     border:0;
-    vertical-align:middle;
-    -ms-interpolation-mode:bicubic
-}
-img#wpLogo {
-    width: var(--widthSync);
+    box-sizing:border-box;
+    -ms-interpolation-mode:bicubic;
+    vertical-align:middle
 }
 img.matLogo {
     height: 24px;
     margin-right: 4px;
 }
 div#weaponModSelection {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     flex-wrap: wrap;
     gap: 20px;
 }
 h3 {
-    text-align: center;
     margin: 8px 0px 8px 0px;
+    text-align: center;
 }
 #weaponSelection {
+    -ms-overflow-style: none;  /*For Internet Explorer 10+*/
     overflow-y: auto;
     scrollbar-width: none; /*For Firefox*/;
-    -ms-overflow-style: none;  /*For Internet Explorer 10+*/;
-    width:var(--widthSync);
+    width: 100%;
 }
-/* #weaponSelection option {
-    padding: 2px;
-} */
 select {
     padding: 4px;
 }
@@ -113,22 +108,21 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
 #modSelection {
     display:flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: flex-start;
     width: 225px;
-    gap: 10px;
 }
-#SLOT1,#SLOT2,#SLOT3,#SLOT4,#SLOT5,#SLOT6,#SLOT7,#SLOT8{
-    width:var(--widthSync);
+#SLOT1, #SLOT2, #SLOT3, #SLOT4, #SLOT5, #SLOT6, #SLOT7, #SLOT8 {
+    width: 100%;
 }
-
 .inputText {
     margin:0;
     text-align: center;
 }
 .weaponStatInput[type=number],.ehpStatInput[type=number]{
-    width: 5em;
     color:#000;
     float:right;
+    width: 5em;
 }
 .weaponStatInput,.ehpStatInput {
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
@@ -139,80 +133,87 @@ select#monsterSelection,select#helmetSelection,select#shieldSelection,select#tar
 .advancedStat {
     display: var(--advanced-mode);
 }
+button#addCompare {
+    color: #000;
+}
 
 /* Table */
 td, th, tr {
     border: 1px solid var(--border-color);
     border-style: inset;
+    min-width: clamp(3em,10vw,5em);
     padding: 2px 4px;
-    min-width: 75px;
 }
 table {
     border: 0px solid;
     border-spacing: 0px;
+    max-width: min-content;
 }
 td {
     text-align: right;
 }
 .tdWide {
-    width: calc(75px * 3);
     padding: 2px 26px;
+    width: calc(75px * 3);
 }
 th {
     font-weight:normal;
 }
-th.statName {
-    width: var(--widthSync);
+th.statName, img#wpLogo {
+    min-width: clamp(2em,30vw,180px);
+    width: 100%;
 }
 th#wpName,th#thLogo,.statSections {
     border: 0px;
 }
-
+a.del {
+    text-decoration: none;
+}
 /* Collapsible Tables */
 .collapsible {
     background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
     color: var(--button-color);
     cursor: pointer;
-    border: none;
-    outline: none;
-    text-align: center;
-    padding: 15px 2px 0px 2px;
-    margin: auto;
     font-size: 16px;
-    border-top: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
+    margin: auto;
+    outline: none;
+    padding: 15px 2px 0px 2px;
+    text-align: center;
     width: 100%;
 }
 
 .collapsible::after {
-    font-size: 12px;
     content: "[Expand]";
+    font-size: 12px;
     margin-left:10px;
 }
 .active, .collapsible:hover {
     color: var(--text-color);
 }
 .active::after {
-    font-size: 12px;
     content: "[Collapse]";
+    font-size: 12px;
     margin-left:10px;
 }
 
 .weaponStats p {
-    text-align: center;
-    padding: 10px 2px 0px 2px;
     margin: 0;
+    padding: 10px 2px 0px 2px;
+    text-align: center;
 }
 /** Minimal Scrollbar **/
 /* WebKit and Blink */
 ::-webkit-scrollbar {
-    width: 8px;
     height: 1px;
+    width: 8px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: rgba(255,255,255,0.8);
-    border-color: #fff;
     border: 1px solid #000000;
+    border-color: #fff;
     border-radius: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -231,40 +232,108 @@ th#wpName,th#thLogo,.statSections {
 
 /* Spec Version (Gecko only at the time of this addition) */
 *, body {
-   scrollbar-width:Thin;
    scrollbar-color:rgba(255,255,255,0.8) transparent;
+   scrollbar-width:Thin;
 }
 /*Mobile Styling*/
-@media only screen and (max-width: 1280px) {
+@media screen and (orientation: portrait) {
+    @media only screen and (max-width: 1280px) {
+    * {
+        --widthSync: 10em;
+    }
+/*     td, th, tr {
+        min-width: 4em;
+    } */
     h3 {
-        text-align: center;
         margin: 10px 0px -10px 0px;
+        text-align: center;
     }
     .hubBoxInputs,div#weaponModSelection {
         gap: 10%;
     }
     .selection p, .inputText {
-        margin-top: 10px;
         margin-bottom: 0px;
+        margin-top: 10px;
         text-align: center;
     }
     .selection {
         margin-top: 10px;
     }
     .hubBox {
-        flex-wrap: wrap;
         align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
         gap:10px;
     }
     .hubBoxInputs {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     div#weaponModSelection {
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #sectionWrapper {
         width: 100%;
     }
-  }
+    .weaponStatInput[type=number], .ehpStatInput[type=number] {
+        max-width: -webkit-fill-available;
+        width: 100%;
+    }
+    @media only screen and (max-width: 800px) {
+        * {
+            --widthSync: 8em;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .page-header {
+            background: #16222ee3;
+            max-height: 30px;
+        }
+/*         td, th, tr {
+            min-width: 3em;
+        } */
+        .selection {
+            margin-top: 5px;
+        }
+        .selection p, .inputText {
+            margin-top: 5px;
+        }
+    }
+}
+}
+@media screen and (orientation: landscape) {
+    @media only screen and (max-width: 1280px) {
+        h3 {
+            margin: 10px 0px -10px 0px;
+            text-align: center;
+        }
+        .hubBoxInputs,div#weaponModSelection {
+            gap: 10%;
+        }
+        .selection p, .inputText {
+            margin-bottom: 0px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .selection {
+            margin-top: 10px;
+        }
+        .hubBox {
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap:10px;
+        }
+        .hubBoxInputs {
+            flex-direction: row;
+            justify-content: center;
+        }
+        div#weaponModSelection {
+            flex-direction: row;
+            justify-content: center;
+        }
+        #sectionWrapper {
+            width: 100%;
+        }
+      }
+    }
