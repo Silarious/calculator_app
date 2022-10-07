@@ -77,9 +77,9 @@
         "m_targetingRecoilMultiplier": 1.0,
         "m_crouchingRecoilMultiplier": 0.8,
         "m_fireInAirRecoilMultiplier": 1.0,
-        "m_reloadAddAmmoTime": 1.7,
+        "m_reloadAddAmmoTime": 1.83,
         "m_reloadTime": 2.175,
-        "m_animationReloadTime": 2.5,
+        "m_animationReloadTime": 2.6,
         "m_ammoConsumptionPerShot": 1.0,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -91,7 +91,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 2.0,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 29.0,
+        "m_penetration": 30.0,
         "m_directDamage": 28.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -163,7 +163,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -251,7 +251,7 @@
         "m_unequipTime": 0.5,
         "m_equipTime": 1.0,
         "m_animationEquipTime": 2.0,
-        "m_defaultWeaponSpread": 5.0,
+        "m_defaultWeaponSpread": 3.6,
         "m_weaponSpreadIncreaseSpeed": 0.65,
         "m_weaponSpreadDecreaseSpeed": 15.0,
         "m_weaponSpreadMax": 9.0,
@@ -265,7 +265,7 @@
         "m_targetingTime": 0.442,
         "m_untargetingTimeMultiplier": 1.0,
         "m_retargetingMinimumNormalizedTime": 0.3,
-        "m_targetingSpreadDefault": 4.5,
+        "m_targetingSpreadDefault": 3.2,
         "m_targetingWeaponSpreadMax": 8.0,
         "m_targetingSpreadIncrease": 0.0,
         "m_inAirSpreadMultiplier": 2.5,
@@ -282,9 +282,9 @@
         "m_targetingRecoilMultiplier": 1.0,
         "m_crouchingRecoilMultiplier": 0.8,
         "m_fireInAirRecoilMultiplier": 1.2,
-        "m_reloadAddAmmoTime": 1.85,
+        "m_reloadAddAmmoTime": 1.67,
         "m_reloadTime": 2.2,
-        "m_animationReloadTime": 3.0,
+        "m_animationReloadTime": 2.53,
         "m_ammoConsumptionPerShot": 1.0,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -365,7 +365,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Shotgun"
         },
@@ -502,7 +502,7 @@
         "m_weakAreaDamageMultiplier": 1.5,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
         "m_penetration": 17.0,
-        "m_directDamage": 10.0,
+        "m_directDamage": 11.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
         "m_directDamageEnemyMultiplier": 1.0,
@@ -576,7 +576,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -698,9 +698,9 @@
         "m_targetingRecoilMultiplier": 1.0,
         "m_crouchingRecoilMultiplier": 0.8,
         "m_fireInAirRecoilMultiplier": 1.0,
-        "m_reloadAddAmmoTime": 2.4,
+        "m_reloadAddAmmoTime": 2.58,
         "m_reloadTime": 3.2,
-        "m_animationReloadTime": 3.5,
+        "m_animationReloadTime": 3.53,
         "m_ammoConsumptionPerShot": 1.0,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -712,7 +712,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.7,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 29.0,
+        "m_penetration": 30.0,
         "m_directDamage": 13.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -787,7 +787,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -980,16 +980,16 @@
         "m_firingMovementSpeedMultiplier": 1.0,
         "m_firingTurnSpeedMultiplier": 1.0,
         "m_targetingTurnSpeedMultiplier": 1.0,
-        "m_weaponFOVInterpSpeed": 500.0,
+        "m_weaponFOVInterpSpeed": 463.0,
         "m_weaponFOVStartInterp": 0.5,
-        "m_weaponTargetingInterp": 0.95,
+        "m_weaponTargetingInterp": 0.8,
         "m_startAmmo": 36,
         "m_ammoInClip": 12,
         "m_haveInfiniteAmmo": false,
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -1108,9 +1108,9 @@
         "m_targetingRecoilMultiplier": 1.0,
         "m_crouchingRecoilMultiplier": 0.8,
         "m_fireInAirRecoilMultiplier": 1.0,
-        "m_reloadAddAmmoTime": 3.6,
+        "m_reloadAddAmmoTime": 2.7,
         "m_reloadTime": 4.4,
-        "m_animationReloadTime": 5.0,
+        "m_animationReloadTime": 5.07,
         "m_ammoConsumptionPerShot": 1.0,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -1122,7 +1122,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 2.0,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 32.0,
+        "m_penetration": 33.0,
         "m_directDamage": 75.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -1226,7 +1226,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -1314,7 +1314,7 @@
         "m_unequipTime": 0.4,
         "m_equipTime": 0.6,
         "m_animationEquipTime": 1.0,
-        "m_defaultWeaponSpread": 5.0,
+        "m_defaultWeaponSpread": 6.5,
         "m_weaponSpreadIncreaseSpeed": 0.5,
         "m_weaponSpreadDecreaseSpeed": 15.0,
         "m_weaponSpreadMax": 8.0,
@@ -1328,7 +1328,7 @@
         "m_targetingTime": 0.295,
         "m_untargetingTimeMultiplier": 1.0,
         "m_retargetingMinimumNormalizedTime": 0.1,
-        "m_targetingSpreadDefault": 4.5,
+        "m_targetingSpreadDefault": 5.5,
         "m_targetingWeaponSpreadMax": 5.0,
         "m_targetingSpreadIncrease": 0.0,
         "m_inAirSpreadMultiplier": 2.5,
@@ -1428,7 +1428,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Shotgun"
         },
@@ -1630,7 +1630,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Shotgun"
         },
@@ -1766,7 +1766,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.5,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 29.0,
+        "m_penetration": 30.0,
         "m_directDamage": 9.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -1841,7 +1841,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -1962,7 +1962,7 @@
         "m_fireInAirRecoilMultiplier": 1.5,
         "m_reloadAddAmmoTime": 3.5,
         "m_reloadTime": 3.9,
-        "m_animationReloadTime": 4.9,
+        "m_animationReloadTime": 4.2,
         "m_ammoConsumptionPerShot": 1.0,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -2138,7 +2138,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -2275,7 +2275,7 @@
         "m_weakAreaDamageMultiplier": 1.7,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
         "m_penetration": 27.0,
-        "m_directDamage": 11.0,
+        "m_directDamage": 10.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
         "m_directDamageEnemyMultiplier": 1.0,
@@ -2349,7 +2349,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -2557,7 +2557,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -2690,7 +2690,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.45,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 29.0,
+        "m_penetration": 30.0,
         "m_directDamage": 63.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -2759,7 +2759,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -2967,7 +2967,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -3169,7 +3169,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Shotgun"
         },
@@ -3306,7 +3306,7 @@
         "m_weakAreaDamageMultiplier": 1.5,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
         "m_penetration": 10.0,
-        "m_directDamage": 9.0,
+        "m_directDamage": 10.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
         "m_directDamageEnemyMultiplier": 1.0,
@@ -3380,7 +3380,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -3591,7 +3591,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -3811,7 +3811,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -4013,7 +4013,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Shotgun"
         },
@@ -4224,7 +4224,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -4435,7 +4435,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -4643,7 +4643,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -4854,7 +4854,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -4932,7 +4932,7 @@
         "m_singleFireRecoilMultiplierX": 1.0,
         "m_singleFireRecoilMultiplierY": 1.0,
         "m_useRecoilCompensation": true,
-        "m_recoilCompensationStartTime": 0.25,
+        "m_recoilCompensationStartTime": 0.34,
         "m_firingCameraShake": {
           "ObjectName": "BlueprintGeneratedClass CameraShake_Weapon_AR_C",
           "ObjectPath": "Prospect/Content/Animation/Player/CameraShakes/CameraShake_Weapon_AR.0"
@@ -4983,7 +4983,7 @@
         "m_reloadAddLoopAmmoTime": 1.0,
         "m_animationReloadAddFirstAmmoTime": 1.0,
         "m_animationReloadAddLoopAmmoTime": 1.0,
-        "m_refireTime": 0.26,
+        "m_refireTime": 0.35,
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.7,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
@@ -5059,7 +5059,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -5127,8 +5127,8 @@
         "m_maxNegativeRecoilX": 0.0,
         "m_minPositiveRecoilX": 0.26,
         "m_maxPositiveRecoilX": 0.26,
-        "m_minRecoilY": 0.6,
-        "m_maxRecoilY": 0.6,
+        "m_minRecoilY": 0.5,
+        "m_maxRecoilY": 0.5,
         "m_cameraRecoilCompensationSpeedX": 10.0,
         "m_cameraRecoilCompensationSpeedY": 10.0,
         "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
@@ -5178,9 +5178,9 @@
         "m_targetingRecoilMultiplier": 1.0,
         "m_crouchingRecoilMultiplier": 0.8,
         "m_fireInAirRecoilMultiplier": 1.0,
-        "m_reloadAddAmmoTime": 1.1,
+        "m_reloadAddAmmoTime": 1.55,
         "m_reloadTime": 2.0,
-        "m_animationReloadTime": 2.5,
+        "m_animationReloadTime": 2.333,
         "m_ammoConsumptionPerShot": 0.5,
         "m_useSingleReload": false,
         "m_reloadAddFirstAmmoStateTime": 1.0,
@@ -5250,7 +5250,7 @@
         "m_rotateReticleViaSocket": true,
         "m_socketNameShootAtSocketWhenTargeting": "ReticleHUDSocket01",
         "m_burstInterval": 0.027,
-        "m_amountOfBurst": 11,
+        "m_amountOfBurst": 15,
         "m_amountOfImmediateFires": 1,
         "m_immediateFireIncreasesSpread": false,
         "m_movementSpeedMultiplier": 0.9,
@@ -5267,7 +5267,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -5478,7 +5478,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Medium"
         },
@@ -5611,7 +5611,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.6,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 29.0,
+        "m_penetration": 30.0,
         "m_directDamage": 34.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -5680,7 +5680,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Heavy"
         },
@@ -6113,7 +6113,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Special"
         },
@@ -6243,7 +6243,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.0,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 32.0,
+        "m_penetration": 33.0,
         "m_directDamage": 0.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -6347,7 +6347,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Special"
         },
@@ -6581,7 +6581,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Special"
         },
@@ -6869,7 +6869,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Special"
         },
@@ -6999,7 +6999,7 @@
         "m_targetingRefireTime": -1.0,
         "m_weakAreaDamageMultiplier": 1.8,
         "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 32.0,
+        "m_penetration": 33.0,
         "m_directDamage": 4.0,
         "m_targetingDirectDamage": -1.0,
         "m_directDamagePlayerMultiplier": 1.0,
@@ -7109,7 +7109,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Special"
         },
@@ -10670,202 +10670,6 @@
         "m_scannableRowHandles": [],
         "m_rowName": "Ability_BounceGrenade01"
       },
-      "Ability_ShockGrenade01": {
-        "m_useFireInputAsTargetingAsWell": false,
-        "m_AISenseTriggeredOnFire": {
-          "DataTable": {
-            "ObjectName": "DataTable AI_SenseTrigger_DT",
-            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
-          },
-          "RowName": "Weapon_Regular"
-        },
-        "m_staminaConsumptionPerFire": 0.0,
-        "m_minNegativeRecoilX": -1.0,
-        "m_maxNegativeRecoilX": -3.0,
-        "m_minPositiveRecoilX": 1.0,
-        "m_maxPositiveRecoilX": 3.0,
-        "m_minRecoilY": 3.0,
-        "m_maxRecoilY": 4.0,
-        "m_cameraRecoilCompensationSpeedX": 10.0,
-        "m_cameraRecoilCompensationSpeedY": 10.0,
-        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
-        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
-        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
-        "m_singleFireRecoilMultiplierX": 1.0,
-        "m_singleFireRecoilMultiplierY": 1.0,
-        "m_useRecoilCompensation": true,
-        "m_recoilCompensationStartTime": -1.0,
-        "m_firingCameraShake": {
-          "ObjectName": "BlueprintGeneratedClass CameraShake_Weapon_Pistol_C",
-          "ObjectPath": "Prospect/Content/Animation/Player/CameraShakes/CameraShake_Weapon_Pistol.0"
-        },
-        "m_fireWeaponDelay": 0.0,
-        "m_stopFireAnimationWhenInterrupted": false,
-        "m_unequipTime": 0.6,
-        "m_equipTime": 0.6,
-        "m_animationEquipTime": 1.133,
-        "m_defaultWeaponSpread": 0.0,
-        "m_weaponSpreadIncreaseSpeed": 4.0,
-        "m_weaponSpreadDecreaseSpeed": 20.0,
-        "m_weaponSpreadMax": 30.0,
-        "m_scopeTuningRow": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_targetingTime": 0.45,
-        "m_untargetingTimeMultiplier": 1.0,
-        "m_retargetingMinimumNormalizedTime": 0.1,
-        "m_targetingSpreadDefault": 0.0,
-        "m_targetingWeaponSpreadMax": 5.0,
-        "m_targetingSpreadIncrease": 0.0,
-        "m_inAirSpreadMultiplier": 1.75,
-        "m_targetingSpreadInAirModifier": 0.0,
-        "m_targetingMovementSpeedMultiplier": 0.45,
-        "m_crouchSpreadDefaultMultiplier": 0.5,
-        "m_movementSpreadDefaultMultiplier": 1.5,
-        "m_movementSpreadTargetingModifier": 0.0,
-        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
-        "m_crouchSpreadIncreaseMultiplier": 0.5,
-        "m_spreadCurve": null,
-        "m_spreadCurveIncreasePerShot": 0.0,
-        "m_spreadCurveDecreasePerSecond": 0.0,
-        "m_targetingRecoilMultiplier": 1.0,
-        "m_crouchingRecoilMultiplier": 0.8,
-        "m_fireInAirRecoilMultiplier": 1.0,
-        "m_reloadAddAmmoTime": 1.8,
-        "m_reloadTime": 2.6,
-        "m_animationReloadTime": 3.5,
-        "m_ammoConsumptionPerShot": 1.0,
-        "m_useSingleReload": false,
-        "m_reloadAddFirstAmmoStateTime": 1.0,
-        "m_reloadAddFirstAmmoTime": 1.0,
-        "m_reloadAddLoopAmmoTime": 1.0,
-        "m_animationReloadAddFirstAmmoTime": 1.0,
-        "m_animationReloadAddLoopAmmoTime": 1.0,
-        "m_refireTime": 0.4,
-        "m_targetingRefireTime": -1.0,
-        "m_weakAreaDamageMultiplier": 1.0,
-        "m_weakAreaDamageMultiplierEnemy": 1.0,
-        "m_penetration": 10.0,
-        "m_directDamage": 0.0,
-        "m_targetingDirectDamage": -1.0,
-        "m_directDamagePlayerMultiplier": 1.0,
-        "m_directDamageEnemyMultiplier": 1.0,
-        "m_directDamageImpulse": 0.0,
-        "m_stabilityDamageForDeathRagdoll": 400.0,
-        "m_stabilityDamage": 0.0,
-        "m_radialDamage": 275.0,
-        "m_radialDamagePlayerMultiplier": 1.0,
-        "m_radialDamageEnemyMultiplier": 2.0,
-        "m_radialDamageImpulse": 0.0,
-        "m_damageIgnoreShield": false,
-        "m_radialDamageFalloffStartRange": 350.0,
-        "m_radialDamageFalloffMultiplier": 0.1,
-        "m_radialDamageRadius": 600.0,
-        "m_radialDamageCapsuleRadius": 0.0,
-        "m_radialDamageCapsuleHalfHeight": 0.0,
-        "m_directDamageFalloffStartRange": 9999.0,
-        "m_directDamageFalloffEndRange": 9999.0,
-        "m_directDamageFalloffMultiplier": 1.0,
-        "m_damageSelfMultiplier": 1.0,
-        "m_damageApplication": "EYDamageApplication::Damage",
-        "m_useDamageCauserForImpactDirection": false,
-        "m_spinDownTimeRate": 0.5,
-        "m_canSpinUpDuringInventory": false,
-        "m_projectileAdjustDirectionImpactRange": 0.0,
-        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
-        "m_easeOutMagnitudeRecoilStart": -1.0,
-        "m_recoilCurve": {
-          "ObjectName": "CurveFloat Recoil_Autocannon",
-          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
-        },
-        "m_targetingRecoil": null,
-        "m_overridenEaseInRecoil": null,
-        "m_easeOutRecoil": null,
-        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
-        "m_automaticFireWeaponRecoilVector": null,
-        "m_automaticFireRecoilResetTime": 0.3,
-        "m_burstFireUseCompensationStartTime": false,
-        "m_cameraAffectMultiplierX": 1.0,
-        "m_cameraAffectMultiplierY": 1.0,
-        "m_crossHairAffectMultiplierX": 1.0,
-        "m_crossHairAffectMultiplierY": 1.0,
-        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
-        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
-        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
-        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
-        "m_shootAtSocketWhenTargeting": false,
-        "m_rotateReticleViaSocket": false,
-        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
-        "m_burstInterval": -1.0,
-        "m_amountOfBurst": 0,
-        "m_amountOfImmediateFires": 1,
-        "m_immediateFireIncreasesSpread": false,
-        "m_movementSpeedMultiplier": 1.0,
-        "m_attributeModifier": [],
-        "m_firingMovementSpeedMultiplier": 1.0,
-        "m_firingTurnSpeedMultiplier": 1.0,
-        "m_targetingTurnSpeedMultiplier": 1.0,
-        "m_weaponFOVInterpSpeed": 150.0,
-        "m_weaponFOVStartInterp": 0.2,
-        "m_weaponTargetingInterp": 0.7,
-        "m_startAmmo": 5,
-        "m_ammoInClip": 5,
-        "m_haveInfiniteAmmo": true,
-        "m_ammoTypeToUse": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_useCooldownTime": 4,
-        "m_useActionTime": 1,
-        "m_healAmount": 500,
-        "m_slotType": "EYWeaponSlotType::Primary",
-        "m_canUse": false,
-        "m_useRandomSeed": false,
-        "m_isLooping": false,
-        "m_canEverRefire": true,
-        "m_stopSpinupOnInputRelease": true,
-        "m_spinupUntilRelease": false,
-        "m_instantlyFireOnTimeThresholdReached": true,
-        "m_fireSpinupTimeRegadlessOfDuration": false,
-        "m_clearAllTimeWhenSpinupDone": false,
-        "m_spinupForUse": false,
-        "m_alwaysStopAnimationSpinup": false,
-        "m_stopAnimationOnSpinupInterupt": false,
-        "m_spinUpStopAfterFullDuration": true,
-        "m_useFireWeaponDelayAtCachedTransform": false,
-        "m_ignoreDamagePrevention": false,
-        "m_canDamageSelf": true,
-        "m_fireAtRelease": false,
-        "m_objectTypesAllowedToDamage": [],
-        "m_requiredInputTimeForHeavyAttack": 0.1,
-        "m_lightAttackRecoveryTime": 0.1,
-        "m_lowStaminaLightAttackRecoveryTime": 0.1,
-        "m_lightAttackStaminaConsumption": 15.0,
-        "m_heavyAttackRecoveryTime": 0.2,
-        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "m_heavyAttackStaminaConsumption": 15.0,
-        "m_socketLocation": "None",
-        "m_lightAttackWeaponTransportHandle": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_lightAttackLowStaminaTransportHandle": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_heavyAttackWeaponTransportHandle": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_heavyAttackLowStaminaTransportHandle": {
-          "DataTable": null,
-          "RowName": "None"
-        },
-        "m_spinupTime": 0.0,
-        "m_scannableRowHandles": [],
-        "m_rowName": "Ability_ShockGrenade01"
-      },
       "Ability_BlinkDamage": {
         "m_useFireInputAsTargetingAsWell": false,
         "m_AISenseTriggeredOnFire": {
@@ -11213,7 +11017,7 @@
         "m_ammoTypeToUse": {
           "DataTable": {
             "ObjectName": "DataTable AmmoTypes_DT",
-            "ObjectPath": "Prospect/Content/DataTables/AmmoTypes_DT.0"
+            "ObjectPath": "Prospect/Content/DataTables/Items/AmmoTypes_DT.0"
           },
           "RowName": "Light"
         },
@@ -12029,6 +11833,971 @@
         "m_spinupTime": 0.0,
         "m_scannableRowHandles": [],
         "m_rowName": "CharmPreview"
+      },
+      "Ability_ShockGrenade_01": {
+        "m_useFireInputAsTargetingAsWell": false,
+        "m_AISenseTriggeredOnFire": {
+          "DataTable": {
+            "ObjectName": "DataTable AI_SenseTrigger_DT",
+            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
+          },
+          "RowName": "Weapon_Regular"
+        },
+        "m_staminaConsumptionPerFire": 0.0,
+        "m_minNegativeRecoilX": -1.0,
+        "m_maxNegativeRecoilX": -3.0,
+        "m_minPositiveRecoilX": 1.0,
+        "m_maxPositiveRecoilX": 3.0,
+        "m_minRecoilY": 3.0,
+        "m_maxRecoilY": 4.0,
+        "m_cameraRecoilCompensationSpeedX": 10.0,
+        "m_cameraRecoilCompensationSpeedY": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
+        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
+        "m_singleFireRecoilMultiplierX": 1.0,
+        "m_singleFireRecoilMultiplierY": 1.0,
+        "m_useRecoilCompensation": true,
+        "m_recoilCompensationStartTime": -1.0,
+        "m_firingCameraShake": null,
+        "m_fireWeaponDelay": 0.0,
+        "m_stopFireAnimationWhenInterrupted": false,
+        "m_unequipTime": 0.6,
+        "m_equipTime": 0.6,
+        "m_animationEquipTime": 1.133,
+        "m_defaultWeaponSpread": 0.0,
+        "m_weaponSpreadIncreaseSpeed": 4.0,
+        "m_weaponSpreadDecreaseSpeed": 20.0,
+        "m_weaponSpreadMax": 30.0,
+        "m_scopeTuningRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_targetingTime": 0.45,
+        "m_untargetingTimeMultiplier": 1.0,
+        "m_retargetingMinimumNormalizedTime": 0.1,
+        "m_targetingSpreadDefault": 0.0,
+        "m_targetingWeaponSpreadMax": 5.0,
+        "m_targetingSpreadIncrease": 0.0,
+        "m_inAirSpreadMultiplier": 1.75,
+        "m_targetingSpreadInAirModifier": 0.0,
+        "m_targetingMovementSpeedMultiplier": 0.45,
+        "m_crouchSpreadDefaultMultiplier": 0.5,
+        "m_movementSpreadDefaultMultiplier": 1.5,
+        "m_movementSpreadTargetingModifier": 0.0,
+        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
+        "m_crouchSpreadIncreaseMultiplier": 0.5,
+        "m_spreadCurve": null,
+        "m_spreadCurveIncreasePerShot": 0.0,
+        "m_spreadCurveDecreasePerSecond": 0.0,
+        "m_targetingRecoilMultiplier": 0.7,
+        "m_crouchingRecoilMultiplier": 1.0,
+        "m_fireInAirRecoilMultiplier": 1.0,
+        "m_reloadAddAmmoTime": 1.8,
+        "m_reloadTime": 2.6,
+        "m_animationReloadTime": 3.5,
+        "m_ammoConsumptionPerShot": 1.0,
+        "m_useSingleReload": false,
+        "m_reloadAddFirstAmmoStateTime": 1.0,
+        "m_reloadAddFirstAmmoTime": 1.0,
+        "m_reloadAddLoopAmmoTime": 1.0,
+        "m_animationReloadAddFirstAmmoTime": 1.0,
+        "m_animationReloadAddLoopAmmoTime": 1.0,
+        "m_refireTime": 0.4,
+        "m_targetingRefireTime": -1.0,
+        "m_weakAreaDamageMultiplier": 1.0,
+        "m_weakAreaDamageMultiplierEnemy": 1.0,
+        "m_penetration": 5.0,
+        "m_directDamage": 0.0,
+        "m_targetingDirectDamage": -1.0,
+        "m_directDamagePlayerMultiplier": 1.0,
+        "m_directDamageEnemyMultiplier": 2.0,
+        "m_directDamageImpulse": 0.0,
+        "m_stabilityDamageForDeathRagdoll": 400.0,
+        "m_stabilityDamage": 0.0,
+        "m_radialDamage": 100.0,
+        "m_radialDamagePlayerMultiplier": 1.0,
+        "m_radialDamageEnemyMultiplier": 2.0,
+        "m_radialDamageImpulse": 100.0,
+        "m_damageIgnoreShield": false,
+        "m_radialDamageFalloffStartRange": 300.0,
+        "m_radialDamageFalloffMultiplier": 0.4,
+        "m_radialDamageRadius": 900.0,
+        "m_radialDamageCapsuleRadius": -1.0,
+        "m_radialDamageCapsuleHalfHeight": -1.0,
+        "m_directDamageFalloffStartRange": -1.0,
+        "m_directDamageFalloffEndRange": -1.0,
+        "m_directDamageFalloffMultiplier": -1.0,
+        "m_damageSelfMultiplier": 1.0,
+        "m_damageApplication": "EYDamageApplication::Damage",
+        "m_useDamageCauserForImpactDirection": false,
+        "m_spinDownTimeRate": 0.5,
+        "m_canSpinUpDuringInventory": false,
+        "m_projectileAdjustDirectionImpactRange": 0.0,
+        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
+        "m_easeOutMagnitudeRecoilStart": -1.0,
+        "m_recoilCurve": {
+          "ObjectName": "CurveFloat Recoil_Autocannon",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
+        },
+        "m_targetingRecoil": null,
+        "m_overridenEaseInRecoil": null,
+        "m_easeOutRecoil": null,
+        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
+        "m_automaticFireWeaponRecoilVector": null,
+        "m_automaticFireRecoilResetTime": 0.3,
+        "m_burstFireUseCompensationStartTime": false,
+        "m_cameraAffectMultiplierX": 1.0,
+        "m_cameraAffectMultiplierY": 1.0,
+        "m_crossHairAffectMultiplierX": 1.0,
+        "m_crossHairAffectMultiplierY": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
+        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
+        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
+        "m_shootAtSocketWhenTargeting": false,
+        "m_rotateReticleViaSocket": false,
+        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
+        "m_burstInterval": -1.0,
+        "m_amountOfBurst": 0,
+        "m_amountOfImmediateFires": 1,
+        "m_immediateFireIncreasesSpread": false,
+        "m_movementSpeedMultiplier": 1.0,
+        "m_attributeModifier": [],
+        "m_firingMovementSpeedMultiplier": 1.0,
+        "m_firingTurnSpeedMultiplier": 1.0,
+        "m_targetingTurnSpeedMultiplier": 0.6,
+        "m_weaponFOVInterpSpeed": 150.0,
+        "m_weaponFOVStartInterp": 0.2,
+        "m_weaponTargetingInterp": 0.7,
+        "m_startAmmo": 5,
+        "m_ammoInClip": 5,
+        "m_haveInfiniteAmmo": true,
+        "m_ammoTypeToUse": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_useCooldownTime": 4,
+        "m_useActionTime": 1,
+        "m_healAmount": 500,
+        "m_slotType": "EYWeaponSlotType::Primary",
+        "m_canUse": false,
+        "m_useRandomSeed": false,
+        "m_isLooping": false,
+        "m_canEverRefire": true,
+        "m_stopSpinupOnInputRelease": true,
+        "m_spinupUntilRelease": false,
+        "m_instantlyFireOnTimeThresholdReached": true,
+        "m_fireSpinupTimeRegadlessOfDuration": false,
+        "m_clearAllTimeWhenSpinupDone": false,
+        "m_spinupForUse": false,
+        "m_alwaysStopAnimationSpinup": false,
+        "m_stopAnimationOnSpinupInterupt": false,
+        "m_spinUpStopAfterFullDuration": true,
+        "m_useFireWeaponDelayAtCachedTransform": false,
+        "m_ignoreDamagePrevention": false,
+        "m_canDamageSelf": true,
+        "m_fireAtRelease": false,
+        "m_objectTypesAllowedToDamage": [],
+        "m_requiredInputTimeForHeavyAttack": 0.1,
+        "m_lightAttackRecoveryTime": 0.1,
+        "m_lowStaminaLightAttackRecoveryTime": 0.1,
+        "m_lightAttackStaminaConsumption": 15.0,
+        "m_heavyAttackRecoveryTime": 0.2,
+        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
+        "m_heavyAttackStaminaConsumption": 15.0,
+        "m_socketLocation": "None",
+        "m_lightAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_lightAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_spinupTime": 0.0,
+        "m_scannableRowHandles": [],
+        "m_rowName": "Ability_ShockGrenade_01"
+      },
+      "Ability_ShockGrenade_02": {
+        "m_useFireInputAsTargetingAsWell": false,
+        "m_AISenseTriggeredOnFire": {
+          "DataTable": {
+            "ObjectName": "DataTable AI_SenseTrigger_DT",
+            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
+          },
+          "RowName": "Weapon_Regular"
+        },
+        "m_staminaConsumptionPerFire": 0.0,
+        "m_minNegativeRecoilX": -1.0,
+        "m_maxNegativeRecoilX": -3.0,
+        "m_minPositiveRecoilX": 1.0,
+        "m_maxPositiveRecoilX": 3.0,
+        "m_minRecoilY": 3.0,
+        "m_maxRecoilY": 4.0,
+        "m_cameraRecoilCompensationSpeedX": 10.0,
+        "m_cameraRecoilCompensationSpeedY": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
+        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
+        "m_singleFireRecoilMultiplierX": 1.0,
+        "m_singleFireRecoilMultiplierY": 1.0,
+        "m_useRecoilCompensation": true,
+        "m_recoilCompensationStartTime": -1.0,
+        "m_firingCameraShake": null,
+        "m_fireWeaponDelay": 0.0,
+        "m_stopFireAnimationWhenInterrupted": false,
+        "m_unequipTime": 0.6,
+        "m_equipTime": 0.6,
+        "m_animationEquipTime": 1.133,
+        "m_defaultWeaponSpread": 0.0,
+        "m_weaponSpreadIncreaseSpeed": 4.0,
+        "m_weaponSpreadDecreaseSpeed": 20.0,
+        "m_weaponSpreadMax": 30.0,
+        "m_scopeTuningRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_targetingTime": 0.45,
+        "m_untargetingTimeMultiplier": 1.0,
+        "m_retargetingMinimumNormalizedTime": 0.1,
+        "m_targetingSpreadDefault": 0.0,
+        "m_targetingWeaponSpreadMax": 5.0,
+        "m_targetingSpreadIncrease": 0.0,
+        "m_inAirSpreadMultiplier": 1.75,
+        "m_targetingSpreadInAirModifier": 0.0,
+        "m_targetingMovementSpeedMultiplier": 0.45,
+        "m_crouchSpreadDefaultMultiplier": 0.5,
+        "m_movementSpreadDefaultMultiplier": 1.5,
+        "m_movementSpreadTargetingModifier": 0.0,
+        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
+        "m_crouchSpreadIncreaseMultiplier": 0.5,
+        "m_spreadCurve": null,
+        "m_spreadCurveIncreasePerShot": 0.0,
+        "m_spreadCurveDecreasePerSecond": 0.0,
+        "m_targetingRecoilMultiplier": 0.7,
+        "m_crouchingRecoilMultiplier": 1.0,
+        "m_fireInAirRecoilMultiplier": 1.0,
+        "m_reloadAddAmmoTime": 1.8,
+        "m_reloadTime": 2.6,
+        "m_animationReloadTime": 3.5,
+        "m_ammoConsumptionPerShot": 1.0,
+        "m_useSingleReload": false,
+        "m_reloadAddFirstAmmoStateTime": 1.0,
+        "m_reloadAddFirstAmmoTime": 1.0,
+        "m_reloadAddLoopAmmoTime": 1.0,
+        "m_animationReloadAddFirstAmmoTime": 1.0,
+        "m_animationReloadAddLoopAmmoTime": 1.0,
+        "m_refireTime": 0.4,
+        "m_targetingRefireTime": -1.0,
+        "m_weakAreaDamageMultiplier": 1.0,
+        "m_weakAreaDamageMultiplierEnemy": 1.0,
+        "m_penetration": 10.0,
+        "m_directDamage": 0.0,
+        "m_targetingDirectDamage": -1.0,
+        "m_directDamagePlayerMultiplier": 1.0,
+        "m_directDamageEnemyMultiplier": 2.0,
+        "m_directDamageImpulse": 0.0,
+        "m_stabilityDamageForDeathRagdoll": 400.0,
+        "m_stabilityDamage": 0.0,
+        "m_radialDamage": 84.0,
+        "m_radialDamagePlayerMultiplier": 1.0,
+        "m_radialDamageEnemyMultiplier": 2.0,
+        "m_radialDamageImpulse": 100.0,
+        "m_damageIgnoreShield": false,
+        "m_radialDamageFalloffStartRange": 300.0,
+        "m_radialDamageFalloffMultiplier": 0.4,
+        "m_radialDamageRadius": 900.0,
+        "m_radialDamageCapsuleRadius": -1.0,
+        "m_radialDamageCapsuleHalfHeight": -1.0,
+        "m_directDamageFalloffStartRange": -1.0,
+        "m_directDamageFalloffEndRange": -1.0,
+        "m_directDamageFalloffMultiplier": -1.0,
+        "m_damageSelfMultiplier": 1.0,
+        "m_damageApplication": "EYDamageApplication::Damage",
+        "m_useDamageCauserForImpactDirection": false,
+        "m_spinDownTimeRate": 0.5,
+        "m_canSpinUpDuringInventory": false,
+        "m_projectileAdjustDirectionImpactRange": 0.0,
+        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
+        "m_easeOutMagnitudeRecoilStart": -1.0,
+        "m_recoilCurve": {
+          "ObjectName": "CurveFloat Recoil_Autocannon",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
+        },
+        "m_targetingRecoil": null,
+        "m_overridenEaseInRecoil": null,
+        "m_easeOutRecoil": null,
+        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
+        "m_automaticFireWeaponRecoilVector": null,
+        "m_automaticFireRecoilResetTime": 0.3,
+        "m_burstFireUseCompensationStartTime": false,
+        "m_cameraAffectMultiplierX": 1.0,
+        "m_cameraAffectMultiplierY": 1.0,
+        "m_crossHairAffectMultiplierX": 1.0,
+        "m_crossHairAffectMultiplierY": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
+        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
+        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
+        "m_shootAtSocketWhenTargeting": false,
+        "m_rotateReticleViaSocket": false,
+        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
+        "m_burstInterval": -1.0,
+        "m_amountOfBurst": 0,
+        "m_amountOfImmediateFires": 1,
+        "m_immediateFireIncreasesSpread": false,
+        "m_movementSpeedMultiplier": 1.0,
+        "m_attributeModifier": [],
+        "m_firingMovementSpeedMultiplier": 1.0,
+        "m_firingTurnSpeedMultiplier": 1.0,
+        "m_targetingTurnSpeedMultiplier": 0.6,
+        "m_weaponFOVInterpSpeed": 150.0,
+        "m_weaponFOVStartInterp": 0.2,
+        "m_weaponTargetingInterp": 0.7,
+        "m_startAmmo": 5,
+        "m_ammoInClip": 5,
+        "m_haveInfiniteAmmo": true,
+        "m_ammoTypeToUse": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_useCooldownTime": 4,
+        "m_useActionTime": 1,
+        "m_healAmount": 500,
+        "m_slotType": "EYWeaponSlotType::Primary",
+        "m_canUse": false,
+        "m_useRandomSeed": false,
+        "m_isLooping": false,
+        "m_canEverRefire": true,
+        "m_stopSpinupOnInputRelease": true,
+        "m_spinupUntilRelease": false,
+        "m_instantlyFireOnTimeThresholdReached": true,
+        "m_fireSpinupTimeRegadlessOfDuration": false,
+        "m_clearAllTimeWhenSpinupDone": false,
+        "m_spinupForUse": false,
+        "m_alwaysStopAnimationSpinup": false,
+        "m_stopAnimationOnSpinupInterupt": false,
+        "m_spinUpStopAfterFullDuration": true,
+        "m_useFireWeaponDelayAtCachedTransform": false,
+        "m_ignoreDamagePrevention": false,
+        "m_canDamageSelf": true,
+        "m_fireAtRelease": false,
+        "m_objectTypesAllowedToDamage": [],
+        "m_requiredInputTimeForHeavyAttack": 0.1,
+        "m_lightAttackRecoveryTime": 0.1,
+        "m_lowStaminaLightAttackRecoveryTime": 0.1,
+        "m_lightAttackStaminaConsumption": 15.0,
+        "m_heavyAttackRecoveryTime": 0.2,
+        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
+        "m_heavyAttackStaminaConsumption": 15.0,
+        "m_socketLocation": "None",
+        "m_lightAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_lightAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_spinupTime": 0.0,
+        "m_scannableRowHandles": [],
+        "m_rowName": "Ability_ShockGrenade_02"
+      },
+      "Ability_ShockGrenade_03": {
+        "m_useFireInputAsTargetingAsWell": false,
+        "m_AISenseTriggeredOnFire": {
+          "DataTable": {
+            "ObjectName": "DataTable AI_SenseTrigger_DT",
+            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
+          },
+          "RowName": "Weapon_Regular"
+        },
+        "m_staminaConsumptionPerFire": 0.0,
+        "m_minNegativeRecoilX": -1.0,
+        "m_maxNegativeRecoilX": -3.0,
+        "m_minPositiveRecoilX": 1.0,
+        "m_maxPositiveRecoilX": 3.0,
+        "m_minRecoilY": 3.0,
+        "m_maxRecoilY": 4.0,
+        "m_cameraRecoilCompensationSpeedX": 10.0,
+        "m_cameraRecoilCompensationSpeedY": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
+        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
+        "m_singleFireRecoilMultiplierX": 1.0,
+        "m_singleFireRecoilMultiplierY": 1.0,
+        "m_useRecoilCompensation": true,
+        "m_recoilCompensationStartTime": -1.0,
+        "m_firingCameraShake": null,
+        "m_fireWeaponDelay": 0.0,
+        "m_stopFireAnimationWhenInterrupted": false,
+        "m_unequipTime": 0.6,
+        "m_equipTime": 0.6,
+        "m_animationEquipTime": 1.133,
+        "m_defaultWeaponSpread": 0.0,
+        "m_weaponSpreadIncreaseSpeed": 4.0,
+        "m_weaponSpreadDecreaseSpeed": 20.0,
+        "m_weaponSpreadMax": 30.0,
+        "m_scopeTuningRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_targetingTime": 0.45,
+        "m_untargetingTimeMultiplier": 1.0,
+        "m_retargetingMinimumNormalizedTime": 0.1,
+        "m_targetingSpreadDefault": 0.0,
+        "m_targetingWeaponSpreadMax": 5.0,
+        "m_targetingSpreadIncrease": 0.0,
+        "m_inAirSpreadMultiplier": 1.75,
+        "m_targetingSpreadInAirModifier": 0.0,
+        "m_targetingMovementSpeedMultiplier": 0.45,
+        "m_crouchSpreadDefaultMultiplier": 0.5,
+        "m_movementSpreadDefaultMultiplier": 1.5,
+        "m_movementSpreadTargetingModifier": 0.0,
+        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
+        "m_crouchSpreadIncreaseMultiplier": 0.5,
+        "m_spreadCurve": null,
+        "m_spreadCurveIncreasePerShot": 0.0,
+        "m_spreadCurveDecreasePerSecond": 0.0,
+        "m_targetingRecoilMultiplier": 0.7,
+        "m_crouchingRecoilMultiplier": 1.0,
+        "m_fireInAirRecoilMultiplier": 1.0,
+        "m_reloadAddAmmoTime": 1.8,
+        "m_reloadTime": 2.6,
+        "m_animationReloadTime": 3.5,
+        "m_ammoConsumptionPerShot": 1.0,
+        "m_useSingleReload": false,
+        "m_reloadAddFirstAmmoStateTime": 1.0,
+        "m_reloadAddFirstAmmoTime": 1.0,
+        "m_reloadAddLoopAmmoTime": 1.0,
+        "m_animationReloadAddFirstAmmoTime": 1.0,
+        "m_animationReloadAddLoopAmmoTime": 1.0,
+        "m_refireTime": 0.4,
+        "m_targetingRefireTime": -1.0,
+        "m_weakAreaDamageMultiplier": 1.0,
+        "m_weakAreaDamageMultiplierEnemy": 1.0,
+        "m_penetration": 17.0,
+        "m_directDamage": 0.0,
+        "m_targetingDirectDamage": -1.0,
+        "m_directDamagePlayerMultiplier": 1.0,
+        "m_directDamageEnemyMultiplier": 2.0,
+        "m_directDamageImpulse": 0.0,
+        "m_stabilityDamageForDeathRagdoll": 400.0,
+        "m_stabilityDamage": 0.0,
+        "m_radialDamage": 87.0,
+        "m_radialDamagePlayerMultiplier": 1.0,
+        "m_radialDamageEnemyMultiplier": 2.0,
+        "m_radialDamageImpulse": 100.0,
+        "m_damageIgnoreShield": false,
+        "m_radialDamageFalloffStartRange": 300.0,
+        "m_radialDamageFalloffMultiplier": 0.4,
+        "m_radialDamageRadius": 900.0,
+        "m_radialDamageCapsuleRadius": -1.0,
+        "m_radialDamageCapsuleHalfHeight": -1.0,
+        "m_directDamageFalloffStartRange": -1.0,
+        "m_directDamageFalloffEndRange": -1.0,
+        "m_directDamageFalloffMultiplier": -1.0,
+        "m_damageSelfMultiplier": 1.0,
+        "m_damageApplication": "EYDamageApplication::Damage",
+        "m_useDamageCauserForImpactDirection": false,
+        "m_spinDownTimeRate": 0.5,
+        "m_canSpinUpDuringInventory": false,
+        "m_projectileAdjustDirectionImpactRange": 0.0,
+        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
+        "m_easeOutMagnitudeRecoilStart": -1.0,
+        "m_recoilCurve": {
+          "ObjectName": "CurveFloat Recoil_Autocannon",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
+        },
+        "m_targetingRecoil": null,
+        "m_overridenEaseInRecoil": null,
+        "m_easeOutRecoil": null,
+        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
+        "m_automaticFireWeaponRecoilVector": null,
+        "m_automaticFireRecoilResetTime": 0.3,
+        "m_burstFireUseCompensationStartTime": false,
+        "m_cameraAffectMultiplierX": 1.0,
+        "m_cameraAffectMultiplierY": 1.0,
+        "m_crossHairAffectMultiplierX": 1.0,
+        "m_crossHairAffectMultiplierY": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
+        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
+        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
+        "m_shootAtSocketWhenTargeting": false,
+        "m_rotateReticleViaSocket": false,
+        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
+        "m_burstInterval": -1.0,
+        "m_amountOfBurst": 0,
+        "m_amountOfImmediateFires": 1,
+        "m_immediateFireIncreasesSpread": false,
+        "m_movementSpeedMultiplier": 1.0,
+        "m_attributeModifier": [],
+        "m_firingMovementSpeedMultiplier": 1.0,
+        "m_firingTurnSpeedMultiplier": 1.0,
+        "m_targetingTurnSpeedMultiplier": 0.6,
+        "m_weaponFOVInterpSpeed": 150.0,
+        "m_weaponFOVStartInterp": 0.2,
+        "m_weaponTargetingInterp": 0.7,
+        "m_startAmmo": 5,
+        "m_ammoInClip": 5,
+        "m_haveInfiniteAmmo": true,
+        "m_ammoTypeToUse": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_useCooldownTime": 4,
+        "m_useActionTime": 1,
+        "m_healAmount": 500,
+        "m_slotType": "EYWeaponSlotType::Primary",
+        "m_canUse": false,
+        "m_useRandomSeed": false,
+        "m_isLooping": false,
+        "m_canEverRefire": true,
+        "m_stopSpinupOnInputRelease": true,
+        "m_spinupUntilRelease": false,
+        "m_instantlyFireOnTimeThresholdReached": true,
+        "m_fireSpinupTimeRegadlessOfDuration": false,
+        "m_clearAllTimeWhenSpinupDone": false,
+        "m_spinupForUse": false,
+        "m_alwaysStopAnimationSpinup": false,
+        "m_stopAnimationOnSpinupInterupt": false,
+        "m_spinUpStopAfterFullDuration": true,
+        "m_useFireWeaponDelayAtCachedTransform": false,
+        "m_ignoreDamagePrevention": false,
+        "m_canDamageSelf": true,
+        "m_fireAtRelease": false,
+        "m_objectTypesAllowedToDamage": [],
+        "m_requiredInputTimeForHeavyAttack": 0.1,
+        "m_lightAttackRecoveryTime": 0.1,
+        "m_lowStaminaLightAttackRecoveryTime": 0.1,
+        "m_lightAttackStaminaConsumption": 15.0,
+        "m_heavyAttackRecoveryTime": 0.2,
+        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
+        "m_heavyAttackStaminaConsumption": 15.0,
+        "m_socketLocation": "None",
+        "m_lightAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_lightAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_spinupTime": 0.0,
+        "m_scannableRowHandles": [],
+        "m_rowName": "Ability_ShockGrenade_03"
+      },
+      "Ability_ShockGrenade_04": {
+        "m_useFireInputAsTargetingAsWell": false,
+        "m_AISenseTriggeredOnFire": {
+          "DataTable": {
+            "ObjectName": "DataTable AI_SenseTrigger_DT",
+            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
+          },
+          "RowName": "Weapon_Regular"
+        },
+        "m_staminaConsumptionPerFire": 0.0,
+        "m_minNegativeRecoilX": -1.0,
+        "m_maxNegativeRecoilX": -3.0,
+        "m_minPositiveRecoilX": 1.0,
+        "m_maxPositiveRecoilX": 3.0,
+        "m_minRecoilY": 3.0,
+        "m_maxRecoilY": 4.0,
+        "m_cameraRecoilCompensationSpeedX": 10.0,
+        "m_cameraRecoilCompensationSpeedY": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
+        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
+        "m_singleFireRecoilMultiplierX": 1.0,
+        "m_singleFireRecoilMultiplierY": 1.0,
+        "m_useRecoilCompensation": true,
+        "m_recoilCompensationStartTime": -1.0,
+        "m_firingCameraShake": null,
+        "m_fireWeaponDelay": 0.0,
+        "m_stopFireAnimationWhenInterrupted": false,
+        "m_unequipTime": 0.6,
+        "m_equipTime": 0.6,
+        "m_animationEquipTime": 1.133,
+        "m_defaultWeaponSpread": 0.0,
+        "m_weaponSpreadIncreaseSpeed": 4.0,
+        "m_weaponSpreadDecreaseSpeed": 20.0,
+        "m_weaponSpreadMax": 30.0,
+        "m_scopeTuningRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_targetingTime": 0.45,
+        "m_untargetingTimeMultiplier": 1.0,
+        "m_retargetingMinimumNormalizedTime": 0.1,
+        "m_targetingSpreadDefault": 0.0,
+        "m_targetingWeaponSpreadMax": 5.0,
+        "m_targetingSpreadIncrease": 0.0,
+        "m_inAirSpreadMultiplier": 1.75,
+        "m_targetingSpreadInAirModifier": 0.0,
+        "m_targetingMovementSpeedMultiplier": 0.45,
+        "m_crouchSpreadDefaultMultiplier": 0.5,
+        "m_movementSpreadDefaultMultiplier": 1.5,
+        "m_movementSpreadTargetingModifier": 0.0,
+        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
+        "m_crouchSpreadIncreaseMultiplier": 0.5,
+        "m_spreadCurve": null,
+        "m_spreadCurveIncreasePerShot": 0.0,
+        "m_spreadCurveDecreasePerSecond": 0.0,
+        "m_targetingRecoilMultiplier": 0.7,
+        "m_crouchingRecoilMultiplier": 1.0,
+        "m_fireInAirRecoilMultiplier": 1.0,
+        "m_reloadAddAmmoTime": 1.8,
+        "m_reloadTime": 2.6,
+        "m_animationReloadTime": 3.5,
+        "m_ammoConsumptionPerShot": 1.0,
+        "m_useSingleReload": false,
+        "m_reloadAddFirstAmmoStateTime": 1.0,
+        "m_reloadAddFirstAmmoTime": 1.0,
+        "m_reloadAddLoopAmmoTime": 1.0,
+        "m_animationReloadAddFirstAmmoTime": 1.0,
+        "m_animationReloadAddLoopAmmoTime": 1.0,
+        "m_refireTime": 0.4,
+        "m_targetingRefireTime": -1.0,
+        "m_weakAreaDamageMultiplier": 1.0,
+        "m_weakAreaDamageMultiplierEnemy": 1.0,
+        "m_penetration": 23.0,
+        "m_directDamage": 0.0,
+        "m_targetingDirectDamage": -1.0,
+        "m_directDamagePlayerMultiplier": 1.0,
+        "m_directDamageEnemyMultiplier": 2.0,
+        "m_directDamageImpulse": 0.0,
+        "m_stabilityDamageForDeathRagdoll": 400.0,
+        "m_stabilityDamage": 0.0,
+        "m_radialDamage": 100.0,
+        "m_radialDamagePlayerMultiplier": 1.0,
+        "m_radialDamageEnemyMultiplier": 2.0,
+        "m_radialDamageImpulse": 100.0,
+        "m_damageIgnoreShield": false,
+        "m_radialDamageFalloffStartRange": 300.0,
+        "m_radialDamageFalloffMultiplier": 0.4,
+        "m_radialDamageRadius": 900.0,
+        "m_radialDamageCapsuleRadius": -1.0,
+        "m_radialDamageCapsuleHalfHeight": -1.0,
+        "m_directDamageFalloffStartRange": -1.0,
+        "m_directDamageFalloffEndRange": -1.0,
+        "m_directDamageFalloffMultiplier": -1.0,
+        "m_damageSelfMultiplier": 1.0,
+        "m_damageApplication": "EYDamageApplication::Damage",
+        "m_useDamageCauserForImpactDirection": false,
+        "m_spinDownTimeRate": 0.5,
+        "m_canSpinUpDuringInventory": false,
+        "m_projectileAdjustDirectionImpactRange": 0.0,
+        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
+        "m_easeOutMagnitudeRecoilStart": -1.0,
+        "m_recoilCurve": {
+          "ObjectName": "CurveFloat Recoil_Autocannon",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
+        },
+        "m_targetingRecoil": null,
+        "m_overridenEaseInRecoil": null,
+        "m_easeOutRecoil": null,
+        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
+        "m_automaticFireWeaponRecoilVector": null,
+        "m_automaticFireRecoilResetTime": 0.3,
+        "m_burstFireUseCompensationStartTime": false,
+        "m_cameraAffectMultiplierX": 1.0,
+        "m_cameraAffectMultiplierY": 1.0,
+        "m_crossHairAffectMultiplierX": 1.0,
+        "m_crossHairAffectMultiplierY": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
+        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
+        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
+        "m_shootAtSocketWhenTargeting": false,
+        "m_rotateReticleViaSocket": false,
+        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
+        "m_burstInterval": -1.0,
+        "m_amountOfBurst": 0,
+        "m_amountOfImmediateFires": 1,
+        "m_immediateFireIncreasesSpread": false,
+        "m_movementSpeedMultiplier": 1.0,
+        "m_attributeModifier": [],
+        "m_firingMovementSpeedMultiplier": 1.0,
+        "m_firingTurnSpeedMultiplier": 1.0,
+        "m_targetingTurnSpeedMultiplier": 0.6,
+        "m_weaponFOVInterpSpeed": 150.0,
+        "m_weaponFOVStartInterp": 0.2,
+        "m_weaponTargetingInterp": 0.7,
+        "m_startAmmo": 5,
+        "m_ammoInClip": 5,
+        "m_haveInfiniteAmmo": true,
+        "m_ammoTypeToUse": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_useCooldownTime": 4,
+        "m_useActionTime": 1,
+        "m_healAmount": 500,
+        "m_slotType": "EYWeaponSlotType::Primary",
+        "m_canUse": false,
+        "m_useRandomSeed": false,
+        "m_isLooping": false,
+        "m_canEverRefire": true,
+        "m_stopSpinupOnInputRelease": true,
+        "m_spinupUntilRelease": false,
+        "m_instantlyFireOnTimeThresholdReached": true,
+        "m_fireSpinupTimeRegadlessOfDuration": false,
+        "m_clearAllTimeWhenSpinupDone": false,
+        "m_spinupForUse": false,
+        "m_alwaysStopAnimationSpinup": false,
+        "m_stopAnimationOnSpinupInterupt": false,
+        "m_spinUpStopAfterFullDuration": true,
+        "m_useFireWeaponDelayAtCachedTransform": false,
+        "m_ignoreDamagePrevention": false,
+        "m_canDamageSelf": true,
+        "m_fireAtRelease": false,
+        "m_objectTypesAllowedToDamage": [],
+        "m_requiredInputTimeForHeavyAttack": 0.1,
+        "m_lightAttackRecoveryTime": 0.1,
+        "m_lowStaminaLightAttackRecoveryTime": 0.1,
+        "m_lightAttackStaminaConsumption": 15.0,
+        "m_heavyAttackRecoveryTime": 0.2,
+        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
+        "m_heavyAttackStaminaConsumption": 15.0,
+        "m_socketLocation": "None",
+        "m_lightAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_lightAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_spinupTime": 0.0,
+        "m_scannableRowHandles": [],
+        "m_rowName": "Ability_ShockGrenade_04"
+      },
+      "Ability_ShockGrenade_05": {
+        "m_useFireInputAsTargetingAsWell": false,
+        "m_AISenseTriggeredOnFire": {
+          "DataTable": {
+            "ObjectName": "DataTable AI_SenseTrigger_DT",
+            "ObjectPath": "Prospect/Content/AI/Datatables/AISenses/AI_SenseTrigger_DT.0"
+          },
+          "RowName": "Weapon_Regular"
+        },
+        "m_staminaConsumptionPerFire": 0.0,
+        "m_minNegativeRecoilX": -1.0,
+        "m_maxNegativeRecoilX": -3.0,
+        "m_minPositiveRecoilX": 1.0,
+        "m_maxPositiveRecoilX": 3.0,
+        "m_minRecoilY": 3.0,
+        "m_maxRecoilY": 4.0,
+        "m_cameraRecoilCompensationSpeedX": 10.0,
+        "m_cameraRecoilCompensationSpeedY": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedX": 10.0,
+        "m_automaticFireCrosshairRecoilCompensationSpeedY": 10.0,
+        "m_targetingRecoilCompensationSpeedMultiplier": 1.0,
+        "m_singleFireRecoilMultiplierX": 1.0,
+        "m_singleFireRecoilMultiplierY": 1.0,
+        "m_useRecoilCompensation": true,
+        "m_recoilCompensationStartTime": -1.0,
+        "m_firingCameraShake": null,
+        "m_fireWeaponDelay": 0.0,
+        "m_stopFireAnimationWhenInterrupted": false,
+        "m_unequipTime": 0.6,
+        "m_equipTime": 0.6,
+        "m_animationEquipTime": 1.133,
+        "m_defaultWeaponSpread": 0.0,
+        "m_weaponSpreadIncreaseSpeed": 4.0,
+        "m_weaponSpreadDecreaseSpeed": 20.0,
+        "m_weaponSpreadMax": 30.0,
+        "m_scopeTuningRow": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_targetingTime": 0.45,
+        "m_untargetingTimeMultiplier": 1.0,
+        "m_retargetingMinimumNormalizedTime": 0.1,
+        "m_targetingSpreadDefault": 0.0,
+        "m_targetingWeaponSpreadMax": 5.0,
+        "m_targetingSpreadIncrease": 0.0,
+        "m_inAirSpreadMultiplier": 1.75,
+        "m_targetingSpreadInAirModifier": 0.0,
+        "m_targetingMovementSpeedMultiplier": 0.45,
+        "m_crouchSpreadDefaultMultiplier": 0.5,
+        "m_movementSpreadDefaultMultiplier": 1.5,
+        "m_movementSpreadTargetingModifier": 0.0,
+        "m_sprintingMovementSpreadDefaultMultiplier": 2.0,
+        "m_crouchSpreadIncreaseMultiplier": 0.5,
+        "m_spreadCurve": null,
+        "m_spreadCurveIncreasePerShot": 0.0,
+        "m_spreadCurveDecreasePerSecond": 0.0,
+        "m_targetingRecoilMultiplier": 0.7,
+        "m_crouchingRecoilMultiplier": 1.0,
+        "m_fireInAirRecoilMultiplier": 1.0,
+        "m_reloadAddAmmoTime": 1.8,
+        "m_reloadTime": 2.6,
+        "m_animationReloadTime": 3.5,
+        "m_ammoConsumptionPerShot": 1.0,
+        "m_useSingleReload": false,
+        "m_reloadAddFirstAmmoStateTime": 1.0,
+        "m_reloadAddFirstAmmoTime": 1.0,
+        "m_reloadAddLoopAmmoTime": 1.0,
+        "m_animationReloadAddFirstAmmoTime": 1.0,
+        "m_animationReloadAddLoopAmmoTime": 1.0,
+        "m_refireTime": 0.4,
+        "m_targetingRefireTime": -1.0,
+        "m_weakAreaDamageMultiplier": 1.0,
+        "m_weakAreaDamageMultiplierEnemy": 1.0,
+        "m_penetration": 30.0,
+        "m_directDamage": 0.0,
+        "m_targetingDirectDamage": -1.0,
+        "m_directDamagePlayerMultiplier": 1.0,
+        "m_directDamageEnemyMultiplier": 2.0,
+        "m_directDamageImpulse": 0.0,
+        "m_stabilityDamageForDeathRagdoll": 400.0,
+        "m_stabilityDamage": 0.0,
+        "m_radialDamage": 81.0,
+        "m_radialDamagePlayerMultiplier": 1.0,
+        "m_radialDamageEnemyMultiplier": 2.0,
+        "m_radialDamageImpulse": 100.0,
+        "m_damageIgnoreShield": false,
+        "m_radialDamageFalloffStartRange": 300.0,
+        "m_radialDamageFalloffMultiplier": 0.4,
+        "m_radialDamageRadius": 900.0,
+        "m_radialDamageCapsuleRadius": -1.0,
+        "m_radialDamageCapsuleHalfHeight": -1.0,
+        "m_directDamageFalloffStartRange": -1.0,
+        "m_directDamageFalloffEndRange": -1.0,
+        "m_directDamageFalloffMultiplier": -1.0,
+        "m_damageSelfMultiplier": 1.0,
+        "m_damageApplication": "EYDamageApplication::Damage",
+        "m_useDamageCauserForImpactDirection": false,
+        "m_spinDownTimeRate": 0.5,
+        "m_canSpinUpDuringInventory": false,
+        "m_projectileAdjustDirectionImpactRange": 0.0,
+        "m_weaponSpreadDecreaseSinceLastShotTime": 0.25,
+        "m_easeOutMagnitudeRecoilStart": -1.0,
+        "m_recoilCurve": {
+          "ObjectName": "CurveFloat Recoil_Autocannon",
+          "ObjectPath": "Prospect/Content/FloatCurves/Recoil/Recoil_Autocannon.0"
+        },
+        "m_targetingRecoil": null,
+        "m_overridenEaseInRecoil": null,
+        "m_easeOutRecoil": null,
+        "m_cameraRecoilCompensationSpeedMultiplierCurve": null,
+        "m_automaticFireWeaponRecoilVector": null,
+        "m_automaticFireRecoilResetTime": 0.3,
+        "m_burstFireUseCompensationStartTime": false,
+        "m_cameraAffectMultiplierX": 1.0,
+        "m_cameraAffectMultiplierY": 1.0,
+        "m_crossHairAffectMultiplierX": 1.0,
+        "m_crossHairAffectMultiplierY": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingX": 1.0,
+        "m_cameraAffectMultiplierWhileTargetingY": 1.0,
+        "m_crossHairAffectMultiplierWhileTargetingX": 0.0,
+        "m_crossHairAffectMultiplierWhileTargetingY": 0.0,
+        "m_shootAtSocketWhenTargeting": false,
+        "m_rotateReticleViaSocket": false,
+        "m_socketNameShootAtSocketWhenTargeting": "TargetingFireAtSocket",
+        "m_burstInterval": -1.0,
+        "m_amountOfBurst": 0,
+        "m_amountOfImmediateFires": 1,
+        "m_immediateFireIncreasesSpread": false,
+        "m_movementSpeedMultiplier": 1.0,
+        "m_attributeModifier": [],
+        "m_firingMovementSpeedMultiplier": 1.0,
+        "m_firingTurnSpeedMultiplier": 1.0,
+        "m_targetingTurnSpeedMultiplier": 0.6,
+        "m_weaponFOVInterpSpeed": 150.0,
+        "m_weaponFOVStartInterp": 0.2,
+        "m_weaponTargetingInterp": 0.7,
+        "m_startAmmo": 5,
+        "m_ammoInClip": 5,
+        "m_haveInfiniteAmmo": true,
+        "m_ammoTypeToUse": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_useCooldownTime": 4,
+        "m_useActionTime": 1,
+        "m_healAmount": 500,
+        "m_slotType": "EYWeaponSlotType::Primary",
+        "m_canUse": false,
+        "m_useRandomSeed": false,
+        "m_isLooping": false,
+        "m_canEverRefire": true,
+        "m_stopSpinupOnInputRelease": true,
+        "m_spinupUntilRelease": false,
+        "m_instantlyFireOnTimeThresholdReached": true,
+        "m_fireSpinupTimeRegadlessOfDuration": false,
+        "m_clearAllTimeWhenSpinupDone": false,
+        "m_spinupForUse": false,
+        "m_alwaysStopAnimationSpinup": false,
+        "m_stopAnimationOnSpinupInterupt": false,
+        "m_spinUpStopAfterFullDuration": true,
+        "m_useFireWeaponDelayAtCachedTransform": false,
+        "m_ignoreDamagePrevention": false,
+        "m_canDamageSelf": true,
+        "m_fireAtRelease": false,
+        "m_objectTypesAllowedToDamage": [],
+        "m_requiredInputTimeForHeavyAttack": 0.1,
+        "m_lightAttackRecoveryTime": 0.1,
+        "m_lowStaminaLightAttackRecoveryTime": 0.1,
+        "m_lightAttackStaminaConsumption": 15.0,
+        "m_heavyAttackRecoveryTime": 0.2,
+        "m_lowStaminaHeavyAttackRecoveryTime": 0.2,
+        "m_heavyAttackStaminaConsumption": 15.0,
+        "m_socketLocation": "None",
+        "m_lightAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_lightAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackWeaponTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_heavyAttackLowStaminaTransportHandle": {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        "m_spinupTime": 0.0,
+        "m_scannableRowHandles": [],
+        "m_rowName": "Ability_ShockGrenade_05"
       }
     }
   }

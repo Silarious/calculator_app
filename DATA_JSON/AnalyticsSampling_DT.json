@@ -16,7 +16,7 @@
         "m_serverSideSampling": false
       },
       "button_clicked": {
-        "m_isEnabled": false,
+        "m_isEnabled": true,
         "m_ignoreUserSampling": false,
         "m_samplingRate": 100,
         "m_serverSideSampling": false
@@ -28,10 +28,10 @@
         "m_serverSideSampling": false
       },
       "distance_traveled_tnc": {
-        "m_isEnabled": false,
+        "m_isEnabled": true,
         "m_ignoreUserSampling": false,
         "m_samplingRate": 100,
-        "m_serverSideSampling": true
+        "m_serverSideSampling": false
       },
       "spawn_ai": {
         "m_isEnabled": false,
@@ -359,9 +359,9 @@
       },
       "match_summary_tnc": {
         "m_isEnabled": true,
-        "m_ignoreUserSampling": false,
+        "m_ignoreUserSampling": true,
         "m_samplingRate": 100,
-        "m_serverSideSampling": true
+        "m_serverSideSampling": false
       },
       "faction_reputation": {
         "m_isEnabled": true,
@@ -389,9 +389,9 @@
       },
       "contract": {
         "m_isEnabled": true,
-        "m_ignoreUserSampling": false,
+        "m_ignoreUserSampling": true,
         "m_samplingRate": 100,
-        "m_serverSideSampling": true
+        "m_serverSideSampling": false
       },
       "controls_settings": {
         "m_isEnabled": true,
@@ -455,9 +455,9 @@
       },
       "activity_elite_crusher": {
         "m_isEnabled": true,
-        "m_ignoreUserSampling": false,
+        "m_ignoreUserSampling": true,
         "m_samplingRate": 100,
-        "m_serverSideSampling": true
+        "m_serverSideSampling": false
       },
       "cheat_detection_bi_stats": {
         "m_isEnabled": true,
@@ -473,13 +473,13 @@
       },
       "purchase_flow": {
         "m_isEnabled": true,
-        "m_ignoreUserSampling": false,
+        "m_ignoreUserSampling": true,
         "m_samplingRate": 100,
         "m_serverSideSampling": false
       },
       "season_progression_tnc": {
         "m_isEnabled": true,
-        "m_ignoreUserSampling": false,
+        "m_ignoreUserSampling": true,
         "m_samplingRate": 100,
         "m_serverSideSampling": false
       },
@@ -498,6 +498,72 @@
       "payment_report_egs": {
         "m_isEnabled": true,
         "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "item_incoming_aurum": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "item_outgoing_aurum": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "victim_compensation_notification": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "ai_desync": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": true
+      },
+      "twitch_drop_received": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "client_reconnected": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "bookmarking": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "data_rollback": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "alien_forge": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_unban": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": true,
+        "m_samplingRate": 100,
+        "m_serverSideSampling": false
+      },
+      "player_ping": {
+        "m_isEnabled": true,
+        "m_ignoreUserSampling": false,
         "m_samplingRate": 100,
         "m_serverSideSampling": false
       }

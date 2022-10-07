@@ -149,6 +149,7 @@
           "Y": 1.0,
           "Z": 1.0
         },
+        "m_alienForgeCatalystToUpgradedItemMap": [],
         "m_rowName": "TestArmor"
       },
       "Crusher": {
@@ -291,6 +292,7 @@
           "Y": 1.0,
           "Z": 1.0
         },
+        "m_alienForgeCatalystToUpgradedItemMap": [],
         "m_rowName": "Crusher"
       },
       "Crusher_2": {
@@ -433,6 +435,7 @@
           "Y": 1.0,
           "Z": 1.0
         },
+        "m_alienForgeCatalystToUpgradedItemMap": [],
         "m_rowName": "Crusher_2"
       }
     }

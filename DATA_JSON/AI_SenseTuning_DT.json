@@ -119,152 +119,6 @@
         },
         "m_rowName": "Default"
       },
-      "Dirtbeast_Melee": {
-        "m_sightRadius": 3500.0,
-        "m_farSightRadius": 4000.0,
-        "m_loseSightRadiusAdditional": 150.0,
-        "m_peripheralVisionAngleDegrees": 120.0,
-        "m_lostSightTimeout": 50.0,
-        "m_hearingRange": 7500.0,
-        "m_losHearingRange": 0.0,
-        "m_hearingEventsRangeMultiplier": 1.0,
-        "m_shareSenseRadius": 5000.0,
-        "m_aggroTuning": {
-          "m_weightDistance": 1.0,
-          "m_weightToken": 1.0,
-          "m_weightNotInDBNO": 3.0,
-          "m_weightTypeBonus": 1.0,
-          "m_weightDamageReceived": 0.1,
-          "m_weightVisibility": 1.0,
-          "m_lastSeenTimeout": 5.0,
-          "m_lastFarSightSeenTimeout": 5.0,
-          "m_lastSharedSenseTimeout": 5.0,
-          "m_lastHeardTimeout": 5.0,
-          "m_groupAggroMultiplier": 0.75,
-          "m_groupAggroMinMultiplier": 0.5,
-          "m_groupAggroStartingIndex": 1,
-          "m_distanceReference": 1000.0,
-          "m_minDistanceToBeInvisibleInsideHideableFoliage": 100.0,
-          "m_distancePanicThresholdForPlayer": 1500.0,
-          "m_distancePanicPlayerMultiplier": 3.0,
-          "m_targetTypePlayerBonus": 5.0,
-          "m_minAggroSwitchCooldown": 20.0,
-          "m_maxAggroSwitchCooldown": 20.0,
-          "m_damageReceivedDecayPerSecond": 50.0,
-          "m_damageReceivedMax": 250.0
-        },
-        "m_senses": {
-          "EYAISenseType::Sight": {
-            "m_decreasePerSecond": 25.0,
-            "m_targetIsCrouchingMultiplier": 0.5,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Rotate": 5.0,
-              "EYAIBehaviorReaction::HighFeedback": 50.0,
-              "EYAIBehaviorReaction::Investigate": 100.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Damage": {
-            "m_decreasePerSecond": 0.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Investigate": 1.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Hearing": {
-            "m_decreasePerSecond": 10.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::HighFeedback": 50.0,
-              "EYAIBehaviorReaction::Investigate": 100.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Shared": {
-            "m_decreasePerSecond": 0.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Investigate": 1.0
-            },
-            "m_maxIntensity": 200.0
-          }
-        },
-        "m_rowName": "Dirtbeast_Melee"
-      },
-      "Dirtbeast_MeleeHeavy": {
-        "m_sightRadius": 3500.0,
-        "m_farSightRadius": 4000.0,
-        "m_loseSightRadiusAdditional": 150.0,
-        "m_peripheralVisionAngleDegrees": 90.0,
-        "m_lostSightTimeout": 50.0,
-        "m_hearingRange": 5000.0,
-        "m_losHearingRange": 0.0,
-        "m_hearingEventsRangeMultiplier": 1.0,
-        "m_shareSenseRadius": 5000.0,
-        "m_aggroTuning": {
-          "m_weightDistance": 1.0,
-          "m_weightToken": 1.0,
-          "m_weightNotInDBNO": 3.0,
-          "m_weightTypeBonus": 1.0,
-          "m_weightDamageReceived": 0.1,
-          "m_weightVisibility": 1.0,
-          "m_lastSeenTimeout": 5.0,
-          "m_lastFarSightSeenTimeout": 5.0,
-          "m_lastSharedSenseTimeout": 5.0,
-          "m_lastHeardTimeout": 5.0,
-          "m_groupAggroMultiplier": 0.75,
-          "m_groupAggroMinMultiplier": 0.5,
-          "m_groupAggroStartingIndex": 1,
-          "m_distanceReference": 1000.0,
-          "m_minDistanceToBeInvisibleInsideHideableFoliage": 100.0,
-          "m_distancePanicThresholdForPlayer": 1500.0,
-          "m_distancePanicPlayerMultiplier": 3.0,
-          "m_targetTypePlayerBonus": 5.0,
-          "m_minAggroSwitchCooldown": 20.0,
-          "m_maxAggroSwitchCooldown": 20.0,
-          "m_damageReceivedDecayPerSecond": 50.0,
-          "m_damageReceivedMax": 250.0
-        },
-        "m_senses": {
-          "EYAISenseType::Sight": {
-            "m_decreasePerSecond": 25.0,
-            "m_targetIsCrouchingMultiplier": 0.5,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Rotate": 15.0,
-              "EYAIBehaviorReaction::HighFeedback": 50.0,
-              "EYAIBehaviorReaction::Investigate": 100.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Damage": {
-            "m_decreasePerSecond": 1.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Investigate": 1.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Hearing": {
-            "m_decreasePerSecond": 10.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::HighFeedback": 50.0,
-              "EYAIBehaviorReaction::Investigate": 100.0
-            },
-            "m_maxIntensity": 200.0
-          },
-          "EYAISenseType::Shared": {
-            "m_decreasePerSecond": 0.0,
-            "m_targetIsCrouchingMultiplier": 1.0,
-            "m_behaviorReactionThresholds": {
-              "EYAIBehaviorReaction::Investigate": 1.0
-            },
-            "m_maxIntensity": 200.0
-          }
-        },
-        "m_rowName": "Dirtbeast_MeleeHeavy"
-      },
       "Glowbeetle": {
         "m_sightRadius": 2000.0,
         "m_farSightRadius": 4000.0,
@@ -933,7 +787,7 @@
           "m_weightTypeBonus": 1.0,
           "m_weightDamageReceived": 0.1,
           "m_weightVisibility": 1.0,
-          "m_lastSeenTimeout": 20.0,
+          "m_lastSeenTimeout": 30.0,
           "m_lastFarSightSeenTimeout": 3.0,
           "m_lastSharedSenseTimeout": 10.0,
           "m_lastHeardTimeout": 5.0,
@@ -1146,27 +1000,27 @@
         "m_hearingEventsRangeMultiplier": 1.5,
         "m_shareSenseRadius": 5000.0,
         "m_aggroTuning": {
-          "m_weightDistance": 0.5,
+          "m_weightDistance": 50.0,
           "m_weightToken": 1.0,
           "m_weightNotInDBNO": 3.0,
           "m_weightTypeBonus": 1.0,
           "m_weightDamageReceived": 0.3,
           "m_weightVisibility": 1.0,
-          "m_lastSeenTimeout": 20.0,
+          "m_lastSeenTimeout": 40.0,
           "m_lastFarSightSeenTimeout": 5.0,
           "m_lastSharedSenseTimeout": 10.0,
           "m_lastHeardTimeout": 5.0,
           "m_groupAggroMultiplier": 0.95,
           "m_groupAggroMinMultiplier": 0.5,
           "m_groupAggroStartingIndex": 1,
-          "m_distanceReference": 1000.0,
+          "m_distanceReference": 500.0,
           "m_minDistanceToBeInvisibleInsideHideableFoliage": 750.0,
           "m_distancePanicThresholdForPlayer": 1500.0,
           "m_distancePanicPlayerMultiplier": 3.0,
           "m_targetTypePlayerBonus": 20.0,
           "m_minAggroSwitchCooldown": 7.0,
           "m_maxAggroSwitchCooldown": 12.0,
-          "m_damageReceivedDecayPerSecond": 0.4,
+          "m_damageReceivedDecayPerSecond": 2.0,
           "m_damageReceivedMax": 500.0
         },
         "m_senses": {
@@ -1207,6 +1061,79 @@
           }
         },
         "m_rowName": "Crusher"
+      },
+      "Howler": {
+        "m_sightRadius": 2500.0,
+        "m_farSightRadius": 4000.0,
+        "m_loseSightRadiusAdditional": 200.0,
+        "m_peripheralVisionAngleDegrees": 60.0,
+        "m_lostSightTimeout": 50.0,
+        "m_hearingRange": 5000.0,
+        "m_losHearingRange": 0.0,
+        "m_hearingEventsRangeMultiplier": 1.0,
+        "m_shareSenseRadius": 5000.0,
+        "m_aggroTuning": {
+          "m_weightDistance": 1.0,
+          "m_weightToken": 1.0,
+          "m_weightNotInDBNO": 3.0,
+          "m_weightTypeBonus": 1.0,
+          "m_weightDamageReceived": 0.1,
+          "m_weightVisibility": 1.0,
+          "m_lastSeenTimeout": 20.0,
+          "m_lastFarSightSeenTimeout": 3.0,
+          "m_lastSharedSenseTimeout": 10.0,
+          "m_lastHeardTimeout": 5.0,
+          "m_groupAggroMultiplier": 0.9,
+          "m_groupAggroMinMultiplier": 0.4,
+          "m_groupAggroStartingIndex": 1,
+          "m_distanceReference": 1000.0,
+          "m_minDistanceToBeInvisibleInsideHideableFoliage": 500.0,
+          "m_distancePanicThresholdForPlayer": 1500.0,
+          "m_distancePanicPlayerMultiplier": 3.0,
+          "m_targetTypePlayerBonus": 20.0,
+          "m_minAggroSwitchCooldown": 6.0,
+          "m_maxAggroSwitchCooldown": 10.0,
+          "m_damageReceivedDecayPerSecond": 0.5,
+          "m_damageReceivedMax": 250.0
+        },
+        "m_senses": {
+          "EYAISenseType::Sight": {
+            "m_decreasePerSecond": 2.0,
+            "m_targetIsCrouchingMultiplier": 0.5,
+            "m_behaviorReactionThresholds": {
+              "EYAIBehaviorReaction::Rotate": 5.0,
+              "EYAIBehaviorReaction::HighFeedback": 50.0,
+              "EYAIBehaviorReaction::Investigate": 100.0
+            },
+            "m_maxIntensity": 200.0
+          },
+          "EYAISenseType::Damage": {
+            "m_decreasePerSecond": 0.0,
+            "m_targetIsCrouchingMultiplier": 1.0,
+            "m_behaviorReactionThresholds": {
+              "EYAIBehaviorReaction::Investigate": 1.0
+            },
+            "m_maxIntensity": 200.0
+          },
+          "EYAISenseType::Hearing": {
+            "m_decreasePerSecond": 0.5,
+            "m_targetIsCrouchingMultiplier": 1.0,
+            "m_behaviorReactionThresholds": {
+              "EYAIBehaviorReaction::HighFeedback": 50.0,
+              "EYAIBehaviorReaction::Investigate": 100.0
+            },
+            "m_maxIntensity": 200.0
+          },
+          "EYAISenseType::Shared": {
+            "m_decreasePerSecond": 0.5,
+            "m_targetIsCrouchingMultiplier": 1.0,
+            "m_behaviorReactionThresholds": {
+              "EYAIBehaviorReaction::Investigate": 1.0
+            },
+            "m_maxIntensity": 200.0
+          }
+        },
+        "m_rowName": "Howler"
       }
     }
   }

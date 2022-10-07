@@ -63,105 +63,6 @@
         "m_segments": 1,
         "m_rowName": "AB_OutpostModule_Door"
       },
-      "AI_DirtBeast_Melee": {
-        "m_maxHealth": 75.0,
-        "m_regenerationRate": 8.0,
-        "m_regenerationDelay": 3.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_Melee"
-      },
-      "AI_DirtBeast_RangedShort": {
-        "m_maxHealth": 150.0,
-        "m_regenerationRate": 20.0,
-        "m_regenerationDelay": 3.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_RangedShort"
-      },
-      "AI_DirtBeast_RangedMedium": {
-        "m_maxHealth": 175.0,
-        "m_regenerationRate": 5.0,
-        "m_regenerationDelay": 8.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_RangedMedium"
-      },
-      "AI_DirtBeast_RangedLong": {
-        "m_maxHealth": 175.0,
-        "m_regenerationRate": 5.0,
-        "m_regenerationDelay": 10.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_RangedLong"
-      },
-      "AI_DirtBeast_MeleeHeavy": {
-        "m_maxHealth": 337.5,
-        "m_regenerationRate": 20.0,
-        "m_regenerationDelay": 5.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_MeleeHeavy"
-      },
-      "AI_DirtBeast_RangedHeavy": {
-        "m_maxHealth": 275.0,
-        "m_regenerationRate": 20.0,
-        "m_regenerationDelay": 5.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_RangedHeavy"
-      },
-      "AI_DirtBeast_FlyingHeavy": {
-        "m_maxHealth": 225.0,
-        "m_regenerationRate": 15.0,
-        "m_regenerationDelay": 8.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_FlyingHeavy"
-      },
-      "AI_DirtBeast_Boss": {
-        "m_maxHealth": 2500.0,
-        "m_regenerationRate": 0.0,
-        "m_regenerationDelay": 0.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_DirtBeast_Boss"
-      },
-      "AI_Plunderbot_RangedShort": {
-        "m_maxHealth": 50.0,
-        "m_regenerationRate": 2.0,
-        "m_regenerationDelay": 0.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_Plunderbot_RangedShort"
-      },
-      "AI_Plunderbot_RangedMedium": {
-        "m_maxHealth": 112.5,
-        "m_regenerationRate": 2.0,
-        "m_regenerationDelay": 0.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_Plunderbot_RangedMedium"
-      },
-      "AI_Plunderbot_RangedLong": {
-        "m_maxHealth": 150.0,
-        "m_regenerationRate": 2.0,
-        "m_regenerationDelay": 0.0,
-        "m_degenerationRate": 0.0,
-        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
-        "m_segments": 1,
-        "m_rowName": "AI_Plunderbot_RangedLong"
-      },
       "AI_GlowBeetle": {
         "m_maxHealth": 70.0,
         "m_regenerationRate": 0.0,
@@ -487,7 +388,7 @@
         "m_rowName": "AI_Rattler_4"
       },
       "AI_Weremole": {
-        "m_maxHealth": 750.0,
+        "m_maxHealth": 400.0,
         "m_regenerationRate": 0.0,
         "m_regenerationDelay": 60.0,
         "m_degenerationRate": 0.0,
@@ -496,7 +397,7 @@
         "m_rowName": "AI_Weremole"
       },
       "AI_Weremole_2": {
-        "m_maxHealth": 1000.0,
+        "m_maxHealth": 650.0,
         "m_regenerationRate": 0.0,
         "m_regenerationDelay": 60.0,
         "m_degenerationRate": 0.0,
@@ -521,6 +422,15 @@
         "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
         "m_segments": 1,
         "m_rowName": "AI_Crusher_2"
+      },
+      "AI_Howler": {
+        "m_maxHealth": 1500.0,
+        "m_regenerationRate": 0.0,
+        "m_regenerationDelay": 60.0,
+        "m_degenerationRate": 0.0,
+        "m_damageThresholdToRestartHealthRegenerationDelay": -1.0,
+        "m_segments": 1,
+        "m_rowName": "AI_Howler"
       },
       "Consumable_LaserTrap": {
         "m_maxHealth": 1.0,
