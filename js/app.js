@@ -187,7 +187,7 @@ sortSelection('weaponSelection');
 // Listen and execute function when new weapon is selected.
 function updateWeaponSelection () {
     let uiBig = eval("Weapons." + weaponSelection.options[weaponSelection.selectedIndex].id + ".m_uiData.m_textureUIBig.AssetPathName.split('.')[1]");
-    uiBig = "https://thecycle.wiki/apps/calculator/imgs/weapons/" + uiBig + ".png";
+    uiBig = "https://tcf.gideon.website/imgs/weapons/" + uiBig + ".png";
     document.getElementById("wpLogo").src = uiBig;
 
     for (let i = 0; i < slots.length; i++) {
@@ -589,7 +589,7 @@ function calculateWeaponStats(newWeapon,isModded){
                 let cell2 = row.insertCell(1);
                 let materialCodeName = eval("Materials."+materialCodeNameList[i]+".m_uiWidgetData.m_title.Key")
                 let uiBig = eval("Materials."+materialCodeNameList[i]+".m_hudIconBig.AssetPathName").split(".")[1]
-                let matLogo = "https://thecycle.wiki/apps/calculator/imgs/materials/" + uiBig + ".png";
+                let matLogo = "https://tcf.gideon.website/imgs/materials/" + uiBig + ".png";
                 cell1.innerHTML ="<img class='matLogo' src='" + matLogo + "'/>";
                 for (let x = 0; x < ST_Materials.length; x++) {
                     if (materialCodeName === ST_Materials[x].Key) {
